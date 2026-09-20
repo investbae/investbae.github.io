@@ -43,9 +43,9 @@ function enrichLawCards(dataset) {
       const badge = el(
         'span',
         'law-card__pending',
-        `시행예정 ${record.pending_amendments.length}건 · 최초 ${formatDate8(first.effective_date)}`,
+        `수집 당시 시행예정 ${record.pending_amendments.length}건 · 최초 ${formatDate8(first.effective_date)}`,
       );
-      badge.title = '아직 효력이 없는 개정입니다. 위 시행일은 현행 법령 기준입니다.';
+      badge.title = '자료 확인 당시의 예정 개정 목록입니다. 날짜가 지난 뒤의 시행 여부와 현행 조문은 법제처 원문에서 다시 확인하세요.';
       meta.append(badge);
     }
 
