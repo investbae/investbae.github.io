@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta name="build" content="pages-dbdb9afa4041">
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data:; connect-src 'self'; form-action 'none'; frame-src 'none'; base-uri 'self'; object-src 'none'; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#05070f">
+  <title>비상장 벤처 가치평가 학습 도구 (교육·연구용 beta) | 벤처시장연구원</title>
+  <meta name="description" content="펀드 LP·연구 목적의 비상장 벤처기업 가치평가 학습 도구. IPEV·IFRS13 기준, 시장배수, VC법, DCF, OPM, 몬테카를로, 상증세법 등 국내외 방법을 브라우저에서 교차 검토. 교육·연구용이며 투자자문·세무대리·감정평가가 아닙니다.">
+  <meta name="robots" content="noindex">
+  <link rel="canonical" href="https://kvmi.co.kr/valuation/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="비상장 벤처 가치평가 학습 도구 (교육·연구용) | 벤처시장연구원">
+  <meta property="og:description" content="IPEV·IFRS13 공정가치 등 국내외 밸류에이션 방법을 브라우저에서 교차 검토하는 교육·연구용 학습 도구.">
+  <meta property="og:url" content="https://kvmi.co.kr/valuation/">
+  <meta property="og:site_name" content="벤처시장연구원">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="og:image" content="https://kvmi.co.kr/assets/og-image.png">
+  <link rel="preload" href="/assets/fonts/pretendard-subset.woff2?v=dbdb9afa4041" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/css/pretendard.css">
+  <link rel="preload" as="image" href="/assets/cosmos-mobile.webp" type="image/webp" fetchpriority="high"
+        media="(max-width: 768px) and (orientation: portrait) and (max-aspect-ratio: 3/5)">
+  <link rel="stylesheet" href="/css/style.css?v=dbdb9afa4041">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%231F3864'/%3E%3Ctext x='30' y='46' font-size='34' font-weight='800' fill='%23C9A227' text-anchor='middle' font-family='sans-serif'%3EK%3C/text%3E%3Ctext x='70' y='46' font-size='34' font-weight='800' fill='%23C9A227' text-anchor='middle' font-family='sans-serif'%3EV%3C/text%3E%3Ctext x='30' y='88' font-size='34' font-weight='800' fill='%23C9A227' text-anchor='middle' font-family='sans-serif'%3EM%3C/text%3E%3Ctext x='70' y='88' font-size='34' font-weight='800' fill='%23C9A227' text-anchor='middle' font-family='sans-serif'%3EI%3C/text%3E%3C/svg%3E">
+  <style>
+    /* ── 모바일 정교화 (≤768px 전용·데스크톱 렌더링 무변경·2026-07-22) ── */
+    @media (max-width:768px){
+      main p, main li, main label, main summary { word-break:keep-all; overflow-wrap:anywhere; }
+      main h1, main h2, main h3, main p { text-wrap:pretty; }
+      #valDisclaimer { padding:14px; }
+      #valDisclaimer label { min-height:44px; }
+      #valDisclaimer input[type="checkbox"], #valApp input[type="checkbox"] { width:24px; height:24px; }
+      #valApp label:has(> input[type="checkbox"]) { min-height:44px; align-items:center; }
+      /* 도구 입력·버튼 — 터치 타깃 44px */
+      #valApp input[type="text"], #valApp input[type="number"], #valApp input[type="date"], #valApp select { min-height:44px; }
+      #valApp .btn { min-height:44px; }
+      #valApp summary { padding:14px 8px; margin:-10px -8px; }
+      /* 결과 표 — 내부 가로 스크롤 + 스크롤 가능 시각 신호(우측 페이드) */
+      #valApp .ds-panel[style*="overflow-x"] { -webkit-overflow-scrolling:touch;
+        -webkit-mask-image:linear-gradient(90deg,#000 0,#000 calc(100% - 26px),transparent);
+        mask-image:linear-gradient(90deg,#000 0,#000 calc(100% - 26px),transparent); }
+      #valApp .ds-panel { padding:18px 14px; }
+      main .nav__cta { display:inline-flex; align-items:center; justify-content:center; min-height:44px; }
+    }
+    @supports (padding: max(0px)){
+      @media (max-width:768px){
+        .container { padding-left:max(var(--gut), env(safe-area-inset-left)); padding-right:max(var(--gut), env(safe-area-inset-right)); }
+      }
+    }
+  
+    /* 체크박스 크기 — JS 인라인 style 제거에 따른 CSS 이관 (2026-07-22·모바일 24px 규칙이 인라인에 패배하던 결함 교정) */
+    .vm-check { width:17px; height:17px; flex:0 0 auto; }
+    @media (max-width:768px){ .vm-check { width:24px; height:24px; flex:0 0 auto; } }
+</style>
+</head>
+<body>
+  <a href="#main" class="skip-link">본문 바로가기</a>
+
+  <header class="site-header" id="header">
+    <div class="container nav">
+      <a href="/index.html" class="brand" aria-label="벤처시장연구원 홈">
+        <span class="brand__mark" aria-hidden="true"><b>KVMI</b></span>
+        <span class="brand__text">
+          <span class="brand__name">벤처시장연구원</span>
+          <span class="brand__en">Korea Venture Market Institute</span>
+        </span>
+      </a>
+      <nav class="nav__menu" id="navMenu" aria-label="주 메뉴">
+        <a href="/about.html" class="nav__link">연구원 소개</a>
+        <a href="/research.html" class="nav__link">연구 분야</a>
+        <a href="/publications/" class="nav__link">연구성과</a>
+        <a href="/insights/" class="nav__link">데이터·인사이트</a>
+        <a href="/data/" class="nav__link nav__sub">벤처투자 동향</a>
+        <a href="/indicators/" class="nav__link nav__sub">벤처기업 지표</a>
+        <a href="/radar/#laws" class="nav__link nav__sub">법령 현황</a>
+        <a href="/radar/#board" class="nav__link nav__sub">입법 동향</a>
+        <a href="/projects/" class="nav__link">실험실</a>
+        <a href="/contact.html" class="nav__link">문의</a>
+        <a href="/en/index.html" class="nav__link" lang="en" aria-label="View in English">EN</a>
+        <a href="/contact.html" class="nav__cta">연구·자문 문의</a>
+      </nav>
+      <button class="nav__toggle" id="navToggle" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="navMenu">
+        <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="현재 위치"><a href="/index.html">홈</a> &nbsp;/&nbsp; <span>밸류에이션</span></nav>
+        <div class="page-hero__inner">
+          <h1>비상장 벤처 가치평가 <span style="font-size:15px;color:var(--gold-soft);font-weight:600;vertical-align:middle;">교육·연구용 beta</span></h1>
+          <p>펀드의 정부·민간 <strong>LP(출자자)</strong>와 연구자가 비상장 벤처기업의 가치평가 방법을 <strong>IPEV·IFRS13 등 국제 공정가치 기준</strong>을 포함한 국내외 여러 방법으로 <strong>교차 검토·학습</strong>하기 위한 도구입니다. 산출값은 공식 평가액이 아니라 모형 산출 참고치이며, 모든 계산은 <strong>브라우저 안에서만</strong> 이루어져 입력값이 서버로 전송·저장되지 않습니다.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ★ 법적 고지 (R1 3자 토론·상단 고정·삭제 금지) -->
+    <section class="section" style="padding-top:0;">
+      <div class="container" style="max-width:960px;">
+        <div id="valDisclaimer" role="note" style="border:1px solid rgba(201,80,80,.45); background:rgba(201,80,80,.09); border-radius:12px; padding:16px 20px; font-size:13.5px; line-height:1.72; color:#ffdede;">
+          <strong style="color:#ffb3b3;">교육·연구용 모의계산기 — 반드시 확인하세요.</strong>
+          <ul style="margin:8px 0 0; padding-left:18px;">
+            <li>본 도구는 밸류에이션 <strong>방법론을 학습·교차검토</strong>하기 위한 교육·연구용 모의계산기입니다. 특정 증권·비상장주식·투자계약의 <strong>투자자문 또는 투자권유가 아닙니다</strong>(자본시장법상 투자자문·유사투자자문 아님).</li>
+            <li>계산 결과는 <strong>공식 평가액·감정가·적정가치가 아니며</strong>, 세무신고·과세관청 제출·증여/상속/양도 거래(상증세법상 평가액)나 회계·감사 보고의 근거로 사용할 수 없습니다(세무대리·감정평가 아님).</li>
+            <li>비상장 벤처 가치는 관측 불가능한 입력이 많아 <strong>불확실성이 매우 큽니다.</strong> 결과는 단일 정답이 아니라 <strong>입력값에 따른 참고 범위</strong>이며, 회계처리·세무신고·증여/상속/양도·투자권유·투자판단·지분거래 가격결정·LP 보고·감사대응·소송/분쟁 제출 목적으로 <strong>사용할 수 없습니다.</strong> 실제 평가·거래·신고 전에는 <strong>세무사·감정평가사·회계사 등 자격 전문가의 검토가 필요</strong>합니다.</li>
+          </ul>
+          <label style="display:flex; align-items:flex-start; gap:9px; margin-top:14px; padding-top:12px; border-top:1px solid rgba(201,80,80,.3); cursor:pointer; font-size:13px; color:#ffe4e4;">
+            <input type="checkbox" id="valConsent" class="vm-check" style="margin-top:3px; flex-shrink:0;">
+            <span>위 안내를 <strong>이해했으며</strong>, 본 도구를 <strong>교육·연구 목적으로만</strong> 사용하고 그 결과를 공식 평가·세무신고·투자판단·거래·보고의 근거로 사용하지 않는 데 동의합니다. (동의해야 계산 기능이 활성화됩니다)</span>
+          </label>
+        </div>
+      </div>
+    </section>
+
+    <!-- 도구 본체 (valuation.js가 렌더) -->
+    <section class="section" style="padding-top:8px;">
+      <div class="container" style="max-width:960px;">
+        <div id="valApp" aria-live="polite">
+          <p style="color:var(--text-dim); font-size:14px;">도구를 불러오는 중… 자바스크립트가 필요합니다.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 방법론 해설 (정적·SEO·신뢰) -->
+    <section class="section section--alt">
+      <div class="container" style="max-width:960px;">
+        <div class="section-head"><span class="eyebrow">Methodology</span><h2>적용 방법론</h2>
+          <p>단계·자본구조·데이터 가용성에 따라 아래 국내외 방법을 자동 선택·교차검증하여 <strong>범위(range)</strong>로 제시합니다.</p></div>
+        <div id="valMethodDocs" style="display:grid; gap:12px;"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="brand__name" style="font-size:18px;">벤처시장연구원</span><br>
+          <span class="brand__en">Korea Venture Market Institute</span>
+          <a href="/universe/" style="display:inline-block; margin-top:12px; font-size:13px; color:var(--gold-soft); letter-spacing:.01em;">✦ 벤처 유니버스 — 인터랙티브 우주 보기 →</a>
+        </div>
+        <div class="footer-col">
+          <h3>바로가기</h3>
+          <ul>
+            <li><a href="/about.html">연구원 소개</a></li>
+            <li><a href="/research.html">연구 분야</a></li>
+            <li><a href="/publications/">연구성과</a></li>
+            <li><a href="/insights/">데이터·인사이트</a></li>
+            <li><a href="/projects/">실험실</a></li>
+            <li><a href="/contact.html">문의</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>연락처</h3>
+          <div class="footer-info">
+            <span><strong>이메일</strong> office@kvmi.co.kr</span>
+            <span><strong>주소</strong> 서울특별시 서초구 잠원로 117, 101동 803호</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 벤처시장연구원 (Korea Venture Market Institute). All rights reserved.</span>
+        <span><a href="/privacy.html">개인정보 처리방침</a> · 사업자등록번호 119-30-71408 · 대표 배승욱</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/main.js?v=dbdb9afa4041"></script>
+  <script src="/js/valuation.js?v=dbdb9afa4041"></script>
+</body>
+</html>

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta name="build" content="pages-dbdb9afa4041">
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data:; connect-src 'self'; form-action 'none'; frame-src 'none'; base-uri 'self'; object-src 'none'; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#05070f">
+  <title>벤처기업 지표 | 벤처시장연구원</title>
+  <meta name="description" content="벤처확인기업 39,668개사 분포(유형·지역·업종)와 매출·고용를 출처를 밝혀 정리. 공공저작물 자유이용·법률/투자 자문 아님.">
+  <link rel="canonical" href="https://kvmi.co.kr/indicators/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="벤처기업 지표 | 벤처시장연구원">
+  <meta property="og:description" content="벤처확인기업 39,668개사 분포·매출·고용.">
+  <meta property="og:url" content="https://kvmi.co.kr/indicators/">
+  <meta property="og:site_name" content="벤처시장연구원">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="og:image" content="https://kvmi.co.kr/assets/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="벤처기업 지표 | 벤처시장연구원">
+  <meta name="twitter:description" content="벤처확인기업 39,668개사 분포·매출·고용.">
+  <meta name="twitter:image" content="https://kvmi.co.kr/assets/og-image.png">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Dataset","name":"벤처기업 지표 — 벤처확인유형·지역·업종 분포 및 매출·고용","description":"벤처기업명단(2026-05-21) 전수 39,668개사 직접 집계·정밀실태조사(2024).","url":"https://kvmi.co.kr/indicators/","isAccessibleForFree":true,"temporalCoverage":"2020-01-01/2026-05-21","license":"https://www.kogl.or.kr/info/license.do","creator":{"@type":"Organization","name":"벤처시장연구원","url":"https://kvmi.co.kr/"},"sourceOrganization":{"@type":"GovernmentOrganization","name":"중소벤처기업부"}}
+  </script>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"홈","item":"https://kvmi.co.kr/"},{"@type":"ListItem","position":2,"name":"벤처기업 지표","item":"https://kvmi.co.kr/indicators/"}]}
+  </script>
+  <link rel="preload" href="/assets/fonts/pretendard-subset.woff2?v=dbdb9afa4041" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/css/pretendard.css">
+  <link rel="preload" as="image" href="/assets/cosmos-mobile.webp" type="image/webp" fetchpriority="high"
+        media="(max-width: 768px) and (orientation: portrait) and (max-aspect-ratio: 3/5)">
+  <link rel="stylesheet" href="/css/style.css?v=dbdb9afa4041">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%231F3864'/%3E%3Ctext x='30' y='46' font-size='34' font-weight='800' fill='%23C9A227' text-anchor='middle' font-family='sans-serif'%3EK%3C/text%3E%3Ctext x='70' y='46' font-size='34' font-weight='800' fill='%23C9A227' text-anchor='middle' font-family='sans-serif'%3EV%3C/text%3E%3Ctext x='30' y='88' font-size='34' font-weight='800' fill='%23C9A227' text-anchor='middle' font-family='sans-serif'%3EM%3C/text%3E%3Ctext x='70' y='88' font-size='34' font-weight='800' fill='%23C9A227' text-anchor='middle' font-family='sans-serif'%3EI%3C/text%3E%3C/svg%3E">
+  <style>
+    .ds-eyebrow { font-size:12px; font-weight:700; letter-spacing:.12em; color:var(--gold-soft); text-transform:uppercase; margin-bottom:10px; }
+    .ds-panel { padding:30px 28px; border:1px solid var(--line); border-radius:var(--radius-lg); background:rgba(13,22,46,.55); backdrop-filter:blur(6px); }
+    .ds-panel + .ds-panel { margin-top:22px; }
+    .ds-panel h2 { font-size:19px; margin-bottom:2px; }
+    .ds-panel .basis { font-size:12.5px; color:var(--text-dim); margin-bottom:18px; }
+    .ds-panel.firms { border-left:3px solid #4a78c8; }
+    .ds-panel.eco { border-left:3px solid var(--gold); }
+    .kpi-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:16px; }
+    .kpi { padding:20px 18px; border:1px solid var(--line); border-radius:12px; background:rgba(9,14,30,.5); }
+    .kpi .v { font-size:30px; font-weight:800; color:#fff; font-variant-numeric:tabular-nums; line-height:1.05; }
+    .kpi .v small { font-size:14px; color:var(--gold-soft); font-weight:700; }
+    .kpi .k { margin-top:9px; font-size:13px; color:var(--text-muted); line-height:1.5; }
+    .kpi .src { margin-top:8px; font-size:11px; color:var(--text-dim); }
+    .ind-row { display:grid; grid-template-columns:128px 1fr 88px; gap:10px; align-items:center; margin:8px 0; font-size:13px; color:var(--text-muted); }
+    .ind-row .lab { white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+    .ind-track { height:11px; border-radius:6px; background:rgba(255,255,255,.06); overflow:hidden; }
+    .ind-bar { height:11px; border-radius:6px; background:rgba(184,151,58,.75); }
+    .ind-bar.metro { background:rgba(95,140,210,.85); }
+    .ind-val { text-align:right; color:#fff; font-variant-numeric:tabular-nums; }
+    .ind-val small { color:var(--text-dim); font-weight:400; }
+    .legend { display:flex; flex-wrap:wrap; gap:18px; margin:4px 0 16px; }
+    .legend span { display:inline-flex; align-items:center; gap:7px; font-size:12.5px; color:var(--text-muted); }
+    .legend i { width:14px; height:12px; border-radius:3px; display:inline-block; }
+    .warn { margin-top:16px; padding:12px 14px; border:1px solid rgba(184,151,58,.4); background:rgba(184,151,58,.08); border-radius:10px; font-size:12.5px; color:#e8d9a8; line-height:1.6; }
+    .src-foot { margin-top:16px; font-size:12px; color:var(--text-dim); line-height:1.7; }
+    .src-foot a { color:var(--gold-soft); }
+    .interp p { font-size:14.5px; color:#c7cfdd; line-height:1.85; }
+    .interp .review { margin-top:14px; font-size:12.5px; color:var(--text-dim); border-top:1px solid var(--line); padding-top:12px; }
+    .sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); border:0; }
+    /* ── 디자인 고도화 ── */
+    .ds-panel { box-shadow:0 6px 30px rgba(0,0,0,.22); }
+    .kpi { position:relative; overflow:hidden; transition:transform .2s ease, border-color .2s ease, box-shadow .2s ease; }
+    .kpi::before { content:''; position:absolute; inset:0 0 auto 0; height:3px; background:linear-gradient(90deg,var(--gold),rgba(201,162,39,0)); }
+    .kpi:hover { transform:translateY(-3px); border-color:rgba(201,162,39,.42); box-shadow:0 12px 32px rgba(0,0,0,.32); }
+    .ind-row .ind-bar { background:linear-gradient(90deg,rgba(184,151,58,.5),rgba(201,162,39,.94)); box-shadow:0 0 10px rgba(201,162,39,.16); transition:filter .2s ease; }
+    .ind-row .ind-bar.metro { background:linear-gradient(90deg,rgba(60,100,180,.55),rgba(95,140,210,.96)); box-shadow:0 0 10px rgba(95,140,210,.2); }
+    .ind-row:hover .ind-bar { filter:brightness(1.13); }
+    .ds-panel h2 { letter-spacing:-.012em; }
+    .chart-svg { filter:drop-shadow(0 6px 22px rgba(0,0,0,.26)); }
+    .ds-eyebrow { position:relative; padding-left:14px; }
+    .ds-eyebrow::before { content:''; position:absolute; left:0; top:1px; bottom:2px; width:3px; border-radius:2px; background:var(--gold); }
+    @media (prefers-reduced-motion: reduce){ .kpi,.kpi:hover,.idx-decomp>div,.idx-decomp>div:hover { transform:none; transition:none; } }
+    @media (max-width:560px){
+      .ind-row { grid-template-columns:98px 1fr minmax(56px,auto); gap:7px; font-size:12px; }
+      .ind-row .lab { white-space:normal; line-height:1.25; }
+      .ind-val small { display:none; }
+    }
+    /* ── 모바일 정교화 (≤768px 전용·데스크톱 렌더링 무변경·2026-07-22) ── */
+    @media (max-width:768px){
+      .ds-panel { padding:22px 16px; }
+      .ds-panel + .ds-panel { margin-top:18px; }
+      .ds-panel h2 { font-size:18px; }
+      .kpi-grid { grid-template-columns:repeat(auto-fit,minmax(146px,1fr)); gap:12px; }
+      .kpi { padding:16px 14px; }
+      .kpi .v { font-size:26px; }
+      .kpi .v small { font-size:13px; }
+      .interp p { font-size:14px; }
+      main p, main li, .warn, .src-foot, .basis { word-break:keep-all; overflow-wrap:anywhere; }
+      main h1, main h2, main h3, main p { text-wrap:pretty; }
+      .legend { gap:12px 16px; }
+      /* 터치 히트박스 확장 — 시각 불변(padding+음수 margin·투명 영역) */
+      .src-foot a { display:inline-block; padding:12px 8px; margin:-12px -8px; }
+      main .nav__cta { display:inline-flex; align-items:center; justify-content:center; min-height:44px; }
+    }
+    @supports (padding: max(0px)){
+      @media (max-width:768px){
+        .container { padding-left:max(var(--gut), env(safe-area-inset-left)); padding-right:max(var(--gut), env(safe-area-inset-right)); }
+      }
+    }
+  </style>
+</head>
+<body>
+  <a href="#main" class="skip-link">본문 바로가기</a>
+
+  <header class="site-header" id="header">
+    <div class="container nav">
+      <a href="/index.html" class="brand" aria-label="벤처시장연구원 홈">
+        <span class="brand__mark" aria-hidden="true"><b>KVMI</b></span>
+        <span class="brand__text">
+          <span class="brand__name">벤처시장연구원</span>
+          <span class="brand__en">Korea Venture Market Institute</span>
+        </span>
+      </a>
+      <nav class="nav__menu" id="navMenu" aria-label="주 메뉴">
+        <a href="/about.html" class="nav__link">연구원 소개</a>
+        <a href="/research.html" class="nav__link">연구 분야</a>
+        <a href="/publications/" class="nav__link">연구성과</a>
+        <a href="/insights/" class="nav__link active" aria-current="page">데이터·인사이트</a>
+        <a href="/data/" class="nav__link nav__sub">벤처투자 동향</a>
+        <a href="/indicators/" class="nav__link nav__sub" aria-current="page">벤처기업 지표</a>
+        <a href="/radar/#laws" class="nav__link nav__sub">법령 현황</a>
+        <a href="/radar/#board" class="nav__link nav__sub">입법 동향</a>
+        <a href="/projects/" class="nav__link">실험실</a>
+        <a href="/contact.html" class="nav__link">문의</a>
+        <a href="/en/index.html" class="nav__link" lang="en" aria-label="View in English">EN</a>
+        <a href="/contact.html" class="nav__cta">연구·자문 문의</a>
+      </nav>
+      <button class="nav__toggle" id="navToggle" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="navMenu">
+        <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <div class="container reader-shortcut"><a href="/insights/#first-visit">처음 보는 용어가 있나요? 지표 읽는 법 →</a></div>
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="현재 위치"><a href="/index.html">홈</a> &nbsp;/&nbsp; <span>벤처기업 지표</span></nav>
+        <div class="page-hero__inner">
+          <h1>벤처기업 지표</h1>
+          <p>중소벤처기업부가 공개한 벤처기업 명단 전수 집계와 벤처기업정밀실태조사(표본조사) 발표치를 출처를 밝혀 정리한 벤처기업 지표입니다. 본 자료는 「저작권법」 제24조의2(공공저작물의 자유이용)에 따라 출처를 표시하여 인용·재가공한 것으로, 일반 정보 제공 목적이며 법률자문·투자자문 또는 투자 권유가 아닙니다.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 자료 기준 안내 -->
+    <section class="section" style="padding-top:0;">
+      <div class="container">
+        <p style="font-size:11.5px;color:var(--text-dim);line-height:1.6;border:1px solid var(--line);border-radius:8px;padding:10px 13px;background:rgba(9,14,30,.4);margin:0;">
+          <strong style="color:var(--gold-soft);">자료 기준</strong> — 본 페이지는 기준 시점이 다른 자료를 함께 제시합니다: ① 벤처기업 수·분포 <strong>2026.5.21</strong>(명단 전수)와 ② 매출·고용 <strong>2024년</strong>(표본 실태조사). 두 자료는 시점·대상이 달라 서로 직접 비교할 수 없습니다.
+        </p>
+      </div>
+    </section>
+
+    <!-- 핵심 지표 -->
+    <section class="section">
+      <div class="container">
+        <div class="ds-panel firms">
+          <div class="ds-eyebrow">핵심 지표 · 중소벤처기업부</div>
+          <h2>한눈에 보는 벤처기업</h2>
+          <p class="basis">⚠ 지표마다 기준이 다릅니다. <strong>확인기업 수·수도권 비중</strong>은 명단 <strong>전수 집계</strong>(2026.5.21·39,668개사), <strong>매출·고용</strong>은 <strong>표본 실태조사</strong> 발표치(2024년 기준·대상 38,216개사)로 서로 직접 비교할 수 없습니다. 각 값은 해당 기준시점의 현황을 보여 줍니다. 기업 수의 증가·감소를 보려면 같은 기준으로 집계한 과거 자료와 비교해야 합니다.</p>
+          <div class="kpi-grid">
+            <div class="kpi">
+              <div class="v">39,668<small> 개사</small></div>
+              <div class="k">벤처확인기업 수 (유효 확인 기준)</div>
+              <div class="src">기준 2026.5.21 · 중기부 벤처기업명단 전수</div>
+            </div>
+            <div class="kpi">
+              <div class="v">236<small> 조원</small></div>
+              <div class="k">총 매출액 · 2024년 정밀실태조사</div>
+              <div class="src">표본조사 발표치 · 대상 38,216개사(명단 전수와 별개)</div>
+            </div>
+            <div class="kpi">
+              <div class="v">82.8<small> 만명</small></div>
+              <div class="k">총 종사자(고용) · 2024년 정밀실태조사</div>
+              <div class="src">표본조사 발표치 · 대상 38,216개사(명단 전수와 별개)</div>
+            </div>
+            <div class="kpi">
+              <div class="v">65.0<small> %</small></div>
+              <div class="k">수도권(서울·경기·인천) 소재 기업 수 비중</div>
+              <div class="src">기준 2026.5.21 · 명단 전수 25,778개사</div>
+            </div>
+          </div>
+          <p class="src-foot">자료: 공공데이터포털 「중소벤처기업부_벤처기업명단」(2026-05-21·공공저작물 제1유형) · 중소벤처기업부 「2025년 벤처기업정밀실태조사」(2024년 기준·2025.12 발표). 「저작권법」 제24조의2에 따라 출처를 표시해 재가공(정부·기관의 후원·보증과 무관).</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 벤처확인유형별 -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="ds-panel eco">
+          <div class="ds-eyebrow">분포 · 벤처확인유형별 (2026.5.21 · 전수 39,668개사)</div>
+          <h2>벤처확인유형별 분포</h2>
+          <p class="basis">단위: 개사 / 전체 대비 비율(%). 막대 길이 = 전체 대비 비율. 개수 합계 39,668개사이며, 비율은 소수점 첫째 자리 반올림으로 합계가 100%와 다를 수 있습니다.</p>
+          <div id="typeBars"></div>
+          <table class="sr-only"><caption>벤처확인유형별 분포 (개사·비율%)</caption><tr><th scope="row">혁신성장유형</th><td>25,592개사</td><td>64.5%</td></tr><tr><th scope="row">벤처투자유형</th><td>8,594개사</td><td>21.7%</td></tr><tr><th scope="row">연구개발유형</th><td>5,258개사</td><td>13.3%</td></tr><tr><th scope="row">예비벤처유형</th><td>224개사</td><td>0.6%</td></tr></table>
+          <p class="src-foot">자료: 공공데이터포털 「중소벤처기업부_벤처기업명단」(2026-05-21) 전수 집계. 「저작권법」 제24조의2 재가공·후원 아님.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 지역별 -->
+    <section class="section">
+      <div class="container">
+        <div class="ds-panel firms">
+          <div class="ds-eyebrow">분포 · 지역별 (2026.5.21 · 전수 39,668개사)</div>
+          <h2>지역별 분포 (17개 시·도)</h2>
+          <p class="basis">단위: 개사 / 전체 대비 비율(%). 막대 길이 = 전체 대비 비율. 수도권(서울·경기·인천)은 파란색으로 구분.</p>
+          <div class="legend">
+            <span><i style="background:rgba(95,140,210,.85)"></i>수도권</span>
+            <span><i style="background:rgba(184,151,58,.75)"></i>비수도권</span>
+          </div>
+          <div id="regionBars"></div>
+          <table class="sr-only"><caption>지역별 분포 (개사·비율%)</caption><tr><th scope="row">경기 (수도권)</th><td>12,726개사</td><td>32.1%</td></tr><tr><th scope="row">서울 (수도권)</th><td>11,179개사</td><td>28.2%</td></tr><tr><th scope="row">인천 (수도권)</th><td>1,873개사</td><td>4.7%</td></tr><tr><th scope="row">부산</th><td>1,741개사</td><td>4.4%</td></tr><tr><th scope="row">대전</th><td>1,552개사</td><td>3.9%</td></tr><tr><th scope="row">경남</th><td>1,471개사</td><td>3.7%</td></tr><tr><th scope="row">경북</th><td>1,395개사</td><td>3.5%</td></tr><tr><th scope="row">충남</th><td>1,344개사</td><td>3.4%</td></tr><tr><th scope="row">대구</th><td>1,223개사</td><td>3.1%</td></tr><tr><th scope="row">충북</th><td>996개사</td><td>2.5%</td></tr><tr><th scope="row">전북</th><td>959개사</td><td>2.4%</td></tr><tr><th scope="row">전남</th><td>751개사</td><td>1.9%</td></tr><tr><th scope="row">강원</th><td>736개사</td><td>1.9%</td></tr><tr><th scope="row">광주</th><td>709개사</td><td>1.8%</td></tr><tr><th scope="row">울산</th><td>496개사</td><td>1.3%</td></tr><tr><th scope="row">제주</th><td>291개사</td><td>0.7%</td></tr><tr><th scope="row">세종</th><td>226개사</td><td>0.6%</td></tr></table>
+          <div class="warn">⚠ 단순 소재지 분포로, 특정 지역의 성과 평가나 투자 적합성 판단을 의미하지 않습니다.</div>
+          <p class="src-foot">자료: 공공데이터포털 「중소벤처기업부_벤처기업명단」(2026-05-21) 전수 집계. 「저작권법」 제24조의2 재가공·후원 아님.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 업종별 -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="ds-panel eco">
+          <div class="ds-eyebrow">분포 · 업종별 (2026.5.21 · 전수 39,668개사)</div>
+          <h2>업종별 분포</h2>
+          <p class="basis">단위: 개사 / 전체 대비 비율(%). 기술보증기금 업종 대분류 기준(화면 표기는 원 분류명을 해치지 않는 범위에서 축약). 막대 길이 = 전체 대비 비율. 개수 합계 39,668개사이며, 비율은 반올림으로 합계가 100%와 다를 수 있습니다.</p>
+          <div id="indBars"></div>
+          <table class="sr-only"><caption>업종별 분포 (개사·비율%)</caption><tr><th scope="row">제조업</th><td>21,856개사</td><td>55.1%</td></tr><tr><th scope="row">정보처리S/W</th><td>8,687개사</td><td>21.9%</td></tr><tr><th scope="row">기타</th><td>4,419개사</td><td>11.1%</td></tr><tr><th scope="row">도소매업</th><td>1,854개사</td><td>4.7%</td></tr><tr><th scope="row">연구개발서비스</th><td>1,596개사</td><td>4.0%</td></tr><tr><th scope="row">건설운수</th><td>1,072개사</td><td>2.7%</td></tr><tr><th scope="row">농,어,임,광업</th><td>184개사</td><td>0.5%</td></tr></table>
+          <p class="src-foot">자료: 공공데이터포털 「중소벤처기업부_벤처기업명단」(2026-05-21) 전수 집계(업종분류 기준). 「저작권법」 제24조의2 재가공·후원 아님.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 정리 -->
+    <section class="section">
+      <div class="container">
+        <div class="ds-panel interp">
+          <div class="ds-eyebrow">지표 정리</div>
+          <h2>요약</h2>
+          <p style="margin-top:14px;">2026년 5월 기준 벤처확인기업은 39,668개사이며, 확인유형은 혁신성장유형(64.5%)·벤처투자유형(21.7%)·연구개발유형(13.3%)·예비벤처유형(0.6%) 순입니다. 소재지는 수도권이 65.0%(경기 32.1%·서울 28.2%·인천 4.7%)이고, 업종은 제조업(55.1%)과 정보처리·소프트웨어(21.9%)가 큰 비중을 차지합니다. 한편 2024년 기준 벤처기업정밀실태조사(표본조사·대상 38,216개사)에서 발표된 총 매출액은 236조 원, 총 종사자는 82.8만 명입니다(명단 전수 집계와 시점·대상·방식이 다른 별도 수치).</p>
+          <p style="margin-top:12px;">지표 간 기준에 유의가 필요합니다. 확인기업 수(2026.5.21 명단 전수)와 매출·고용(2024년 기준 표본 실태조사)은 시점과 대상이 달라 같은 선상에서 비교할 수 없습니다. 본 페이지는 출처와 기준을 구분해 공개 수치를 요약합니다.</p>
+          <p class="review">※ 본 정리는 공개 데이터의 사실 전달이며, 특정 업종·지역·기업에 대한 투자 자문·전망·권유가 아닙니다.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 데이터 이용 안내 -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="notice">
+          <h2 style="font-size:18px;margin-bottom:12px;">데이터 이용 안내</h2>
+          <ul style="display:grid;gap:10px;">
+            <li style="font-size:14px;color:var(--text-muted);line-height:1.7;">벤처확인유형·지역·업종 분포는 공공데이터포털 「중소벤처기업부_벤처기업명단」(2026-05-21, <strong>공공저작물 제1유형: 출처표시</strong>)의 <strong>전체 39,668개사를 직접 집계</strong>한 것으로, 각 분류의 합계는 전체 기업 수와 일치합니다.</li>
+            <li style="font-size:14px;color:var(--text-muted);line-height:1.7;">총 매출액·총 종사자 수는 중소벤처기업부 「2025년 벤처기업정밀실태조사」(<strong>2024년 기준·표본 실태조사·대상 38,216개사</strong>)의 발표 수치로, 위 명단 전수 39,668개사 직접 집계와는 <strong>시점·대상·조사 방식이 다릅니다</strong>(직접 비교 불가).</li>
+            <li style="font-size:14px;color:var(--text-muted);line-height:1.7;">본 자료는 「저작권법」 제24조의2(공공저작물의 자유이용)에 근거하여 수치(사실)를 자체 재구성한 것으로, 원 보도자료·시스템의 문장·표·도표 구성은 복제하지 않았습니다. 게시·정리는 <strong>벤처시장연구원의 독자적 활동</strong>이며 정부·발표 기관의 후원·보증·제휴를 의미하지 않습니다.</li>
+            <li style="font-size:14px;color:var(--text-muted);line-height:1.7;">데이터 기준 시점: 벤처기업명단 2026.5.21 · 정밀실태조사 2024년 기준(2025.12 발표). 공식 효력·최신 수치는 각 출처 원문을 기준으로 합니다.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0;">
+      <div class="container" style="display:flex;flex-wrap:wrap;gap:12px;justify-content:center;">
+        <a href="/data/" class="btn btn--ghost">벤처투자 동향 보기 →</a>
+        <a href="/radar/" class="btn btn--ghost">규제·입법 동향 보기 →</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container" style="text-align:center;">
+        <h2 style="font-size:22px;margin-bottom:10px;">연구·자문 협력 문의</h2>
+        <p style="color:var(--text-muted);margin-bottom:22px;">벤처투자·자본시장 분야의 연구용역 및 기관 자문에 관하여 문의해 주시기 바랍니다.</p>
+        <a href="/contact.html" class="nav__cta" style="display:inline-block;">문의하기 →</a>
+      </div>
+    </section>
+  </main>
+
+    <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="brand__name" style="font-size:18px;">벤처시장연구원</span><br>
+          <span class="brand__en">Korea Venture Market Institute</span>
+          <a href="/universe/" style="display:inline-block; margin-top:12px; font-size:13px; color:var(--gold-soft); letter-spacing:.01em;">✦ 벤처 유니버스 — 인터랙티브 우주 보기 →</a>
+        </div>
+        <div class="footer-col">
+          <h3>바로가기</h3>
+          <ul>
+            <li><a href="/about.html">연구원 소개</a></li>
+            <li><a href="/research.html">연구 분야</a></li>
+            <li><a href="/publications/">연구성과</a></li>
+            <li><a href="/insights/">데이터·인사이트</a></li>
+            <li><a href="/projects/">실험실</a></li>
+            <li><a href="/contact.html">문의</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>연락처</h3>
+          <div class="footer-info">
+            <span><strong>이메일</strong> office@kvmi.co.kr</span>
+            <span><strong>주소</strong> 서울특별시 서초구 잠원로 117, 101동 803호</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 벤처시장연구원 (Korea Venture Market Institute). All rights reserved.</span>
+        <span><a href="/privacy.html">개인정보 처리방침</a> · 사업자등록번호 119-30-71408 · 대표 배승욱</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/main.js?v=dbdb9afa4041"></script>
+  <script src="/js/indicators-charts.js?v=dbdb9afa4041"></script>
+</body>
+</html>

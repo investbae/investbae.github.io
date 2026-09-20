@@ -1,0 +1,151 @@
+{
+  "generated_at": "2026-09-17T21:30:09Z",
+  "collected_date": "2026-09-18",
+  "source": "법제처 DRF (target=law·ppc) · 국회 발의의안 미포함 · 자동수집",
+  "keywords": [
+    "벤처투자",
+    "벤처기업",
+    "창업투자",
+    "모태펀드",
+    "벤처펀드",
+    "신기술사업금융",
+    "가상자산",
+    "디지털자산",
+    "조건부지분"
+  ],
+  "ppc": [],
+  "upcoming": [
+    {
+      "kind": "law",
+      "kw": "신기술사업금융",
+      "title": "기술보증기금법 시행령",
+      "dept": "중소벤처기업부",
+      "ef_date": "20260918",
+      "revision": "타법개정",
+      "link": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=288861",
+      "future": true
+    }
+  ],
+  "recent": [
+    {
+      "kind": "law",
+      "kw": "벤처투자",
+      "title": "벤처투자 촉진에 관한 법률 시행규칙",
+      "dept": "중소벤처기업부",
+      "ef_date": "20260701",
+      "revision": "일부개정",
+      "link": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=287891",
+      "future": false
+    },
+    {
+      "kind": "law",
+      "kw": "벤처투자",
+      "title": "벤처투자 촉진에 관한 법률 시행령",
+      "dept": "중소벤처기업부",
+      "ef_date": "20260701",
+      "revision": "일부개정",
+      "link": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=287503",
+      "future": false
+    },
+    {
+      "kind": "law",
+      "kw": "벤처투자",
+      "title": "벤처투자 촉진에 관한 법률",
+      "dept": "중소벤처기업부",
+      "ef_date": "20260701",
+      "revision": "일부개정",
+      "link": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=281983",
+      "future": false
+    },
+    {
+      "kind": "law",
+      "kw": "벤처기업",
+      "title": "중소벤처기업부와 그 소속기관 직제 시행규칙",
+      "dept": "중소벤처기업부",
+      "ef_date": "20260701",
+      "revision": "일부개정",
+      "link": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=287759",
+      "future": false
+    },
+    {
+      "kind": "law",
+      "kw": "벤처기업",
+      "title": "벤처기업육성에 관한 특별법 시행령",
+      "dept": "중소벤처기업부",
+      "ef_date": "20260701",
+      "revision": "일부개정",
+      "link": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=287501",
+      "future": false
+    },
+    {
+      "kind": "law",
+      "kw": "벤처기업",
+      "title": "중소벤처기업부와 그 소속기관 직제",
+      "dept": "중소벤처기업부,행정안전부",
+      "ef_date": "20260701",
+      "revision": "타법개정",
+      "link": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=287187",
+      "future": false
+    },
+    {
+      "kind": "law",
+      "kw": "벤처기업",
+      "title": "벤처기업육성에 관한 특별법",
+      "dept": "중소벤처기업부",
+      "ef_date": "20260701",
+      "revision": "타법개정",
+      "link": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284081",
+      "future": false
+    },
+    {
+      "kind": "law",
+      "kw": "신기술사업금융",
+      "title": "기술보증기금법",
+      "dept": "중소벤처기업부",
+      "ef_date": "20260102",
+      "revision": "타법개정",
+      "link": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=277111",
+      "future": false
+    },
+    {
+      "kind": "law",
+      "kw": "가상자산",
+      "title": "가상자산 이용자 보호 등에 관한 법률 시행령",
+      "dept": "금융위원회",
+      "ef_date": "20250423",
+      "revision": "일부개정",
+      "link": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=270729",
+      "future": false
+    },
+    {
+      "kind": "law",
+      "kw": "벤처기업",
+      "title": "중소벤처기업부 소관 비영리법인의 설립 및 감독에 관한 규칙",
+      "dept": "중소벤처기업부",
+      "ef_date": "20241101",
+      "revision": "일부개정",
+      "link": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=266247",
+      "future": false
+    },
+    {
+      "kind": "law",
+      "kw": "가상자산",
+      "title": "가상자산 이용자 보호 등에 관한 법률",
+      "dept": "금융위원회",
+      "ef_date": "20240719",
+      "revision": "타법개정",
+      "link": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=261099",
+      "future": false
+    },
+    {
+      "kind": "law",
+      "kw": "신기술사업금융",
+      "title": "기술보증기금법 시행규칙",
+      "dept": "중소벤처기업부",
+      "ef_date": "20210624",
+      "revision": "타법개정",
+      "link": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=233459",
+      "future": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "entries": [
+    {
+      "at": "2026-08-23T18:29:05.978126+09:00",
+      "changes": [
+        {
+          "dataset_id": "core_laws",
+          "record_count": 8,
+          "status": "candidate_valid"
+        },
+        {
+          "dataset_id": "venture_related_bills",
+          "record_count": 60,
+          "status": "candidate_valid"
+        },
+        {
+          "dataset_id": "venture_statistics",
+          "record_count": null,
+          "status": "disabled"
+        },
+        {
+          "dataset_id": "venture_companies",
+          "record_count": null,
+          "status": "disabled"
+        }
+      ],
+      "release_id": "20260823T182900"
+    },
+    {
+      "at": "2026-07-23T09:51:57.496831+09:00",
+      "changes": [
+        {
+          "dataset_id": "core_laws",
+          "record_count": 1,
+          "status": "candidate_valid"
+        }
+      ],
+      "release_id": "20260723T095157"
+    }
+  ]
+}

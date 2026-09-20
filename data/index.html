@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta name="build" content="pages-dbdb9afa4041">
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data:; connect-src 'self'; form-action 'none'; frame-src 'none'; base-uri 'self'; object-src 'none'; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#05070f">
+  <title>벤처투자 동향 데이터 | 벤처시장연구원</title>
+  <meta name="description" content="중소벤처기업부 공표 통계를 출처 표기 후 정리한 벤처투자·펀드결성 동향(연간·분기). 공공저작물 자유이용. 법률·투자 자문이 아닙니다.">
+  <link rel="canonical" href="https://kvmi.co.kr/data/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="벤처투자 동향 데이터 | 벤처시장연구원">
+  <meta property="og:description" content="벤처투자·펀드결성 동향(중기부 공표 통계 정리·출처 명기).">
+  <meta property="og:url" content="https://kvmi.co.kr/data/">
+  <meta property="og:site_name" content="벤처시장연구원">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="og:image" content="https://kvmi.co.kr/assets/og-image.png">
+  <link rel="preload" href="/assets/fonts/pretendard-subset.woff2?v=dbdb9afa4041" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/css/pretendard.css">
+  <link rel="preload" as="image" href="/assets/cosmos-mobile.webp" type="image/webp" fetchpriority="high"
+        media="(max-width: 768px) and (orientation: portrait) and (max-aspect-ratio: 3/5)">
+  <link rel="stylesheet" href="/css/style.css?v=dbdb9afa4041">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%231F3864'/%3E%3Ctext x='30' y='46' font-size='34' font-weight='800' fill='%23C9A227' text-anchor='middle' font-family='sans-serif'%3EK%3C/text%3E%3Ctext x='70' y='46' font-size='34' font-weight='800' fill='%23C9A227' text-anchor='middle' font-family='sans-serif'%3EV%3C/text%3E%3Ctext x='30' y='88' font-size='34' font-weight='800' fill='%23C9A227' text-anchor='middle' font-family='sans-serif'%3EM%3C/text%3E%3Ctext x='70' y='88' font-size='34' font-weight='800' fill='%23C9A227' text-anchor='middle' font-family='sans-serif'%3EI%3C/text%3E%3C/svg%3E">
+  <style>
+    .ds-eyebrow { font-size:12px; font-weight:700; letter-spacing:.12em; color:var(--gold-soft); text-transform:uppercase; margin-bottom:10px; }
+    .ds-panel { padding:30px 28px; border:1px solid var(--line); border-radius:var(--radius-lg); background:rgba(13,22,46,.55); backdrop-filter:blur(6px); }
+    .ds-panel + .ds-panel { margin-top:22px; }
+    .ds-panel h2 { font-size:19px; margin-bottom:2px; }
+    .ds-panel .basis { font-size:12.5px; color:var(--text-dim); margin-bottom:18px; }
+    .ds-panel.broad { border-left:3px solid #4a78c8; }
+    .ds-panel.qtr { border-left:3px solid var(--gold); }
+    .kpi-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:16px; }
+    .kpi { padding:20px 18px; border:1px solid var(--line); border-radius:12px; background:rgba(9,14,30,.5); }
+    .kpi .v { font-size:30px; font-weight:800; color:#fff; font-variant-numeric:tabular-nums; line-height:1.05; }
+    .kpi .v small { font-size:14px; color:var(--gold-soft); font-weight:700; }
+    .kpi .v .up { color:#5fbf8a; font-size:14px; font-weight:700; }
+    .kpi .k { margin-top:9px; font-size:13px; color:var(--text-muted); line-height:1.5; }
+    .kpi .src { margin-top:8px; font-size:11px; color:var(--text-dim); }
+    .legend { display:flex; flex-wrap:wrap; gap:18px; margin:6px 0 14px; }
+    .legend span { display:inline-flex; align-items:center; gap:7px; font-size:12.5px; color:var(--text-muted); }
+    .legend i { width:14px; height:12px; border-radius:3px; display:inline-block; }
+    .chart-svg { width:100%; max-width:560px; height:auto; display:block; }
+    .grid-line { stroke:rgba(255,255,255,.07); stroke-width:1; }
+    .ax-lab { fill:#8b97ad; font-size:12px; }
+    .pt-lab { font-size:12.5px; font-weight:700; font-variant-numeric:tabular-nums; }
+    .bar-cap { fill:#8b97ad; font-size:12px; }
+    .ind-row { display:grid; grid-template-columns:130px 1fr 52px; gap:10px; align-items:center; margin:7px 0; font-size:13px; color:var(--text-muted); }
+    .ind-bar { height:9px; border-radius:5px; background:rgba(184,151,58,.7); }
+    .ind-track { height:9px; border-radius:5px; background:rgba(255,255,255,.06); position:relative; }
+    .warn { margin-top:14px; padding:12px 14px; border:1px solid rgba(184,151,58,.4); background:rgba(184,151,58,.08); border-radius:10px; font-size:12.5px; color:#e8d9a8; line-height:1.6; }
+    .src-foot { margin-top:16px; font-size:12px; color:var(--text-dim); line-height:1.7; }
+    .src-foot a { color:var(--gold-soft); }
+    .interp p { font-size:14.5px; color:#c7cfdd; line-height:1.85; }
+    .interp .review { margin-top:14px; font-size:12.5px; color:var(--text-dim); border-top:1px solid var(--line); padding-top:12px; }
+    .sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); border:0; }
+    .ds-panel.idx { border-left:3px solid var(--gold); }
+    .idx-hero { display:flex; align-items:flex-end; gap:30px; flex-wrap:wrap; margin:8px 0 16px; }
+    .idx-num { font-size:58px; font-weight:800; color:#fff; line-height:.95; font-variant-numeric:tabular-nums; }
+    .idx-num span { display:block; font-size:13px; color:var(--gold-soft); font-weight:700; margin-top:8px; letter-spacing:.02em; }
+    .idx-decomp { display:flex; gap:22px; font-size:13.5px; color:var(--text-muted); padding-bottom:6px; }
+    .idx-decomp b { color:var(--gold-soft); font-size:19px; font-variant-numeric:tabular-nums; }
+    .idx-decomp i { display:block; font-style:normal; font-size:11.5px; color:var(--text-dim); margin-top:3px; }
+    .ds-panel.idx { background:linear-gradient(162deg,rgba(24,34,64,.74),rgba(13,22,46,.5)); box-shadow:0 14px 50px rgba(0,0,0,.32); position:relative; overflow:hidden; }
+    .ds-panel.idx::after { content:''; position:absolute; top:-42%; right:-8%; width:360px; height:360px; background:radial-gradient(circle,rgba(201,162,39,.11),transparent 68%); pointer-events:none; }
+    .idx-num { font-size:74px; line-height:.92; background:linear-gradient(135deg,#F8E9B6 6%,#EACB6E 44%,#C9A227 94%); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; filter:drop-shadow(0 3px 20px rgba(201,162,39,.34)); }
+    .idx-decomp > div { padding:13px 20px; border:1px solid var(--line); border-radius:13px; background:rgba(9,14,30,.55); min-width:128px; transition:border-color .2s ease, transform .2s ease; }
+    .idx-decomp > div:hover { border-color:rgba(201,162,39,.45); transform:translateY(-2px); }
+    @media (max-width:600px){
+      .idx-hero { flex-direction:column; align-items:flex-start; gap:14px; }
+      .idx-num { font-size:46px; }
+    }
+    /* ── 디자인 고도화 ── */
+    .ds-panel { box-shadow:0 6px 30px rgba(0,0,0,.22); }
+    .ds-panel.qtr { background:linear-gradient(162deg,rgba(24,34,64,.6),rgba(13,22,46,.5)); }
+    .ds-panel.broad { background:linear-gradient(162deg,rgba(20,30,58,.55),rgba(13,22,46,.5)); }
+    .kpi { position:relative; overflow:hidden; transition:transform .2s ease, border-color .2s ease, box-shadow .2s ease; }
+    .kpi::before { content:''; position:absolute; inset:0 0 auto 0; height:3px; background:linear-gradient(90deg,var(--gold),rgba(201,162,39,0)); }
+    .kpi:hover { transform:translateY(-3px); border-color:rgba(201,162,39,.42); box-shadow:0 12px 32px rgba(0,0,0,.32); }
+    .ind-row .ind-bar { background:linear-gradient(90deg,rgba(184,151,58,.5),rgba(201,162,39,.94)); box-shadow:0 0 10px rgba(201,162,39,.16); transition:filter .2s ease; }
+    .ind-row:hover .ind-bar { filter:brightness(1.13); }
+    .ds-eyebrow { position:relative; padding-left:14px; }
+    .ds-eyebrow::before { content:''; position:absolute; left:0; top:1px; bottom:2px; width:3px; border-radius:2px; background:var(--gold); }
+    .chart-svg { filter:drop-shadow(0 6px 22px rgba(0,0,0,.26)); }
+    .ds-panel h2 { letter-spacing:-.012em; }
+    @media (prefers-reduced-motion: reduce){ .kpi,.kpi:hover { transform:none; transition:none; } }
+    /* ── 모바일 정교화 (≤768px 전용·데스크톱 렌더링 무변경·2026-07-22) ── */
+    @media (max-width:768px){
+      .ds-panel { padding:22px 16px; }
+      .ds-panel + .ds-panel { margin-top:18px; }
+      .ds-panel h2 { font-size:18px; }
+      .kpi-grid { grid-template-columns:repeat(auto-fit,minmax(146px,1fr)); gap:12px; }
+      .kpi { padding:16px 14px; }
+      .kpi .v { font-size:26px; }
+      .kpi .v small { font-size:13px; }
+      .interp p { font-size:14px; }
+      main p, main li, .warn, .src-foot, .basis { word-break:keep-all; overflow-wrap:anywhere; }
+      main h1, main h2, main h3, main p { text-wrap:pretty; }
+      .ind-row { grid-template-columns:96px 1fr 46px; gap:8px; font-size:12px; }
+      .legend { gap:12px 16px; }
+      /* 터치 히트박스 확장 — 시각 불변(padding+음수 margin·투명 영역) */
+      .src-foot a { display:inline-block; padding:12px 8px; margin:-12px -8px; }
+      main .nav__cta { display:inline-flex; align-items:center; justify-content:center; min-height:44px; }
+    }
+    @media (max-width:600px){
+      /* SVG 차트 — viewBox 축소 렌더 보정: 축·값 라벨 확대(겹침 실측 검증) */
+      .chart-svg { overflow:visible; } /* 확대 라벨의 가장자리 잘림 방지(패널 패딩 내 표시) */
+      .chart-svg .ax-lab { font-size:19px; }
+      .chart-svg .ax-lab:not([text-anchor="end"]) { transform:translateY(3px); } /* x축 라벨 하향 — y축 0 라벨과 분리 */
+      .chart-svg .pt-lab { font-size:20px; transform:translateY(-2px); }
+      .chart-svg .bar-cap { font-size:17px; }
+      .chart-svg .anno { font-size:17px; transform:translateY(-9px); }
+      .chart-svg .grid-line { stroke-width:1.5; }
+      /* y축 라벨은 축소·좌측 이동 — 첫 데이터포인트 값라벨과의 충돌 방지 */
+      .chart-svg .ax-lab[text-anchor="end"] { font-size:13px; transform:translateX(-9px); }
+      /* 지수 차트: 라벨 밀도 높음 — 별도 보정 + 우측 범례 좌측 이동(뷰박스 클리핑 방지) */
+      #idxChart .ax-lab { font-size:16px; }
+      #idxChart .pt-lab { font-size:17px; transform:translateY(-3px); }
+      #idxChart .ax-lab[text-anchor="end"] { font-size:13px; transform:translateX(-6px); }
+      #idxChart text.ax-lab:nth-last-of-type(-n+3) { font-size:14px; transform:translate(-48px,-4px); }
+      #idxChart line:nth-last-of-type(-n+3) { transform:translateX(-48px); }
+      #q3Chart .ax-lab { font-size:17px; }
+      #q3Chart .ax-lab[text-anchor="end"] { transform:translateX(-9px); } /* y축 2 ↔ 값 2.0 분리 */
+      #q3Chart text:not(.ax-lab):not(.pt-lab) { font-size:15px; transform:translateY(-10px); } /* 미공표 주석 ↔ 4.04 분리 */
+      .idx-decomp { width:100%; gap:10px; }
+      .idx-decomp > div { min-width:0; flex:1; padding:12px; }
+    }
+    @supports (padding: max(0px)){
+      @media (max-width:768px){
+        .container { padding-left:max(var(--gut), env(safe-area-inset-left)); padding-right:max(var(--gut), env(safe-area-inset-right)); }
+      }
+    }
+    @media (prefers-reduced-motion: reduce){
+      .idx-decomp > div, .idx-decomp > div:hover, .ind-row .ind-bar { transform:none; transition:none; }
+    }
+  </style>
+</head>
+<body>
+  <a href="#main" class="skip-link">본문 바로가기</a>
+
+  <header class="site-header" id="header">
+    <div class="container nav">
+      <a href="/index.html" class="brand" aria-label="벤처시장연구원 홈">
+        <span class="brand__mark" aria-hidden="true"><b>KVMI</b></span>
+        <span class="brand__text">
+          <span class="brand__name">벤처시장연구원</span>
+          <span class="brand__en">Korea Venture Market Institute</span>
+        </span>
+      </a>
+      <nav class="nav__menu" id="navMenu" aria-label="주 메뉴">
+        <a href="/about.html" class="nav__link">연구원 소개</a>
+        <a href="/research.html" class="nav__link">연구 분야</a>
+        <a href="/publications/" class="nav__link">연구성과</a>
+        <a href="/insights/" class="nav__link active" aria-current="page">데이터·인사이트</a>
+        <a href="/data/" class="nav__link nav__sub" aria-current="page">벤처투자 동향</a>
+        <a href="/indicators/" class="nav__link nav__sub">벤처기업 지표</a>
+        <a href="/radar/#laws" class="nav__link nav__sub">법령 현황</a>
+        <a href="/radar/#board" class="nav__link nav__sub">입법 동향</a>
+        <a href="/projects/" class="nav__link">실험실</a>
+        <a href="/contact.html" class="nav__link">문의</a>
+        <a href="/en/index.html" class="nav__link" lang="en" aria-label="View in English">EN</a>
+        <a href="/contact.html" class="nav__cta">연구·자문 문의</a>
+      </nav>
+      <button class="nav__toggle" id="navToggle" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="navMenu">
+        <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="container reader-shortcut"><a href="/insights/#first-visit">처음 보는 용어가 있나요? 지표 읽는 법 →</a></div>
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="현재 위치"><a href="/index.html">홈</a> &nbsp;/&nbsp; <span>데이터</span></nav>
+        <div class="page-hero__inner">
+          <h1>벤처투자 동향 데이터</h1>
+          <p>중소벤처기업부가 공표한 통계를 출처를 밝혀 정리한 거시 지표입니다. 본 자료는 「저작권법」 제24조의2(공공저작물의 자유이용)에 따라 출처를 표시하여 인용·재가공한 것으로, 일반 정보 제공 목적이며 법률자문·투자자문 또는 투자 권유가 아닙니다.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 연간 실적 (중기부 광의) -->
+<!-- 벤처투자·펀드 지수 (참고용) -->
+    <section class="section">
+      <div class="container">
+        <div class="ds-panel idx">
+          <div class="ds-eyebrow">벤처투자·펀드 단순환산 지수 (참고용·비공식) · 투자액+펀드결성액 2개 금액만 · 기준 2020 = 100</div>
+          <h2>벤처투자·펀드 단순환산 지수</h2>
+          <div class="idx-hero">
+            <div class="idx-num">155.6<span>2025년 연간 잠정 · 2020=100 단순 환산값(투자·펀드 각 1/2)</span></div>
+            <div class="idx-decomp">
+              <div>투자지수<br><b>168.0</b><i>투자액 환산값</i></div>
+              <div>펀드지수<br><b>143.2</b><i>펀드결성액 환산값</i></div>
+            </div>
+          </div>
+          <p style="margin:2px 0 14px;padding:9px 13px;background:rgba(184,151,58,.12);border-radius:8px;font-size:12.5px;color:#e8d9a8;line-height:1.55;">※ <strong>155.6으로 높아진 것은 명목 금액의 단순 증가</strong>일 뿐, 2026년 현재 벤처 생태계의 실질 회복이나 투자 수익을 의미하지 않습니다.</p>
+          <p class="basis">신규 벤처투자액과 신규 벤처펀드 결성액 <strong>2개 공개통계(명목 금액)</strong>를 기준연도(2020년)=100으로 지수화한 뒤 <strong>동일가중(각 1/2)으로 산술평균</strong>한 값입니다. 산식: <code>((투자액÷2020년 투자액)+(펀드액÷2020년 펀드액))÷2×100</code>. 두 지표는 모두 벤처 자금(VC) 흐름과 관련되어 일부 중복될 수 있으며, 서로 독립된 별개 지표가 아닙니다. 지수의 등락은 두 통계 <strong>금액</strong>의 변화일 뿐, 시장의 우열·호조·전망이나 투자판단을 의미하지 않습니다.</p>
+          <svg id="idxChart" class="chart-svg" viewBox="0 0 720 360" role="img" aria-labelledby="ix-t ix-d" style="max-width:720px;">
+            <title id="ix-t">벤처투자·펀드 금액 재지수화 추이 2020~2025 (2020=100·명목)</title>
+            <desc id="ix-d">투자·펀드 지수: 2020년 100.0, 2021년 187.8, 2022년 165.3, 2023년 132.7, 2024년 126.6, 2025년 155.6(잠정).</desc>
+          </svg>
+          <table class="sr-only">
+            <caption>벤처투자·펀드 단순환산 지수 및 구성요소(2020=100). 2025년은 잠정치이며 차트에서 점선으로 강조 표시됨.</caption>
+            <tr><th>연도</th><th>투자지수</th><th>펀드지수</th><th>투자·펀드 지수</th></tr>
+            <tr><th scope="row">2020</th><td>100.0</td><td>100.0</td><td>100.0</td></tr>
+            <tr><th scope="row">2021</th><td>196.8</td><td>178.7</td><td>187.8</td></tr>
+            <tr><th scope="row">2022</th><td>154.0</td><td>176.7</td><td>165.3</td></tr>
+            <tr><th scope="row">2023</th><td>134.8</td><td>130.5</td><td>132.7</td></tr>
+            <tr><th scope="row">2024</th><td>147.5</td><td>105.7</td><td>126.6</td></tr>
+            <tr><th scope="row">2025(잠정)</th><td>168.0</td><td>143.2</td><td>155.6</td></tr>
+          </table>
+          <div class="warn">⚠ 본 지수는 <strong>투자액·펀드결성액 2개 금액만</strong>을 단순 재구성한 <strong>참고값(비공식)</strong>입니다. ① <strong>명목 금액 기준</strong>으로 물가상승률이 반영되지 않아 실질 가치 변동과 다를 수 있습니다. ② 기준연도 <strong>2020년(코로나19 시기)은 신규 투자·펀드 금액이 상대적으로 낮은 해</strong>여서, 이후 연도가 높게 보일 수 있습니다(기저효과). ③ 벤처확인기업 수·매출·고용은 연도별 시계열이 불완전하여 지수에서 제외했습니다(아래 스코어카드에 현재값만 제시). 지수의 등락은 두 통계 금액의 변화일 뿐 시장 평가·전망이 아닙니다.</div>
+          <p class="src-foot">자료: 중소벤처기업부 「벤처투자 동향」(2020~2024년 연도별 표·2025년 잠정 별도 발표). 원자료(억원): 투자 2020 80,962→2024 119,457 / 펀드 2020 99,859→2024 105,550 / 2025년 잠정 투자 136,000·펀드 143,000(억원). 지수화 기준 2020=100·동일가중 산술평균(종합값은 원자료 억원 기준 산출 후 반올림하여, 표시된 구성요소 지수의 평균과 ±0.1 차이가 날 수 있음). 「저작권법」 제24조의2에 따라 원자료(수치)를 재가공하였으며, 지수 산출 방법론은 벤처시장연구원의 단순 재구성으로 정부·기관의 후원·보증과 무관합니다.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="ds-panel broad">
+          <div class="ds-eyebrow">연도별 추이 · 중소벤처기업부 「벤처투자 동향」 (광의 기준)</div>
+          <h2>신규 벤처투자 연도별 추이 (2020–2025)</h2>
+          <p class="basis">단위: 조원 · 2020~2025년 모두 중소벤처기업부 「벤처투자 동향」 <strong>광의(벤처투자법) 기준 동일 계열</strong>(2023년 통계 개편 기준으로 소급 집계). 2021년 정점, 2022~2023년 감소, 2024~2025년 증가.</p>
+          <svg id="trendChart" class="chart-svg" viewBox="0 0 720 360" role="img" aria-labelledby="t-t t-d" style="max-width:720px;">
+            <title id="t-t">신규 벤처투자 연도별 추이 2020~2025</title>
+            <desc id="t-d">2020년 8.1조, 2021년 15.9조, 2022년 12.5조, 2023년 10.9조, 2024년 11.9조, 2025년 13.6조원.</desc>
+          </svg>
+          <table class="sr-only"><caption>신규 벤처투자(조원)</caption><tr><th>2020</th><td>8.1</td></tr><tr><th>2021</th><td>15.9</td></tr><tr><th>2022</th><td>12.5</td></tr><tr><th>2023</th><td>10.9</td></tr><tr><th>2024</th><td>11.9</td></tr><tr><th>2025</th><td>13.6</td></tr></table>
+          <div class="kpi-grid" style="margin-top:22px;">
+            <div class="kpi">
+              <div class="v">13.6<small> 조원</small> <span class="up">▲14.0%</span></div>
+              <div class="k">2025년 신규 벤처투자 · 현 집계 기준 역대 2위 (전년 대비·발표 잠정)</div>
+            </div>
+            <div class="kpi">
+              <div class="v">14.3<small> 조원</small> <span class="up">▲34.1%</span></div>
+              <div class="k">2025년 신규 벤처펀드 결성 (전년 대비·발표 잠정)</div>
+            </div>
+            <div class="kpi">
+              <div class="v">15.9<small> 조원</small></div>
+              <div class="k">2021년 — 역대 1위(참고)</div>
+            </div>
+            <div class="kpi">
+              <div class="v">4,697<small> 개사</small> <span class="up">▲16.7%</span></div>
+              <div class="k">2024년 피투자기업 수 (전년 대비) · 2020년 3,782 → 2024년 4,697개사</div>
+              <div class="src">중기부 「2024년 벤처투자 동향」 · 투자 활동성(투자액과 다른 차원)</div>
+            </div>
+          </div>
+          <p class="src-foot">자료: 중소벤처기업부 「2024년 벤처투자 동향」(2025-02-12 발표·연도별 표: 2020 80,962 / 2021 159,371 / 2022 124,706 / 2023 109,133 / 2024 119,457억원) 및 「2025년 벤처투자 동향」(13.6조원) · <a href="https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=86&bcIdx=1056570&parentSeq=1056570" target="_blank" rel="noopener">2024년 동향 보도자료</a> · <a href="https://www.vcs.go.kr/web/portal/statistics/dashboard" target="_blank" rel="noopener">벤처투자종합포털</a>. 수치는 <strong>중기부 발표 기준</strong>(조원, 소수점 첫째 자리 반올림)이며 발표·잠정치를 포함합니다. 「저작권법」 제24조의2에 따라 출처를 표시해 재가공(정부·기관의 후원·보증과 무관).</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 분기별 추이 (5개년) -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="ds-panel qtr">
+          <div class="ds-eyebrow">분기별 추이 · 중소벤처기업부 「벤처투자 동향」 (광의 기준)</div>
+          <h2>벤처투자 분기 동향 <span style="font-size:14px;color:var(--text-dim);font-weight:600;">(공표 분기 기준)</span></h2>
+          <p class="basis">단위: 조원. ① <strong>연속 분기 추이</strong>(2024년 1분기~2026년 1분기·중기부 분기 발표)와 ② 동일 3분기(Q3) 연도별 비교(2020~2025·계절성 완화 목적·통계적 계절조정 아님)로 구성했습니다. 2025년 4분기는 분기 분해가 공표되지 않아(연간 13.6조만 발표) 점선·공백으로 두었고, 미발표 분기는 추정하지 않았습니다.</p>
+          <h3 style="font-size:14.5px;margin:18px 0 6px;color:#fff;">① 연속 분기 추이 (2024년 1분기~2026년 1분기)</h3>
+          <p style="font-size:12px;color:var(--text-dim);margin-bottom:8px;">중기부가 발표한 분기별 신규 벤처투자액 흐름입니다. 2025년 4분기는 분기 분해가 공표되지 않아 점선(공백)으로 표시했습니다.</p>
+          <svg id="q3Chart" class="chart-svg" viewBox="0 0 720 320" role="img" aria-labelledby="q3-t q3-d" style="max-width:680px;">
+            <title id="q3-t">연속 분기 신규 벤처투자 추이 2024년 1분기~2026년 1분기</title>
+            <desc id="q3-d">연속 분기 신규 벤처투자: 2024년 1분기 2.0조·2분기 3.5조·3분기 3.2조·4분기 3.3조, 2025년 1분기 2.68조·2분기 3.07조·3분기 4.04조, 2026년 1분기 3.3조원(2025년 4분기 미공표).</desc>
+          </svg>
+          <table class="sr-only"><caption>연속 분기 신규 벤처투자(조원)</caption><tr><th>2024 1Q</th><td>2.0</td></tr><tr><th>2024 2Q</th><td>3.5</td></tr><tr><th>2024 3Q</th><td>3.2</td></tr><tr><th>2024 4Q</th><td>3.3</td></tr><tr><th>2025 1Q</th><td>2.68</td></tr><tr><th>2025 2Q</th><td>3.07</td></tr><tr><th>2025 3Q</th><td>4.04</td></tr><tr><th>2026 1Q</th><td>3.3</td></tr></table>
+          <h3 style="font-size:14.5px;margin:26px 0 6px;color:#fff;">② 동일 3분기(Q3) 연도별 비교 (2020~2025·계절성 완화 목적·통계적 계절조정 아님)</h3>
+          <svg id="q25Chart" class="chart-svg" viewBox="0 0 560 280" role="img" aria-labelledby="q25-t q25-d" style="max-width:520px;">
+            <title id="q25-t">동일 3분기 신규 벤처투자 연도별 비교 2020~2025</title>
+            <desc id="q25-d">3분기 신규 벤처투자: 2020년 2.2조·2021년 4.3조·2022년 2.6조·2023년 3.2조·2024년 3.2조·2025년 4.0조원.</desc>
+          </svg>
+          <table class="sr-only"><caption>동일 3분기(Q3) 신규 벤처투자(조원)</caption><tr><th>2020</th><td>2.2</td></tr><tr><th>2021</th><td>4.3</td></tr><tr><th>2022</th><td>2.6</td></tr><tr><th>2023</th><td>3.2</td></tr><tr><th>2024</th><td>3.2</td></tr><tr><th>2025</th><td>4.0</td></tr></table>
+          <div class="warn">⚠ 분기 데이터 주의: 연속 분기 추이는 2024년 1분기~2026년 1분기 구간이며 <strong>2025년 4분기는 분기 분해 미공표</strong>로 점선(공백) 처리했습니다. 동일 3분기 비교는 계절성을 줄인 동일시점 비교입니다. 분기 수치는 잠정치를 포함하며 연간 실적과 직접 비교할 수 없습니다. 본 통계는 거시 벤처생태계 동향 정보이며, 특정 기업·펀드에 대한 투자 권유나 매매 신호가 아닙니다.</div>
+          <p class="src-foot">자료: 중소벤처기업부 「2025년 1~3분기 벤처투자 동향」(2025.11.13 발표·동일 3분기 연도별 추이 2020~2025) 및 분기별 발표. 2025년 1분기는 2026년 1분기 발표의 비교값 26,752억원을 소수 둘째 자리로 반올림한 2.68조원입니다. <a href="https://www.mss.go.kr/site/seoul/ex/bbs/View.do?bcIdx=1068282&amp;cbIdx=30">2026년 1분기 비교 원문</a>. 2025년 3분기는 4.04조이며 동일 3분기 비교 차트에서는 소수 첫째 자리 반올림(4.0조)으로 표기. 단위 조원·광의(벤처투자법) 기준. <a href="https://www.vcs.go.kr/web/portal/statistics/dashboard" target="_blank" rel="noopener">벤처투자종합포털</a>. 「저작권법」 제24조의2 재가공·후원 아님.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 분기 동향 (2026 1분기·별도) -->
+    <section class="section">
+      <div class="container">
+        <div class="ds-panel qtr">
+          <div class="ds-eyebrow">분기 동향 · 중소벤처기업부 (2026년 1분기)</div>
+          <h2 id="q1-2026">2026년 1분기 벤처투자·펀드결성</h2>
+          <p class="basis">단위: 조원 · 동일 분기(전년 1분기) 대비 비교. 분기 잠정치로 연간 실적과 직접 비교할 수 없습니다. 「역대」는 현 집계 기준 비교 가능 통계 작성 이래를 의미합니다.</p>
+          <div class="kpi-grid" style="margin-bottom:22px;">
+            <div class="kpi">
+              <div class="v">3.3<small> 조원</small> <span class="up">▲24.1%</span></div>
+              <div class="k">2026년 1분기 신규 벤처투자 · 역대 1분기 2위 (전년 동기 대비)</div>
+            </div>
+            <div class="kpi">
+              <div class="v">4.4<small> 조원</small> <span class="up">▲30.7%</span></div>
+              <div class="k">2026년 1분기 신규 벤처펀드 결성 · 역대 1분기 최대 (전년 동기 대비)</div>
+            </div>
+          </div>
+          <div class="legend">
+            <span><i style="background:#C9A227"></i>2026년 1분기</span>
+            <span><i style="background:#5b86c9"></i>2025년 1분기</span>
+          </div>
+          
+          <div class="reader-table-wrap" tabindex="0" role="region" aria-label="1분기 원자료 비교표, 가로로 스크롤 가능">
+            <table class="reader-table" id="q1-source-table">
+              <caption>1분기 비교 원자료 — 단위: 억원</caption>
+              <thead><tr><th scope="col">구분</th><th scope="col">2025년 1분기</th><th scope="col">2026년 1분기</th><th scope="col">전년 동기 대비</th></tr></thead>
+              <tbody><tr data-metric="investment" data-before="26752" data-after="33189"><th scope="row">신규 벤처투자</th><td>26,752</td><td>33,189</td><td>24.1%</td></tr>
+              <tr data-metric="fund" data-before="33399" data-after="43652"><th scope="row">신규 펀드결성</th><td>33,399</td><td>43,652</td><td>30.7%</td></tr></tbody>
+            </table>
+          </div>
+          <p class="basis">차트는 위 금액을 조원 단위로 반올림한 값입니다. 증가율은 반올림 전 억원 값으로 계산합니다. 예를 들어 펀드는 (43,652 ÷ 33,399 − 1) × 100 ≈ 30.7%입니다.</p>
+          <svg id="qChart" class="chart-svg" viewBox="0 0 560 300" role="img" aria-labelledby="q-t q-d">
+            <title id="q-t">1분기 벤처투자·펀드결성 동일 분기 비교(2025년 1분기 vs 2026년 1분기)</title>
+            <desc id="q-d">벤처투자: 2025년 1분기 2.7조원 → 2026년 1분기 3.3조원. 펀드결성: 2025년 1분기 3.3조원 → 2026년 1분기 4.4조원.</desc>
+          </svg>
+          <table class="sr-only">
+            <caption>1분기 동일 분기 비교(조원)</caption>
+            <tr><th></th><th>2025년 1분기</th><th>2026년 1분기</th></tr>
+            <tr><th>신규 벤처투자</th><td>2.7</td><td>3.3</td></tr>
+            <tr><th>신규 펀드결성</th><td>3.3</td><td>4.4</td></tr>
+          </table>
+
+          <h3 style="font-size:14.5px;margin:24px 0 4px;color:#fff;">2026년 1분기 투자 비중 상위 업종</h3>
+          <p style="font-size:12px;color:var(--text-dim);margin-bottom:12px;">전체 투자액 대비 비중(%) · 막대 길이 = 비중(0~100% 기준) · 단순 사실 정리이며 투자 추천이 아닙니다.</p>
+          <div class="ind-row"><span>ICT 서비스</span><div class="ind-track"><div class="ind-bar" style="width:21.4%"></div></div><span style="text-align:right;color:#fff">21.4%</span></div>
+          <div class="ind-row"><span>바이오·의료</span><div class="ind-track"><div class="ind-bar" style="width:20.5%"></div></div><span style="text-align:right;color:#fff">20.5%</span></div>
+          <div class="ind-row"><span>전기·기계·장비</span><div class="ind-track"><div class="ind-bar" style="width:15.3%"></div></div><span style="text-align:right;color:#fff">15.3%</span></div>
+
+          <div class="warn">⚠ 분기 데이터 주의: 2026년 1분기는 <strong>잠정치</strong>이며, 위 연간 실적(2025년 13.6조 원)과 <strong>직접 비교할 수 없습니다</strong>(기간 단위 상이). 전년 같은 1분기(2025년 1분기) 대비 증감으로만 해석하시기 바랍니다.</div>
+          <p class="src-foot">자료: 중소벤처기업부 「2026년 1분기 벤처투자·벤처펀드 결성 동향」(2026.05.17 발표·05.18 누리집 등록·잠정) · <a href="https://www.mss.go.kr/site/seoul/ex/bbs/View.do?bcIdx=1068282&amp;cbIdx=30" target="_blank" rel="noopener">중기부 보도자료 원문</a>. 「저작권법」 제24조의2에 따라 출처를 표시하여 재가공함(정부·기관의 후원·보증과 무관).</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 벤처투자 잔액 (참고·언론 인용·비공식) -->
+    <section class="section">
+      <div class="container">
+        <div class="ds-panel" style="border-left:3px solid #6b7280;">
+          <div class="ds-eyebrow" style="color:#9ca3af;">참고 지표 · 언론 보도 인용 (비공식)</div>
+          <h2>벤처투자 잔액 (투자 후 미회수 누적)</h2>
+          <p class="basis">단위: 조원. 벤처투자가 집행된 뒤 회수(IPO·M&A·장외매각 등)되지 않고 남아 있는 누적 잔액입니다. 신규 투자가 늘고 회수가 더디면 잔액이 쌓입니다(자금 적체·출구 지표).</p>
+          <svg id="balChart" class="chart-svg" viewBox="0 0 600 300" role="img" aria-labelledby="bal-t bal-d" style="max-width:560px;">
+            <title id="bal-t">벤처투자 잔액 추이 2020~2023</title>
+            <desc id="bal-d">2020년 14.5조, 2021년 20.5조, 2022년 25.5조, 2023년 28.4조원(언론 보도 인용).</desc>
+          </svg>
+          <table class="sr-only"><caption>벤처투자 잔액(조원·언론 인용)</caption><tr><th>2020</th><td>14.5</td></tr><tr><th>2021</th><td>20.5</td></tr><tr><th>2022</th><td>25.5</td></tr><tr><th>2023</th><td>28.4</td></tr></table>
+          <div class="warn" style="border-color:rgba(120,130,150,.45);background:rgba(120,130,150,.1);color:#c7cdd8;">&#9888; <strong>참고용&middot;비공식</strong>: 본 잔액 수치는 <strong>중소벤처기업부 자료를 인용한 언론 보도(유니콘팩토리&middot;더벨 등) 기준</strong>이며, 정부의 공식 보도자료 표를 직접 확인한 수치가 아닙니다. 2024년 이후는 별도로 확보하지 못했습니다. 위의 투자&middot;펀드&middot;분기 통계(정부 공식 발표)와는 성격&middot;출처가 다릅니다.</div>
+          <p class="src-foot">자료: 중소벤처기업부 자료 기반 언론 보도(누적 미회수 투자잔액&middot;2020~2023년). &#12300;저작권법&#12301; 제24조의2에 따라 재가공하였으며, 공식 통계는 각 기관 발표 원문을 기준으로 합니다(정부&middot;기관의 후원&middot;보증과 무관).</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 해석 -->
+    <section class="section">
+      <div class="container">
+        <div class="ds-panel interp">
+          <div class="ds-eyebrow">동향 해설</div>
+          <h2>지표 정리</h2>
+          <p style="margin-top:14px;">중소벤처기업부 「벤처투자 동향」 기준 신규 벤처투자는 2020년 8.1조 원에서 2021년 15.9조 원으로 정점에 이른 뒤 2022~2023년 감소했고, 2024년 11.9조 원·2025년 13.6조 원으로 증가했습니다(2025년은 발표 기준 역대 두 번째 규모). 2026년 1분기 신규 벤처투자(3.3조 원)와 펀드결성(4.4조 원)은 각각 전년 같은 1분기 대비 24.1%·30.7% 증가한 수치입니다.</p>
+          <p style="margin-top:12px;">통계 기준에 유의가 필요합니다. 2023년 집계 기준 확대 개편 전후의 수치, 그리고 연간 실적과 분기 실적은 집계 범위·기간이 달라 같은 선상에서 비교할 수 없습니다. 본 페이지는 발표 기준·기간을 구분해 사실만 정리합니다.</p>
+          <p class="review">※ 본 정리는 공개 통계의 사실 전달이며, 특정 업종·기업·시점에 대한 투자 자문·전망·권유가 아닙니다.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 데이터 안내 -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="notice">
+          <h2 style="font-size:18px;margin-bottom:12px;">데이터 이용 안내</h2>
+          <ul style="display:grid;gap:10px;">
+            <li style="font-size:14px;color:var(--text-muted);line-height:1.7;">본 데이터는 <strong>중소벤처기업부가 공표한 통계</strong>를 출처를 표시하여 정리·재가공한 것으로, 「저작권법」 제24조의2(공공저작물의 자유이용)에 근거합니다. 수치(사실) 외에 원 보도자료의 문장·표·도표 구성은 복제하지 않았습니다.</li>
+            <li style="font-size:14px;color:var(--text-muted);line-height:1.7;">수치는 발표 기관 기준이며 <strong>잠정치를 포함</strong>합니다. 공식 효력·최신 수치는 각 출처 원문을 기준으로 하며, 구체적 활용은 원문 및 전문가 확인이 필요합니다.</li>
+            <li style="font-size:14px;color:var(--text-muted);line-height:1.7;">본 자료의 게시·정리는 <strong>벤처시장연구원의 독자적 활동</strong>으로, 정부·발표 기관의 후원·보증·제휴를 의미하지 않습니다.</li>
+            <li style="font-size:14px;color:var(--text-muted);line-height:1.7;">연도별 추이(2020~2025)는 <strong>광의(벤처투자법) 기준 동일 계열</strong>이며, 2025년 1~3분기 누적(9.8조 원)과 연간(13.6조 원)은 <strong>집계 기간이 다른 별도 수치</strong>입니다(미발표 분기는 추정하지 않았습니다).</li>
+            <li style="font-size:14px;color:var(--text-muted);line-height:1.7;">데이터 기준 시점: 연간 2020~2025년(발표·잠정)·분기 2026년 1분기(2026.05.17 발표·잠정).</li>
+            <li style="font-size:14px;color:var(--text-muted);line-height:1.7;">증감률(%)은 중소벤처기업부가 발표한 원자료(억 원) 기준이며, 차트·스코어카드에 조 원 단위로 반올림해 표시한 값끼리 나눈 결과와는 차이가 날 수 있습니다.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0;">
+      <div class="container" style="display:flex;flex-wrap:wrap;gap:12px;justify-content:center;">
+        <a href="/indicators/" class="btn btn--ghost">벤처기업 지표 보기 →</a>
+        <a href="/radar/" class="btn btn--ghost">규제·입법 동향 보기 →</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container" style="text-align:center;">
+        <h2 style="font-size:22px;margin-bottom:10px;">연구·자문 협력 문의</h2>
+        <p style="color:var(--text-muted);margin-bottom:22px;">벤처투자·자본시장 분야의 연구용역 및 기관 자문에 관하여 문의해 주시기 바랍니다.</p>
+        <a href="/contact.html" class="nav__cta" style="display:inline-block;">문의하기 →</a>
+      </div>
+    </section>
+  </main>
+
+    <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="brand__name" style="font-size:18px;">벤처시장연구원</span><br>
+          <span class="brand__en">Korea Venture Market Institute</span>
+          <a href="/universe/" style="display:inline-block; margin-top:12px; font-size:13px; color:var(--gold-soft); letter-spacing:.01em;">✦ 벤처 유니버스 — 인터랙티브 우주 보기 →</a>
+        </div>
+        <div class="footer-col">
+          <h3>바로가기</h3>
+          <ul>
+            <li><a href="/about.html">연구원 소개</a></li>
+            <li><a href="/research.html">연구 분야</a></li>
+            <li><a href="/publications/">연구성과</a></li>
+            <li><a href="/insights/">데이터·인사이트</a></li>
+            <li><a href="/projects/">실험실</a></li>
+            <li><a href="/contact.html">문의</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>연락처</h3>
+          <div class="footer-info">
+            <span><strong>이메일</strong> office@kvmi.co.kr</span>
+            <span><strong>주소</strong> 서울특별시 서초구 잠원로 117, 101동 803호</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 벤처시장연구원 (Korea Venture Market Institute). All rights reserved.</span>
+        <span><a href="/privacy.html">개인정보 처리방침</a> · 사업자등록번호 119-30-71408 · 대표 배승욱</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/main.js?v=dbdb9afa4041"></script>
+  <script src="/js/data-charts.js?v=dbdb9afa4041"></script>
+</body>
+</html>

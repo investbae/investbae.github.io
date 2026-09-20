@@ -1,0 +1,10 @@
+{
+  "files": {
+    "data/bills.json": "84c3fd7dab2c4d75f609565d6ef4288322f5366ce87f6d3ebd6afaf743945693",
+    "data/laws.json": "c007b171ddfc63d9407c8a2526967c7311064e6a7060a25deb7e68447d6a263d",
+    "data/update-history.json": "afcc11da73d09c36b75b621c0571b88b746810793d1bfa71753c178c16496568"
+  },
+  "generated_at": "2026-08-23T18:29:05.980247+09:00",
+  "release_id": "20260823T182900",
+  "timezone": "Asia/Seoul"
+}

@@ -1,0 +1,34 @@
+{
+  "auto_publish": false,
+  "changed_datasets": [
+    "core_laws",
+    "venture_related_bills"
+  ],
+  "datasets": [
+    {
+      "dataset_id": "core_laws",
+      "note": null,
+      "status": "candidate_valid"
+    },
+    {
+      "dataset_id": "venture_related_bills",
+      "note": null,
+      "status": "candidate_valid"
+    },
+    {
+      "dataset_id": "venture_statistics",
+      "note": "KOSIS 인증키 미발급(보유 값이 플레이스홀더). 실제 키 발급 전에는 수집하지 않습니다.",
+      "status": "disabled"
+    },
+    {
+      "dataset_id": "venture_companies",
+      "note": "공공데이터포털 활용신청 미승인. 엔드포인트를 추측해 넣지 않습니다.",
+      "status": "disabled"
+    }
+  ],
+  "generated_at": "2026-09-20T06:17:06.876623+09:00",
+  "healthy": true,
+  "last_success_at": "2026-09-20T06:17:06.876623+09:00",
+  "published_this_run": false,
+  "release_id": "20260920T061702"
+}

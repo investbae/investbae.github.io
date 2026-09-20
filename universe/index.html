@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta name="build" content="pages-dbdb9afa4041">
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data:; connect-src 'self'; form-action 'none'; frame-src 'none'; base-uri 'self'; object-src 'none'; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#05070f">
+  <title>벤처 유니버스 | Venture Universe — 벤처시장연구원</title>
+  <meta name="description" content="우주의 500여 현상과 탐사 함대를 예술적·과학적으로 표현한 벤처시장연구원의 인터랙티브 우주 — 벤처 생태계의 은유.">
+  <link rel="canonical" href="https://kvmi.co.kr/universe/">
+  <meta property="og:title" content="벤처 유니버스 | Venture Universe">
+  <meta property="og:description" content="우주의 500여 현상과 탐사 함대 — 벤처 생태계의 은유.">
+  <meta property="og:image" content="https://kvmi.co.kr/assets/og-image.png">
+  <link rel="preload" href="/assets/fonts/pretendard-subset.woff2?v=dbdb9afa4041" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/css/pretendard.css">
+  <link rel="preload" as="image" href="/assets/cosmos-mobile.webp" type="image/webp" fetchpriority="high"
+        media="(max-width: 768px) and (orientation: portrait) and (max-aspect-ratio: 3/5)">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%231F3864'/%3E%3Ctext x='30' y='46' font-size='34' font-weight='800' fill='%23C9A227' text-anchor='middle' font-family='sans-serif'%3EK%3C/text%3E%3Ctext x='70' y='46' font-size='34' font-weight='800' fill='%23C9A227' text-anchor='middle' font-family='sans-serif'%3EV%3C/text%3E%3Ctext x='30' y='88' font-size='34' font-weight='800' fill='%23C9A227' text-anchor='middle' font-family='sans-serif'%3EM%3C/text%3E%3Ctext x='70' y='88' font-size='34' font-weight='800' fill='%23C9A227' text-anchor='middle' font-family='sans-serif'%3EI%3C/text%3E%3C/svg%3E">
+  <style>
+    :root { --gold:#C9A227; --gold-soft:#D8B94E; --ice:#C9D7E8; }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    html,body { height:100%; overflow:hidden; }
+    body {
+      font-family:"Pretendard Variable",Pretendard,system-ui,sans-serif;
+      background:#05060c; color:#E2E8F4;
+      background-image:
+        radial-gradient(1200px 800px at 75% -8%, rgba(31,56,100,.5), transparent 60%),
+        radial-gradient(900px 700px at 10% 110%, rgba(20,16,44,.7), transparent 60%);
+    }
+    #universe { position:fixed; inset:0; z-index:0; display:block; }
+    .u-wrap { position:relative; z-index:2; height:100%; display:flex; flex-direction:column; pointer-events:none; }
+    .u-top { display:flex; justify-content:space-between; align-items:flex-start; padding:26px 30px; }
+    .u-back {
+      pointer-events:auto; display:inline-flex; align-items:center; gap:8px;
+      color:var(--ice); font-size:14px; font-weight:600; letter-spacing:.01em;
+      padding:9px 16px; border:1px solid rgba(201,215,232,.25); border-radius:999px;
+      background:rgba(8,12,24,.5); backdrop-filter:blur(6px); transition:.2s;
+    }
+    .u-back:hover { border-color:var(--gold); color:#fff; }
+    .u-toggle { pointer-events:auto; width:40px; height:40px; border-radius:50%; cursor:pointer;
+      background:rgba(13,20,40,.55); color:var(--gold-soft); border:1px solid rgba(201,162,39,.38);
+      backdrop-filter:blur(6px); font-size:17px; opacity:.7; transition:.2s; }
+    .u-toggle:hover { opacity:1; transform:scale(1.08); }
+    .u-hero { margin-top:auto; padding:0 30px 46px; max-width:760px; }
+    .u-eyebrow { display:inline-block; font-size:12px; font-weight:700; letter-spacing:.16em; text-transform:uppercase; color:var(--gold-soft); margin-bottom:14px; }
+    .u-hero h1 { font-size:clamp(30px,5vw,56px); line-height:1.12; font-weight:800; letter-spacing:-.02em;
+      text-shadow:0 2px 40px rgba(0,0,0,.6); }
+    .u-hero h1 .g { color:var(--gold-soft); }
+    .u-hero p { margin-top:16px; font-size:clamp(15px,1.6vw,18px); color:#AEB8CC; line-height:1.7; max-width:620px;
+      text-shadow:0 1px 18px rgba(0,0,0,.7); }
+    .u-stats { display:flex; gap:30px; margin-top:22px; flex-wrap:wrap; }
+    .u-stats div { font-size:13px; color:#8995AD; }
+    .u-stats b { display:block; font-size:24px; font-weight:800; color:#fff; font-variant-numeric:tabular-nums; }
+    .u-legend { display:flex; flex-wrap:wrap; gap:8px 14px; margin-top:24px; pointer-events:none; }
+    .u-legend span { font-size:11.5px; color:#9AA6BD; letter-spacing:.02em;
+      border:1px solid rgba(201,215,232,.16); border-radius:6px; padding:4px 9px; background:rgba(8,12,24,.4); }
+    .u-hint { margin-top:18px; font-size:12.5px; color:#6E7895; }
+    @media (max-width:600px){ .u-hero{ padding:0 18px 30px;} .u-top{ padding:18px;} .u-legend{ display:none;} }
+    /* ── 안내 문구: 입력 수단(터치/마우스)에 따라 사실에 맞게 분기 ── */
+    .u-hint-touch{ display:none; }
+    @media (hover:none) and (pointer:coarse){
+      .u-hint-mouse{ display:none; }
+      .u-hint-touch{ display:inline; }
+    }
+    /* ── 모바일 정밀 조판 (≤768px·엔진 isMobile 경계와 일치·데스크톱 769px+ 불변) ── */
+    @media (max-width:768px){
+      .u-top{ padding:calc(12px + env(safe-area-inset-top)) calc(16px + env(safe-area-inset-right)) 10px calc(16px + env(safe-area-inset-left)); }
+      .u-back{ min-height:44px; padding:11px 16px; }                    /* 터치 타깃 44px */
+      .u-toggle{ width:44px; height:44px; font-size:18px; opacity:.85; }
+      .u-hero{ padding:0 20px calc(22px + env(safe-area-inset-bottom)) calc(20px + env(safe-area-inset-left)); }
+      .u-hero h1{ font-size:clamp(28px,7.6vw,34px); }
+      .u-hero p{ font-size:14.5px; line-height:1.62; }
+      .u-eyebrow{ margin-bottom:10px; font-size:11px; }
+      .u-stats{ display:grid; grid-template-columns:repeat(3,1fr); gap:14px 10px; margin-top:18px; }
+      .u-stats div{ font-size:11.5px; letter-spacing:-.01em; }
+      .u-stats b{ font-size:22px; margin-bottom:2px; }
+      .u-stat-sub{ display:none; }                                       /* 긴 괄호 주석은 모바일 생략 */
+      .u-hint{ margin-top:14px; font-size:12px; color:#7A849E; }
+    }
+  </style>
+</head>
+<body>
+  <canvas id="universe" aria-hidden="true"></canvas>
+  <div class="u-wrap">
+    <div class="u-top">
+      <a class="u-back" href="/index.html" aria-label="홈으로 돌아가기">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+        벤처시장연구원
+      </a>
+      <button class="u-toggle" id="uToggle" type="button" title="효과 끄기/켜기" aria-label="우주 효과 끄기/켜기">✧</button>
+    </div>
+    <div class="u-hero">
+      <span class="u-eyebrow">Venture Universe · Data Art</span>
+      <h1>우주의 500여 현상,<br><span class="g">벤처 생태계의 은유</span></h1>
+      <p>항성의 탄생과 소멸, 중력과 시공간, 은하의 거대구조, 워프·순간이동 탐사 함대까지. 실재 천체(메시에·NGC·명명 항성)와 벤처투자 생태계의 순환—탄생·성장·변동·수렴—을 우주의 언어로 예술적이고 과학적으로 표현했습니다.</p>
+      <div class="u-stats">
+        <div><b id="phenCount">500+</b>현상 카탈로그</div>
+        <div><b id="fleetCount">—</b>탐사 함대<span class="u-stat-sub"> (척 · 성능 따라 자동 조정)</span></div>
+        <div><b>8</b>현상 카테고리</div>
+      </div>
+      <div class="u-legend">
+        <span>STELLAR · 항성 진화</span><span>CATACLYSM · 격변·종말</span><span>GRAVITY · 중력·극한</span><span>GALACTIC · 은하·거대구조</span><span>NEBULA · 성운·성간물질</span><span>PLANETARY · 행성계·관측</span><span>COSMOLOGY · 우주론·시공간</span><span>EXPLORE · 탐사·문명</span>
+      </div>
+      <p class="u-hint"><span class="u-hint-mouse">마우스를 움직이면 시차(parallax)로 공간이 반응합니다 · 우측 상단 버튼으로 효과를 끌 수 있습니다.</span><span class="u-hint-touch">화면을 손끝으로 끌면 시차(parallax)로 공간이 움직입니다 · 우측 상단 ⏸ 버튼으로 움직임을 멈출 수 있습니다.</span></p>
+    </div>
+  </div>
+
+  <script src="/js/universe-toggle.js?v=dbdb9afa4041"></script>
+  <script src="/js/universe.js?v=dbdb9afa4041"></script>
+</body>
+</html>

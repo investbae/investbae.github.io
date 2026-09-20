@@ -1,0 +1,68 @@
+{
+ "name": "벤처시장 종합지수(참고용)",
+ "method": "신규 벤처투자액·신규 벤처펀드 결성액 2개 공개통계를 기준연도(2020)=100으로 지수화한 뒤 동일가중(각 1/2) 산술평균. 시장 평가·전망·투자판단이 아님.",
+ "base_year": 2020,
+ "weight": "동일가중(1/2)",
+ "components": [
+  "신규 벤처투자액",
+  "신규 벤처펀드 결성액"
+ ],
+ "source": "중소벤처기업부 「벤처투자 동향」(2024년 동향 2025-02-12: 2020~2024 / 2025년 잠정 별도 발표)",
+ "excluded": "벤처확인기업 수·매출·고용은 연도별 1차 source 시계열이 불완전(단일 시점·조사 base 상이·결측 연도)하여 합성지수에서 제외하고 스코어카드 현재값으로만 제시",
+ "series": [
+  {
+   "year": 2020,
+   "inv_index": 100.0,
+   "fund_index": 100.0,
+   "composite": 100.0,
+   "inv_eok": 80962,
+   "fund_eok": 99859,
+   "provisional": false
+  },
+  {
+   "year": 2021,
+   "inv_index": 196.8,
+   "fund_index": 178.7,
+   "composite": 187.8,
+   "inv_eok": 159371,
+   "fund_eok": 178481,
+   "provisional": false
+  },
+  {
+   "year": 2022,
+   "inv_index": 154.0,
+   "fund_index": 176.7,
+   "composite": 165.3,
+   "inv_eok": 124706,
+   "fund_eok": 176401,
+   "provisional": false
+  },
+  {
+   "year": 2023,
+   "inv_index": 134.8,
+   "fund_index": 130.5,
+   "composite": 132.7,
+   "inv_eok": 109133,
+   "fund_eok": 130328,
+   "provisional": false
+  },
+  {
+   "year": 2024,
+   "inv_index": 147.5,
+   "fund_index": 105.7,
+   "composite": 126.6,
+   "inv_eok": 119457,
+   "fund_eok": 105550,
+   "provisional": false
+  },
+  {
+   "year": 2025,
+   "inv_index": 168.0,
+   "fund_index": 143.2,
+   "composite": 155.6,
+   "inv_eok": 136000,
+   "fund_eok": 143000,
+   "provisional": true
+  }
+ ]
+}

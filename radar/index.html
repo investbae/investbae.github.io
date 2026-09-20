@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta name="build" content="pages-dbdb9afa4041">
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data:; connect-src 'self'; form-action 'none'; frame-src 'none'; base-uri 'self'; object-src 'none'; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#05070f">
+  <title>규제·입법 동향 (beta) | 벤처시장연구원</title>
+  <meta name="description" content="벤처투자·벤처기업·가상자산·신기술사업금융 등 벤처·투자 관련 공개 법령 자료를 키워드로 관측·정리하고, 자본시장법 등 핵심 8개 법령의 목적 조항을 수록한 자료. 출처·확인일 명기. 법률·투자 자문이 아닙니다.">
+  <link rel="canonical" href="https://kvmi.co.kr/radar/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="규제·입법 동향 (beta) | 벤처시장연구원">
+  <meta property="og:description" content="벤처·투자 관련 공개 입법·법령 자료를 분야별로 관측·정리(법제처 자료 기준).">
+  <meta property="og:url" content="https://kvmi.co.kr/radar/">
+  <meta property="og:site_name" content="벤처시장연구원">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="og:image" content="https://kvmi.co.kr/assets/og-image.png">
+  <link rel="preload" href="/assets/fonts/pretendard-subset.woff2?v=dbdb9afa4041" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/css/pretendard.css">
+  <link rel="preload" as="image" href="/assets/cosmos-mobile.webp" type="image/webp" fetchpriority="high"
+        media="(max-width: 768px) and (orientation: portrait) and (max-aspect-ratio: 3/5)">
+  <link rel="stylesheet" href="/css/style.css?v=dbdb9afa4041">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%231F3864'/%3E%3Ctext x='30' y='46' font-size='34' font-weight='800' fill='%23C9A227' text-anchor='middle' font-family='sans-serif'%3EK%3C/text%3E%3Ctext x='70' y='46' font-size='34' font-weight='800' fill='%23C9A227' text-anchor='middle' font-family='sans-serif'%3EV%3C/text%3E%3Ctext x='30' y='88' font-size='34' font-weight='800' fill='%23C9A227' text-anchor='middle' font-family='sans-serif'%3EM%3C/text%3E%3Ctext x='70' y='88' font-size='34' font-weight='800' fill='%23C9A227' text-anchor='middle' font-family='sans-serif'%3EI%3C/text%3E%3C/svg%3E">
+  <style>
+    .ledger-disclaimer { background:rgba(184,151,58,.08); border:1px solid rgba(184,151,58,.28); border-radius:12px; padding:14px 18px; font-size:13px; color:var(--text-muted); line-height:1.68; margin-bottom:6px; }
+    .ledger-disclaimer b { color:var(--gold-soft); font-weight:700; }
+    .radar-meta { display:flex; flex-wrap:wrap; gap:8px 18px; font-size:12.5px; color:var(--text-dim); margin:18px 0 4px; }
+    .radar-meta b { color:var(--gold-soft); font-weight:700; }
+    .field-filter { display:flex; flex-wrap:wrap; gap:8px; margin:14px 0 6px; }
+    .field-filter button { font-size:13px; color:var(--text-muted); background:transparent; border:1px solid var(--line); border-radius:20px; padding:6px 15px; cursor:pointer; transition:.18s; }
+    .field-filter button:hover { border-color:rgba(184,151,58,.45); color:var(--gold-soft); }
+    .field-filter button.active { background:rgba(184,151,58,.16); color:var(--gold-soft); border-color:rgba(184,151,58,.5); font-weight:700; }
+    .scope-note { font-size:11.5px; color:var(--text-dim); margin:2px 0 0; }
+    .law-list { display:grid; gap:10px; }
+    .law-item { display:grid; grid-template-columns:1fr auto; gap:6px 16px; align-items:start; padding:16px 18px; border:1px solid var(--line); border-radius:12px; background:var(--card-bg); }
+    .law-item .t { font-size:15px; font-weight:600; color:#fff; line-height:1.45; }
+    .law-item .gate { display:flex; flex-wrap:wrap; gap:4px 12px; font-size:11px; color:var(--text-dim); margin-top:7px; }
+    .law-item .gate b { color:var(--text-muted); font-weight:600; }
+    .law-item .badge { font-size:11px; font-weight:700; padding:3px 9px; border-radius:6px; white-space:nowrap; height:fit-content; }
+    .badge.arrived { background:rgba(80,130,200,.16); color:#9ec0ee; border:1px solid rgba(80,130,200,.36); }
+    .badge.upcoming { background:rgba(184,151,58,.18); color:var(--gold-soft); border:1px solid rgba(184,151,58,.4); }
+    .badge.unconfirmed { background:rgba(255,255,255,.05); color:var(--text-muted); border:1px solid var(--line); }
+    .badge.hold { background:rgba(200,90,90,.12); color:#e3a1a1; border:1px solid rgba(200,90,90,.3); }
+    .law-item a.src { font-size:12px; color:var(--gold-soft); white-space:nowrap; }
+    .law-item .days { font-size:11.5px; color:var(--text-dim); margin-top:5px; }
+    .sec-h { display:flex; align-items:baseline; gap:10px; margin:8px 0 14px; }
+    .sec-h h2 { font-size:19px; } .sec-h .c { font-size:13px; color:var(--text-dim); }
+    .empty { font-size:13.5px; color:var(--text-dim); padding:14px 0; }
+    .cal-list { display:grid; gap:8px; }
+    .cal-item { display:flex; justify-content:space-between; gap:12px; align-items:center; padding:12px 16px; border:1px solid var(--line); border-radius:10px; background:var(--card-bg); }
+    .cal-item .ct { font-size:13.5px; color:#fff; }
+    .cal-item .cd { font-size:12.5px; color:var(--text-dim); white-space:nowrap; }
+    /* ── 모바일 정교화 (≤768px 전용·데스크톱 렌더링 무변경·2026-07-22) ── */
+    @media (max-width:768px){
+      main p, main li, .ledger-disclaimer, .law-item .t, .cal-item .ct, .scope-note { word-break:keep-all; overflow-wrap:anywhere; }
+      main h1, main h2, main h3, main p { text-wrap:pretty; }
+      .ledger-disclaimer { padding:12px 14px; }
+      /* 필터 칩 — 가로 스크롤 행 + 스냅 + 44px 히트영역 */
+      .field-filter { flex-wrap:nowrap; overflow-x:auto; -webkit-overflow-scrolling:touch; scroll-snap-type:x proximity;
+        scrollbar-width:none; padding-bottom:2px;
+        -webkit-mask-image:linear-gradient(90deg,#000 0,#000 calc(100% - 26px),transparent);
+        mask-image:linear-gradient(90deg,#000 0,#000 calc(100% - 26px),transparent); }
+      .field-filter::-webkit-scrollbar { display:none; }
+      .field-filter button { flex:0 0 auto; scroll-snap-align:start; min-height:44px; padding:9px 16px; white-space:nowrap; }
+      /* 법령 카드 그리드 — 소형 폰(≤360px)에서 minmax(310px) 오버플로 차단 */
+      div[style*="minmax(310px"] { grid-template-columns:1fr !important; }
+      /* 원문 링크 — 히트박스 확장(padding+음수 margin·시각 불변) */
+      a[href^="https://www.law.go.kr"] { display:inline-block; padding:13px 10px; margin:-13px -10px; }
+      .law-item { padding:14px; }
+      .law-item a.src { display:inline-block; padding:15px 12px; margin:-15px -12px; }
+      .cal-item { flex-wrap:wrap; padding:12px 14px; }
+      .cal-item .cd { white-space:normal; }
+      main .nav__cta { display:inline-flex; align-items:center; justify-content:center; min-height:44px; }
+    }
+    @supports (padding: max(0px)){
+      @media (max-width:768px){
+        .container { padding-left:max(var(--gut), env(safe-area-inset-left)); padding-right:max(var(--gut), env(safe-area-inset-right)); }
+      }
+    }
+    @media (prefers-reduced-motion: reduce){
+      .field-filter button { transition:none; }
+    }
+  </style>
+</head>
+<body>
+  <canvas id="cosmicCanvas" aria-hidden="true"></canvas>
+  <div class="cosmic-nebula" aria-hidden="true"></div>
+  <a href="#main" class="skip-link">본문 바로가기</a>
+
+  <header class="site-header" id="header">
+    <div class="container nav">
+      <a href="/index.html" class="brand" aria-label="벤처시장연구원 홈">
+        <span class="brand__mark" aria-hidden="true"><b>KVMI</b></span>
+        <span class="brand__text">
+          <span class="brand__name">벤처시장연구원</span>
+          <span class="brand__en">Korea Venture Market Institute</span>
+        </span>
+      </a>
+      <nav class="nav__menu" id="navMenu" aria-label="주 메뉴">
+        <a href="/about.html" class="nav__link">연구원 소개</a>
+        <a href="/research.html" class="nav__link">연구 분야</a>
+        <a href="/publications/" class="nav__link">연구성과</a>
+        <a href="/insights/" class="nav__link active" aria-current="page">데이터·인사이트</a>
+        <a href="/data/" class="nav__link nav__sub">벤처투자 동향</a>
+        <a href="/indicators/" class="nav__link nav__sub">벤처기업 지표</a>
+        <a href="/radar/#laws" class="nav__link nav__sub" aria-current="page">법령 현황</a>
+        <a href="/radar/#board" class="nav__link nav__sub" aria-current="page">입법 동향</a>
+        <a href="/projects/" class="nav__link">실험실</a>
+        <a href="/contact.html" class="nav__link">문의</a>
+        <a href="/en/index.html" class="nav__link" lang="en" aria-label="View in English">EN</a>
+        <a href="/contact.html" class="nav__cta">연구·자문 문의</a>
+      </nav>
+      <button class="nav__toggle" id="navToggle" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="navMenu">
+        <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="현재 위치"><a href="/index.html">홈</a> &nbsp;/&nbsp; <span>규제·입법 동향</span></nav>
+        <div class="page-hero__inner">
+          <h1>규제·입법 동향 <span style="font-size:15px;color:var(--gold-soft);font-weight:600;vertical-align:middle;">beta</span></h1>
+          <p>벤처투자·벤처기업·가상자산·신기술사업금융 등 벤처·투자 관련 공개 법령·입법 자료를 <strong>수집 키워드 기준으로 관측·정리</strong>한 자료입니다. 자본시장법·여신전문금융업법 등 핵심 8개 법령의 목적 조항은 아래에 별도로 수록합니다. 각 항목에 출처·확인일을 명기하며, 법률 해석·자문이나 투자 권유가 아닙니다.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 주요 벤처·투자 법령 (제1조 목적 verbatim·법제처 원문·저작권법 §24의2) -->
+    <section class="section">
+      <div class="container">
+        <div class="sec-h" id="laws"><h2>주요 벤처·투자 법령</h2><span class="c">핵심 8개 법령 · 목적 조항</span></div>
+        <p style="font-size:13px;color:var(--text-muted);line-height:1.65;margin:-6px 0 18px;">벤처투자·자본시장 핵심 법령의 <strong>목적(제1조)과 최근 시행일</strong>입니다. 아래 목적 조항은 <strong style="color:var(--gold-soft);">법제처 국가법령정보 원문을 그대로 인용</strong>한 것으로(요약·해설이 아님), 「저작권법」 제24조의2에 따른 발췌입니다.</p>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:16px;">
+          <div class="law-card" data-law-id="013679" style="padding:20px 22px;border:1px solid var(--line);border-radius:14px;background:var(--card-bg);">
+            <span style="font-size:11px;font-weight:700;padding:3px 9px;border-radius:6px;background:rgba(184,151,58,.18);color:var(--gold-soft);border:1px solid rgba(184,151,58,.4);">벤처투자</span>
+            <h3 style="font-size:16px;margin:11px 0 8px;color:#fff;line-height:1.4;">벤처투자 촉진에 관한 법률</h3>
+            <p style="font-size:13px;color:var(--text-muted);line-height:1.66;"><strong style="color:var(--gold-soft);">제1조(목적)</strong> 이 법은 벤처투자에 필요한 사항을 정하여 창업기업, 중소기업, 벤처기업 등에 대한 투자를 촉진하고 벤처투자 산업을 육성함으로써 중소기업 등의 건전한 성장기반 조성을 통한 국민경제의 균형 있는 발전에 기여함을 목적으로 한다.</p>
+            <div style="font-size:12px;color:var(--text-dim);margin-top:12px;border-top:1px solid var(--line);padding-top:10px;">🗓️ 시행 2026.07.01 · <a href="https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=281983" target="_blank" rel="noopener" style="color:var(--gold-soft);">법제처 원문 →</a></div>
+          </div>
+          <div class="law-card" data-law-id="001471" style="padding:20px 22px;border:1px solid var(--line);border-radius:14px;background:var(--card-bg);">
+            <span style="font-size:11px;font-weight:700;padding:3px 9px;border-radius:6px;background:rgba(91,134,201,.18);color:#9ec0ee;border:1px solid rgba(91,134,201,.4);">벤처기업</span>
+            <h3 style="font-size:16px;margin:11px 0 8px;color:#fff;line-height:1.4;">벤처기업육성에 관한 특별법</h3>
+            <p style="font-size:13px;color:var(--text-muted);line-height:1.66;"><strong style="color:var(--gold-soft);">제1조(목적)</strong> 이 법은 기존 기업의 벤처기업으로의 전환과 벤처기업의 창업을 촉진하여 우리 산업의 구조조정을 원활히 하고 경쟁력을 높이는 데에 기여하는 것을 목적으로 한다.</p>
+            <div style="font-size:12px;color:var(--text-dim);margin-top:12px;border-top:1px solid var(--line);padding-top:10px;">🗓️ 시행 2026.07.01 · <a href="https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284081" target="_blank" rel="noopener" style="color:var(--gold-soft);">법제처 원문 →</a></div>
+          </div>
+          <div class="law-card" data-law-id="000506" style="padding:20px 22px;border:1px solid var(--line);border-radius:14px;background:var(--card-bg);">
+            <span style="font-size:11px;font-weight:700;padding:3px 9px;border-radius:6px;background:rgba(94,176,168,.18);color:#7fd3c8;border:1px solid rgba(94,176,168,.4);">신기술금융</span>
+            <h3 style="font-size:16px;margin:11px 0 8px;color:#fff;line-height:1.4;">기술보증기금법</h3>
+            <p style="font-size:13px;color:var(--text-muted);line-height:1.66;"><strong style="color:var(--gold-soft);">제1조(목적)</strong> 이 법은 기술보증기금을 설립하여 기술보증제도를 정착ㆍ발전시킴으로써 신기술사업에 대한 자금의 공급을 원활하게 하고 나아가 지역균형발전 및 국민경제의 균형적 발전에 이바지함을 목적으로 한다.</p>
+            <div style="font-size:12px;color:var(--text-dim);margin-top:12px;border-top:1px solid var(--line);padding-top:10px;">🗓️ 시행 2026.01.02 · <a href="https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=277111" target="_blank" rel="noopener" style="color:var(--gold-soft);">법제처 원문 →</a></div>
+          </div>
+          <div class="law-card" data-law-id="014474" style="padding:20px 22px;border:1px solid var(--line);border-radius:14px;background:var(--card-bg);">
+            <span style="font-size:11px;font-weight:700;padding:3px 9px;border-radius:6px;background:rgba(138,123,184,.18);color:#b9aede;border:1px solid rgba(138,123,184,.4);">가상자산</span>
+            <h3 style="font-size:16px;margin:11px 0 8px;color:#fff;line-height:1.4;">가상자산 이용자 보호 등에 관한 법률</h3>
+            <p style="font-size:13px;color:var(--text-muted);line-height:1.66;"><strong style="color:var(--gold-soft);">제1조(목적)</strong> 이 법은 가상자산 이용자 자산의 보호와 불공정거래행위 규제 등에 관한 사항을 정함으로써 가상자산 이용자의 권익을 보호하고 가상자산시장의 투명하고 건전한 거래질서를 확립하는 것을 목적으로 한다.</p>
+            <div style="font-size:12px;color:var(--text-dim);margin-top:12px;border-top:1px solid var(--line);padding-top:10px;">🗓️ 시행 2024.07.19 · <a href="https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=261099" target="_blank" rel="noopener" style="color:var(--gold-soft);">법제처 원문 →</a></div>
+          </div>
+          <div class="law-card" data-law-id="010513" style="padding:20px 22px;border:1px solid var(--line);border-radius:14px;background:var(--card-bg);">
+            <span style="font-size:11px;font-weight:700;padding:3px 9px;border-radius:6px;background:rgba(201,138,138,.18);color:#e0a3a3;border:1px solid rgba(201,138,138,.4);">자본시장</span>
+            <h3 style="font-size:16px;margin:11px 0 8px;color:#fff;line-height:1.4;">자본시장과 금융투자업에 관한 법률</h3>
+            <p style="font-size:13px;color:var(--text-muted);line-height:1.66;"><strong style="color:var(--gold-soft);">제1조(목적)</strong> 이 법은 자본시장에서의 금융혁신과 공정한 경쟁을 촉진하고 투자자를 보호하며 금융투자업을 건전하게 육성함으로써 자본시장의 공정성ㆍ신뢰성 및 효율성을 높여 국민경제의 발전에 이바지함을 목적으로 한다.</p>
+            <div style="font-size:12px;color:var(--text-dim);margin-top:12px;border-top:1px solid var(--line);padding-top:10px;">🗓️ 시행 2026.08.04 · <a href="https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=283193" target="_blank" rel="noopener" style="color:var(--gold-soft);">법제처 원문 →</a></div>
+          </div>
+          <div class="law-card" data-law-id="000536" style="padding:20px 22px;border:1px solid var(--line);border-radius:14px;background:var(--card-bg);">
+            <span style="font-size:11px;font-weight:700;padding:3px 9px;border-radius:6px;background:rgba(120,180,120,.18);color:#9ed79e;border:1px solid rgba(120,180,120,.4);">여신금융</span>
+            <h3 style="font-size:16px;margin:11px 0 8px;color:#fff;line-height:1.4;">여신전문금융업법</h3>
+            <p style="font-size:13px;color:var(--text-muted);line-height:1.66;"><strong style="color:var(--gold-soft);">제1조(목적)</strong> 이 법은 신용카드업, 시설대여업(施設貸與業), 할부금융업(割賦金融業) 및 신기술사업금융업(新技術事業金融業)을 하는 자의 건전하고 창의적인 발전을 지원함으로써 국민의 금융편의를 도모하고 국민경제의 발전에 이바지함을 목적으로 한다.</p>
+            <div style="font-size:12px;color:var(--text-dim);margin-top:12px;border-top:1px solid var(--line);padding-top:10px;">🗓️ 시행 2025.10.01 · <a href="https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=277267" target="_blank" rel="noopener" style="color:var(--gold-soft);">법제처 원문 →</a></div>
+          </div>
+          <div class="law-card" data-law-id="011141" style="padding:20px 22px;border:1px solid var(--line);border-radius:14px;background:var(--card-bg);">
+            <span style="font-size:11px;font-weight:700;padding:3px 9px;border-radius:6px;background:rgba(110,170,150,.18);color:#8fd0b8;border:1px solid rgba(110,170,150,.4);">농식품펀드</span>
+            <h3 style="font-size:16px;margin:11px 0 8px;color:#fff;line-height:1.4;">농림수산식품투자조합 결성 및 운용에 관한 법률</h3>
+            <p style="font-size:13px;color:var(--text-muted);line-height:1.66;"><strong style="color:var(--gold-soft);">제1조(목적)</strong> 이 법은 농림수산식품산업에 대한 투자를 촉진하고 농림수산식품경영체의 건전한 성장기반을 조성하여 국민경제의 균형 있는 발전에 이바지함을 목적으로 한다.</p>
+            <div style="font-size:12px;color:var(--text-dim);margin-top:12px;border-top:1px solid var(--line);padding-top:10px;">🗓️ 시행 2023.12.21 · <a href="https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=251935" target="_blank" rel="noopener" style="color:var(--gold-soft);">법제처 원문 →</a></div>
+          </div>
+          <div class="law-card" data-law-id="001472" style="padding:20px 22px;border:1px solid var(--line);border-radius:14px;background:var(--card-bg);">
+            <span style="font-size:11px;font-weight:700;padding:3px 9px;border-radius:6px;background:rgba(214,160,90,.18);color:#e8be84;border:1px solid rgba(214,160,90,.4);">창업</span>
+            <h3 style="font-size:16px;margin:11px 0 8px;color:#fff;line-height:1.4;">중소기업창업 지원법</h3>
+            <p style="font-size:13px;color:var(--text-muted);line-height:1.66;"><strong style="color:var(--gold-soft);">제1조(목적)</strong> 이 법은 국민 누구나 창의적인 아이디어와 혁신적인 기술을 바탕으로 기업가정신을 발휘하여 창업에 도전하고 글로벌 선도기업으로 성장할 수 있는 창업생태계를 조성하여, 디지털경제 시대에 새로운 국가경제의 성장동력과 일자리를 창출하는 창업국가 건설을 목적으로 한다.</p>
+            <div style="font-size:12px;color:var(--text-dim);margin-top:12px;border-top:1px solid var(--line);padding-top:10px;">🗓️ 시행 2026.07.01 · <a href="https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=281995" target="_blank" rel="noopener" style="color:var(--gold-soft);">법제처 원문 →</a></div>
+          </div>
+        </div>
+        <p style="font-size:12px;color:var(--text-dim);margin-top:16px;text-align:center;">※ 위 목적 조항은 법제처 국가법령정보 원문의 직접 인용(verbatim)이며, 벤처시장연구원의 해석·자문이 아닙니다. 정확한 전문·개정 연혁은 각 원문 링크에서 확인하시기 바랍니다.</p>
+      </div>
+    </section>
+
+    <!-- 관련 발의 의안 (열린국회정보 원문 메타데이터·해석 없음) -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="sec-h" id="bills"><h2>관련 발의 의안</h2><span class="c">열린국회정보 · 제22대 국회</span></div>
+        <div id="billsMount" class="bills">
+          <p class="bills__note">의안 자료를 불러오는 중입니다…</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="ledger-disclaimer">
+          <b>※ 국회 의안정보시스템 미연동 안내.</b> 본 자료는 <b>법제처 국가법령정보(공동활용) 공개 자료를 키워드로 관측</b>한 것으로, 국회 입법 절차(위원회 심사·본회의 의결 등)와 실시간 연동되지 않습니다. 절차 단계가 원문으로 확인되지 않은 항목은 <b>「절차단계 미확인」</b>으로 표시하며, 시행일·절차·법적 효력은 반드시 <b>원문 링크</b>에서 직접 확인하셔야 합니다.
+        </div>
+        <div class="radar-meta" id="meta"><span>불러오는 중…</span></div>
+
+        <div style="margin-top:14px;padding:18px 20px;border:1px solid var(--line);border-radius:12px;background:rgba(184,151,58,.06);display:flex;flex-wrap:wrap;gap:12px 18px;align-items:center;justify-content:space-between;">
+          <div>
+            <div style="font-size:14.5px;font-weight:700;color:#fff;">법령 원문 카드 (PDF)</div>
+            <div style="font-size:12.5px;color:var(--text-dim);margin-top:4px;">벤처·투자 핵심 법령의 <strong>법제처 원문을 그대로 발췌</strong>한 식별용 카드 모음입니다(요약·해설 아님·원문 링크 우선). 「저작권법」 제24조의2·제28조.</div>
+          </div>
+          <a href="/assets/vmi-law-cards-2026-06.pdf" target="_blank" rel="noopener" class="nav__cta" style="white-space:nowrap;">PDF 내려받기 ↓</a>
+        </div>
+
+        <div style="margin-top:26px;">
+          <div class="sec-h"><h2>관측 범위</h2><span class="c">분야별 보기</span></div>
+          <div class="field-filter" id="fieldFilter" role="group" aria-label="분야 필터">
+            <button class="active" data-field="all">전체</button>
+            <button data-field="venture">벤처투자·벤처기업</button>
+            <button data-field="crypto">가상자산·디지털자산</button>
+            <button data-field="techfin">신기술금융·기술보증</button>
+          </div>
+          <p class="scope-note">수집 키워드는 벤처투자·벤처기업·창업투자·모태펀드·벤처펀드·신기술사업금융·가상자산·디지털자산·조건부지분 9개입니다. 분야는 법령·안건명의 키워드로 자동 분류하며, 어느 분야에도 속하지 아니하는 항목은 「기타」(전체에서만 표시)로 둡니다. 망라적 수집이 아닙니다.</p>
+        </div>
+
+        <div style="margin-top:28px;">
+          <div class="sec-h"><h2>입법·법령 관측 보드</h2><span class="c" id="board-c"></span></div>
+          <div class="law-list" id="board"><div class="empty">불러오는 중…</div></div>
+        </div>
+
+        <div style="margin-top:40px;">
+          <div class="sec-h"><h2>시행 예정 (원문 시행일 확인분)</h2><span class="c" id="cal-c"></span></div>
+          <p style="font-size:12.5px;color:var(--text-dim);margin:-6px 0 14px;">원문에서 <strong>시행일이 확인된 항목</strong>만 표시합니다(키워드 추정일은 표시하지 않습니다). 시행예정일까지 남은 일수는 단순 사실 정보이며 대응 권고가 아닙니다.</p>
+          <div class="cal-list" id="cal"><div class="empty">불러오는 중…</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt">
+      <div class="container">
+        <div class="notice">
+          <h2 style="font-size:18px;margin-bottom:12px;">데이터 안내</h2>
+          <ul style="display:grid;gap:10px;">
+            <li style="font-size:14px;color:var(--text-muted);line-height:1.7;">본 자료는 <strong>법제처 공개 자료(국가법령정보 공동활용)</strong>를 키워드로 관측·정리한 일반 정보이며, <strong>법률 해석·자문·규제 영향 분석·투자 권유가 아닙니다</strong>. 절차 단계·중요도·리스크에 대한 판단을 제공하지 않습니다.</li>
+            <li style="font-size:14px;color:var(--text-muted);line-height:1.7;"><strong>발의 의안은 열린국회정보 OpenAPI 수집분</strong>이며, 국회가 공개한 의안 메타데이터와 공식 처리결과만 그대로 옮깁니다. 위원회 심사 등 <strong>세부 절차 단계는 연동하지 않으며</strong>, 처리결과가 제공되지 않은 항목은 「처리결과 미제공」으로 표시합니다. 심사 전망·통과 가능성은 표시하지 않습니다.</li>
+            <li style="font-size:14px;color:var(--text-muted);line-height:1.7;">제안이유 등 원문 발췌는 「저작권법」 제28조(공표 저작물의 인용) 범위 내 <strong>최소 식별용</strong>이며, 전문·신구조문 전체는 <strong>원문 링크</strong>로 안내합니다. 담당자 개인정보는 수집·표시하지 않습니다.</li>
+            <li style="font-size:14px;color:var(--text-muted);line-height:1.7;">키워드 매칭 특성상 관련성이 낮은 항목이 포함될 수 있습니다. 구체적 적용은 반드시 <strong>원문 및 법률전문가 확인</strong>이 필요합니다.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0;">
+      <div class="container" style="display:flex;flex-wrap:wrap;gap:12px;justify-content:center;">
+        <a href="/data/" class="btn btn--ghost">벤처투자 동향 보기 →</a>
+        <a href="/indicators/" class="btn btn--ghost">벤처기업 지표 보기 →</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container" style="text-align:center;">
+        <h2 style="font-size:22px;margin-bottom:10px;">입법·규제 데이터셋 구축 문의</h2>
+        <p style="color:var(--text-muted);margin-bottom:22px;">특정 분야(자본시장·벤처투자·여신금융·농식품펀드)의 <strong>공개자료 기반 입법·규제 동향 데이터셋 구축</strong> 및 정기 모니터링 체계 수립을 문의해 주시기 바랍니다. (법률 자문·투자 판단 제외)</p>
+        <a href="/contact.html" class="nav__cta" style="display:inline-block;">문의하기 →</a>
+      </div>
+    </section>
+  </main>
+
+    <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="brand__name" style="font-size:18px;">벤처시장연구원</span><br>
+          <span class="brand__en">Korea Venture Market Institute</span>
+          <a href="/universe/" style="display:inline-block; margin-top:12px; font-size:13px; color:var(--gold-soft); letter-spacing:.01em;">✦ 벤처 유니버스 — 인터랙티브 우주 보기 →</a>
+        </div>
+        <div class="footer-col">
+          <h3>바로가기</h3>
+          <ul>
+            <li><a href="/about.html">연구원 소개</a></li>
+            <li><a href="/research.html">연구 분야</a></li>
+            <li><a href="/publications/">연구성과</a></li>
+            <li><a href="/insights/">데이터·인사이트</a></li>
+            <li><a href="/projects/">실험실</a></li>
+            <li><a href="/contact.html">문의</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>연락처</h3>
+          <div class="footer-info">
+            <span><strong>이메일</strong> office@kvmi.co.kr</span>
+            <span><strong>주소</strong> 서울특별시 서초구 잠원로 117, 101동 803호</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 벤처시장연구원 (Korea Venture Market Institute). All rights reserved.</span>
+        <span><a href="/privacy.html">개인정보 처리방침</a> · 사업자등록번호 119-30-71408 · 대표 배승욱</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/main.js?v=dbdb9afa4041"></script>
+  <script src="/js/radar-board.js?v=dbdb9afa4041"></script>
+  <script type="module" src="/js/law-cards.js"></script>
+</body>
+</html>

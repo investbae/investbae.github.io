@@ -1,0 +1,44 @@
+{
+  "datasets": [
+    {
+      "checked_at": "2026-09-20T06:17:05.878283+09:00",
+      "dataset_id": "core_laws",
+      "note": null,
+      "output": "/data/laws.json",
+      "record_count": 8,
+      "status": "candidate_valid",
+      "title": "벤처·투자 핵심 법령 현황"
+    },
+    {
+      "checked_at": "2026-09-20T06:17:06.861613+09:00",
+      "dataset_id": "venture_related_bills",
+      "note": null,
+      "output": "/data/bills.json",
+      "record_count": 60,
+      "status": "candidate_valid",
+      "title": "벤처·자본시장 관련 발의 의안"
+    },
+    {
+      "checked_at": null,
+      "dataset_id": "venture_statistics",
+      "note": "KOSIS 인증키 미발급(보유 값이 플레이스홀더). 실제 키 발급 전에는 수집하지 않습니다.",
+      "output": "/data/venture-investment.json",
+      "record_count": null,
+      "status": "disabled",
+      "title": "벤처투자 공식통계(KOSIS)"
+    },
+    {
+      "checked_at": null,
+      "dataset_id": "venture_companies",
+      "note": "공공데이터포털 활용신청 미승인. 엔드포인트를 추측해 넣지 않습니다.",
+      "output": "/data/venture-companies.json",
+      "record_count": null,
+      "status": "disabled",
+      "title": "벤처확인기업 명단(공공데이터포털)"
+    }
+  ],
+  "generated_at": "2026-09-20T06:17:06.878205+09:00",
+  "release_id": "20260920T061702",
+  "schema_version": "1.0",
+  "timezone": "Asia/Seoul"
+}
