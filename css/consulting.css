@@ -1,0 +1,246 @@
+﻿/* KVMI consulting edition: visual presentation only; loaded last. */
+:root {
+  --space-1:#ffffff; --space-2:#f5f3fa; --navy:#201940; --navy-soft:#3e2b73;
+  --gold:#6330ba; --gold-soft:#6030aa; --gold-deep:#47227e;
+  --heading:#201632; --text:#302c3c; --text-muted:#595466; --text-dim:#655e73;
+  --line:#ddd9e6; --line-soft:#ebe7f1; --card-bg:#ffffff; --card-bg-2:#f5f3fa;
+}
+body.institution-site,body.institution-feed { background:#fff!important; color:#302c3c; }
+.institution-site .site-header,.institution-site .site-header.scrolled { background:#fff; border-color:#e9e5ef; }
+.institution-site .brand__mark { background:#5126a5; padding:13px 11px; }
+.institution-site .brand__mark b { font-family:var(--sans); font-weight:750; letter-spacing:-.045em; }
+.institution-site .brand__name { color:#26173e; }
+.institution-site .brand__en { color:#62596e; }
+.institution-site .nav__link { color:#42384f; }
+.institution-site .nav__link:hover,.institution-site .nav__link.active { background:#f0eafa; color:#502590; }
+.institution-site .nav__link.active::after { background:#7140c4; }
+.institution-site .nav__cta { background:#5425a0; color:#fff!important; }
+.institution-site .nav__cta:hover { background:#361567; }
+:is(.institution-site,.institution-feed) :is(a,button,input,select,textarea,summary):focus-visible { outline:3px solid #9d55f5; outline-offset:4px; }
+.institution-site :is(.btn--primary,.btn-primary,.btn--navy) { background:#5425a0; color:#fff; }
+.institution-site .btn:hover { background:#361567; color:#fff; }
+.institution-site .btn--ghost,.institution-site .btn--outline { color:#5425a0; border-color:#baa8d0; }
+.institution-site .eyebrow { color:#6530b0; font-size:11px; font-weight:700; letter-spacing:.15em; }
+.institution-site .section { padding-block:88px; }
+.institution-site .section--alt { background:#f6f3fa; }
+.institution-site .section-head h2,.institution-site .home-section-heading h2 { color:#26173e; font-weight:650; letter-spacing:-.04em; }
+.institution-site .page-hero { background:linear-gradient(110deg,#f3ecff 0%,#f8f5fe 56%,#e9f8f4 100%)!important; border-bottom:1px solid #dfd6ed; padding-block:64px 48px; }
+.institution-site .page-hero h1 { color:#301652; font-weight:650; }
+.institution-site .page-hero h1::after { width:64px; height:4px; background:#7841d0; }
+.institution-site .page-hero p { color:#574764; }
+.institution-site .breadcrumb { color:#66457d; }
+/* Art-directed cover. The generated architecture is purely decorative. */
+.institution-site .consulting-hero { position:relative; isolation:isolate; overflow:hidden; background:#160e35; color:#fff; }
+.consulting-hero__image { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:65% center; z-index:-2; }
+.consulting-hero::before { content:''; position:absolute; inset:0; z-index:-1; background:linear-gradient(90deg,rgba(20,10,47,.97) 0%,rgba(27,13,58,.92) 33%,rgba(28,15,66,.56) 61%,rgba(30,13,52,.07) 100%); }
+.consulting-hero__content { padding-block:82px 42px; min-height:580px; position:relative; }
+.institution-site .consulting-hero .eyebrow { color:#d8c4ff; font-size:11px; letter-spacing:.18em; }
+.institution-site .consulting-hero h1 { max-width:840px; color:#fff; font-weight:650; font-size:clamp(40px,4.9vw,70px); line-height:1.19; letter-spacing:-.055em; margin:30px 0 26px; }
+.institution-site .consulting-hero h1 span { color:#c8a5ff; }
+.institution-site .consulting-hero__lead { color:#eee9fb; font-size:18px; line-height:1.8; max-width:620px; margin:0; }
+.consulting-hero__actions { display:flex; align-items:center; flex-wrap:wrap; gap:28px; margin-top:32px; }
+.institution-site .consulting-hero__actions .btn { color:#122b29; background:#8ff1d1; border:1px solid #8ff1d1; padding:15px 23px; font-size:15px; gap:30px; min-height:52px; }
+.institution-site .consulting-hero__actions .btn:hover { background:#baffeb; color:#122b29; }
+.institution-site .consulting-hero__link { color:#fff; display:inline-flex; align-items:center; gap:22px; font-size:14px; min-height:44px; border-bottom:1px solid #a897be; }
+.consulting-hero__signature { display:flex; align-items:center; gap:16px; margin-top:65px; color:#d8cce8; font-size:10px; letter-spacing:.17em; }
+.consulting-hero__signature i { display:block; width:29px; height:1px; background:#987aae; }
+html[lang=en] .consulting-hero h1 { font-size:clamp(39px,4.3vw,62px); max-width:930px; letter-spacing:-.045em; }
+/* Four destinations, one compact editorial navigation section. */
+.consulting-portals { padding:40px 0 32px; background:#fff; }
+.consulting-portals__intro { display:flex; align-items:center; justify-content:space-between; gap:20px; padding-bottom:24px; }
+.consulting-portals__intro p { color:#574d65; font-size:15px; margin:0; }
+.consulting-portals__grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); border-top:1px solid #ded7e8; border-bottom:1px solid #ded7e8; }
+.consulting-route { display:grid; grid-template-columns:22px minmax(0,1fr) 18px; gap:12px; padding:25px 20px; border-right:1px solid #ded7e8; align-items:start; color:#352345; transition:background .2s ease; }
+.consulting-route:first-child { padding-left:0; }
+.consulting-route:last-child { border-right:0; }
+.consulting-route:hover { background:#f5efff; }
+.institution-site .consulting-route .home-route__number { color:#7341ae; font-family:var(--sans); font-size:11px; font-weight:650; padding-top:3px; }
+.consulting-route strong { display:block; font-size:17px; font-weight:650; letter-spacing:-.035em; color:#2a193e; }
+.consulting-route small { display:block; font-size:12px; color:#665971; margin-top:7px; }
+.consulting-route>span:last-child { color:#6734b0; font-size:21px; }
+.consulting-portals__note { color:#6a6074; font-size:12px; margin:17px 0 0; }
+/* Intelligence and AI are visibly distinct but share the source contract. */
+.institution-site .institution-intelligence { background:#452080; color:#fff; }
+.institution-site .intelligence-band { grid-template-columns:1fr 1.14fr 1fr; gap:42px; padding-block:47px; align-items:center; }
+.institution-site .intelligence-band h2 { color:#fff; font-size:30px; line-height:1.35; font-weight:650; }
+.institution-site .intelligence-band .eyebrow { color:#ddd0fa; }
+.institution-site .intelligence-band p { color:#f0e8fa; font-size:15px; }
+.institution-site .intelligence-band .intelligence-limits { color:#e0d4f0; font-size:12px; }
+.institution-site .intelligence-limits a { color:#d4ffee; text-decoration:underline; text-underline-offset:3px; }
+.institution-site .intelligence-band .home-text-link { color:#b8f9df; font-size:14px; margin-top:18px; }
+.institution-site .intelligence-brief { background:#bdffe7; color:#223c36; border:0; padding:28px; gap:13px; }
+.institution-site .intelligence-brief>span { color:#345b50; font-size:10px; font-weight:650; }
+.institution-site .intelligence-brief strong { color:#193d33; font-size:25px; line-height:1.4; font-weight:650; }
+.institution-site .intelligence-brief small { color:#34564e; font-size:12px; }
+/* Research: a large lead study and two compact companion studies. */
+.institution-site.home-upgrade .home-selected { background:#fff; padding-block:85px; }
+.institution-site .home-section-heading { margin-bottom:35px; }
+.institution-site .home-section-heading h2 { font-size:36px; }
+.institution-site .home-section-heading p { color:#675c73; }
+.institution-site .home-text-link { color:#6030a5; font-weight:600; }
+.institution-site .home-research-grid { grid-template-columns:1.08fr 1fr; grid-template-rows:auto auto; gap:26px 36px; align-items:stretch; }
+.institution-site .home-research { display:grid; grid-template-columns:145px minmax(0,1fr); column-gap:25px; row-gap:0; border:0; border-bottom:1px solid #ded6e8; background:#fff; padding:0 0 24px; align-content:start; }
+.institution-site .home-research:hover { background:#fff; border-color:#7040b9; }
+.institution-site .home-research>* { grid-column:2; }
+.institution-site .home-research .research-art { grid-column:1; grid-row:1 / span 6; width:100%; height:100%; min-height:235px; }
+.institution-site .home-research:first-child { grid-column:1; grid-row:1 / 3; display:flex; padding-bottom:24px; }
+.institution-site .home-research:first-child .research-art { min-height:0; height:270px; flex-shrink:0; margin-bottom:24px; }
+.institution-site .home-research__topic { color:#6832a7; font-size:10px; font-weight:750; }
+.institution-site .home-research__year { color:#73627e; margin-top:10px; font-size:13px; }
+.institution-site .home-research h3 { color:#261737; font-size:22px; line-height:1.45; margin:10px 0; font-weight:650; }
+.institution-site .home-research:first-child h3 { font-size:28px; line-height:1.42; }
+.institution-site .home-research p { color:#63596c; margin-bottom:18px; font-size:14px; }
+.institution-site .home-research__footer { color:#6a5a75; font-size:12px; border:0; padding-top:9px; }
+.institution-site .home-source-note { color:#695d75; font-size:13px; margin-top:24px; }
+.research-art { position:relative; overflow:hidden; isolation:isolate; background:#5624c4; }
+.research-art__ring { position:absolute; border:35px solid #ba99ff; border-radius:50%; width:240px; height:240px; right:8%; top:8%; transform:rotate(-25deg) scaleX(.72); }
+.research-art__plane { position:absolute; background:#c7fbee; width:54%; height:140%; left:-12%; top:8%; transform:rotate(-28deg); }
+.research-art__line { position:absolute; width:150%; height:1px; background:#fff; opacity:.65; top:54%; left:-15%; transform:rotate(-25deg); box-shadow:0 22px #fff,0 -22px #fff; }
+.research-art--2 { background:#253dcd; }
+.research-art--2 .research-art__ring { width:180px; height:180px; border:25px solid #a2b1ff; top:10%; right:-45%; transform:rotate(25deg) scaleX(.7); }
+.research-art--2 .research-art__plane { background:#6043ed; top:47%; width:120%; height:60%; left:-30%; transform:rotate(35deg); }
+.research-art--3 { background:#b9f3d9; }
+.research-art--3 .research-art__ring { border-color:#214746; right:-25%; top:15%; width:180px; height:180px; }
+.research-art--3 .research-art__plane { background:#609d8d; top:55%; left:-45%; width:120%; }
+.research-art--3 .research-art__line { background:#fff; }
+/* Institutional perspective and inner-page content. */
+.institution-site .consulting-about { background:#f3edfb; }
+.consulting-about>.container { display:grid; grid-template-columns:1.12fr 1fr; gap:100px; }
+.consulting-about__intro h2 { font-size:clamp(31px,3.2vw,45px); line-height:1.32; letter-spacing:-.045em; margin:20px 0; }
+.consulting-about__intro h2 span { color:#7340b8; }
+.consulting-about__intro p { color:#5f526f; font-size:16px; max-width:510px; margin-bottom:25px; }
+.consulting-about__principles>div { padding:24px 0; border-top:1px solid #cdc0de; }
+.consulting-about__principles>div:first-child { padding-top:9px; border:0; }
+.consulting-about__principles span { color:#7340b8; font-size:11px; letter-spacing:.12em; font-weight:650; }
+.consulting-about__principles h3 { font-size:22px; margin:9px 0; font-weight:650; }
+.consulting-about__principles p { color:#62536d; font-size:14px; margin:0; }
+.institution-site :is(.card,.vm-card,.leader__card,.contact-item,.link-card,.reader-card,.ds-panel,.kpi,.bills__item,.law-item,.cal-item,.done-card) { background:#fff; border-color:#dfd7ea; }
+.institution-site :is(.card,.vm-card) { border:0; border-top:3px solid #8050bb; background:#fff; padding:29px; }
+.institution-site .card:nth-child(3n+2) { border-top-color:#4261c5; }
+.institution-site .card:nth-child(3n+3) { border-top-color:#29977c; }
+.institution-site :is(.card,.link-card,.kpi,.idx-decomp>div):hover { background:#f8f5fd; border-color:#976bbb; }
+.institution-site :is(.card__icon,.contact-item__icon) { background:#eee3fa; color:#67329f; }
+.institution-site .contact-item { border-left:4px solid #7840c1; }
+.institution-site .contact-item:nth-child(2) { border-left-color:#219678; }
+.institution-site .contact-form :is(input,textarea,select) { background:#fff; color:#32263f; border-color:#b6a7c6; }
+.institution-site .contact-form :is(input,textarea):focus { border-color:#7541b2; box-shadow:0 0 0 2px #e9dbfb; }
+.institution-site :is(.notice,.note-box,.project-scope-note,.ledger-disclaimer,.warn,.legal-note) { background:#f3eef9; border-color:#e1d4ed; border-left-color:#7840bb; color:#50415e; }
+.institution-site .cta-band { background:#c1f6df; border:0; padding:56px 35px; }
+.institution-site .cta-band h2 { color:#173b32; font-size:36px; letter-spacing:-.04em; }
+.institution-site .cta-band p { color:#365b4f; }
+.institution-site .cta-band .btn { background:#21443a; color:#fff; }
+.institution-site .cta-band .btn:hover { background:#122f27; }
+.institution-site .site-footer { background:#f1edf7; border-color:#ddd1e9; color:#61536e; }
+.institution-site .footer-col h3,.institution-site .footer-col h4,.institution-site .footer-brand .brand__name { color:#372047; }
+.institution-site .ds-panel.idx,.institution-site .ds-panel.qtr,.institution-site .ds-panel.broad { background:#fff; }
+.institution-site .idx-decomp>div { background:#f0edf8; }
+.institution-site .privacy-table th,.institution-site .consent-table th,.institution-site .reader-table th { background:#eee8f6; }
+/* Feeds retain compact navigation and a white scan surface. */
+.institution-feed header { border-bottom:3px solid #7340c0; background:#fff; }
+.institution-feed header>a { color:#49277d; }
+.institution-feed header nav a { color:#5d3d80; }
+.institution-feed h1 { color:#371958; font-weight:650; }
+.institution-feed .eyebrow { color:#7040ac; font-weight:650; }
+.institution-feed .lead { color:#5c476f; }
+.institution-feed a { color:#593093; }
+.institution-feed .topics { border:0; gap:14px; }
+.institution-feed .topic { background:#f1e9fc; border:0; border-top:4px solid #7540bb; padding:25px; }
+.institution-feed .topic:nth-child(3n+2) { background:#edf0ff; border-top-color:#4860c7; }
+.institution-feed .topic:nth-child(3n+3) { background:#e8f8f0; border-top-color:#37876b; }
+.institution-feed .topic:hover { background:#e7dcf6; }
+.institution-feed .topic h2 { color:#342047; }
+.institution-feed .topic p { color:#594b67; }
+.institution-feed .topic span { color:#6a359e; }
+.institution-feed .service { background:#eee7f7; border-left-color:#7741b8; }
+.institution-feed .notice { background:#f3eef9; border-color:#ddcfeb; border-left-color:#7541b2; color:#51405e; }
+.institution-feed form { background:#eee8f6; }
+.institution-feed :is(input,select) { background:#fff; border-color:#baaacb; }
+.institution-feed button { background:#582795; color:#fff; }
+.institution-feed .issue { border-color:#ded5e8; }
+.institution-feed .issue h3 a { color:#36214b; }
+.institution-feed .scope { color:#665373; border-left:2px solid #b9a0d1; padding-left:10px; }
+.institution-feed .meta { color:#685a76; }
+.institution-feed th { background:#eee8f6; }
+@media(max-width:1099px) {
+  .institution-site .nav__menu[data-persistent] { border-color:#ddd4e8; }
+  .institution-site .nav__menu[data-persistent] .nav__sub { color:#614d72; }
+  .consulting-hero__content { padding-block:60px 35px; min-height:530px; }
+  .consulting-hero::before { background:linear-gradient(90deg,rgba(20,10,47,.98),rgba(27,13,58,.87) 53%,rgba(30,13,52,.2)); }
+  .consulting-portals__grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .consulting-route { padding:23px 20px; border-bottom:1px solid #ded7e8; }
+  .consulting-route:first-child { padding-left:20px; }
+  .consulting-route:nth-child(even) { border-right:0; }
+  .consulting-route:nth-last-child(-n+2) { border-bottom:0; }
+  .institution-site .intelligence-band { gap:25px; grid-template-columns:1fr 1.2fr; }
+  .institution-site .intelligence-brief { grid-column:1 / -1; display:grid; grid-template-columns:1fr 1.5fr 1fr; align-items:center; padding:24px; }
+  .institution-site .intelligence-brief strong br { display:none; }
+  .institution-site .home-research { grid-template-columns:100px minmax(0,1fr); column-gap:18px; }
+  .institution-site .home-research h3 { font-size:20px; }
+  .consulting-about>.container { gap:50px; }
+}
+@media(max-width:768px) {
+  .institution-site .section { padding-block:54px; }
+  .institution-site .page-hero { padding-block:36px 33px; }
+  .institution-site .page-hero h1 { font-size:34px; }
+  .consulting-hero__content { padding-block:35px 26px; min-height:0; display:flex; flex-direction:column; align-items:flex-start; }
+  .consulting-hero__image { object-position:62% center; opacity:.8; }
+  .consulting-hero::before { background:linear-gradient(100deg,rgba(20,10,47,.97),rgba(27,13,58,.82) 62%,rgba(30,13,52,.55)); }
+  .institution-site .consulting-hero .eyebrow { font-size:9px; letter-spacing:.12em; }
+  .institution-site .consulting-hero h1 { font-size:clamp(32px,7.7vw,53px); margin:22px 0 19px; line-height:1.25; letter-spacing:-.055em; }
+  .institution-site .consulting-hero__lead { font-size:15px; line-height:1.75; order:4; margin-top:19px; }
+  .consulting-hero__actions { order:3; margin-top:0; gap:10px 24px; }
+  .institution-site .consulting-hero__actions .btn { font-size:14px; min-height:48px; padding:12px 17px; gap:26px; }
+  .institution-site .consulting-hero__link { font-size:13px; min-height:44px; }
+  .consulting-hero__signature { order:5; font-size:9px; gap:12px; margin-top:27px; }
+  html[lang=en] .consulting-hero h1 { font-size:clamp(31px,7.4vw,49px); }
+  .consulting-portals { padding-block:29px 26px; }
+  .consulting-portals__intro { display:block; padding-bottom:18px; }
+  .consulting-portals__intro p { font-size:14px; margin-top:10px; }
+  .consulting-route,.consulting-route:first-child { padding:21px 13px; grid-template-columns:minmax(0,1fr) 16px; gap:7px; }
+  .consulting-route .home-route__number { grid-column:1/-1; }
+  .consulting-route strong { font-size:16px; }
+  .consulting-route small { font-size:12px; line-height:1.65; }
+  .consulting-route>span:last-child { font-size:18px; }
+  .consulting-portals__note { font-size:12px; }
+  .institution-site .intelligence-band { grid-template-columns:1fr; padding-block:33px; gap:24px; }
+  .institution-site .intelligence-band h2 { font-size:28px; }
+  .institution-site .intelligence-brief { display:flex; align-items:flex-start; padding:25px; gap:12px; }
+  .institution-site .intelligence-brief strong { font-size:25px; }
+  .institution-site.home-upgrade .home-selected { padding-block:52px; }
+  .institution-site .home-section-heading h2 { font-size:28px; }
+  .institution-site .home-research-grid { grid-template-columns:1fr; grid-template-rows:auto; gap:30px; }
+  .institution-site .home-research,.institution-site .home-research:first-child { grid-column:auto; grid-row:auto; display:flex; gap:0; padding-bottom:24px; }
+  .institution-site .home-research .research-art,.institution-site .home-research:first-child .research-art { height:185px; min-height:0; margin-bottom:20px; }
+  .institution-site .home-research:first-child .research-art { height:220px; }
+  .institution-site .home-research h3,.institution-site .home-research:first-child h3 { font-size:23px; }
+  .institution-site .home-research__footer { font-size:12px; }
+  .research-art--2 .research-art__ring { right:8%; }
+  .research-art--3 .research-art__ring { right:8%; }
+  .consulting-about>.container { grid-template-columns:1fr; gap:35px; }
+  .consulting-about__intro h2 { font-size:34px; }
+  .consulting-about__intro p { font-size:15px; }
+  .consulting-about__principles h3 { font-size:21px; }
+  .institution-site :is(.card,.vm-card) { padding:25px; }
+  .institution-site .cta-band { padding:36px 23px; }
+  .institution-site .cta-band h2 { font-size:29px; }
+  .institution-feed .topic { padding:22px; }
+}
+@media(max-width:380px) {
+  .consulting-portals__grid { grid-template-columns:1fr; }
+  .consulting-route,.consulting-route:first-child { grid-template-columns:23px minmax(0,1fr) 16px; padding:18px 0; border-right:0; border-bottom:1px solid #ded7e8; }
+  .consulting-route .home-route__number { grid-column:auto; }
+  .consulting-route:nth-last-child(2) { border-bottom:1px solid #ded7e8; }
+  .consulting-route:last-child { border-bottom:0; }
+  .consulting-hero__actions { gap:7px; }
+  .institution-site .consulting-hero h1 { font-size:31px; }
+  .institution-site .consulting-hero__lead { font-size:14px; }
+  html[lang=en] .consulting-hero h1 { font-size:30px; }
+}
+@media(prefers-reduced-motion:reduce) {
+  .consulting-route,.institution-site .home-research { transition:none; }
+}
+@media print {
+  .consulting-hero__image,.consulting-hero::before,.research-art { display:none; }
+  .institution-site .consulting-hero,.institution-site .institution-intelligence { background:#fff!important; }
+  .institution-site .consulting-hero :is(h1,span,p,a),.institution-site .intelligence-band :is(h2,p,strong,small,span,a) { color:#222!important; }
+}
