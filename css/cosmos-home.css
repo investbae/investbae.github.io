@@ -1,0 +1,31 @@
+/* Preserve the original KVMI galaxy artwork with the current editorial layout. */
+.institution-site.consulting-home .site-header,
+.institution-site.consulting-home .site-header.scrolled {background:#080f20;border-color:#263247;}
+.institution-site.consulting-home .brand__mark {background:#d6b774;color:#101a2b;}
+.institution-site.consulting-home .brand__mark b {color:#101a2b;}
+.institution-site.consulting-home .site-header .brand__name {color:#fff;}
+.institution-site.consulting-home .site-header .brand__en {color:#c7d4e5;}
+.institution-site.consulting-home .nav__link {color:#e7edf7;}
+.institution-site.consulting-home .nav__link:hover,
+.institution-site.consulting-home .nav__link.active {background:#23334c;color:#fff;}
+.institution-site.consulting-home .nav__cta {background:#d8bc7d;color:#162035!important;}
+.cosmos-picture {position:absolute;inset:0;z-index:-2;}
+.cosmos-picture .consulting-hero__image {object-position:center;}
+.institution-site.consulting-home .consulting-hero {background:#071121;}
+.consulting-home .consulting-hero::before {background:linear-gradient(90deg,rgba(3,9,20,.88) 0%,rgba(4,12,28,.78) 33%,rgba(7,17,34,.23) 64%,rgba(7,17,34,.03) 100%);}
+.institution-site.consulting-home .consulting-hero h1 span {color:#f0d69e;}
+.institution-site.consulting-home .consulting-hero .eyebrow {color:#dbe8ff;}
+.institution-site.consulting-home .consulting-hero__signature {margin-bottom:0;}
+.institution-site.consulting-home .cosmos-explore {display:inline-flex;gap:22px;align-items:center;min-height:44px;margin-top:16px;color:#f4dfa9;font-size:13px;border-bottom:1px solid #8190a8;}
+.cosmos-explore:hover {color:#fff!important;}
+@media(max-width:1099px) {
+ .institution-site.consulting-home .nav__menu {background:#0c1629;border-color:#35415a;}
+ .institution-site.consulting-home .nav__link {border-color:#35415a;}
+ .institution-site.consulting-home .nav__link.nav__sub {color:#e7edf7!important;}
+}
+@media(max-width:600px) {
+ .cosmos-picture .consulting-hero__image {object-position:center 65%;}
+ .consulting-home .consulting-hero::before {background:linear-gradient(90deg,rgba(3,9,20,.86),rgba(4,12,28,.61) 70%,rgba(4,12,28,.35));}
+ .institution-site.consulting-home .cosmos-explore {margin-top:12px;order:5;align-self:flex-start;}
+}
+@media print {.cosmos-picture {display:none;}}
