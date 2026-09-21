@@ -1,0 +1,1233 @@
+{
+  "checked_at": "2026-09-21T08:28:42.060587+09:00",
+  "items": [
+    {
+      "body_status": "metadata_only",
+      "id": "d7ff2f41ab03db1b2770ae65",
+      "kind": "disclosure",
+      "published_date": "2026-09-21",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-21T08:28:42.456228+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(기타)디비자산운용 - 특수관계인과의수익증권거래",
+      "topics": [
+        "private_funds"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260921000001"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "a96bb6ab768769f927ffe239",
+      "kind": "disclosure",
+      "published_date": "2026-09-21",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-21T08:28:42.456228+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(기타)디비자산운용 - 특수관계인과의수익증권거래",
+      "topics": [
+        "private_funds"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260921000002"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "8aaabf39cf893f2b24055266",
+      "kind": "press",
+      "published_date": "2026-09-21",
+      "publisher": "중소벤처기업부",
+      "retrieved_at": "2026-09-21T08:28:42.061369+09:00",
+      "seen_in_latest": true,
+      "source_id": "mss_press",
+      "title": "‘규제자유특구(글로벌특구, 광역연계형특구 포함)’ 후보과제 모집",
+      "topics": [
+        "venture",
+        "regulation"
+      ],
+      "url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1071302&cbIdx=86"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "3caefdba7dd990b31287fb9a",
+      "kind": "disclosure",
+      "published_date": "2026-09-21",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-21T08:28:42.456228+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(유가)한양증권 - 효력발생안내 ( 2026.9.9. 제출 증권신고서(채무증권) )",
+      "topics": [
+        "ipo"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260909100019"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "12c1a79af2e1fbddb65234e9",
+      "kind": "disclosure",
+      "published_date": "2026-09-21",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-21T08:28:42.456228+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(코스닥)상지건설 - 효력발생안내 ( 2026.9.4. 제출 증권신고서(지분증권) )",
+      "topics": [
+        "ipo"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260904100019"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "0a2775a997cf5d3db9853316",
+      "kind": "notice",
+      "published_date": "2026-09-21",
+      "publisher": "중소벤처기업부",
+      "retrieved_at": "2026-09-21T08:28:42.061820+09:00",
+      "seen_in_latest": true,
+      "source_id": "mss_notice",
+      "title": "규제자유특구, 글로벌특구 및 광역연계형특구 후보과제 모집 공고",
+      "topics": [
+        "venture",
+        "regulation"
+      ],
+      "url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1071303&cbIdx=310"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "a2c8e428ae4819b6bc92ec8f",
+      "kind": "press",
+      "published_date": "2026-09-18",
+      "publisher": "중소벤처기업부",
+      "retrieved_at": "2026-09-21T08:28:42.061369+09:00",
+      "seen_in_latest": true,
+      "source_id": "mss_press",
+      "title": "‘모두의 창업: 사회혁신 소셜벤처 리그’ 2차 발표평가 통과자 40명 선발",
+      "topics": [
+        "venture"
+      ],
+      "url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1071279&cbIdx=86"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "9a920429947a1043eaf6adfd",
+      "kind": "press",
+      "published_date": "2026-09-18",
+      "publisher": "한국성장금융",
+      "retrieved_at": "2026-09-21T08:28:42.888540+09:00",
+      "seen_in_latest": true,
+      "source_id": "kgrowth_press",
+      "title": "(보도자료) 한국성장금융_IBK 생산적금융펀드 1호 일반매칭 사업 자펀드 운용사 모집",
+      "topics": [
+        "policy_funds",
+        "private_funds"
+      ],
+      "url": "https://www.kgrowth.or.kr/notice_view.asp?idx=817&str_type=3&tab=1"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "92fd82df2f1a8e04ced5d6c6",
+      "kind": "notice",
+      "published_date": "2026-09-18",
+      "publisher": "한국성장금융",
+      "retrieved_at": "2026-09-21T08:28:42.825673+09:00",
+      "seen_in_latest": true,
+      "source_id": "kgrowth_notice",
+      "title": "【선정공고】「IBK 생산적금융펀드 1호​」일반매칭 위탁운용사 선정계획 공고",
+      "topics": [
+        "policy_funds",
+        "private_funds"
+      ],
+      "url": "https://www.kgrowth.or.kr/notice_view.asp?idx=1121&str_type=1&tab=1"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "685500da0dca2ffeb9de1616",
+      "kind": "press",
+      "published_date": "2026-09-18",
+      "publisher": "금융감독원",
+      "retrieved_at": "2026-09-21T08:28:42.541448+09:00",
+      "seen_in_latest": true,
+      "source_id": "fss_press",
+      "title": "2026년 8월 외국인 증권투자 동향",
+      "topics": [
+        "statistics"
+      ],
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?menuNo=200218&nttId=229235"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "622073930b6477b7553e3bc5",
+      "kind": "press",
+      "published_date": "2026-09-18",
+      "publisher": "과학기술정보통신부",
+      "retrieved_at": "2026-09-21T08:28:42.062292+09:00",
+      "seen_in_latest": true,
+      "source_id": "msit_press",
+      "title": "과기정통부, 모험·도전적 경진대회를 통한 스타트업 초기 투자 지원!",
+      "topics": [
+        "venture"
+      ],
+      "url": "https://www.msit.go.kr/bbs/view.do?bbsSeqNo=94&nttSeqNo=3187795&sCode=user"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "4fd7887e4fa83a16f2bae2c6",
+      "kind": "notice",
+      "published_date": "2026-09-18",
+      "publisher": "농림축산식품부",
+      "retrieved_at": "2026-09-21T08:28:42.063264+09:00",
+      "seen_in_latest": true,
+      "source_id": "mafra_notice",
+      "title": "농업정책자금 변동금리 알림( 26.10월)",
+      "topics": [
+        "policy_funds"
+      ],
+      "url": "https://www.mafra.go.kr/bbs/home/791/579227/artclView.do"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "34434b636002ae8b875d4515",
+      "kind": "notice",
+      "published_date": "2026-09-18",
+      "publisher": "한국성장금융",
+      "retrieved_at": "2026-09-21T08:28:42.825673+09:00",
+      "seen_in_latest": true,
+      "source_id": "kgrowth_notice",
+      "title": "【제출서식】「부산 미래산업 전환펀드 2호」 제출서류 및 서식",
+      "topics": [
+        "private_funds"
+      ],
+      "url": "https://www.kgrowth.or.kr/notice_view.asp?idx=1122&str_type=1&tab=1"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "fd37ae0cccdeda025a4c5c5f",
+      "kind": "notice",
+      "published_date": "2026-09-17",
+      "publisher": "중소벤처기업부",
+      "retrieved_at": "2026-09-21T08:28:42.061820+09:00",
+      "seen_in_latest": true,
+      "source_id": "mss_notice",
+      "title": "2027년 초격차 스타트업 프로젝트 기술사업화 및 투자유치 주관기관 모집공고",
+      "topics": [
+        "venture"
+      ],
+      "url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1071256&cbIdx=310"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "dfebeb64c632bce2648fddab",
+      "kind": "notice",
+      "published_date": "2026-09-17",
+      "publisher": "농업정책보험금융원",
+      "retrieved_at": "2026-09-21T08:28:43.273431+09:00",
+      "seen_in_latest": true,
+      "source_id": "apfs_home",
+      "title": "농림수산식품투자모태조합 출자 자조합 관련 규정 개정수요 조사 안내 [2026-09-17]",
+      "topics": [
+        "policy_funds",
+        "regulation"
+      ],
+      "url": "https://www.apfs.kr/front/board/boardContentsView.do?boardId=10026&contId=15226&menuId=41"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "ab4367f358b0069216cd30d6",
+      "kind": "press",
+      "published_date": "2026-09-17",
+      "publisher": "중소벤처기업부",
+      "retrieved_at": "2026-09-21T08:28:42.061369+09:00",
+      "seen_in_latest": true,
+      "source_id": "mss_press",
+      "title": "창업, 혼자가 아닌 함께 나아간다! ｢모두의 창업 커뮤니티 발대식｣ 개최",
+      "topics": [
+        "venture"
+      ],
+      "url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1071235&cbIdx=86"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "8dd17ef96bcf70272c0ad67e",
+      "kind": "press",
+      "published_date": "2026-09-17",
+      "publisher": "중소벤처기업부",
+      "retrieved_at": "2026-09-21T08:28:42.061369+09:00",
+      "seen_in_latest": true,
+      "source_id": "mss_press",
+      "title": "대학이 만드는 창업의 미래, 「2026 대학창업 페스티벌」 개최",
+      "topics": [
+        "venture"
+      ],
+      "url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1071236&cbIdx=86"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "8c3471501684345699e093fb",
+      "kind": "press",
+      "published_date": "2026-09-17",
+      "publisher": "중소벤처기업부",
+      "retrieved_at": "2026-09-21T08:28:42.061369+09:00",
+      "seen_in_latest": true,
+      "source_id": "mss_press",
+      "title": "대국민 창업 오디션, 「모두의 창업」충청권 2라운드 진출자와의 현장소통",
+      "topics": [
+        "policy_funds",
+        "venture"
+      ],
+      "url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1071233&cbIdx=86"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "5f8adbf111d9b2f46f3118e8",
+      "kind": "press",
+      "published_date": "2026-09-17",
+      "publisher": "금융감독원",
+      "retrieved_at": "2026-09-21T08:28:42.541448+09:00",
+      "seen_in_latest": true,
+      "source_id": "fss_press",
+      "title": "부실사업장 정상화를 통한 신속한 주택공급 권대영 금융위 부위원장, 캠코펀드 사업장 방문",
+      "topics": [
+        "private_funds"
+      ],
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?menuNo=200218&nttId=229065"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "4c7f4434d2aa262910044c42",
+      "kind": "press",
+      "published_date": "2026-09-17",
+      "publisher": "산업통상부",
+      "retrieved_at": "2026-09-21T08:28:42.478249+09:00",
+      "seen_in_latest": true,
+      "source_id": "motie_press",
+      "title": "(참고자료)국민성장펀드에 더 많은 전문가들이 참여하여 의사결정의 객관성과 투명성을 강화합니다",
+      "topics": [
+        "policy_funds",
+        "private_funds"
+      ],
+      "url": "https://www.motie.go.kr/kor/article/ATCL3f49a5a8c/172219/view"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "3647a3e74aeb1e8ef46f763e",
+      "kind": "press",
+      "published_date": "2026-09-17",
+      "publisher": "농림축산식품부",
+      "retrieved_at": "2026-09-21T08:28:42.062925+09:00",
+      "seen_in_latest": true,
+      "source_id": "mafra_press",
+      "title": "농식품 창업 대통령상의 주인공은 “㈜로웨인”",
+      "topics": [
+        "venture"
+      ],
+      "url": "https://www.mafra.go.kr/bbs/home/792/579205/artclView.do"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "cd8706b42ea9854a299bfb09",
+      "kind": "notice",
+      "published_date": "2026-09-16",
+      "publisher": "한국성장금융",
+      "retrieved_at": "2026-09-21T08:28:42.825673+09:00",
+      "seen_in_latest": true,
+      "source_id": "kgrowth_notice",
+      "title": "【선정결과】「K-컬처 밸류업 펀드」 2026년 위탁운용사 선정 결과",
+      "topics": [
+        "policy_funds",
+        "private_funds"
+      ],
+      "url": "https://www.kgrowth.or.kr/notice_view.asp?idx=1120&str_type=1&tab=1"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "bdb54644bee9efa66fe0120c",
+      "kind": "press",
+      "published_date": "2026-09-16",
+      "publisher": "농림축산식품부",
+      "retrieved_at": "2026-09-21T08:28:42.062925+09:00",
+      "seen_in_latest": true,
+      "source_id": "mafra_press",
+      "title": "농식품부 장관, 추석 앞두고 우리 전통주로 농촌의 가치를 높인 농촌창업 현장 찾아",
+      "topics": [
+        "venture"
+      ],
+      "url": "https://www.mafra.go.kr/bbs/home/792/579196/artclView.do"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "68865669b7e033531a0ed559",
+      "kind": "press",
+      "published_date": "2026-09-16",
+      "publisher": "금융감독원",
+      "retrieved_at": "2026-09-21T08:28:42.541448+09:00",
+      "seen_in_latest": true,
+      "source_id": "fss_press",
+      "title": "사업보고서 등에 대한 조사, 감리결과 조치",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?menuNo=200218&nttId=228895"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "a2a3e3f359a9b489261d3ac3",
+      "kind": "notice",
+      "published_date": "2026-09-15",
+      "publisher": "한국벤처투자",
+      "retrieved_at": "2026-09-21T08:28:43.215467+09:00",
+      "seen_in_latest": true,
+      "source_id": "kvic_notice",
+      "title": "충남 기업성장 벤처펀드 2026년 2차 출자사업 계획 변경 공고",
+      "topics": [
+        "policy_funds",
+        "venture",
+        "private_funds"
+      ],
+      "url": "https://www.kvic.or.kr/notice/kvic-notice/investment-business-notice?id=5133"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "549a5df936d7cc491261b92a",
+      "kind": "notice",
+      "published_date": "2026-09-15",
+      "publisher": "한국벤처투자",
+      "retrieved_at": "2026-09-21T08:28:43.215467+09:00",
+      "seen_in_latest": true,
+      "source_id": "kvic_notice",
+      "title": "2026년 LP 성장펀드(Track 2) 1차 출자사업 접수현황",
+      "topics": [
+        "policy_funds",
+        "private_funds",
+        "statistics"
+      ],
+      "url": "https://www.kvic.or.kr/notice/kvic-notice/investment-business-notice?id=5132"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "02106b09c5a1bb1ad2b32962",
+      "kind": "notice",
+      "published_date": "2026-09-15",
+      "publisher": "중소벤처기업부",
+      "retrieved_at": "2026-09-21T08:28:42.061820+09:00",
+      "seen_in_latest": true,
+      "source_id": "mss_notice",
+      "title": "「민관협력 오픈이노베이션 지원」 ‘공공데이터 활용 지원’ 공공기관 제안형(Top-Down) 창업기업 모집공고",
+      "topics": [
+        "venture"
+      ],
+      "url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1071194&cbIdx=310"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "f089ff3bac11dc41d23a34e4",
+      "kind": "press",
+      "published_date": "2026-09-14",
+      "publisher": "중소벤처기업부",
+      "retrieved_at": "2026-09-21T08:28:42.061369+09:00",
+      "seen_in_latest": true,
+      "source_id": "mss_press",
+      "title": "공공서비스 혁신 과제 해결할 스타트업 찾는다! - 「공공데이터 활용 오픈이노베이션」 스타트업 모집 -",
+      "topics": [
+        "venture"
+      ],
+      "url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1071186&cbIdx=86"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "b7db3a773cc4ea9ea6166293",
+      "kind": "notice",
+      "published_date": "2026-09-14",
+      "publisher": "한국성장금융",
+      "retrieved_at": "2026-09-21T08:28:42.825673+09:00",
+      "seen_in_latest": true,
+      "source_id": "kgrowth_notice",
+      "title": "【선정공고】[재공고]「부산 미래산업 전환펀드(2차)」 위탁운용사 선정계획 공고",
+      "topics": [
+        "policy_funds",
+        "private_funds"
+      ],
+      "url": "https://www.kgrowth.or.kr/notice_view.asp?idx=1119&str_type=1&tab=1"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "93575ac77d4176e5d96c0bba",
+      "kind": "press",
+      "published_date": "2026-09-14",
+      "publisher": "중소벤처기업부",
+      "retrieved_at": "2026-09-21T08:28:42.061369+09:00",
+      "seen_in_latest": true,
+      "source_id": "mss_press",
+      "title": "“혁신 아이디어와 투자자의 만남” 혁신 창업가의 생애 첫 투자유치를 위한 ｢도전의 IR 프로젝트｣ 추진",
+      "topics": [
+        "venture"
+      ],
+      "url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1071164&cbIdx=86"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "2c8d7abd1955ef11c9a73ef8",
+      "kind": "press",
+      "published_date": "2026-09-14",
+      "publisher": "중소벤처기업부",
+      "retrieved_at": "2026-09-21T08:28:42.061369+09:00",
+      "seen_in_latest": true,
+      "source_id": "mss_press",
+      "title": "청년의 창업 도전, 대학에서 시작된다2차 「모두의 창업」 고려대 캠퍼스 투어 개최",
+      "topics": [
+        "venture"
+      ],
+      "url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1071165&cbIdx=86"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "bdb74c9b42558f92e1d6efb4",
+      "kind": "notice",
+      "published_date": "2026-09-11",
+      "publisher": "한국성장금융",
+      "retrieved_at": "2026-09-21T08:28:42.825673+09:00",
+      "seen_in_latest": true,
+      "source_id": "kgrowth_notice",
+      "title": "【선정결과】「부산 미래산업 전환펀드 2호」위탁운용사 선정 결과",
+      "topics": [
+        "policy_funds",
+        "private_funds"
+      ],
+      "url": "https://www.kgrowth.or.kr/notice_view.asp?idx=1118&str_type=1&tab=1"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "b0a7548471fe55d9fc90b630",
+      "kind": "notice",
+      "published_date": "2026-09-11",
+      "publisher": "한국벤처투자",
+      "retrieved_at": "2026-09-21T08:28:43.215467+09:00",
+      "seen_in_latest": true,
+      "source_id": "kvic_notice",
+      "title": "모태펀드(문화, 관광) 2026년 8월 수시 출자사업 서류심사 결과",
+      "topics": [
+        "policy_funds",
+        "private_funds"
+      ],
+      "url": "https://www.kvic.or.kr/notice/kvic-notice/investment-business-notice?id=5127"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "901e3770db5c400a43bce67b",
+      "kind": "press",
+      "published_date": "2026-09-11",
+      "publisher": "한국벤처투자",
+      "retrieved_at": "2026-09-21T08:28:43.245910+09:00",
+      "seen_in_latest": true,
+      "source_id": "kvic_press",
+      "title": "한국벤처투자, VC업권 자금세탁방지 업무역량 강화 워크숍 개최",
+      "topics": [
+        "venture",
+        "regulation"
+      ],
+      "url": "https://www.kvic.or.kr/notice/kvic-news/press-release?id=5128"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "2d6bbe3ba275b717e085c5d2",
+      "kind": "notice",
+      "published_date": "2026-09-11",
+      "publisher": "한국벤처투자",
+      "retrieved_at": "2026-09-21T08:28:43.215467+09:00",
+      "seen_in_latest": true,
+      "source_id": "kvic_notice",
+      "title": "모태펀드(관광, 스포츠) 2026년 9월 수시 출자사업 계획 공고",
+      "topics": [
+        "policy_funds",
+        "private_funds"
+      ],
+      "url": "https://www.kvic.or.kr/notice/kvic-notice/investment-business-notice?id=5130"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "093f3e5bd135aaeda1fd2040",
+      "kind": "notice",
+      "published_date": "2026-09-11",
+      "publisher": "한국벤처투자",
+      "retrieved_at": "2026-09-21T08:28:43.215467+09:00",
+      "seen_in_latest": true,
+      "source_id": "kvic_notice",
+      "title": "모태펀드(특허계정_특허기술사업화) 2026년 6월 수시 출자사업 서류심사 결과",
+      "topics": [
+        "policy_funds",
+        "venture",
+        "private_funds"
+      ],
+      "url": "https://www.kvic.or.kr/notice/kvic-notice/investment-business-notice?id=5126"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "97446c5e9116472fe44334c4",
+      "kind": "press",
+      "published_date": "2026-09-10",
+      "publisher": "중소벤처기업부",
+      "retrieved_at": "2026-09-21T08:28:42.061369+09:00",
+      "seen_in_latest": true,
+      "source_id": "mss_press",
+      "title": "AI 분야·혁신 분야, 유망 초기 창업기업 32개사 선발",
+      "topics": [
+        "venture"
+      ],
+      "url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1071102&cbIdx=86"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "42d9088a0527e8e5322981b1",
+      "kind": "press",
+      "published_date": "2026-09-10",
+      "publisher": "중소벤처기업부",
+      "retrieved_at": "2026-09-21T08:28:42.061369+09:00",
+      "seen_in_latest": true,
+      "source_id": "mss_press",
+      "title": "대학의 아이디어가 창업으로2차 「모두의 창업」 단국대 현장소통",
+      "topics": [
+        "venture"
+      ],
+      "url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1071101&cbIdx=86"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "0e65326ac5618b0b0e6a2815",
+      "kind": "press",
+      "published_date": "2026-09-10",
+      "publisher": "과학기술정보통신부",
+      "retrieved_at": "2026-09-21T08:28:42.062292+09:00",
+      "seen_in_latest": true,
+      "source_id": "msit_press",
+      "title": "연구자 딥테크 창업 지원을 위한 과기출연기관법 및 개별 과기원법 5개 법률 개정",
+      "topics": [
+        "venture",
+        "regulation"
+      ],
+      "url": "https://www.msit.go.kr/bbs/view.do?bbsSeqNo=94&nttSeqNo=3187762&sCode=user"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "d867199038164fb1ea660de1",
+      "kind": "press",
+      "published_date": "2026-09-09",
+      "publisher": "과학기술정보통신부",
+      "retrieved_at": "2026-09-21T08:28:42.062292+09:00",
+      "seen_in_latest": true,
+      "source_id": "msit_press",
+      "title": "구혁채 1차관, 서울홍릉 강소특구 청년창업 현장 방문",
+      "topics": [
+        "venture"
+      ],
+      "url": "https://www.msit.go.kr/bbs/view.do?bbsSeqNo=94&nttSeqNo=3187751&sCode=user"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "04037e058ebd1c1f8b7e4956",
+      "kind": "notice",
+      "published_date": "2026-09-09",
+      "publisher": "한국성장금융",
+      "retrieved_at": "2026-09-21T08:28:42.825673+09:00",
+      "seen_in_latest": true,
+      "source_id": "kgrowth_notice",
+      "title": "【선정결과】「무공해차 인프라펀드」위탁운용사 선정 결과",
+      "topics": [
+        "policy_funds",
+        "private_funds"
+      ],
+      "url": "https://www.kgrowth.or.kr/notice_view.asp?idx=1117&str_type=1&tab=1"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "d4c3107d8ef532a773e84b59",
+      "kind": "notice",
+      "published_date": "2026-09-08",
+      "publisher": "한국성장금융",
+      "retrieved_at": "2026-09-21T08:28:42.825673+09:00",
+      "seen_in_latest": true,
+      "source_id": "kgrowth_notice",
+      "title": "【선정결과】「2026년 국민성장펀드(국민참여형) 2차」위탁운용사 선정 결과",
+      "topics": [
+        "policy_funds",
+        "private_funds"
+      ],
+      "url": "https://www.kgrowth.or.kr/notice_view.asp?idx=1116&str_type=1&tab=1"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "d0dbec2f83d6492725cfb9ea",
+      "kind": "notice",
+      "published_date": "2026-09-08",
+      "publisher": "농업정책보험금융원",
+      "retrieved_at": "2026-09-21T08:28:43.273431+09:00",
+      "seen_in_latest": true,
+      "source_id": "apfs_home",
+      "title": "농금원, 2026 농식품 금융투자로드쇼 개최 [2026-09-08]",
+      "topics": [
+        "venture"
+      ],
+      "url": "https://www.apfs.kr/front/board/boardContentsView.do?boardId=42&contId=15213&menuId=42"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "9056923c37a2af58ceb14b04",
+      "kind": "notice",
+      "published_date": "2026-09-08",
+      "publisher": "농업정책보험금융원",
+      "retrieved_at": "2026-09-21T08:28:43.273431+09:00",
+      "seen_in_latest": true,
+      "source_id": "apfs_home",
+      "title": "2026년 농림수산식품모태펀드 4차 추가 출자사업 설명회 개최 안내 [2026-09-08]",
+      "topics": [
+        "policy_funds",
+        "private_funds"
+      ],
+      "url": "https://www.apfs.kr/front/board/boardContentsView.do?boardId=10026&contId=15215&menuId=41"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "0107096f7712ef733dcbe75c",
+      "kind": "notice",
+      "published_date": "2026-09-08",
+      "publisher": "한국벤처투자",
+      "retrieved_at": "2026-09-21T08:28:43.215467+09:00",
+      "seen_in_latest": true,
+      "source_id": "kvic_notice",
+      "title": "모태펀드(중기부 소관) 2026년 LP 성장펀드(Track 1) 출자사업 접수 현황",
+      "topics": [
+        "policy_funds",
+        "private_funds",
+        "statistics"
+      ],
+      "url": "https://www.kvic.or.kr/notice/kvic-notice/investment-business-notice?id=5124"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "3d75e28db3da6720f57a5b23",
+      "kind": "notice",
+      "published_date": "2026-09-07",
+      "publisher": "산업통상부",
+      "retrieved_at": "2026-09-21T08:28:42.503511+09:00",
+      "seen_in_latest": true,
+      "source_id": "motie_notice",
+      "title": "2026년 제5차 산업융합 규제샌드박스 규제특례 승인 공고",
+      "topics": [
+        "venture",
+        "regulation"
+      ],
+      "url": "https://www.motie.go.kr/kor/article/ATCL2826a2625/71307/view"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "91e36794677d026a00a78968",
+      "kind": "notice",
+      "published_date": "2026-09-04",
+      "publisher": "한국벤처투자",
+      "retrieved_at": "2026-09-21T08:28:43.215467+09:00",
+      "seen_in_latest": true,
+      "source_id": "kvic_notice",
+      "title": "충남 기업성장 벤처펀드 2026년 2차 출자사업 계획 공고",
+      "topics": [
+        "policy_funds",
+        "venture",
+        "private_funds"
+      ],
+      "url": "https://www.kvic.or.kr/notice/kvic-notice/investment-business-notice?id=5118"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "7029c67ebd6d5cf7d08b42cf",
+      "kind": "notice",
+      "published_date": "2026-09-04",
+      "publisher": "농림축산식품부",
+      "retrieved_at": "2026-09-21T08:28:42.063264+09:00",
+      "seen_in_latest": true,
+      "source_id": "mafra_notice",
+      "title": "농업정책자금 변동금리 알림( 26.8월)",
+      "topics": [
+        "policy_funds"
+      ],
+      "url": "https://www.mafra.go.kr/bbs/home/791/578965/artclView.do"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "6b6375e1e03b888d2a5dd1c5",
+      "kind": "notice",
+      "published_date": "2026-09-04",
+      "publisher": "농림축산식품부",
+      "retrieved_at": "2026-09-21T08:28:42.063264+09:00",
+      "seen_in_latest": true,
+      "source_id": "mafra_notice",
+      "title": "농업정책자금 변동금리 알림( 26.9월)",
+      "topics": [
+        "policy_funds"
+      ],
+      "url": "https://www.mafra.go.kr/bbs/home/791/578966/artclView.do"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "4f4c19783010425fad92f962",
+      "kind": "notice",
+      "published_date": "2026-09-04",
+      "publisher": "한국벤처투자",
+      "retrieved_at": "2026-09-21T08:28:43.215467+09:00",
+      "seen_in_latest": true,
+      "source_id": "kvic_notice",
+      "title": "경북-포스코 혁신성장 벤처펀드 2026년 출자사업 계획 공고",
+      "topics": [
+        "policy_funds",
+        "venture",
+        "private_funds"
+      ],
+      "url": "https://www.kvic.or.kr/notice/kvic-notice/investment-business-notice?id=5120"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "31b265876ca82cc747baa632",
+      "kind": "notice",
+      "published_date": "2026-09-04",
+      "publisher": "농업정책보험금융원",
+      "retrieved_at": "2026-09-21T08:28:43.273431+09:00",
+      "seen_in_latest": true,
+      "source_id": "apfs_home",
+      "title": "농림수산식품모태펀드 '26년 4차 추가 출자사업(농식품투자 계정) 공 [2026-09-04]",
+      "topics": [
+        "policy_funds",
+        "private_funds"
+      ],
+      "url": "https://www.apfs.kr/front/board/boardContentsView.do?boardId=10026&contId=15211&menuId=41"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "24e6d760469a0581a76293d7",
+      "kind": "notice",
+      "published_date": "2026-09-04",
+      "publisher": "한국벤처투자",
+      "retrieved_at": "2026-09-21T08:28:43.215467+09:00",
+      "seen_in_latest": true,
+      "source_id": "kvic_notice",
+      "title": "경북·전남 지역혁신 벤처펀드 2026년 출자사업 계획 공고",
+      "topics": [
+        "policy_funds",
+        "venture",
+        "private_funds"
+      ],
+      "url": "https://www.kvic.or.kr/notice/kvic-notice/investment-business-notice?id=5121"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "bc08d249ffe762053aa16510",
+      "kind": "notice",
+      "published_date": "2026-09-01",
+      "publisher": "농업정책보험금융원",
+      "retrieved_at": "2026-09-21T08:28:43.273431+09:00",
+      "seen_in_latest": true,
+      "source_id": "apfs_home",
+      "title": "농림수산식품모태펀드 2026년 3차 추가 출자사업(농식품 계정) 업무집행조합 [2026-09-01]",
+      "topics": [
+        "policy_funds",
+        "private_funds"
+      ],
+      "url": "https://www.apfs.kr/front/board/boardContentsView.do?boardId=10026&contId=15210&menuId=41"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "a9c66e37a13b06b30e0cbb9f",
+      "kind": "notice",
+      "published_date": "2026-08-31",
+      "publisher": "한국벤처투자",
+      "retrieved_at": "2026-09-21T08:28:43.215467+09:00",
+      "seen_in_latest": true,
+      "source_id": "kvic_notice",
+      "title": "모태펀드(특허계정_특허기술사업화) 2026년 6월 수시 출자사업 접수 현황",
+      "topics": [
+        "policy_funds",
+        "venture",
+        "private_funds",
+        "statistics"
+      ],
+      "url": "https://www.kvic.or.kr/notice/kvic-notice/investment-business-notice?id=5108"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "1d5fa22dde018ff13efdd7b1",
+      "kind": "notice",
+      "published_date": "2026-08-28",
+      "publisher": "한국성장금융",
+      "retrieved_at": "2026-09-21T08:28:42.825673+09:00",
+      "seen_in_latest": true,
+      "source_id": "kgrowth_notice",
+      "title": "【선정결과】「K-컬처 밸류업 펀드」 위탁운용사 서류심사 결과",
+      "topics": [
+        "policy_funds",
+        "private_funds"
+      ],
+      "url": "https://www.kgrowth.or.kr/notice_view.asp?idx=1114&str_type=1&tab=1"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "b0c976152fb71393f1b9778b",
+      "kind": "notice",
+      "published_date": "2026-08-27",
+      "publisher": "산업통상부",
+      "retrieved_at": "2026-09-21T08:28:42.503511+09:00",
+      "seen_in_latest": true,
+      "source_id": "motie_notice",
+      "title": "「2026년 산업융합 규제샌드박스 사업화 지원 프로그램」 지원 대상과제 하반기 공고",
+      "topics": [
+        "venture",
+        "regulation"
+      ],
+      "url": "https://www.motie.go.kr/kor/article/ATCL2826a2625/71282/view"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "601861577d50be04e8343f15",
+      "kind": "press",
+      "published_date": "2026-08-27",
+      "publisher": "한국성장금융",
+      "retrieved_at": "2026-09-21T08:28:42.888540+09:00",
+      "seen_in_latest": true,
+      "source_id": "kgrowth_press",
+      "title": "(보도자료) 한국성장금융_코리아핀테크위크2026 투자밋업 모집공고",
+      "topics": [
+        "venture"
+      ],
+      "url": "https://www.kgrowth.or.kr/notice_view.asp?idx=816&str_type=3&tab=1"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "aa6b81ab9011ecd659d4c201",
+      "kind": "notice",
+      "published_date": "2026-08-26",
+      "publisher": "한국성장금융",
+      "retrieved_at": "2026-09-21T08:28:42.825673+09:00",
+      "seen_in_latest": true,
+      "source_id": "kgrowth_notice",
+      "title": "【선정결과】「기술혁신전문펀드 7호(M.AX 산업대전환 혁신)」 위탁운용사 선정 결과",
+      "topics": [
+        "policy_funds",
+        "private_funds"
+      ],
+      "url": "https://www.kgrowth.or.kr/notice_view.asp?idx=1112&str_type=1&tab=1"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "c7fdbe783411c7fc5f48edf4",
+      "kind": "notice",
+      "published_date": "2026-08-25",
+      "publisher": "한국성장금융",
+      "retrieved_at": "2026-09-21T08:28:42.825673+09:00",
+      "seen_in_latest": true,
+      "source_id": "kgrowth_notice",
+      "title": "【선정결과】「무공해차 인프라펀드」위탁운용사 서류심사 결과",
+      "topics": [
+        "policy_funds",
+        "private_funds"
+      ],
+      "url": "https://www.kgrowth.or.kr/notice_view.asp?idx=1111&str_type=1&tab=1"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "02cd8b6073cb2277e82dbfd6",
+      "kind": "notice",
+      "published_date": "2026-08-21",
+      "publisher": "중소벤처기업부",
+      "retrieved_at": "2026-09-21T08:28:42.061820+09:00",
+      "seen_in_latest": true,
+      "source_id": "mss_notice",
+      "title": "2026년도 딥테크 특화 창업중심대학 추천형 창업기업 모집공고",
+      "topics": [
+        "venture"
+      ],
+      "url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1070649&cbIdx=310"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "44f004937c01c4d779f2985a",
+      "kind": "notice",
+      "published_date": "2026-08-20",
+      "publisher": "중소벤처기업부",
+      "retrieved_at": "2026-09-21T08:28:42.061820+09:00",
+      "seen_in_latest": true,
+      "source_id": "mss_notice",
+      "title": "모두의 창업 프로젝트 2차 모집 공고",
+      "topics": [
+        "venture"
+      ],
+      "url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1070586&cbIdx=310"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "27204f212597f73be36602b1",
+      "kind": "notice",
+      "published_date": "2026-08-20",
+      "publisher": "중소벤처기업부",
+      "retrieved_at": "2026-09-21T08:28:42.061820+09:00",
+      "seen_in_latest": true,
+      "source_id": "mss_notice",
+      "title": "「민관협력 오픈이노베이션 지원」 2026년 ‘규제자유특구 지원’ 창업기업 모집",
+      "topics": [
+        "venture",
+        "regulation"
+      ],
+      "url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1070626&cbIdx=310"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "8b817e1a063f212faf5526f8",
+      "kind": "notice",
+      "published_date": "2026-08-19",
+      "publisher": "농업정책보험금융원",
+      "retrieved_at": "2026-09-21T08:28:43.273431+09:00",
+      "seen_in_latest": true,
+      "source_id": "apfs_home",
+      "title": "농업정책보험금융원-NH농협은행, '2026년 농업정책자금 부정수급 합동 예방 교육’ [2026-08-19]",
+      "topics": [
+        "policy_funds"
+      ],
+      "url": "https://www.apfs.kr/front/board/boardContentsView.do?boardId=42&contId=15203&menuId=42"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "6c9893faf1aeb8ba1975cdf5",
+      "kind": "notice",
+      "published_date": "2026-08-19",
+      "publisher": "농업정책보험금융원",
+      "retrieved_at": "2026-09-21T08:28:43.273431+09:00",
+      "seen_in_latest": true,
+      "source_id": "apfs_home",
+      "title": "농업정책보험금융원, '유관기관 간 2026년 수산정책자금 부정수급 합동 예방 교육’ [2026-08-19]",
+      "topics": [
+        "policy_funds"
+      ],
+      "url": "https://www.apfs.kr/front/board/boardContentsView.do?boardId=42&contId=15202&menuId=42"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "2089fd730202ae5fd0e3dcf6",
+      "kind": "press",
+      "published_date": "2026-08-13",
+      "publisher": "한국벤처투자",
+      "retrieved_at": "2026-09-21T08:28:43.245910+09:00",
+      "seen_in_latest": true,
+      "source_id": "kvic_press",
+      "title": "(KVIC Beyond & Bridge) 벤처투자와 함께 성장한 더뮤즈엔터테인먼트",
+      "topics": [
+        "venture"
+      ],
+      "url": "https://www.kvic.or.kr/notice/kvic-news/press-release?id=5088"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "6ec40226851628776875ca92",
+      "kind": "notice",
+      "published_date": "2026-08-11",
+      "publisher": "중소벤처기업부",
+      "retrieved_at": "2026-09-21T08:28:42.061820+09:00",
+      "seen_in_latest": true,
+      "source_id": "mss_notice",
+      "title": "「민관협력 오픈이노베이션 지원」 2026년 '성과기업 후속 지원' 창업기업 모집 수정공고",
+      "topics": [
+        "venture"
+      ],
+      "url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1070441&cbIdx=310"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "f30f6fd50e174861e04925da",
+      "kind": "press",
+      "published_date": "2026-07-31",
+      "publisher": "한국벤처투자",
+      "retrieved_at": "2026-09-21T08:28:43.245910+09:00",
+      "seen_in_latest": true,
+      "source_id": "kvic_press",
+      "title": "한국벤처투자 우정사업본부와 유니콘 기업 육성을 위한 업무협약 체결",
+      "topics": [
+        "venture"
+      ],
+      "url": "https://www.kvic.or.kr/notice/kvic-news/press-release?id=5066"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "390b270d1757c3a94e3883ac",
+      "kind": "notice",
+      "published_date": "2026-07-31",
+      "publisher": "과학기술정보통신부",
+      "retrieved_at": "2026-09-21T08:28:42.062675+09:00",
+      "seen_in_latest": true,
+      "source_id": "msit_notice",
+      "title": "『2026 K-보안 스타트업 일본 시장개척단』 참가기업 모집 공고(연장공고)",
+      "topics": [
+        "venture"
+      ],
+      "url": "https://www.msit.go.kr/bbs/view.do?bbsSeqNo=100&nttSeqNo=3186843&sCode=user"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "95140e53643b85594fcd9ccd",
+      "kind": "press",
+      "published_date": "2026-07-30",
+      "publisher": "한국성장금융",
+      "retrieved_at": "2026-09-21T08:28:42.888540+09:00",
+      "seen_in_latest": true,
+      "source_id": "kgrowth_press",
+      "title": "(보도자료) “다음 금융은 이미 시작됐다. (Beyond Finance, Into the Future)” 「코리아 핀테크 위크 2026」 개최 안내",
+      "topics": [
+        "venture"
+      ],
+      "url": "https://www.kgrowth.or.kr/notice_view.asp?idx=815&str_type=3&tab=1"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "7167bc2bef3157e677f46f7b",
+      "kind": "press",
+      "published_date": "2026-06-19",
+      "publisher": "한국벤처투자",
+      "retrieved_at": "2026-09-21T08:28:43.245910+09:00",
+      "seen_in_latest": true,
+      "source_id": "kvic_press",
+      "title": "한국벤처투자  영국 British Business Bank와 벤처투자 협력 방안 논의 보도자료",
+      "topics": [
+        "venture"
+      ],
+      "url": "https://www.kvic.or.kr/notice/kvic-news/press-release?id=4887"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "1cf3e1e67385bf0d94a7d66d",
+      "kind": "press",
+      "published_date": "2026-06-19",
+      "publisher": "한국벤처투자",
+      "retrieved_at": "2026-09-21T08:28:43.245910+09:00",
+      "seen_in_latest": true,
+      "source_id": "kvic_press",
+      "title": "한국벤처투자  ‘K-Global Star IR in EU’ 성황리 개최",
+      "topics": [
+        "venture"
+      ],
+      "url": "https://www.kvic.or.kr/notice/kvic-news/press-release?id=4888"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "ca4801cc46d9bcfc82acf807",
+      "kind": "press",
+      "published_date": "2025-08-04",
+      "publisher": "한국성장금융",
+      "retrieved_at": "2026-09-21T08:28:42.888540+09:00",
+      "seen_in_latest": true,
+      "source_id": "kgrowth_press",
+      "title": "(보도자료) 한국성장금융_「코리아핀테크위크2025」투자밋업 모집공고",
+      "topics": [
+        "venture"
+      ],
+      "url": "https://www.kgrowth.or.kr/notice_view.asp?idx=800&str_type=3&tab=1"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "122b873afe474b16ff1d08e6",
+      "kind": "press",
+      "published_date": "2025-06-17",
+      "publisher": "한국성장금융",
+      "retrieved_at": "2026-09-21T08:28:42.888540+09:00",
+      "seen_in_latest": true,
+      "source_id": "kgrowth_press",
+      "title": "(보도자료) “핀테크×AI, 금융에 취향을 더하다” 「코리아 핀테크 위크 2025」 개최 안내",
+      "topics": [
+        "venture"
+      ],
+      "url": "https://www.kgrowth.or.kr/notice_view.asp?idx=798&str_type=3&tab=1"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "78c052e3d2a7206ae547fef6",
+      "kind": "notice",
+      "published_date": "2025-05-13",
+      "publisher": "한국성장금융",
+      "retrieved_at": "2026-09-21T08:28:42.825673+09:00",
+      "seen_in_latest": true,
+      "source_id": "kgrowth_notice",
+      "title": "【기타】 프로젝트 펀드 담당팀 연락처(상시 게시)",
+      "topics": [
+        "private_funds"
+      ],
+      "url": "https://www.kgrowth.or.kr/notice_view.asp?idx=913&str_type=1&tab=1"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "e2d8baef268c75362519482f",
+      "kind": "press",
+      "published_date": null,
+      "publisher": "금융위원회",
+      "retrieved_at": "2026-09-21T08:28:49.690336+09:00",
+      "seen_in_latest": true,
+      "source_id": "fsc_press",
+      "title": "부실사업장 정상화를 통한 신속한 주택공급 권대영 금융위 부위원장, 캠코펀드 사업장 방문",
+      "topics": [
+        "private_funds"
+      ],
+      "url": "https://www.fsc.go.kr/no010101/87738"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "72c94d65a4fa9286ac7ccacf",
+      "kind": "press",
+      "published_date": null,
+      "publisher": "금융위원회",
+      "retrieved_at": "2026-09-21T08:28:49.690336+09:00",
+      "seen_in_latest": true,
+      "source_id": "fsc_press",
+      "title": "국민성장펀드에 더 많은 전문가들이 참여하여 의사결정의 객관성과 투명성을 강화합니다. - 9월 기금운용심의회, 약 1조원 규모 5건 사업도 함께 승인의결",
+      "topics": [
+        "policy_funds",
+        "private_funds"
+      ],
+      "url": "https://www.fsc.go.kr/no010101/87742"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "46215b96949c9b9e5c63da76",
+      "kind": "press",
+      "published_date": null,
+      "publisher": "금융위원회",
+      "retrieved_at": "2026-09-21T08:28:49.690336+09:00",
+      "seen_in_latest": true,
+      "source_id": "fsc_press",
+      "title": "「국가 자금세탁·테러자금조달·확산금융방지 전략 및 정책 운영방향」 발표",
+      "topics": [
+        "regulation"
+      ],
+      "url": "https://www.fsc.go.kr/no010101/87728"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "15752c64601bc4482ae37a06",
+      "kind": "press",
+      "published_date": null,
+      "publisher": "금융위원회",
+      "retrieved_at": "2026-09-21T08:28:49.690336+09:00",
+      "seen_in_latest": true,
+      "source_id": "fsc_press",
+      "title": "“투자자와 벤처기업, 전문가의 의견을 균형있게 청취하였습니다.”  - 신기술금융업권 제3자 연대책임 관련 간담회 개최",
+      "topics": [
+        "venture"
+      ],
+      "url": "https://www.fsc.go.kr/no010101/87735"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "0a4fb5fd3507c7012d537735",
+      "kind": "press",
+      "published_date": null,
+      "publisher": "금융위원회",
+      "retrieved_at": "2026-09-21T08:28:49.690336+09:00",
+      "seen_in_latest": true,
+      "source_id": "fsc_press",
+      "title": "사업보고서 등에 대한 조사·감리결과 조치 - 제16차 증권선물위원회(‘26.9.16.) 조치 의결",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://www.fsc.go.kr/no010101/87731"
+    }
+  ]
+}
