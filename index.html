@@ -6,7 +6,7 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data:; connect-src 'self'; form-action 'none'; frame-src 'none'; base-uri 'self'; object-src 'none'; upgrade-insecure-requests">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <meta name="theme-color" content="#05070f">
+  <meta name="theme-color" content="#f7f5f0">
   <title>벤처시장연구원 | 자본시장·벤처투자·디지털자산 법제 연구</title>
   <meta name="description" content="한국벤처투자·자본시장연구원 출신 법학박사가 자본시장·벤처투자·디지털자산·스테이블코인 법제를 법리와 데이터로 연구·분석합니다. 벤처·금융법제 연구기관.">
   <meta name="author" content="벤처시장연구원">
@@ -27,8 +27,6 @@
 
   <link rel="preload" href="/assets/fonts/pretendard-subset.woff2?v=dbdb9afa4041" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/css/pretendard.css">
-  <link rel="preload" as="image" href="/assets/cosmos-mobile.webp" type="image/webp" fetchpriority="high"
-        media="(max-width: 768px) and (orientation: portrait) and (max-aspect-ratio: 3/5)">
   <link rel="stylesheet" href="css/style.css?v=20260921-address-nav">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%231F3864'/%3E%3Ctext x='30' y='46' font-size='34' font-weight='800' fill='%23C9A227' text-anchor='middle' font-family='sans-serif'%3EK%3C/text%3E%3Ctext x='70' y='46' font-size='34' font-weight='800' fill='%23C9A227' text-anchor='middle' font-family='sans-serif'%3EV%3C/text%3E%3Ctext x='30' y='88' font-size='34' font-weight='800' fill='%23C9A227' text-anchor='middle' font-family='sans-serif'%3EM%3C/text%3E%3Ctext x='70' y='88' font-size='34' font-weight='800' fill='%23C9A227' text-anchor='middle' font-family='sans-serif'%3EI%3C/text%3E%3C/svg%3E">
 
@@ -53,10 +51,9 @@
     }
   }
   </script>
+<link rel="stylesheet" href="/css/institute.css?v=20260921-institution">
 </head>
-<body class="home-upgrade">
-  <canvas id="cosmicCanvas" aria-hidden="true"></canvas>
-  <div class="cosmic-nebula" aria-hidden="true"></div>
+<body class="home-upgrade institution-site">
   <a href="#main" class="skip-link">본문 바로가기</a>
 
   <!-- ============ HEADER ============ -->
@@ -90,21 +87,22 @@
   </header>
 
   <main id="main">
+    <div class="container institution-masthead"><span>RESEARCH &amp; ADVISORY</span><span>벤처투자 · 자본시장 · 디지털금융</span></div>
     <!-- ============ HERO ============ -->
     <section class="hero" aria-labelledby="home-title">
       <div class="container hero__inner">
         <div class="home-copy">
           <span class="eyebrow hero__eyebrow">KOREA VENTURE MARKET INSTITUTE</span>
-          <h1 id="home-title">벤처투자와 자본시장,<br><span class="accent">법리와 데이터로<br>깊이 읽습니다.</span></h1>
+          <h1 id="home-title">시장을 읽고,<br>제도를 연구합니다.<span class="hero-subject">벤처투자와 자본시장을 바라보는<br>법리와 데이터의 관점.</span></h1>
           <p class="hero__lead">시장의 변화에서 제도의 과제까지.<br>1차 자료와 실증 분석에 근거한 연구로<br class="home-desktop-break"> 정책과 제도의 방향을 제시합니다.</p>
-          <div class="hero__actions"><a class="btn btn-primary" href="/intelligence/">벤처·자본시장 이슈 보기</a>
+          <div class="hero__actions">
             <a href="#selected-research" class="btn btn--primary btn--lg">주요 연구 살펴보기 <span aria-hidden="true">↗</span></a>
             <a href="/contact.html" class="btn btn--ghost btn--lg">연구·협력 문의 <span aria-hidden="true">→</span></a>
           </div>
           <p class="home-description">벤처투자 · 자본시장 · 디지털금융 법·제도 연구</p>
         </div>
         <aside class="home-explore" aria-labelledby="explore-title">
-          <div class="home-explore__heading"><span class="eyebrow">EXPLORE KVMI</span><h2 id="explore-title">시장을 이해하는<br>네 가지 출발점</h2><p>연구와 공개 데이터를 한곳에서 만나보세요.</p></div>
+          <div class="home-explore__heading"><span class="eyebrow">EXPLORE KVMI</span><h2 id="explore-title">연구와 데이터,<br>네 가지 관점</h2><p>연구와 공개 데이터를 한곳에서 만나보세요.</p></div>
           <a class="home-route" href="/publications/"><span class="home-route__number" aria-hidden="true">01</span><span><strong>연구성과</strong><small>벤처·금융법제 연구와 저술</small></span><span aria-hidden="true">↗</span></a>
           <a class="home-route" href="/data/"><span class="home-route__number" aria-hidden="true">02</span><span><strong>벤처투자 동향</strong><small>신규 투자와 펀드결성 통계</small></span><span aria-hidden="true">↗</span></a>
           <a class="home-route" href="/indicators/"><span class="home-route__number" aria-hidden="true">03</span><span><strong>벤처기업 지표</strong><small>유형·지역·업종별 시장의 모습</small></span><span aria-hidden="true">↗</span></a>
@@ -116,6 +114,14 @@
         <div><span>01 / SOURCE</span><strong>1차 자료에 근거한 분석</strong></div>
         <div><span>02 / METHOD</span><strong>법리와 실증 데이터의 결합</strong></div>
         <div><span>03 / PURPOSE</span><strong>정책·제도 개선을 위한 연구</strong></div>
+      </div>
+    </section>
+
+    <section class="institution-intelligence" aria-labelledby="intelligence-title">
+      <div class="container intelligence-band">
+        <div><span class="eyebrow">MARKET INTELLIGENCE</span><h2 id="intelligence-title">시장의 움직임을,<br>공식 자료에서.</h2></div>
+        <div><p>정책자금·벤처투자·회사법·IPO·M&amp;A.<br>기관이 발표한 자료를 주제별로 살펴보세요.</p><p class="intelligence-limits">최근 공식 목록과 링크를 제공합니다. 첨부 전문의 전수 검증은 포함하지 않습니다.</p><a class="home-text-link" href="/intelligence/">벤처·자본시장 이슈 보기 <span aria-hidden="true">→</span></a></div>
+        <a class="intelligence-brief" href="/briefs/"><span>AI INFORMATION BRIEF</span><strong>출처와 함께 읽는<br>자료 요약</strong><small>공식 본문을 정리한 AI 브리프 →</small></a>
       </div>
     </section>
 
