@@ -1,6 +1,36 @@
 {
-  "checked_at": "2026-09-22T12:30:01.955890+09:00",
+  "checked_at": "2026-09-22T18:30:01.979651+09:00",
   "items": [
+    {
+      "body_status": "metadata_only",
+      "id": "ffb609169f3f695dbf9a31f9",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(코스닥)씨씨에스 - [기재정정]주주총회소집공고",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922000516"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "fbc3dd784fb288a3f983da4e",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(코스닥)씨씨에스 - [기재정정]의결권대리행사권유참고서류",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922000525"
+    },
     {
       "body_status": "metadata_only",
       "id": "f486e2fb05e46a88edc61a52",
@@ -8,7 +38,7 @@
       "published_date": "2026-09-22",
       "publisher": "DART",
       "retrieved_at": "2026-09-22T12:30:02.343286+09:00",
-      "seen_in_latest": true,
+      "seen_in_latest": false,
       "source_id": "dart_disclosure",
       "title": "(코스닥)포시에스 - 기업가치제고계획(자율공시) (고배당기업 표시를 위한 재공시)",
       "topics": [
@@ -18,12 +48,42 @@
     },
     {
       "body_status": "metadata_only",
+      "id": "f1d90dc5e96e7df13b0f6a88",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(기타)메리츠캐피탈 - 투자설명서(일괄신고)",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922000514"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "f0e366f6ff067513c8e1094c",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(기타)케이카캐피탈제팔차유동화전문유한회사 - 자산유동화관련중요사항발생등보고서(기타)",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922000513"
+    },
+    {
+      "body_status": "metadata_only",
       "id": "f0c25a8a6c8fc8eec3eeaeff",
       "kind": "disclosure",
       "published_date": "2026-09-22",
       "publisher": "DART",
       "retrieved_at": "2026-09-22T12:30:02.343286+09:00",
-      "seen_in_latest": true,
+      "seen_in_latest": false,
       "source_id": "dart_disclosure",
       "title": "(코스닥)포시에스 - 정기주주총회결과",
       "topics": [
@@ -33,18 +93,48 @@
     },
     {
       "body_status": "metadata_only",
+      "id": "edab494ecb9f252dcf489bd4",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(코스닥)오늘이엔엠 - 전환사채(해외전환사채포함)발행후만기전사채취득 (제5회차)",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922900658"
+    },
+    {
+      "body_status": "metadata_only",
       "id": "eb42bf7ed4869bf00317b557",
       "kind": "disclosure",
       "published_date": "2026-09-22",
       "publisher": "DART",
       "retrieved_at": "2026-09-22T12:30:02.343286+09:00",
-      "seen_in_latest": true,
+      "seen_in_latest": false,
       "source_id": "dart_disclosure",
       "title": "(기타)씨더블유씨앤디 - 동일인등출자계열회사와의상품ㆍ용역거래",
       "topics": [
         "corporate"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922000065"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "eaa98eaf17dc83d590d9c0b8",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(코스닥)바디텍메드 - 주식소각결정",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922900621"
     },
     {
       "body_status": "metadata_only",
@@ -68,7 +158,7 @@
       "published_date": "2026-09-22",
       "publisher": "DART",
       "retrieved_at": "2026-09-22T12:30:02.343286+09:00",
-      "seen_in_latest": true,
+      "seen_in_latest": false,
       "source_id": "dart_disclosure",
       "title": "(코스닥)엔젠바이오 - [기재정정]증권발행실적보고서",
       "topics": [
@@ -79,11 +169,41 @@
     },
     {
       "body_status": "metadata_only",
+      "id": "e192530d80c1a95f764021b8",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(코스닥)셀리드 - 주요사항보고서(유상증자결정)",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922000533"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "d82c965182d70b5610fd6540",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(코스닥)메디콕스 - [기재정정]주주총회소집결의 (임시주주총회)",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922900606"
+    },
+    {
+      "body_status": "metadata_only",
       "id": "d6bcec0a2f8b0b6065d35337",
       "kind": "press",
       "published_date": "2026-09-22",
       "publisher": "중소벤처기업부",
-      "retrieved_at": "2026-09-22T12:30:01.956552+09:00",
+      "retrieved_at": "2026-09-22T18:30:01.980160+09:00",
       "seen_in_latest": true,
       "source_id": "mss_press",
       "title": "공정한 벤처투자 문화를 위한 「벤처투자법」 개정안 국무회의 의결",
@@ -95,12 +215,88 @@
     },
     {
       "body_status": "metadata_only",
+      "id": "ccf54a9addab5bbbbd8c5e21",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(유가)풀무원 - 기업가치제고계획(자율공시) (2025년 이행현황)",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922800624"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "cb960adedc9267f1e14640b4",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(코넥스)안지오랩 - 전환주식의전환청구권행사",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922600643"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "c8831c485f27d24bc1da3524",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(유가)동남합성 - [기재정정]기업지배구조보고서공시",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922800609"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "c5d0556106122fa0e809a7a0",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(유가)SKC - 투자판단관련주요경영사항",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922800642"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "baba0cc4879e468f362e2ae4",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(유가)한화에어로스페이스 - 특수관계인과의수익증권거래",
+      "topics": [
+        "private_funds",
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922000520"
+    },
+    {
+      "body_status": "metadata_only",
       "id": "b8e458c8b3aa90bdf895bce8",
       "kind": "disclosure",
       "published_date": "2026-09-22",
       "publisher": "DART",
       "retrieved_at": "2026-09-22T12:30:02.343286+09:00",
-      "seen_in_latest": true,
+      "seen_in_latest": false,
       "source_id": "dart_disclosure",
       "title": "(코스닥)선익시스템 - 기업설명회(IR)개최",
       "topics": [
@@ -115,7 +311,7 @@
       "published_date": "2026-09-22",
       "publisher": "DART",
       "retrieved_at": "2026-09-22T12:30:02.343286+09:00",
-      "seen_in_latest": true,
+      "seen_in_latest": false,
       "source_id": "dart_disclosure",
       "title": "(기타)맥시칸 - 동일인등출자계열회사와의상품ㆍ용역거래",
       "topics": [
@@ -130,13 +326,73 @@
       "published_date": "2026-09-22",
       "publisher": "DART",
       "retrieved_at": "2026-09-22T12:30:02.343286+09:00",
-      "seen_in_latest": true,
+      "seen_in_latest": false,
       "source_id": "dart_disclosure",
       "title": "(코넥스)지에이이노더스 - 기업설명회(IR)개최",
       "topics": [
         "corporate"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922600125"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "b6c5c3538e514db9b4a866db",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(코스닥)서울전자통신 - 경영권변경등에관한계약체결",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922900618"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "b1a1708a4f05da2c69b87f80",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(유가)대양금속 - 파산신청",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922800616"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "af173a1c322358258ca6724f",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(유가)모나미 - 투자유의안내 (관리종목지정 우려 예고)",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922800613"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "ae7a86f65d4d62291100c224",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(유가)제이알글로벌리츠 - 사업보고서 (2026.06)",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922000530"
     },
     {
       "body_status": "metadata_only",
@@ -153,6 +409,21 @@
         "ipo"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260918100001"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "adac44a4a14f975a47f0900c",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(코스닥)티엔엔터테인먼트 - 임원ㆍ주요주주특정증권등거래계획보고서",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922000517"
     },
     {
       "body_status": "metadata_only",
@@ -176,7 +447,7 @@
       "published_date": "2026-09-22",
       "publisher": "DART",
       "retrieved_at": "2026-09-22T12:30:02.343286+09:00",
-      "seen_in_latest": true,
+      "seen_in_latest": false,
       "source_id": "dart_disclosure",
       "title": "(코스닥)엔젠바이오 - [기재정정]증권발행결과(자율공시)",
       "topics": [
@@ -219,6 +490,21 @@
     },
     {
       "body_status": "metadata_only",
+      "id": "9c2bcde694970fbc316814dd",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(유가)SKC - 기타경영사항(종속회사의주요경영사항)",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922800641"
+    },
+    {
+      "body_status": "metadata_only",
       "id": "9aca8c3b02658a67ac8ce6fa",
       "kind": "disclosure",
       "published_date": "2026-09-22",
@@ -235,12 +521,73 @@
     },
     {
       "body_status": "metadata_only",
+      "id": "9599d81adae7498b849ceb7b",
+      "kind": "notice",
+      "published_date": "2026-09-22",
+      "publisher": "한국벤처투자",
+      "retrieved_at": "2026-09-22T18:30:03.641921+09:00",
+      "seen_in_latest": true,
+      "source_id": "kvic_notice",
+      "title": "모태펀드(관광, 스포츠) 2026년 9월 수시 출자사업 질의응답 게시의 건",
+      "topics": [
+        "policy_funds",
+        "private_funds"
+      ],
+      "url": "https://www.kvic.or.kr/notice/kvic-notice/investment-business-notice?id=5142"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "940bb28c009cd93a2058ce02",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(코스닥)위즈코프 - 최대주주변경",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922900617"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "935e144e74e41ff5490a328e",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(코스닥)대호특수강 - 주식병합결정",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922900614"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "91be094c5b2bdad37b839d18",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(코스닥)광진실업 - [기재정정]임시주주총회결과",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922900649"
+    },
+    {
+      "body_status": "metadata_only",
       "id": "90f63169319108ae0be5f70a",
       "kind": "disclosure",
       "published_date": "2026-09-22",
       "publisher": "DART",
       "retrieved_at": "2026-09-22T12:30:02.343286+09:00",
-      "seen_in_latest": true,
+      "seen_in_latest": false,
       "source_id": "dart_disclosure",
       "title": "(코스닥)에스켐 - 임시주주총회결과",
       "topics": [
@@ -255,7 +602,7 @@
       "published_date": "2026-09-22",
       "publisher": "DART",
       "retrieved_at": "2026-09-22T12:30:02.343286+09:00",
-      "seen_in_latest": true,
+      "seen_in_latest": false,
       "source_id": "dart_disclosure",
       "title": "(기타)플그림 - 동일인등출자계열회사와의상품ㆍ용역거래",
       "topics": [
@@ -265,12 +612,73 @@
     },
     {
       "body_status": "metadata_only",
+      "id": "8caee4fc6530cd567cb39781",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(기타)오케이넥스트 - 동일인등출자계열회사와의상품ㆍ용역거래변경",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922000515"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "8ad611dff63d5ba63f9ca868",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(유가)대양금속 - 파산신청기각",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922800660"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "89b4f96e6428584029087a92",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(코스닥)젠큐릭스 - [기재정정]주요사항보고서(회사합병결정)",
+      "topics": [
+        "corporate",
+        "ma"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922000545"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "85dbb599401f30b576ac91dd",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(코스닥)넥사다이내믹스 - 소송등의판결ㆍ결정",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922900673"
+    },
+    {
+      "body_status": "metadata_only",
       "id": "85b5838e37ad503e4a571203",
       "kind": "disclosure",
       "published_date": "2026-09-22",
       "publisher": "DART",
       "retrieved_at": "2026-09-22T12:30:02.343286+09:00",
-      "seen_in_latest": true,
+      "seen_in_latest": false,
       "source_id": "dart_disclosure",
       "title": "(코스닥)엔젠바이오 - [기재정정]주요사항보고서(유상증자결정)",
       "topics": [
@@ -285,7 +693,7 @@
       "published_date": "2026-09-22",
       "publisher": "DART",
       "retrieved_at": "2026-09-22T12:30:02.343286+09:00",
-      "seen_in_latest": true,
+      "seen_in_latest": false,
       "source_id": "dart_disclosure",
       "title": "(기타)지티엑스씨 - [기재정정]최대주주등의주식보유변동",
       "topics": [
@@ -295,18 +703,63 @@
     },
     {
       "body_status": "metadata_only",
+      "id": "7fe0f2f2e297c35fc93d0cbf",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(코스닥)대호특수강 - 주주명부폐쇄기간또는기준일설정",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922900612"
+    },
+    {
+      "body_status": "metadata_only",
       "id": "7f16177757609ec146087411",
       "kind": "disclosure",
       "published_date": "2026-09-22",
       "publisher": "DART",
       "retrieved_at": "2026-09-22T12:30:02.343286+09:00",
-      "seen_in_latest": true,
+      "seen_in_latest": false,
       "source_id": "dart_disclosure",
       "title": "(기타)삼표레미콘 - 동일인등출자계열회사와의상품ㆍ용역거래",
       "topics": [
         "corporate"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922000085"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "7db6e7a98d58c83d139fcef0",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(유가)대양금속 - 파산신청기각",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922800636"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "771329a1877c86502c41b1ce",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(유가)미래산업 - [기재정정]단일판매ㆍ공급계약체결",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922800657"
     },
     {
       "body_status": "metadata_only",
@@ -326,18 +779,200 @@
     },
     {
       "body_status": "metadata_only",
+      "id": "6c86f025a9197d9a76d85f62",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(코스닥)광진실업 - 독립이사의선임ㆍ해임또는중도퇴임에관한신고",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922000523"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "691fb81548e887f82d6a1597",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(기타)아프로신용정보 - 동일인등출자계열회사와의상품ㆍ용역거래변경",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922000522"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "677da498acee1241889f880e",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(유가)까뮤이앤씨 - 불성실공시법인지정",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922800662"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "628324c26fb9da88734b01a3",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(기타)한화인베스트먼트 - [기재정정]특수관계인과의수익증권거래",
+      "topics": [
+        "private_funds",
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922000535"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "626a4c323741298480a507eb",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(코스닥)세원물산 - 유동성공급계약의체결",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922900634"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "617fb1e68989a6c484370ca1",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(코스닥)휴맥스홀딩스 - 기타시장안내 (시가총액 미달에 따른 상장폐지 우려 관련 안내)",
+      "topics": [
+        "corporate",
+        "ipo"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922900661"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "5c9b2c8c301d90fcc3ca33a8",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(유가)제이알글로벌리츠 - 감사보고서제출",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922800602"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "58f04cdfde3515362aa02e40",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(코스닥)아난티 - 타인에대한채무보증결정",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922900650"
+    },
+    {
+      "body_status": "metadata_only",
       "id": "528803bb81e98123b62533c6",
       "kind": "disclosure",
       "published_date": "2026-09-22",
       "publisher": "DART",
       "retrieved_at": "2026-09-22T12:30:02.343286+09:00",
-      "seen_in_latest": true,
+      "seen_in_latest": false,
       "source_id": "dart_disclosure",
       "title": "(유가)유니켐 - 주주총회소집공고",
       "topics": [
         "corporate"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922000139"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "50186e6cedc1fe1b318d0a0a",
+      "kind": "press",
+      "published_date": "2026-09-22",
+      "publisher": "중소벤처기업부",
+      "retrieved_at": "2026-09-22T18:30:01.980160+09:00",
+      "seen_in_latest": true,
+      "source_id": "mss_press",
+      "title": "티메프 피해기업, 정책자금 상환부담 덜어드립니다",
+      "topics": [
+        "policy_funds"
+      ],
+      "url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1071372&cbIdx=86"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "4d9adf45bd979ab68d0616eb",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(유가)대양금속 - 매매거래정지및정지해제(풍문등조회공시)",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922800620"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "4bbe8bad879b5b735e46b8c8",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(코스닥)엔젠바이오 - 기타시장안내(관리종목지정우려종목) (시가총액 200억원 미달)",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922900652"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "48d94cee6258919b8c1bde99",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(기타)새로회계법인 - 회계법인사업보고서 (2026.06)",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922000534"
     },
     {
       "body_status": "metadata_only",
@@ -362,7 +997,7 @@
       "published_date": "2026-09-22",
       "publisher": "DART",
       "retrieved_at": "2026-09-22T12:30:02.343286+09:00",
-      "seen_in_latest": true,
+      "seen_in_latest": false,
       "source_id": "dart_disclosure",
       "title": "(코스닥)멕아이씨에스 - 증권발행결과(자율공시)",
       "topics": [
@@ -378,7 +1013,7 @@
       "published_date": "2026-09-22",
       "publisher": "DART",
       "retrieved_at": "2026-09-22T12:30:02.343286+09:00",
-      "seen_in_latest": true,
+      "seen_in_latest": false,
       "source_id": "dart_disclosure",
       "title": "(유가)NH투자증권 - 증권발행실적보고서",
       "topics": [
@@ -389,12 +1024,28 @@
     },
     {
       "body_status": "metadata_only",
+      "id": "417d20dbc3ca56d6a79ad2d7",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(유가)범양건영 - 기타경영사항(자율공시) (상장폐지결정 등 효력정지 가처분 신청)",
+      "topics": [
+        "corporate",
+        "ipo"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922800619"
+    },
+    {
+      "body_status": "metadata_only",
       "id": "36cbb6ba020037b161e2e5d1",
       "kind": "disclosure",
       "published_date": "2026-09-22",
       "publisher": "DART",
       "retrieved_at": "2026-09-22T12:30:02.343286+09:00",
-      "seen_in_latest": true,
+      "seen_in_latest": false,
       "source_id": "dart_disclosure",
       "title": "(기타)지티엑스씨 - 최대주주등의주식보유변동",
       "topics": [
@@ -420,11 +1071,42 @@
     },
     {
       "body_status": "metadata_only",
+      "id": "31d20683067aab05d7b6241a",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(유가)금양 - [기재정정]타법인주식및출자증권취득결정",
+      "topics": [
+        "corporate",
+        "ma"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922800633"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "30db642647d5ab07d302b6d3",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(코스닥)모바일어플라이언스 - 기타시장안내 (개선계획서 제출 )",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922900626"
+    },
+    {
+      "body_status": "metadata_only",
       "id": "2aeeb46f8352cc66f9c27b2a",
       "kind": "notice",
       "published_date": "2026-09-22",
       "publisher": "한국벤처투자",
-      "retrieved_at": "2026-09-22T12:30:03.138118+09:00",
+      "retrieved_at": "2026-09-22T18:30:03.641921+09:00",
       "seen_in_latest": true,
       "source_id": "kvic_notice",
       "title": "(경북·전남 지역혁신, 경북-포스코 혁신성장, 충남 기업성장) 벤처펀드 2026년 출자사업 질의응답 게시의 건",
@@ -434,6 +1116,21 @@
         "private_funds"
       ],
       "url": "https://www.kvic.or.kr/notice/kvic-notice/investment-business-notice?id=5140"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "2649e5ad873a211a3c24a4e9",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(유가)대양금속 - 파산신청",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922800605"
     },
     {
       "body_status": "metadata_only",
@@ -452,18 +1149,109 @@
     },
     {
       "body_status": "metadata_only",
+      "id": "119db0b920cc9e95717af6ce",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(코스닥)벡트 - 최대주주변경",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922900647"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "0bdc8ce053d79ab189d58184",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(기타)아프로에프앤아이대부 - 동일인등출자계열회사와의상품ㆍ용역거래변경",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922000518"
+    },
+    {
+      "body_status": "metadata_only",
       "id": "0998b0db621788262b855d1d",
       "kind": "disclosure",
       "published_date": "2026-09-22",
       "publisher": "DART",
       "retrieved_at": "2026-09-22T12:30:02.343286+09:00",
-      "seen_in_latest": true,
+      "seen_in_latest": false,
       "source_id": "dart_disclosure",
       "title": "(코스닥)한중엔시에스 - [기재정정]유상증자결정(종속회사의주요경영사항)",
       "topics": [
         "corporate"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922900169"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "0906ff92e76b0b804a0f0e4e",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(기타)티월드제일백이십칠차유동화전문유한회사 - [발행조건확정]증권신고서(유동화증권)",
+      "topics": [
+        "corporate",
+        "ipo"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922000541"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "08497b225538c52c928c4256",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(코스닥)아이톡시 - 기타시장안내 (개선계획서 제출)",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922900625"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "0419a80b64afc6efcbc32d2f",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(코스닥)아로마티카 - [기재정정]주주총회소집결의 (임시주주총회)",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922900638"
+    },
+    {
+      "body_status": "metadata_only",
+      "id": "011bde783e79ab5279803883",
+      "kind": "disclosure",
+      "published_date": "2026-09-22",
+      "publisher": "DART",
+      "retrieved_at": "2026-09-22T18:30:02.388938+09:00",
+      "seen_in_latest": true,
+      "source_id": "dart_disclosure",
+      "title": "(유가)카카오 - 조회공시요구(풍문또는보도)에대한답변(미확정)",
+      "topics": [
+        "corporate"
+      ],
+      "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922800610"
     },
     {
       "body_status": "metadata_only",
@@ -594,7 +1382,7 @@
       "kind": "press",
       "published_date": "2026-09-21",
       "publisher": "한국벤처투자",
-      "retrieved_at": "2026-09-22T12:30:03.180109+09:00",
+      "retrieved_at": "2026-09-22T18:30:03.825873+09:00",
       "seen_in_latest": true,
       "source_id": "kvic_press",
       "title": "한국벤처투자, 4대 창업도시 유망 스타트업 해외진출 IR 개최",
@@ -917,7 +1705,7 @@
       "kind": "press",
       "published_date": "2026-09-21",
       "publisher": "중소벤처기업부",
-      "retrieved_at": "2026-09-22T12:30:01.956552+09:00",
+      "retrieved_at": "2026-09-22T18:30:01.980160+09:00",
       "seen_in_latest": true,
       "source_id": "mss_press",
       "title": "‘규제자유특구(글로벌특구, 광역연계형특구 포함)’ 후보과제 모집",
@@ -1321,7 +2109,7 @@
       "kind": "notice",
       "published_date": "2026-09-21",
       "publisher": "중소벤처기업부",
-      "retrieved_at": "2026-09-22T12:30:01.957127+09:00",
+      "retrieved_at": "2026-09-22T18:30:01.980597+09:00",
       "seen_in_latest": true,
       "source_id": "mss_notice",
       "title": "규제자유특구, 글로벌특구 및 광역연계형특구 후보과제 모집 공고",
@@ -1397,7 +2185,7 @@
       "kind": "press",
       "published_date": "2026-09-18",
       "publisher": "중소벤처기업부",
-      "retrieved_at": "2026-09-22T12:30:01.956552+09:00",
+      "retrieved_at": "2026-09-22T18:30:01.980160+09:00",
       "seen_in_latest": true,
       "source_id": "mss_press",
       "title": "‘모두의 창업: 사회혁신 소셜벤처 리그’ 2차 발표평가 통과자 40명 선발",
@@ -1412,7 +2200,7 @@
       "kind": "press",
       "published_date": "2026-09-18",
       "publisher": "한국성장금융",
-      "retrieved_at": "2026-09-22T12:30:02.841625+09:00",
+      "retrieved_at": "2026-09-22T18:30:03.387614+09:00",
       "seen_in_latest": true,
       "source_id": "kgrowth_press",
       "title": "(보도자료) 한국성장금융_IBK 생산적금융펀드 1호 일반매칭 사업 자펀드 운용사 모집",
@@ -1428,7 +2216,7 @@
       "kind": "notice",
       "published_date": "2026-09-18",
       "publisher": "한국성장금융",
-      "retrieved_at": "2026-09-22T12:30:02.768205+09:00",
+      "retrieved_at": "2026-09-22T18:30:02.975864+09:00",
       "seen_in_latest": true,
       "source_id": "kgrowth_notice",
       "title": "【선정공고】「IBK 생산적금융펀드 1호​」일반매칭 위탁운용사 선정계획 공고",
@@ -1459,7 +2247,7 @@
       "kind": "press",
       "published_date": "2026-09-18",
       "publisher": "과학기술정보통신부",
-      "retrieved_at": "2026-09-22T12:30:01.957442+09:00",
+      "retrieved_at": "2026-09-22T18:30:01.980908+09:00",
       "seen_in_latest": true,
       "source_id": "msit_press",
       "title": "과기정통부, 모험·도전적 경진대회를 통한 스타트업 초기 투자 지원!",
@@ -1474,7 +2262,7 @@
       "kind": "notice",
       "published_date": "2026-09-18",
       "publisher": "농림축산식품부",
-      "retrieved_at": "2026-09-22T12:30:01.958305+09:00",
+      "retrieved_at": "2026-09-22T18:30:01.981752+09:00",
       "seen_in_latest": true,
       "source_id": "mafra_notice",
       "title": "농업정책자금 변동금리 알림( 26.10월)",
@@ -1489,7 +2277,7 @@
       "kind": "notice",
       "published_date": "2026-09-18",
       "publisher": "한국성장금융",
-      "retrieved_at": "2026-09-22T12:30:02.768205+09:00",
+      "retrieved_at": "2026-09-22T18:30:02.975864+09:00",
       "seen_in_latest": true,
       "source_id": "kgrowth_notice",
       "title": "【제출서식】「부산 미래산업 전환펀드 2호」 제출서류 및 서식",
@@ -1504,7 +2292,7 @@
       "kind": "notice",
       "published_date": "2026-09-17",
       "publisher": "중소벤처기업부",
-      "retrieved_at": "2026-09-22T12:30:01.957127+09:00",
+      "retrieved_at": "2026-09-22T18:30:01.980597+09:00",
       "seen_in_latest": true,
       "source_id": "mss_notice",
       "title": "2027년 초격차 스타트업 프로젝트 기술사업화 및 투자유치 주관기관 모집공고",
@@ -1519,7 +2307,7 @@
       "kind": "notice",
       "published_date": "2026-09-17",
       "publisher": "농업정책보험금융원",
-      "retrieved_at": "2026-09-22T12:30:03.200590+09:00",
+      "retrieved_at": "2026-09-22T18:30:03.866337+09:00",
       "seen_in_latest": true,
       "source_id": "apfs_home",
       "title": "농림수산식품투자모태조합 출자 자조합 관련 규정 개정수요 조사 안내 [2026-09-17]",
@@ -1535,7 +2323,7 @@
       "kind": "press",
       "published_date": "2026-09-17",
       "publisher": "중소벤처기업부",
-      "retrieved_at": "2026-09-22T12:30:01.956552+09:00",
+      "retrieved_at": "2026-09-22T18:30:01.980160+09:00",
       "seen_in_latest": true,
       "source_id": "mss_press",
       "title": "창업, 혼자가 아닌 함께 나아간다! ｢모두의 창업 커뮤니티 발대식｣ 개최",
@@ -1550,7 +2338,7 @@
       "kind": "press",
       "published_date": "2026-09-17",
       "publisher": "중소벤처기업부",
-      "retrieved_at": "2026-09-22T12:30:01.956552+09:00",
+      "retrieved_at": "2026-09-22T18:30:01.980160+09:00",
       "seen_in_latest": true,
       "source_id": "mss_press",
       "title": "대학이 만드는 창업의 미래, 「2026 대학창업 페스티벌」 개최",
@@ -1565,7 +2353,7 @@
       "kind": "press",
       "published_date": "2026-09-17",
       "publisher": "중소벤처기업부",
-      "retrieved_at": "2026-09-22T12:30:01.956552+09:00",
+      "retrieved_at": "2026-09-22T18:30:01.980160+09:00",
       "seen_in_latest": true,
       "source_id": "mss_press",
       "title": "대국민 창업 오디션, 「모두의 창업」충청권 2라운드 진출자와의 현장소통",
@@ -1612,7 +2400,7 @@
       "kind": "press",
       "published_date": "2026-09-17",
       "publisher": "농림축산식품부",
-      "retrieved_at": "2026-09-22T12:30:01.957949+09:00",
+      "retrieved_at": "2026-09-22T18:30:01.981457+09:00",
       "seen_in_latest": true,
       "source_id": "mafra_press",
       "title": "농식품 창업 대통령상의 주인공은 “㈜로웨인”",
@@ -1627,7 +2415,7 @@
       "kind": "notice",
       "published_date": "2026-09-16",
       "publisher": "한국성장금융",
-      "retrieved_at": "2026-09-22T12:30:02.768205+09:00",
+      "retrieved_at": "2026-09-22T18:30:02.975864+09:00",
       "seen_in_latest": true,
       "source_id": "kgrowth_notice",
       "title": "【선정결과】「K-컬처 밸류업 펀드」 2026년 위탁운용사 선정 결과",
@@ -1643,7 +2431,7 @@
       "kind": "press",
       "published_date": "2026-09-16",
       "publisher": "농림축산식품부",
-      "retrieved_at": "2026-09-22T12:30:01.957949+09:00",
+      "retrieved_at": "2026-09-22T18:30:01.981457+09:00",
       "seen_in_latest": true,
       "source_id": "mafra_press",
       "title": "농식품부 장관, 추석 앞두고 우리 전통주로 농촌의 가치를 높인 농촌창업 현장 찾아",
@@ -1673,7 +2461,7 @@
       "kind": "notice",
       "published_date": "2026-09-15",
       "publisher": "한국벤처투자",
-      "retrieved_at": "2026-09-22T12:30:03.138118+09:00",
+      "retrieved_at": "2026-09-22T18:30:03.641921+09:00",
       "seen_in_latest": true,
       "source_id": "kvic_notice",
       "title": "충남 기업성장 벤처펀드 2026년 2차 출자사업 계획 변경 공고",
@@ -1690,7 +2478,7 @@
       "kind": "notice",
       "published_date": "2026-09-15",
       "publisher": "한국벤처투자",
-      "retrieved_at": "2026-09-22T12:30:03.138118+09:00",
+      "retrieved_at": "2026-09-22T18:30:03.641921+09:00",
       "seen_in_latest": true,
       "source_id": "kvic_notice",
       "title": "2026년 LP 성장펀드(Track 2) 1차 출자사업 접수현황",
@@ -1707,7 +2495,7 @@
       "kind": "notice",
       "published_date": "2026-09-15",
       "publisher": "중소벤처기업부",
-      "retrieved_at": "2026-09-22T12:30:01.957127+09:00",
+      "retrieved_at": "2026-09-22T18:30:01.980597+09:00",
       "seen_in_latest": true,
       "source_id": "mss_notice",
       "title": "「민관협력 오픈이노베이션 지원」 ‘공공데이터 활용 지원’ 공공기관 제안형(Top-Down) 창업기업 모집공고",
@@ -1722,7 +2510,7 @@
       "kind": "press",
       "published_date": "2026-09-14",
       "publisher": "중소벤처기업부",
-      "retrieved_at": "2026-09-22T12:30:01.956552+09:00",
+      "retrieved_at": "2026-09-22T18:30:01.980160+09:00",
       "seen_in_latest": true,
       "source_id": "mss_press",
       "title": "공공서비스 혁신 과제 해결할 스타트업 찾는다! - 「공공데이터 활용 오픈이노베이션」 스타트업 모집 -",
@@ -1737,7 +2525,7 @@
       "kind": "notice",
       "published_date": "2026-09-14",
       "publisher": "한국성장금융",
-      "retrieved_at": "2026-09-22T12:30:02.768205+09:00",
+      "retrieved_at": "2026-09-22T18:30:02.975864+09:00",
       "seen_in_latest": true,
       "source_id": "kgrowth_notice",
       "title": "【선정공고】[재공고]「부산 미래산업 전환펀드(2차)」 위탁운용사 선정계획 공고",
@@ -1753,7 +2541,7 @@
       "kind": "press",
       "published_date": "2026-09-14",
       "publisher": "중소벤처기업부",
-      "retrieved_at": "2026-09-22T12:30:01.956552+09:00",
+      "retrieved_at": "2026-09-22T18:30:01.980160+09:00",
       "seen_in_latest": true,
       "source_id": "mss_press",
       "title": "“혁신 아이디어와 투자자의 만남” 혁신 창업가의 생애 첫 투자유치를 위한 ｢도전의 IR 프로젝트｣ 추진",
@@ -1768,7 +2556,7 @@
       "kind": "press",
       "published_date": "2026-09-14",
       "publisher": "중소벤처기업부",
-      "retrieved_at": "2026-09-22T12:30:01.956552+09:00",
+      "retrieved_at": "2026-09-22T18:30:01.980160+09:00",
       "seen_in_latest": true,
       "source_id": "mss_press",
       "title": "청년의 창업 도전, 대학에서 시작된다2차 「모두의 창업」 고려대 캠퍼스 투어 개최",
@@ -1783,7 +2571,7 @@
       "kind": "notice",
       "published_date": "2026-09-11",
       "publisher": "한국성장금융",
-      "retrieved_at": "2026-09-22T12:30:02.768205+09:00",
+      "retrieved_at": "2026-09-22T18:30:02.975864+09:00",
       "seen_in_latest": true,
       "source_id": "kgrowth_notice",
       "title": "【선정결과】「부산 미래산업 전환펀드 2호」위탁운용사 선정 결과",
@@ -1799,7 +2587,7 @@
       "kind": "notice",
       "published_date": "2026-09-11",
       "publisher": "한국벤처투자",
-      "retrieved_at": "2026-09-22T12:30:03.138118+09:00",
+      "retrieved_at": "2026-09-22T18:30:03.641921+09:00",
       "seen_in_latest": true,
       "source_id": "kvic_notice",
       "title": "모태펀드(문화, 관광) 2026년 8월 수시 출자사업 서류심사 결과",
@@ -1815,7 +2603,7 @@
       "kind": "press",
       "published_date": "2026-09-11",
       "publisher": "한국벤처투자",
-      "retrieved_at": "2026-09-22T12:30:03.180109+09:00",
+      "retrieved_at": "2026-09-22T18:30:03.825873+09:00",
       "seen_in_latest": true,
       "source_id": "kvic_press",
       "title": "한국벤처투자, VC업권 자금세탁방지 업무역량 강화 워크숍 개최",
@@ -1831,7 +2619,7 @@
       "kind": "notice",
       "published_date": "2026-09-11",
       "publisher": "한국벤처투자",
-      "retrieved_at": "2026-09-22T12:30:03.138118+09:00",
+      "retrieved_at": "2026-09-22T18:30:03.641921+09:00",
       "seen_in_latest": true,
       "source_id": "kvic_notice",
       "title": "모태펀드(관광, 스포츠) 2026년 9월 수시 출자사업 계획 공고",
@@ -1847,7 +2635,7 @@
       "kind": "notice",
       "published_date": "2026-09-11",
       "publisher": "한국벤처투자",
-      "retrieved_at": "2026-09-22T12:30:03.138118+09:00",
+      "retrieved_at": "2026-09-22T18:30:03.641921+09:00",
       "seen_in_latest": true,
       "source_id": "kvic_notice",
       "title": "모태펀드(특허계정_특허기술사업화) 2026년 6월 수시 출자사업 서류심사 결과",
@@ -1894,7 +2682,7 @@
       "kind": "press",
       "published_date": "2026-09-10",
       "publisher": "과학기술정보통신부",
-      "retrieved_at": "2026-09-22T12:30:01.957442+09:00",
+      "retrieved_at": "2026-09-22T18:30:01.980908+09:00",
       "seen_in_latest": true,
       "source_id": "msit_press",
       "title": "연구자 딥테크 창업 지원을 위한 과기출연기관법 및 개별 과기원법 5개 법률 개정",
@@ -1910,7 +2698,7 @@
       "kind": "press",
       "published_date": "2026-09-09",
       "publisher": "과학기술정보통신부",
-      "retrieved_at": "2026-09-22T12:30:01.957442+09:00",
+      "retrieved_at": "2026-09-22T18:30:01.980908+09:00",
       "seen_in_latest": true,
       "source_id": "msit_press",
       "title": "구혁채 1차관, 서울홍릉 강소특구 청년창업 현장 방문",
@@ -1925,7 +2713,7 @@
       "kind": "notice",
       "published_date": "2026-09-09",
       "publisher": "한국성장금융",
-      "retrieved_at": "2026-09-22T12:30:02.768205+09:00",
+      "retrieved_at": "2026-09-22T18:30:02.975864+09:00",
       "seen_in_latest": true,
       "source_id": "kgrowth_notice",
       "title": "【선정결과】「무공해차 인프라펀드」위탁운용사 선정 결과",
@@ -1941,7 +2729,7 @@
       "kind": "notice",
       "published_date": "2026-09-08",
       "publisher": "한국성장금융",
-      "retrieved_at": "2026-09-22T12:30:02.768205+09:00",
+      "retrieved_at": "2026-09-22T18:30:02.975864+09:00",
       "seen_in_latest": true,
       "source_id": "kgrowth_notice",
       "title": "【선정결과】「2026년 국민성장펀드(국민참여형) 2차」위탁운용사 선정 결과",
@@ -1957,7 +2745,7 @@
       "kind": "notice",
       "published_date": "2026-09-08",
       "publisher": "농업정책보험금융원",
-      "retrieved_at": "2026-09-22T12:30:03.200590+09:00",
+      "retrieved_at": "2026-09-22T18:30:03.866337+09:00",
       "seen_in_latest": true,
       "source_id": "apfs_home",
       "title": "농금원, 2026 농식품 금융투자로드쇼 개최 [2026-09-08]",
@@ -1972,7 +2760,7 @@
       "kind": "notice",
       "published_date": "2026-09-08",
       "publisher": "농업정책보험금융원",
-      "retrieved_at": "2026-09-22T12:30:03.200590+09:00",
+      "retrieved_at": "2026-09-22T18:30:03.866337+09:00",
       "seen_in_latest": true,
       "source_id": "apfs_home",
       "title": "2026년 농림수산식품모태펀드 4차 추가 출자사업 설명회 개최 안내 [2026-09-08]",
@@ -1988,7 +2776,7 @@
       "kind": "notice",
       "published_date": "2026-09-08",
       "publisher": "한국벤처투자",
-      "retrieved_at": "2026-09-22T12:30:03.138118+09:00",
+      "retrieved_at": "2026-09-22T18:30:03.641921+09:00",
       "seen_in_latest": true,
       "source_id": "kvic_notice",
       "title": "모태펀드(중기부 소관) 2026년 LP 성장펀드(Track 1) 출자사업 접수 현황",
@@ -2005,7 +2793,7 @@
       "kind": "notice",
       "published_date": "2026-09-07",
       "publisher": "산업통상부",
-      "retrieved_at": "2026-09-22T12:30:02.441933+09:00",
+      "retrieved_at": "2026-09-22T18:30:02.580410+09:00",
       "seen_in_latest": true,
       "source_id": "motie_notice",
       "title": "2026년 제5차 산업융합 규제샌드박스 규제특례 승인 공고",
@@ -2022,7 +2810,7 @@
       "published_date": "2026-09-04",
       "publisher": "한국벤처투자",
       "retrieved_at": "2026-09-22T12:30:03.138118+09:00",
-      "seen_in_latest": true,
+      "seen_in_latest": false,
       "source_id": "kvic_notice",
       "title": "충남 기업성장 벤처펀드 2026년 2차 출자사업 계획 공고",
       "topics": [
@@ -2038,7 +2826,7 @@
       "kind": "notice",
       "published_date": "2026-09-04",
       "publisher": "농림축산식품부",
-      "retrieved_at": "2026-09-22T12:30:01.958305+09:00",
+      "retrieved_at": "2026-09-22T18:30:01.981752+09:00",
       "seen_in_latest": true,
       "source_id": "mafra_notice",
       "title": "농업정책자금 변동금리 알림( 26.8월)",
@@ -2053,7 +2841,7 @@
       "kind": "notice",
       "published_date": "2026-09-04",
       "publisher": "농림축산식품부",
-      "retrieved_at": "2026-09-22T12:30:01.958305+09:00",
+      "retrieved_at": "2026-09-22T18:30:01.981752+09:00",
       "seen_in_latest": true,
       "source_id": "mafra_notice",
       "title": "농업정책자금 변동금리 알림( 26.9월)",
@@ -2068,7 +2856,7 @@
       "kind": "notice",
       "published_date": "2026-09-04",
       "publisher": "한국벤처투자",
-      "retrieved_at": "2026-09-22T12:30:03.138118+09:00",
+      "retrieved_at": "2026-09-22T18:30:03.641921+09:00",
       "seen_in_latest": true,
       "source_id": "kvic_notice",
       "title": "경북-포스코 혁신성장 벤처펀드 2026년 출자사업 계획 공고",
@@ -2085,7 +2873,7 @@
       "kind": "notice",
       "published_date": "2026-09-04",
       "publisher": "농업정책보험금융원",
-      "retrieved_at": "2026-09-22T12:30:03.200590+09:00",
+      "retrieved_at": "2026-09-22T18:30:03.866337+09:00",
       "seen_in_latest": true,
       "source_id": "apfs_home",
       "title": "농림수산식품모태펀드 '26년 4차 추가 출자사업(농식품투자 계정) 공 [2026-09-04]",
@@ -2101,7 +2889,7 @@
       "kind": "notice",
       "published_date": "2026-09-04",
       "publisher": "한국벤처투자",
-      "retrieved_at": "2026-09-22T12:30:03.138118+09:00",
+      "retrieved_at": "2026-09-22T18:30:03.641921+09:00",
       "seen_in_latest": true,
       "source_id": "kvic_notice",
       "title": "경북·전남 지역혁신 벤처펀드 2026년 출자사업 계획 공고",
@@ -2118,7 +2906,7 @@
       "kind": "notice",
       "published_date": "2026-09-01",
       "publisher": "농업정책보험금융원",
-      "retrieved_at": "2026-09-22T12:30:03.200590+09:00",
+      "retrieved_at": "2026-09-22T18:30:03.866337+09:00",
       "seen_in_latest": true,
       "source_id": "apfs_home",
       "title": "농림수산식품모태펀드 2026년 3차 추가 출자사업(농식품 계정) 업무집행조합 [2026-09-01]",
@@ -2152,7 +2940,7 @@
       "kind": "notice",
       "published_date": "2026-08-28",
       "publisher": "한국성장금융",
-      "retrieved_at": "2026-09-22T12:30:02.768205+09:00",
+      "retrieved_at": "2026-09-22T18:30:02.975864+09:00",
       "seen_in_latest": true,
       "source_id": "kgrowth_notice",
       "title": "【선정결과】「K-컬처 밸류업 펀드」 위탁운용사 서류심사 결과",
@@ -2168,7 +2956,7 @@
       "kind": "notice",
       "published_date": "2026-08-27",
       "publisher": "산업통상부",
-      "retrieved_at": "2026-09-22T12:30:02.441933+09:00",
+      "retrieved_at": "2026-09-22T18:30:02.580410+09:00",
       "seen_in_latest": true,
       "source_id": "motie_notice",
       "title": "「2026년 산업융합 규제샌드박스 사업화 지원 프로그램」 지원 대상과제 하반기 공고",
@@ -2184,7 +2972,7 @@
       "kind": "press",
       "published_date": "2026-08-27",
       "publisher": "한국성장금융",
-      "retrieved_at": "2026-09-22T12:30:02.841625+09:00",
+      "retrieved_at": "2026-09-22T18:30:03.387614+09:00",
       "seen_in_latest": true,
       "source_id": "kgrowth_press",
       "title": "(보도자료) 한국성장금융_코리아핀테크위크2026 투자밋업 모집공고",
@@ -2199,7 +2987,7 @@
       "kind": "notice",
       "published_date": "2026-08-26",
       "publisher": "한국성장금융",
-      "retrieved_at": "2026-09-22T12:30:02.768205+09:00",
+      "retrieved_at": "2026-09-22T18:30:02.975864+09:00",
       "seen_in_latest": true,
       "source_id": "kgrowth_notice",
       "title": "【선정결과】「기술혁신전문펀드 7호(M.AX 산업대전환 혁신)」 위탁운용사 선정 결과",
@@ -2215,7 +3003,7 @@
       "kind": "notice",
       "published_date": "2026-08-25",
       "publisher": "한국성장금융",
-      "retrieved_at": "2026-09-22T12:30:02.768205+09:00",
+      "retrieved_at": "2026-09-22T18:30:02.975864+09:00",
       "seen_in_latest": true,
       "source_id": "kgrowth_notice",
       "title": "【선정결과】「무공해차 인프라펀드」위탁운용사 서류심사 결과",
@@ -2231,7 +3019,7 @@
       "kind": "notice",
       "published_date": "2026-08-21",
       "publisher": "중소벤처기업부",
-      "retrieved_at": "2026-09-22T12:30:01.957127+09:00",
+      "retrieved_at": "2026-09-22T18:30:01.980597+09:00",
       "seen_in_latest": true,
       "source_id": "mss_notice",
       "title": "2026년도 딥테크 특화 창업중심대학 추천형 창업기업 모집공고",
@@ -2262,7 +3050,7 @@
       "published_date": "2026-08-20",
       "publisher": "중소벤처기업부",
       "retrieved_at": "2026-09-22T12:30:01.957127+09:00",
-      "seen_in_latest": true,
+      "seen_in_latest": false,
       "source_id": "mss_notice",
       "title": "「민관협력 오픈이노베이션 지원」 2026년 ‘규제자유특구 지원’ 창업기업 모집",
       "topics": [
@@ -2277,7 +3065,7 @@
       "kind": "notice",
       "published_date": "2026-08-19",
       "publisher": "농업정책보험금융원",
-      "retrieved_at": "2026-09-22T12:30:03.200590+09:00",
+      "retrieved_at": "2026-09-22T18:30:03.866337+09:00",
       "seen_in_latest": true,
       "source_id": "apfs_home",
       "title": "농업정책보험금융원-NH농협은행, '2026년 농업정책자금 부정수급 합동 예방 교육’ [2026-08-19]",
@@ -2292,7 +3080,7 @@
       "kind": "notice",
       "published_date": "2026-08-19",
       "publisher": "농업정책보험금융원",
-      "retrieved_at": "2026-09-22T12:30:03.200590+09:00",
+      "retrieved_at": "2026-09-22T18:30:03.866337+09:00",
       "seen_in_latest": true,
       "source_id": "apfs_home",
       "title": "농업정책보험금융원, '유관기관 간 2026년 수산정책자금 부정수급 합동 예방 교육’ [2026-08-19]",
@@ -2307,7 +3095,7 @@
       "kind": "press",
       "published_date": "2026-08-13",
       "publisher": "한국벤처투자",
-      "retrieved_at": "2026-09-22T12:30:03.180109+09:00",
+      "retrieved_at": "2026-09-22T18:30:03.825873+09:00",
       "seen_in_latest": true,
       "source_id": "kvic_press",
       "title": "(KVIC Beyond & Bridge) 벤처투자와 함께 성장한 더뮤즈엔터테인먼트",
@@ -2337,7 +3125,7 @@
       "kind": "press",
       "published_date": "2026-07-31",
       "publisher": "한국벤처투자",
-      "retrieved_at": "2026-09-22T12:30:03.180109+09:00",
+      "retrieved_at": "2026-09-22T18:30:03.825873+09:00",
       "seen_in_latest": true,
       "source_id": "kvic_press",
       "title": "한국벤처투자 우정사업본부와 유니콘 기업 육성을 위한 업무협약 체결",
@@ -2352,7 +3140,7 @@
       "kind": "notice",
       "published_date": "2026-07-31",
       "publisher": "과학기술정보통신부",
-      "retrieved_at": "2026-09-22T12:30:01.957709+09:00",
+      "retrieved_at": "2026-09-22T18:30:01.981185+09:00",
       "seen_in_latest": true,
       "source_id": "msit_notice",
       "title": "『2026 K-보안 스타트업 일본 시장개척단』 참가기업 모집 공고(연장공고)",
@@ -2367,7 +3155,7 @@
       "kind": "press",
       "published_date": "2026-07-30",
       "publisher": "한국성장금융",
-      "retrieved_at": "2026-09-22T12:30:02.841625+09:00",
+      "retrieved_at": "2026-09-22T18:30:03.387614+09:00",
       "seen_in_latest": true,
       "source_id": "kgrowth_press",
       "title": "(보도자료) “다음 금융은 이미 시작됐다. (Beyond Finance, Into the Future)” 「코리아 핀테크 위크 2026」 개최 안내",
@@ -2412,7 +3200,7 @@
       "kind": "press",
       "published_date": "2025-08-04",
       "publisher": "한국성장금융",
-      "retrieved_at": "2026-09-22T12:30:02.841625+09:00",
+      "retrieved_at": "2026-09-22T18:30:03.387614+09:00",
       "seen_in_latest": true,
       "source_id": "kgrowth_press",
       "title": "(보도자료) 한국성장금융_「코리아핀테크위크2025」투자밋업 모집공고",
@@ -2427,7 +3215,7 @@
       "kind": "press",
       "published_date": "2025-06-17",
       "publisher": "한국성장금융",
-      "retrieved_at": "2026-09-22T12:30:02.841625+09:00",
+      "retrieved_at": "2026-09-22T18:30:03.387614+09:00",
       "seen_in_latest": true,
       "source_id": "kgrowth_press",
       "title": "(보도자료) “핀테크×AI, 금융에 취향을 더하다” 「코리아 핀테크 위크 2025」 개최 안내",
@@ -2442,7 +3230,7 @@
       "kind": "notice",
       "published_date": "2025-05-13",
       "publisher": "한국성장금융",
-      "retrieved_at": "2026-09-22T12:30:02.768205+09:00",
+      "retrieved_at": "2026-09-22T18:30:02.975864+09:00",
       "seen_in_latest": true,
       "source_id": "kgrowth_notice",
       "title": "【기타】 프로젝트 펀드 담당팀 연락처(상시 게시)",
