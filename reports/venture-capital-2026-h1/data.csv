@@ -1,0 +1,176 @@
+﻿group,series,period,value,unit,source
+periods,h1_investment,2022 H1,76442,억원,MSS 2026-08-19
+periods,h1_investment,2023 H1,44930,억원,MSS 2026-08-19
+periods,h1_investment,2024 H1,54856,억원,MSS 2026-08-19
+periods,h1_investment,2025 H1,57476,억원,MSS 2026-08-19
+periods,h1_investment,2026 H1,88676,억원,MSS 2026-08-19
+periods,h1_funds,2022 H1,86921,억원,MSS 2026-08-19
+periods,h1_funds,2023 H1,47003,억원,MSS 2026-08-19
+periods,h1_funds,2024 H1,51936,억원,MSS 2026-08-19
+periods,h1_funds,2025 H1,63431,억원,MSS 2026-08-19
+periods,h1_funds,2026 H1,84366,억원,MSS 2026-08-19
+periods,annual_investment,2020,80962,억원,MSS 2025-02-12
+periods,annual_investment,2021,159371,억원,MSS 2026-02-13
+periods,annual_investment,2022,124706,억원,MSS 2026-02-13
+periods,annual_investment,2023,109133,억원,MSS 2026-02-13
+periods,annual_investment,2024,119457,억원,MSS 2026-02-13
+periods,annual_investment,2025,136244,억원,MSS 2026-02-13
+periods,annual_funds,2020,99859,억원,MSS 2025-02-12
+periods,annual_funds,2021,178493,억원,MSS 2026-02-13
+periods,annual_funds,2022,176385,억원,MSS 2026-02-13
+periods,annual_funds,2023,130438,억원,MSS 2026-02-13
+periods,annual_funds,2024,106404,억원,MSS 2026-02-13
+periods,annual_funds,2025,142669,억원,MSS 2026-02-13
+sectors_detail,ICT제조,2022 H1,4819,억원,MSS 2026-08-19
+sectors_detail,ICT제조,2023 H1,5152,억원,MSS 2026-08-19
+sectors_detail,ICT제조,2024 H1,4998,억원,MSS 2026-08-19
+sectors_detail,ICT제조,2025 H1,4707,억원,MSS 2026-08-19
+sectors_detail,ICT제조,2026 H1,11454,억원,MSS 2026-08-19
+sectors_detail,ICT서비스,2022 H1,22490,억원,MSS 2026-08-19
+sectors_detail,ICT서비스,2023 H1,9020,억원,MSS 2026-08-19
+sectors_detail,ICT서비스,2024 H1,13241,억원,MSS 2026-08-19
+sectors_detail,ICT서비스,2025 H1,11466,억원,MSS 2026-08-19
+sectors_detail,ICT서비스,2026 H1,18600,억원,MSS 2026-08-19
+sectors_detail,전기·기계·장비,2022 H1,6077,억원,MSS 2026-08-19
+sectors_detail,전기·기계·장비,2023 H1,6712,억원,MSS 2026-08-19
+sectors_detail,전기·기계·장비,2024 H1,9733,억원,MSS 2026-08-19
+sectors_detail,전기·기계·장비,2025 H1,8069,억원,MSS 2026-08-19
+sectors_detail,전기·기계·장비,2026 H1,15359,억원,MSS 2026-08-19
+sectors_detail,화학·소재,2022 H1,5201,억원,MSS 2026-08-19
+sectors_detail,화학·소재,2023 H1,3969,억원,MSS 2026-08-19
+sectors_detail,화학·소재,2024 H1,4871,억원,MSS 2026-08-19
+sectors_detail,화학·소재,2025 H1,5516,억원,MSS 2026-08-19
+sectors_detail,화학·소재,2026 H1,6306,억원,MSS 2026-08-19
+sectors_detail,바이오·의료,2022 H1,13159,억원,MSS 2026-08-19
+sectors_detail,바이오·의료,2023 H1,5995,억원,MSS 2026-08-19
+sectors_detail,바이오·의료,2024 H1,8527,억원,MSS 2026-08-19
+sectors_detail,바이오·의료,2025 H1,9793,억원,MSS 2026-08-19
+sectors_detail,바이오·의료,2026 H1,15041,억원,MSS 2026-08-19
+sectors_detail,영상·공연·음반,2022 H1,4645,억원,MSS 2026-08-19
+sectors_detail,영상·공연·음반,2023 H1,3652,억원,MSS 2026-08-19
+sectors_detail,영상·공연·음반,2024 H1,1651,억원,MSS 2026-08-19
+sectors_detail,영상·공연·음반,2025 H1,2316,억원,MSS 2026-08-19
+sectors_detail,영상·공연·음반,2026 H1,3060,억원,MSS 2026-08-19
+sectors_detail,게임,2022 H1,1727,억원,MSS 2026-08-19
+sectors_detail,게임,2023 H1,730,억원,MSS 2026-08-19
+sectors_detail,게임,2024 H1,885,억원,MSS 2026-08-19
+sectors_detail,게임,2025 H1,1788,억원,MSS 2026-08-19
+sectors_detail,게임,2026 H1,424,억원,MSS 2026-08-19
+sectors_detail,유통·서비스,2022 H1,11105,억원,MSS 2026-08-19
+sectors_detail,유통·서비스,2023 H1,4179,억원,MSS 2026-08-19
+sectors_detail,유통·서비스,2024 H1,4539,억원,MSS 2026-08-19
+sectors_detail,유통·서비스,2025 H1,5522,억원,MSS 2026-08-19
+sectors_detail,유통·서비스,2026 H1,8598,억원,MSS 2026-08-19
+sectors_detail,기타,2022 H1,7217,억원,MSS 2026-08-19
+sectors_detail,기타,2023 H1,5521,억원,MSS 2026-08-19
+sectors_detail,기타,2024 H1,6410,억원,MSS 2026-08-19
+sectors_detail,기타,2025 H1,8299,억원,MSS 2026-08-19
+sectors_detail,기타,2026 H1,9835,억원,MSS 2026-08-19
+regions,수도권,2022 H1,30614,억원,MSS 2026-08-19
+regions,수도권,2023 H1,15133,억원,MSS 2026-08-19
+regions,수도권,2024 H1,18746,억원,MSS 2026-08-19
+regions,수도권,2025 H1,20658,억원,MSS 2026-08-19
+regions,수도권,2026 H1,30972,억원,MSS 2026-08-19
+regions,비수도권,2022 H1,7025,억원,MSS 2026-08-19
+regions,비수도권,2023 H1,4828,억원,MSS 2026-08-19
+regions,비수도권,2024 H1,6526,억원,MSS 2026-08-19
+regions,비수도권,2025 H1,5201,억원,MSS 2026-08-19
+regions,비수도권,2026 H1,10647,억원,MSS 2026-08-19
+regions,해외,2022 H1,3893,억원,MSS 2026-08-19
+regions,해외,2023 H1,2080,억원,MSS 2026-08-19
+regions,해외,2024 H1,2720,억원,MSS 2026-08-19
+regions,해외,2025 H1,2095,억원,MSS 2026-08-19
+regions,해외,2026 H1,3672,억원,MSS 2026-08-19
+regions,전체,2022 H1,41529,억원,MSS 2026-08-19
+regions,전체,2023 H1,22041,억원,MSS 2026-08-19
+regions,전체,2024 H1,27992,억원,MSS 2026-08-19
+regions,전체,2025 H1,27955,억원,MSS 2026-08-19
+regions,전체,2026 H1,45291,억원,MSS 2026-08-19
+regions,대전,2022 H1,2167,억원,MSS 2026-08-19
+regions,대전,2023 H1,1627,억원,MSS 2026-08-19
+regions,대전,2024 H1,1979,억원,MSS 2026-08-19
+regions,대전,2025 H1,1780,억원,MSS 2026-08-19
+regions,대전,2026 H1,4359,억원,MSS 2026-08-19
+fund_sources,정책금융,2022 H1,10803,억원,MSS 2026-08-19
+fund_sources,정책금융,2023 H1,6751,억원,MSS 2026-08-19
+fund_sources,정책금융,2024 H1,9232,억원,MSS 2026-08-19
+fund_sources,정책금융,2025 H1,10278,억원,MSS 2026-08-19
+fund_sources,정책금융,2026 H1,16274,억원,MSS 2026-08-19
+fund_sources,민간부문,2022 H1,76118,억원,MSS 2026-08-19
+fund_sources,민간부문,2023 H1,40252,억원,MSS 2026-08-19
+fund_sources,민간부문,2024 H1,42703,억원,MSS 2026-08-19
+fund_sources,민간부문,2025 H1,53153,억원,MSS 2026-08-19
+fund_sources,민간부문,2026 H1,68092,억원,MSS 2026-08-19
+cpi_annual,CPI,2020,100.0,2020=100,ECOS 901Y009 / 0
+cpi_annual,CPI,2021,102.5,2020=100,ECOS 901Y009 / 0
+cpi_annual,CPI,2022,107.72,2020=100,ECOS 901Y009 / 0
+cpi_annual,CPI,2023,111.59,2020=100,ECOS 901Y009 / 0
+cpi_annual,CPI,2024,114.18,2020=100,ECOS 901Y009 / 0
+cpi_annual,CPI,2025,116.61,2020=100,ECOS 901Y009 / 0
+cpi_monthly,CPI,202201,104.85,2020=100,ECOS 901Y009 / 0
+cpi_monthly,CPI,202202,105.42,2020=100,ECOS 901Y009 / 0
+cpi_monthly,CPI,202203,106.1,2020=100,ECOS 901Y009 / 0
+cpi_monthly,CPI,202204,106.83,2020=100,ECOS 901Y009 / 0
+cpi_monthly,CPI,202205,107.5,2020=100,ECOS 901Y009 / 0
+cpi_monthly,CPI,202206,108.21,2020=100,ECOS 901Y009 / 0
+cpi_monthly,CPI,202401,113.17,2020=100,ECOS 901Y009 / 0
+cpi_monthly,CPI,202402,113.78,2020=100,ECOS 901Y009 / 0
+cpi_monthly,CPI,202403,113.95,2020=100,ECOS 901Y009 / 0
+cpi_monthly,CPI,202404,114.01,2020=100,ECOS 901Y009 / 0
+cpi_monthly,CPI,202405,114.1,2020=100,ECOS 901Y009 / 0
+cpi_monthly,CPI,202406,113.84,2020=100,ECOS 901Y009 / 0
+cpi_monthly,CPI,202501,115.71,2020=100,ECOS 901Y009 / 0
+cpi_monthly,CPI,202502,116.08,2020=100,ECOS 901Y009 / 0
+cpi_monthly,CPI,202503,116.29,2020=100,ECOS 901Y009 / 0
+cpi_monthly,CPI,202504,116.38,2020=100,ECOS 901Y009 / 0
+cpi_monthly,CPI,202505,116.27,2020=100,ECOS 901Y009 / 0
+cpi_monthly,CPI,202506,116.31,2020=100,ECOS 901Y009 / 0
+cpi_monthly,CPI,202601,118.03,2020=100,ECOS 901Y009 / 0
+cpi_monthly,CPI,202602,118.4,2020=100,ECOS 901Y009 / 0
+cpi_monthly,CPI,202603,118.8,2020=100,ECOS 901Y009 / 0
+cpi_monthly,CPI,202604,119.37,2020=100,ECOS 901Y009 / 0
+cpi_monthly,CPI,202605,119.92,2020=100,ECOS 901Y009 / 0
+cpi_monthly,CPI,202606,119.99,2020=100,ECOS 901Y009 / 0
+ages,7년 이하 amount,2022 H1,47731,억원,MSS 2026-08-19
+ages,7년 이하 amount,2023 H1,24428,억원,MSS 2026-08-19
+ages,7년 이하 amount,2024 H1,25236,억원,MSS 2026-08-19
+ages,7년 이하 amount,2025 H1,26601,억원,MSS 2026-08-19
+ages,7년 이하 amount,2026 H1,42039,억원,MSS 2026-08-19
+ages,7년 이하 companies,2022 H1,1680,개,MSS 2026-08-19
+ages,7년 이하 companies,2023 H1,1181,개,MSS 2026-08-19
+ages,7년 이하 companies,2024 H1,1378,개,MSS 2026-08-19
+ages,7년 이하 companies,2025 H1,1065,개,MSS 2026-08-19
+ages,7년 이하 companies,2026 H1,1221,개,MSS 2026-08-19
+ages,3년 이하 amount,2022 H1,19608,억원,MSS 2026-08-19
+ages,3년 이하 amount,2023 H1,12240,억원,MSS 2026-08-19
+ages,3년 이하 amount,2024 H1,10117,억원,MSS 2026-08-19
+ages,3년 이하 amount,2025 H1,11687,억원,MSS 2026-08-19
+ages,3년 이하 amount,2026 H1,18282,억원,MSS 2026-08-19
+ages,3년 이하 companies,2022 H1,889,개,MSS 2026-08-19
+ages,3년 이하 companies,2023 H1,668,개,MSS 2026-08-19
+ages,3년 이하 companies,2024 H1,743,개,MSS 2026-08-19
+ages,3년 이하 companies,2025 H1,499,개,MSS 2026-08-19
+ages,3년 이하 companies,2026 H1,643,개,MSS 2026-08-19
+ages,7년 초과 amount,2022 H1,28711,억원,MSS 2026-08-19
+ages,7년 초과 amount,2023 H1,20502,억원,MSS 2026-08-19
+ages,7년 초과 amount,2024 H1,29621,억원,MSS 2026-08-19
+ages,7년 초과 amount,2025 H1,30876,억원,MSS 2026-08-19
+ages,7년 초과 amount,2026 H1,46637,억원,MSS 2026-08-19
+ages,7년 초과 companies,2022 H1,654,개,MSS 2026-08-19
+ages,7년 초과 companies,2023 H1,672,개,MSS 2026-08-19
+ages,7년 초과 companies,2024 H1,1034,개,MSS 2026-08-19
+ages,7년 초과 companies,2025 H1,932,개,MSS 2026-08-19
+ages,7년 초과 companies,2026 H1,1114,개,MSS 2026-08-19
+ages,전체 amount,2022 H1,76442,억원,MSS 2026-08-19
+ages,전체 amount,2023 H1,44930,억원,MSS 2026-08-19
+ages,전체 amount,2024 H1,54856,억원,MSS 2026-08-19
+ages,전체 amount,2025 H1,57476,억원,MSS 2026-08-19
+ages,전체 amount,2026 H1,88676,억원,MSS 2026-08-19
+ages,전체 companies,2022 H1,2305,개,MSS 2026-08-19
+ages,전체 companies,2023 H1,1831,개,MSS 2026-08-19
+ages,전체 companies,2024 H1,2382,개,MSS 2026-08-19
+ages,전체 companies,2025 H1,1962,개,MSS 2026-08-19
+ages,전체 companies,2026 H1,2296,개,MSS 2026-08-19
+vintage_comparison,previous_h1_investment,2025 H1,57380,억원,MSS 2026-02-13
+vintage_comparison,previous_annual_funds,2021,178481,억원,MSS 2025-02-12
+vintage_comparison,previous_annual_funds,2024,105550,억원,MSS 2025-02-12

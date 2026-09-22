@@ -29,3 +29,6 @@
  .institution-site.consulting-home .cosmos-explore {margin-top:12px;order:5;align-self:flex-start;}
 }
 @media print {.cosmos-picture {display:none;}}
+
+/* External publications: links only. */
+.cx-stories--links .cx-story{min-height:240px}.cx-stories--links .cx-story__content{height:100%;padding:32px}.cx-stories--links .cx-story__end{margin-top:auto}
