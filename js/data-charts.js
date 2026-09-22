@@ -3,8 +3,10 @@
       var svg = document.getElementById("trendChart");
       if (!svg) return;
       var NS = "http://www.w3.org/2000/svg";
-      var yrs = ["2020", "2021", "2022", "2023", "2024", "2025"];
-      var inv = [8.1, 15.9, 12.5, 10.9, 11.9, 13.6];
+      var rows = Array.from(document.querySelectorAll("#annual-source-table tbody tr"));
+      if (!rows.length) return;
+      var yrs = rows.map(function (row) { return row.dataset.year; });
+      var inv = rows.map(function (row) { return Number(row.dataset.investment) / 10000; });
       var W = 720, H = 360, padL = 48, padR = 24, padT = 30, padB = 46, maxV = 18;
       function X(i) { return padL + (W - padL - padR) * (i / (yrs.length - 1)); }
       function Y(v) { return H - padB - (H - padT - padB) * (v / maxV); }
@@ -54,7 +56,7 @@
         var gl = el("text", { class: "ax-lab", x: gx + groupW / 2, y: H - padB + 38, "text-anchor": "middle", fill: "#c7cfdd" }); gl.textContent = grp.label; svg.appendChild(gl);
       });
     })();
-    // 연속 분기 추이 2024 1Q~2026 1Q (중기부 분기 발표·조원·2025 4Q 미공표 공백). 영역 그라데이션.
+    // 연속 분기 추이 2024 1Q~2026 1Q (중기부 분기 발표·조원·2025 4Q 원자료 미확보 공백). 영역 그라데이션.
     (function () {
       var svg = document.getElementById("q3Chart"); if (!svg) return;
       var NS = "http://www.w3.org/2000/svg";
@@ -79,7 +81,7 @@
         svg.appendChild(el("circle", { cx: X(i), cy: Y(val), r: "4", fill: prov ? "#1F3864" : "#C9A227", stroke: "#C9A227", "stroke-width": prov ? "2" : "0" }));
         var lab = el("text", { class: "pt-lab", x: X(i), y: Y(val) - 11, "text-anchor": "middle", fill: "#fff" }); lab.setAttribute("font-size", "11"); lab.textContent = val.toFixed(2).replace(/0$/, ""); svg.appendChild(lab);
       });
-      var gn = el("text", { x: (X(6) + X(7)) / 2, y: Y(4.6), "text-anchor": "middle", fill: "#8b97ad" }); gn.setAttribute("font-size", "10"); gn.textContent = "'25 4Q 미공표"; svg.appendChild(gn);
+      var gn = el("text", { x: (X(6) + X(7)) / 2, y: Y(4.6), "text-anchor": "middle", fill: "#8b97ad" }); gn.setAttribute("font-size", "10"); gn.textContent = "'25 4Q 미확보"; svg.appendChild(gn);
     })();
     // 2025년 분기별 흐름 (1~3분기·중기부 공표·조원). 막대.
     (function () {
@@ -97,10 +99,13 @@
     (function () {
       var svg = document.getElementById("idxChart"); if (!svg) return;
       var NS = "http://www.w3.org/2000/svg";
-      var yrs = [2020, 2021, 2022, 2023, 2024, 2025];
-      var inv = [100.0, 196.8, 154.0, 134.8, 147.5, 168.0];
-      var fund = [100.0, 178.7, 176.7, 130.5, 105.7, 143.2];
-      var comp = [100.0, 187.8, 165.3, 132.7, 126.6, 155.6];
+      var rows = Array.from(document.querySelectorAll("#annual-source-table tbody tr"));
+      if (!rows.length) return;
+      var yrs = rows.map(function (row) { return Number(row.dataset.year); });
+      var baseInv = Number(rows[0].dataset.investment), baseFund = Number(rows[0].dataset.fund);
+      var inv = rows.map(function (row) { return Number(row.dataset.investment) / baseInv * 100; });
+      var fund = rows.map(function (row) { return Number(row.dataset.fund) / baseFund * 100; });
+      var comp = inv.map(function (value, i) { return (value + fund[i]) / 2; });
       var W = 720, H = 360, padL = 44, padR = 96, padT = 24, padB = 46, maxV = 210;
       function X(i) { return padL + (W - padL - padR) * (i / (yrs.length - 1)); }
       function Y(v) { return H - padB - (H - padT - padB) * (v / maxV); }
@@ -137,19 +142,4 @@
         svg.appendChild(el("line", { x1: W - padR + 8, y1: ly, x2: W - padR + 24, y2: ly, stroke: s[1], "stroke-width": "3" }));
         var t = el("text", { class: "ax-lab", x: W - padR + 28, y: ly + 4 }); t.textContent = s[0]; svg.appendChild(t);
       });
-    })();
-    // 벤처투자 잔액(참고·언론 인용·조원) 2020~2023. 회색 라인(정부 공식 통계와 시각 구분).
-    (function () {
-      var svg = document.getElementById("balChart"); if (!svg) return;
-      var NS = "http://www.w3.org/2000/svg";
-      var yrs = ["2020", "2021", "2022", "2023"]; var v = [14.5, 20.5, 25.5, 28.4];
-      var W = 600, H = 300, padL = 42, padR = 22, padT = 24, padB = 44, maxV = 35;
-      function X(i) { return padL + (W - padL - padR) * (i / (yrs.length - 1)); }
-      function Y(val) { return H - padB - (H - padT - padB) * (val / maxV); }
-      function el(n, a) { var e = document.createElementNS(NS, n); for (var k in a) e.setAttribute(k, a[k]); return e; }
-      for (var g = 0; g <= 35; g += 7) { svg.appendChild(el("line", { class: "grid-line", x1: padL, y1: Y(g), x2: W - padR, y2: Y(g) })); var yl = el("text", { class: "ax-lab", x: padL - 8, y: Y(g) + 4, "text-anchor": "end" }); yl.textContent = g; svg.appendChild(yl); }
-      yrs.forEach(function (yr, i) { var t = el("text", { class: "ax-lab", x: X(i), y: H - padB + 22, "text-anchor": "middle" }); t.textContent = yr; svg.appendChild(t); });
-      var dd = v.map(function (val, i) { return (i ? "L" : "M") + X(i) + " " + Y(val); }).join(" ");
-      svg.appendChild(el("path", { d: dd, fill: "none", stroke: "#9ca3af", "stroke-width": "3", "stroke-linejoin": "round", "stroke-linecap": "round" }));
-      v.forEach(function (val, i) { svg.appendChild(el("circle", { cx: X(i), cy: Y(val), r: "4", fill: "#9ca3af" })); var lab = el("text", { class: "pt-lab", x: X(i), y: Y(val) - 11, "text-anchor": "middle", fill: "#fff" }); lab.textContent = val.toFixed(1); svg.appendChild(lab); });
     })();

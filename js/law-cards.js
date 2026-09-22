@@ -89,7 +89,9 @@ function renderBills(dataset, mount) {
   mount.append(head);
 
   const list = el('ul', 'bills__list');
-  dataset.records.slice(0, 20).forEach((record) => {
+  const additional = el('ul', 'bills__list');
+  const initialCount = Math.min(20, dataset.records.length);
+  dataset.records.forEach((record, index) => {
     const item = el('li', 'bills__item');
 
     const href = safeUrl(record.official_detail_url);
@@ -113,16 +115,25 @@ function renderBills(dataset, mount) {
       .join(' · ');
 
     item.append(title, meta);
-    list.append(item);
+    (index < initialCount ? list : additional).append(item);
   });
   mount.append(list);
+  if (dataset.records.length > initialCount) {
+    const more = el('details', 'bills__more');
+    more.append(el('summary', '', `나머지 ${dataset.records.length - initialCount}건 더 보기`), additional);
+    mount.append(more);
+  }
 
   const foot = el('p', 'bills__foot');
   foot.textContent =
     `${dataset.metadata.provider_name} · ${dataset.metadata.reference_period || ''}` +
     ` · 확인 ${formatKst(dataset.metadata.checked_at)}` +
-    ` · 수집 ${dataset.records.length}건 표시`;
+    ` · 수집 ${dataset.records.length}건 · 기본 목록 ${initialCount}건` +
+    (dataset.records.length > initialCount ? ` · 더 보기 ${dataset.records.length - initialCount}건` : '');
   mount.append(foot);
+  const download = el('a', 'bills__source', '수집 의안 전체 자료(JSON) 보기 →');
+  download.href = '/data/bills.json';
+  mount.append(download);
 }
 
 async function init() {

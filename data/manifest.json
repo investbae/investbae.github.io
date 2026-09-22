@@ -1,10 +1,12 @@
 {
   "files": {
-    "data/bills.json": "84c3fd7dab2c4d75f609565d6ef4288322f5366ce87f6d3ebd6afaf743945693",
-    "data/laws.json": "c007b171ddfc63d9407c8a2526967c7311064e6a7060a25deb7e68447d6a263d",
-    "data/update-history.json": "afcc11da73d09c36b75b621c0571b88b746810793d1bfa71753c178c16496568"
+    "data/bills.json": "39b0f15285f2e9736744e9cefcb7db9549591541cb773e1082ee50d9a8c34ebb",
+    "data/laws.json": "ac4607da405021156566148a2cf7d7a252b90a3c4e52ba22d808f911de89a51c",
+    "data/update-history.json": "23f54663aa3b67f86ee43b3fda9ab0e0a02fb21ea6b4e046d7090438ea969457"
   },
   "generated_at": "2026-08-23T18:29:05.980247+09:00",
   "release_id": "20260823T182900",
-  "timezone": "Asia/Seoul"
+  "timezone": "Asia/Seoul",
+  "hash_method": "SHA-256 of raw file bytes",
+  "integrity_updated_at": "2026-09-22"
 }

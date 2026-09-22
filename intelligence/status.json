@@ -2,7 +2,7 @@
   {
     "channel": "rss",
     "checked_at": "2026-09-22T12:30:01.956552+09:00",
-    "classification_version": "capital-context-v3",
+    "classification_version": "capital-context-v4-source-disclosure",
     "collected_match_count": 9,
     "count": 9,
     "coverage": "Only current RSS window or first HTML page; not exhaustive history. Article bodies and attachments not fetched.",
@@ -21,7 +21,7 @@
   {
     "channel": "rss",
     "checked_at": "2026-09-22T12:30:01.957127+09:00",
-    "classification_version": "capital-context-v3",
+    "classification_version": "capital-context-v4-source-disclosure",
     "collected_match_count": 5,
     "count": 5,
     "coverage": "Only current RSS window or first HTML page; not exhaustive history. Article bodies and attachments not fetched.",
@@ -40,7 +40,7 @@
   {
     "channel": "rss",
     "checked_at": "2026-09-22T12:30:01.957442+09:00",
-    "classification_version": "capital-context-v3",
+    "classification_version": "capital-context-v4-source-disclosure",
     "collected_match_count": 3,
     "count": 3,
     "coverage": "Only current RSS window or first HTML page; not exhaustive history. Article bodies and attachments not fetched.",
@@ -59,7 +59,7 @@
   {
     "channel": "rss",
     "checked_at": "2026-09-22T12:30:01.957709+09:00",
-    "classification_version": "capital-context-v3",
+    "classification_version": "capital-context-v4-source-disclosure",
     "collected_match_count": 1,
     "count": 1,
     "coverage": "Only current RSS window or first HTML page; not exhaustive history. Article bodies and attachments not fetched.",
@@ -78,7 +78,7 @@
   {
     "channel": "rss",
     "checked_at": "2026-09-22T12:30:01.957949+09:00",
-    "classification_version": "capital-context-v3",
+    "classification_version": "capital-context-v4-source-disclosure",
     "collected_match_count": 2,
     "count": 2,
     "coverage": "Only current RSS window or first HTML page; not exhaustive history. Article bodies and attachments not fetched.",
@@ -97,7 +97,7 @@
   {
     "channel": "rss",
     "checked_at": "2026-09-22T12:30:01.958305+09:00",
-    "classification_version": "capital-context-v3",
+    "classification_version": "capital-context-v4-source-disclosure",
     "collected_match_count": 3,
     "count": 3,
     "coverage": "Only current RSS window or first HTML page; not exhaustive history. Article bodies and attachments not fetched.",
@@ -116,7 +116,7 @@
   {
     "channel": "rss",
     "checked_at": "2026-09-22T12:30:02.203071+09:00",
-    "classification_version": "capital-context-v3",
+    "classification_version": "capital-context-v4-source-disclosure",
     "collected_match_count": 0,
     "count": 0,
     "coverage": "Only current RSS window or first HTML page; not exhaustive history. Article bodies and attachments not fetched.",
@@ -135,7 +135,7 @@
   {
     "channel": "rss",
     "checked_at": "2026-09-22T12:30:02.251342+09:00",
-    "classification_version": "capital-context-v3",
+    "classification_version": "capital-context-v4-source-disclosure",
     "collected_match_count": 0,
     "count": 0,
     "coverage": "Only current RSS window or first HTML page; not exhaustive history. Article bodies and attachments not fetched.",
@@ -154,7 +154,7 @@
   {
     "channel": "rss",
     "checked_at": "2026-09-22T12:30:02.343286+09:00",
-    "classification_version": "capital-context-v3",
+    "classification_version": "capital-context-v4-source-disclosure",
     "collected_match_count": 18,
     "count": 18,
     "coverage": "Only current RSS window or first HTML page; not exhaustive history. Article bodies and attachments not fetched.",
@@ -173,7 +173,7 @@
   {
     "channel": "html",
     "checked_at": "2026-09-22T12:30:02.365864+09:00",
-    "classification_version": "capital-context-v3",
+    "classification_version": "capital-context-v4-source-disclosure",
     "collected_match_count": 0,
     "count": 0,
     "coverage": "Only current RSS window or first HTML page; not exhaustive history. Article bodies and attachments not fetched.",
@@ -192,7 +192,7 @@
   {
     "channel": "html",
     "checked_at": "2026-09-22T12:30:02.441933+09:00",
-    "classification_version": "capital-context-v3",
+    "classification_version": "capital-context-v4-source-disclosure",
     "collected_match_count": 2,
     "count": 2,
     "coverage": "Only current RSS window or first HTML page; not exhaustive history. Article bodies and attachments not fetched.",
@@ -211,7 +211,7 @@
   {
     "channel": "html",
     "checked_at": "2026-09-22T12:30:02.467485+09:00",
-    "classification_version": "capital-context-v3",
+    "classification_version": "capital-context-v4-source-disclosure",
     "collected_match_count": 0,
     "count": 0,
     "coverage": "Only current RSS window or first HTML page; not exhaustive history. Article bodies and attachments not fetched.",
@@ -230,7 +230,7 @@
   {
     "channel": "html",
     "checked_at": "2026-09-22T12:30:02.768205+09:00",
-    "classification_version": "capital-context-v3",
+    "classification_version": "capital-context-v4-source-disclosure",
     "collected_match_count": 11,
     "count": 11,
     "coverage": "Only current RSS window or first HTML page; not exhaustive history. Article bodies and attachments not fetched.",
@@ -249,7 +249,7 @@
   {
     "channel": "html",
     "checked_at": "2026-09-22T12:30:02.841625+09:00",
-    "classification_version": "capital-context-v3",
+    "classification_version": "capital-context-v4-source-disclosure",
     "collected_match_count": 5,
     "count": 5,
     "coverage": "Only current RSS window or first HTML page; not exhaustive history. Article bodies and attachments not fetched.",
@@ -268,7 +268,7 @@
   {
     "channel": "html",
     "checked_at": "2026-09-22T12:30:03.138118+09:00",
-    "classification_version": "capital-context-v3",
+    "classification_version": "capital-context-v4-source-disclosure",
     "collected_match_count": 10,
     "count": 10,
     "coverage": "Only current RSS window or first HTML page; not exhaustive history. Article bodies and attachments not fetched.",
@@ -287,7 +287,7 @@
   {
     "channel": "html",
     "checked_at": "2026-09-22T12:30:03.180109+09:00",
-    "classification_version": "capital-context-v3",
+    "classification_version": "capital-context-v4-source-disclosure",
     "collected_match_count": 4,
     "count": 4,
     "coverage": "Only current RSS window or first HTML page; not exhaustive history. Article bodies and attachments not fetched.",
@@ -306,7 +306,7 @@
   {
     "channel": "html",
     "checked_at": "2026-09-22T12:30:03.200590+09:00",
-    "classification_version": "capital-context-v3",
+    "classification_version": "capital-context-v4-source-disclosure",
     "collected_match_count": 7,
     "count": 7,
     "coverage": "Homepage links only; not a complete board or fund universe. Article bodies not fetched.",
@@ -325,7 +325,7 @@
   {
     "channel": "rss",
     "checked_at": "2026-09-22T12:30:11.371918+09:00",
-    "classification_version": "capital-context-v3",
+    "classification_version": "capital-context-v4-source-disclosure",
     "collected_match_count": 0,
     "count": 0,
     "coverage": "Only current RSS window or first HTML page; not exhaustive history. Article bodies and attachments not fetched.",

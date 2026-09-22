@@ -42,7 +42,7 @@
       "source_id": "dart_disclosure",
       "title": "(기타)씨더블유씨앤디 - 동일인등출자계열회사와의상품ㆍ용역거래",
       "topics": [
-        "policy_funds"
+        "corporate"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922000065"
     },
@@ -72,7 +72,8 @@
       "source_id": "dart_disclosure",
       "title": "(코스닥)엔젠바이오 - [기재정정]증권발행실적보고서",
       "topics": [
-        "statistics"
+        "corporate",
+        "ipo"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922000117"
     },
@@ -103,7 +104,7 @@
       "source_id": "dart_disclosure",
       "title": "(코스닥)선익시스템 - 기업설명회(IR)개최",
       "topics": [
-        "venture"
+        "corporate"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922900118"
     },
@@ -118,7 +119,7 @@
       "source_id": "dart_disclosure",
       "title": "(기타)맥시칸 - 동일인등출자계열회사와의상품ㆍ용역거래",
       "topics": [
-        "policy_funds"
+        "corporate"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922000087"
     },
@@ -133,7 +134,7 @@
       "source_id": "dart_disclosure",
       "title": "(코넥스)지에이이노더스 - 기업설명회(IR)개최",
       "topics": [
-        "venture"
+        "corporate"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922600125"
     },
@@ -148,6 +149,7 @@
       "source_id": "dart_disclosure",
       "title": "(기타)더블케이제1호에스비유동화전문유한회사 - 효력발생안내 ( 2026.9.18. 제출 증권신고서(유동화증권) )",
       "topics": [
+        "corporate",
         "ipo"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260918100001"
@@ -178,7 +180,8 @@
       "source_id": "dart_disclosure",
       "title": "(코스닥)엔젠바이오 - [기재정정]증권발행결과(자율공시)",
       "topics": [
-        "regulation"
+        "corporate",
+        "ipo"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922900153"
     },
@@ -193,6 +196,7 @@
       "source_id": "dart_disclosure",
       "title": "(유가)SK리츠 - 효력발생안내 ( 2026.9.10. 제출 증권신고서(채무증권) )",
       "topics": [
+        "corporate",
         "ipo"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260916100001"
@@ -208,6 +212,7 @@
       "source_id": "dart_disclosure",
       "title": "(유가)제주은행 - 효력발생안내 ( 2026.9.10. 제출 증권신고서(채무증권) )",
       "topics": [
+        "corporate",
         "ipo"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260910100053"
@@ -254,7 +259,7 @@
       "source_id": "dart_disclosure",
       "title": "(기타)플그림 - 동일인등출자계열회사와의상품ㆍ용역거래",
       "topics": [
-        "policy_funds"
+        "corporate"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922000102"
     },
@@ -299,7 +304,7 @@
       "source_id": "dart_disclosure",
       "title": "(기타)삼표레미콘 - 동일인등출자계열회사와의상품ㆍ용역거래",
       "topics": [
-        "policy_funds"
+        "corporate"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922000085"
     },
@@ -314,6 +319,7 @@
       "source_id": "dart_disclosure",
       "title": "(기타)에스케이지오센트릭 - 효력발생안내 ( 2026.9.10. 제출 증권신고서(채무증권) )",
       "topics": [
+        "corporate",
         "ipo"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260910100055"
@@ -344,6 +350,7 @@
       "source_id": "dart_disclosure",
       "title": "(기타)더블케이제1호에스비유동화전문유한회사 - 효력발생안내 ( 2026.9.14. 제출 증권신고서(유동화증권) )",
       "topics": [
+        "corporate",
         "ipo"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260914100008"
@@ -359,7 +366,8 @@
       "source_id": "dart_disclosure",
       "title": "(코스닥)멕아이씨에스 - 증권발행결과(자율공시)",
       "topics": [
-        "regulation"
+        "corporate",
+        "ipo"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922900185"
     },
@@ -374,7 +382,8 @@
       "source_id": "dart_disclosure",
       "title": "(유가)NH투자증권 - 증권발행실적보고서",
       "topics": [
-        "statistics"
+        "corporate",
+        "ipo"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922000098"
     },
@@ -404,6 +413,7 @@
       "source_id": "dart_disclosure",
       "title": "(유가)대한전선 - 효력발생안내 ( 2026.9.10. 제출 증권신고서(채무증권) )",
       "topics": [
+        "corporate",
         "ipo"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260910100051"
@@ -466,7 +476,8 @@
       "source_id": "dart_disclosure",
       "title": "(유가)현대차증권 - 증권발행실적보고서",
       "topics": [
-        "statistics"
+        "corporate",
+        "ipo"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260921000073"
     },
@@ -511,7 +522,7 @@
       "source_id": "dart_disclosure",
       "title": "(기타)에이케이아이에스 - 동일인등출자계열회사와의상품ㆍ용역거래",
       "topics": [
-        "policy_funds"
+        "corporate"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260921000077"
     },
@@ -541,7 +552,8 @@
       "source_id": "dart_disclosure",
       "title": "(기타)BNK투자증권 - 증권발행실적보고서",
       "topics": [
-        "statistics"
+        "corporate",
+        "ipo"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260921000078"
     },
@@ -556,7 +568,7 @@
       "source_id": "dart_disclosure",
       "title": "(코스닥)엠젠솔루션 - 소송등의제기ㆍ신청(경영권분쟁소송) (회계장부 등 열람 등사 및 방해금지)",
       "topics": [
-        "ma"
+        "corporate"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260921900622"
     },
@@ -571,7 +583,8 @@
       "source_id": "dart_disclosure",
       "title": "(기타)BNK투자증권 - 증권발행실적보고서",
       "topics": [
-        "statistics"
+        "corporate",
+        "ipo"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260921000041"
     },
@@ -601,6 +614,7 @@
       "source_id": "dart_disclosure",
       "title": "(유가)부산주공 - 기타시장안내 (상장폐지결정 효력정지 가처분 신청 기각결정에 따른 정리매매절차 재개)",
       "topics": [
+        "corporate",
         "ipo"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260921800559"
@@ -646,6 +660,7 @@
       "source_id": "dart_disclosure",
       "title": "(코스닥)핀텔 - 기타시장안내 (시가총액 미달에 따른 상장폐지 우려 관련 안내)",
       "topics": [
+        "corporate",
         "ipo"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260921900627"
@@ -661,7 +676,8 @@
       "source_id": "dart_disclosure",
       "title": "(기타)디비자산운용 - 특수관계인과의수익증권거래",
       "topics": [
-        "private_funds"
+        "private_funds",
+        "corporate"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260921000001"
     },
@@ -676,6 +692,7 @@
       "source_id": "dart_disclosure",
       "title": "(유가)SK리츠 - [발행조건확정]증권신고서(채무증권)",
       "topics": [
+        "corporate",
         "ipo"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260921000411"
@@ -751,6 +768,7 @@
       "source_id": "dart_disclosure",
       "title": "(유가)대한전선 - [발행조건확정]증권신고서(채무증권)",
       "topics": [
+        "corporate",
         "ipo"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260921000404"
@@ -766,7 +784,7 @@
       "source_id": "dart_disclosure",
       "title": "(유가)POSCO홀딩스 - 해외증권거래소등에신고한주요공시사항의국내신고",
       "topics": [
-        "regulation"
+        "corporate"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260921800102"
     },
@@ -781,7 +799,8 @@
       "source_id": "dart_disclosure",
       "title": "(기타)디비자산운용 - 특수관계인과의수익증권거래",
       "topics": [
-        "private_funds"
+        "private_funds",
+        "corporate"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260921000002"
     },
@@ -796,7 +815,8 @@
       "source_id": "dart_disclosure",
       "title": "(코스닥)모아라이프플러스 - [기재정정]소액공모공시서류(지분증권)",
       "topics": [
-        "regulation"
+        "corporate",
+        "ipo"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260921000099"
     },
@@ -811,7 +831,7 @@
       "source_id": "dart_disclosure",
       "title": "(기타)농협파트너스 - 약관에의한금융거래시계열금융회사의거래상대방의공시",
       "topics": [
-        "regulation"
+        "corporate"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260921000039"
     },
@@ -841,7 +861,7 @@
       "source_id": "dart_disclosure",
       "title": "(코스닥)알엔투테크놀로지 - 소송등의판결ㆍ결정 (경영권 분쟁 소송)(검사인 선임)",
       "topics": [
-        "ma"
+        "corporate"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260921900609"
     },
@@ -886,6 +906,7 @@
       "source_id": "dart_disclosure",
       "title": "(코스닥)디에이테크놀로지 - 주권매매거래정지해제 (상장폐지에 따른 정리매매 개시)",
       "topics": [
+        "corporate",
         "ipo"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260921900630"
@@ -932,6 +953,7 @@
       "source_id": "dart_disclosure",
       "title": "(코스닥)에이에프더블류 - 주권매매거래정지 (상장폐지 사유발생)",
       "topics": [
+        "corporate",
         "ipo"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260921900635"
@@ -947,6 +969,7 @@
       "source_id": "dart_disclosure",
       "title": "(코스닥)KX - [기재정정]회사합병결정(종속회사의주요경영사항)",
       "topics": [
+        "corporate",
         "ma"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260921900606"
@@ -962,6 +985,7 @@
       "source_id": "dart_disclosure",
       "title": "(코스닥)앤씨앤 - 기타시장안내 (시가총액 미달에 따른 상장폐지 우려 관련 안내)",
       "topics": [
+        "corporate",
         "ipo"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260921900575"
@@ -977,7 +1001,7 @@
       "source_id": "dart_disclosure",
       "title": "(기타)삼표자원개발 - 동일인등출자계열회사와의상품ㆍ용역거래",
       "topics": [
-        "policy_funds"
+        "corporate"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260921000052"
     },
@@ -992,7 +1016,8 @@
       "source_id": "dart_disclosure",
       "title": "(코스닥)아시아경제 - 최대주주변경을수반하는주식양수도계약체결",
       "topics": [
-        "corporate"
+        "corporate",
+        "ma"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260921900571"
     },
@@ -1007,6 +1032,7 @@
       "source_id": "dart_disclosure",
       "title": "(유가)범양건영 - 기타시장안내 (상장적격성 실질심사 절차 중단 안내)",
       "topics": [
+        "corporate",
         "ipo"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260921800625"
@@ -1052,6 +1078,7 @@
       "source_id": "dart_disclosure",
       "title": "(기타)하나에어로다이내믹스 - 증권신고서(지분증권)",
       "topics": [
+        "corporate",
         "ipo"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260921000405"
@@ -1082,6 +1109,7 @@
       "source_id": "dart_disclosure",
       "title": "(코스닥)디에이테크놀로지 - 기타시장안내 (상장폐지결정무효확인의 소 기각에 따른 정리매매절차 재개)",
       "topics": [
+        "corporate",
         "ipo"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260921900629"
@@ -1097,7 +1125,8 @@
       "source_id": "dart_disclosure",
       "title": "(유가)현대차증권 - 증권발행실적보고서",
       "topics": [
-        "statistics"
+        "corporate",
+        "ipo"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260921000055"
     },
@@ -1112,6 +1141,7 @@
       "source_id": "dart_disclosure",
       "title": "(유가)한양증권 - 효력발생안내 ( 2026.9.9. 제출 증권신고서(채무증권) )",
       "topics": [
+        "corporate",
         "ipo"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260909100019"
@@ -1127,6 +1157,7 @@
       "source_id": "dart_disclosure",
       "title": "(코스닥)바이오인프라 - 기타시장안내 (시가총액 미달에 따른 상장폐지 우려 관련 안내)",
       "topics": [
+        "corporate",
         "ipo"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260921900616"
@@ -1142,8 +1173,7 @@
       "source_id": "dart_disclosure",
       "title": "(유가)포스코퓨처엠 - 기업설명회(IR)개최(안내공시)",
       "topics": [
-        "venture",
-        "regulation"
+        "corporate"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260921800056"
     },
@@ -1173,7 +1203,8 @@
       "source_id": "dart_disclosure",
       "title": "(유가)미래에셋증권 - 증권발행실적보고서",
       "topics": [
-        "statistics"
+        "corporate",
+        "ipo"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260921000081"
     },
@@ -1203,7 +1234,8 @@
       "source_id": "dart_disclosure",
       "title": "(기타)케이비증권 - 증권발행실적보고서",
       "topics": [
-        "statistics"
+        "corporate",
+        "ipo"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260921000056"
     },
@@ -1218,7 +1250,7 @@
       "source_id": "dart_disclosure",
       "title": "(기타)대산그린에너지 - 동일인등출자계열회사와의상품ㆍ용역거래변경",
       "topics": [
-        "policy_funds"
+        "corporate"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260921000084"
     },
@@ -1233,6 +1265,7 @@
       "source_id": "dart_disclosure",
       "title": "(코스닥)상지건설 - 효력발생안내 ( 2026.9.4. 제출 증권신고서(지분증권) )",
       "topics": [
+        "corporate",
         "ipo"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260904100019"
@@ -1278,8 +1311,7 @@
       "source_id": "dart_disclosure",
       "title": "(유가)삼성FN리츠 - 유상증자신주발행가액(안내공시)",
       "topics": [
-        "corporate",
-        "regulation"
+        "corporate"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260921800156"
     },

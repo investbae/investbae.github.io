@@ -1,6 +1,156 @@
 {
   "entries": [
     {
+      "at": "2026-09-22T12:30:58.255560+09:00",
+      "release_id": "20260922-content-data-candidate",
+      "changes": [
+        {
+          "dataset_id": "venture_market_index",
+          "status": "source_revision_aligned",
+          "source_url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1065645&cbIdx=86&parentSeq=1065645",
+          "base_source_url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=86&bcIdx=1056570&parentSeq=1056570",
+          "rule": "억원 원값으로 각 지수와 동일가중 평균을 계산한 뒤 각각 소수 첫째 자리로 반올림. 표시된 구성지수의 평균을 재사용하지 않음.",
+          "previous_series": [
+            {
+              "year": 2020,
+              "inv_index": 100.0,
+              "fund_index": 100.0,
+              "composite": 100.0,
+              "inv_eok": 80962,
+              "fund_eok": 99859,
+              "provisional": false
+            },
+            {
+              "year": 2021,
+              "inv_index": 196.8,
+              "fund_index": 178.7,
+              "composite": 187.8,
+              "inv_eok": 159371,
+              "fund_eok": 178481,
+              "provisional": false
+            },
+            {
+              "year": 2022,
+              "inv_index": 154.0,
+              "fund_index": 176.7,
+              "composite": 165.3,
+              "inv_eok": 124706,
+              "fund_eok": 176401,
+              "provisional": false
+            },
+            {
+              "year": 2023,
+              "inv_index": 134.8,
+              "fund_index": 130.5,
+              "composite": 132.7,
+              "inv_eok": 109133,
+              "fund_eok": 130328,
+              "provisional": false
+            },
+            {
+              "year": 2024,
+              "inv_index": 147.5,
+              "fund_index": 105.7,
+              "composite": 126.6,
+              "inv_eok": 119457,
+              "fund_eok": 105550,
+              "provisional": false
+            },
+            {
+              "year": 2025,
+              "inv_index": 168.0,
+              "fund_index": 143.2,
+              "composite": 155.6,
+              "inv_eok": 136000,
+              "fund_eok": 143000,
+              "provisional": true
+            }
+          ],
+          "series": [
+            {
+              "year": 2020,
+              "inv_index": 100.0,
+              "fund_index": 100.0,
+              "composite": 100.0,
+              "inv_eok": 80962,
+              "fund_eok": 99859,
+              "provisional": false,
+              "source_published": "2025-02-12",
+              "source_url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=86&bcIdx=1056570&parentSeq=1056570"
+            },
+            {
+              "year": 2021,
+              "inv_index": 196.8,
+              "fund_index": 178.7,
+              "composite": 187.8,
+              "inv_eok": 159371,
+              "fund_eok": 178493,
+              "provisional": false,
+              "source_published": "2026-02-13",
+              "source_url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1065645&cbIdx=86&parentSeq=1065645"
+            },
+            {
+              "year": 2022,
+              "inv_index": 154.0,
+              "fund_index": 176.6,
+              "composite": 165.3,
+              "inv_eok": 124706,
+              "fund_eok": 176385,
+              "provisional": false,
+              "source_published": "2026-02-13",
+              "source_url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1065645&cbIdx=86&parentSeq=1065645"
+            },
+            {
+              "year": 2023,
+              "inv_index": 134.8,
+              "fund_index": 130.6,
+              "composite": 132.7,
+              "inv_eok": 109133,
+              "fund_eok": 130438,
+              "provisional": false,
+              "source_published": "2026-02-13",
+              "source_url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1065645&cbIdx=86&parentSeq=1065645"
+            },
+            {
+              "year": 2024,
+              "inv_index": 147.5,
+              "fund_index": 106.6,
+              "composite": 127.1,
+              "inv_eok": 119457,
+              "fund_eok": 106404,
+              "provisional": false,
+              "source_published": "2026-02-13",
+              "source_url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1065645&cbIdx=86&parentSeq=1065645"
+            },
+            {
+              "year": 2025,
+              "inv_index": 168.3,
+              "fund_index": 142.9,
+              "composite": 155.6,
+              "inv_eok": 136244,
+              "fund_eok": 142669,
+              "provisional": true,
+              "source_published": "2026-02-13",
+              "source_url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1065645&cbIdx=86&parentSeq=1065645"
+            }
+          ]
+        },
+        {
+          "dataset_id": "venture_balance",
+          "status": "withheld_pending_primary_source",
+          "record_count": 0,
+          "note": "미확인 수치 공개 제거, 원자료 확인 전 상태 안내"
+        },
+        {
+          "dataset_id": "venture_indicators",
+          "status": "source_aggregate_verified",
+          "record_count": 39668,
+          "source_url": "https://www.data.go.kr/data/15084581/fileData.do",
+          "sha256": "e60647c84cabac03ebe488302874ce302836c645e35388a8d2aad93361bbc8a2"
+        }
+      ]
+    },
+    {
       "at": "2026-08-23T18:29:05.978126+09:00",
       "changes": [
         {
