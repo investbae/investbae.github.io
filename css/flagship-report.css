@@ -3,4 +3,4 @@
 .report-cover{transition:transform .45s ease,box-shadow .45s ease}.report-hero a:hover .report-cover{transform:rotate(-3deg) translateY(-5px);box-shadow:26px 35px 95px #7437c966}.report-actions a:focus-visible{outline:3px solid var(--mint);outline-offset:5px}@media(prefers-reduced-motion:reduce){.report-cover{transition:none}.report-hero a:hover .report-cover{transform:rotate(-7deg)}}
 
 /* Scope page resets to the report reader; retain institutional header. */
-.cosmic-home .cx-selected .report-actions a{color:#10102b;background:#b494ff}.cosmic-home .cx-selected{padding:70px 0}.cosmic-home .report-hero{padding-top:70px}.cosmic-home .report-facts{background:#f5f4f8;color:#151629;max-width:none;justify-content:center}.cosmic-home .report-facts>div{max-width:320px;margin:auto}
+.cosmic-home .cx-selected .report-actions a{color:#10102b;background:#b494ff}.cosmic-home #main .report-actions a:not(.secondary){color:#10102b}.cosmic-home .cx-selected{padding:70px 0}.cosmic-home .report-hero{padding-top:70px}.cosmic-home .report-facts{background:#f5f4f8;color:#151629;max-width:none;justify-content:center}.cosmic-home .report-facts>div{max-width:320px;margin:auto}
