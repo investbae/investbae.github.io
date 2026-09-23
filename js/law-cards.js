@@ -10,7 +10,7 @@
  *   정적 값은 JS 실패 시의 baseline 으로 남긴다(수집일 기준으로 함께 갱신해 둔다).
  *
  * 국회 API 가 주지 않은 심사 전망·통과 가능성은 만들지 않는다. 처리결과가 없으면
- * "처리결과 미제공"으로만 적는다(발주 사양 ⅩⅫ).
+ * "처리결과 없음(국회 공개값 기준)"으로만 적는다.
  */
 import { loadDataset, safeUrl, formatDate8, formatKst, el } from '/js/data-loader.js';
 
@@ -59,7 +59,9 @@ function enrichLawCards(dataset) {
     // ★ 카드 머리의 「🗓️ 시행 … · 법제처 원문 →」 줄을 자료로 갱신한다.
     //   정적 값을 그대로 두면 자료 갱신 시 **두 시행일이 동시에 보인다**(2026-08-23 실측).
     const link = card.querySelector('a[href*="lsInfoP"]');
-    const eff = formatDate8(record.effective_date);
+    // 부칙 단계 시행(법률 제21324호 부칙 제1조) — 수집 자료(data/laws.json)가 파이프라인에서 덮여도 같은 버전(lsiSeq)이면 유지한다.
+    const STAGED = { '283193': '2026.02.03(공포일) · 제50조①단서 2026.08.04 · 제166조 2027.02.04' };
+    const eff = record.effective_display || STAGED[String(record.law_serial_number)] || formatDate8(record.effective_date);
     if (link && eff) {
       const href = safeUrl(record.official_detail_url);
       if (href) link.setAttribute('href', href);
@@ -85,7 +87,8 @@ function renderBills(dataset, mount) {
   head.textContent =
     '국회가 공개한 의안 메타데이터를 그대로 옮긴 것입니다. ' +
     '심사 전망이나 통과 가능성은 표시하지 않습니다. ' +
-    '검색은 의안명 부분일치이므로 관련 의안 전부를 포괄하지 않습니다.';
+    '검색은 의안명 부분일치이므로 관련 의안 전부를 포괄하지 않습니다. ' +
+    '키워드 부분일치 결과를 발의일 역순으로 기계적으로 표시하며 선별하지 않았습니다.';
   mount.append(head);
 
   const list = el('ul', 'bills__list');
@@ -109,7 +112,7 @@ function renderBills(dataset, mount) {
       record.propose_date ? `제안 ${record.propose_date}` : '',
       record.proposer || '',
       record.committee || '',
-      record.process_result ? `처리결과 ${record.process_result}` : '처리결과 미제공',
+      record.process_result ? `처리결과 ${record.process_result}` : '처리결과 없음(국회 공개값 기준)',
     ]
       .filter(Boolean)
       .join(' · ');
@@ -128,7 +131,8 @@ function renderBills(dataset, mount) {
   foot.textContent =
     `${dataset.metadata.provider_name} · ${dataset.metadata.reference_period || ''}` +
     ` · 확인 ${formatKst(dataset.metadata.checked_at)}` +
-    ` · 수집 ${dataset.records.length}건 · 기본 목록 ${initialCount}건` +
+    (((dataset.metadata.population || '').match(/총 (\d+)건/) || [])[1] ? ` · 키워드 해당 ${dataset.metadata.population.match(/총 (\d+)건/)[1]}건 중 최근 ${dataset.records.length}건 게시` : ` · 게시 ${dataset.records.length}건`) +
+    ` · 기본 목록 ${initialCount}건` +
     (dataset.records.length > initialCount ? ` · 더 보기 ${dataset.records.length - initialCount}건` : '');
   mount.append(foot);
   const download = el('a', 'bills__source', '수집 의안 전체 자료(JSON) 보기 →');

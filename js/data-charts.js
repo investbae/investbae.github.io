@@ -56,7 +56,7 @@
         var gl = el("text", { class: "ax-lab", x: gx + groupW / 2, y: H - padB + 38, "text-anchor": "middle", fill: "#c7cfdd" }); gl.textContent = grp.label; svg.appendChild(gl);
       });
     })();
-    // 연속 분기 추이 2024 1Q~2026 1Q (중기부 분기 발표·조원·2025 4Q 원자료 미확보 공백). 영역 그라데이션.
+    // 연속 분기 추이 2024 1Q~2026 1Q (중기부 분기 발표·조원·2025 4Q 단독 공표값 없음 공백). 영역 그라데이션.
     (function () {
       var svg = document.getElementById("q3Chart"); if (!svg) return;
       var NS = "http://www.w3.org/2000/svg";
@@ -81,7 +81,7 @@
         svg.appendChild(el("circle", { cx: X(i), cy: Y(val), r: "4", fill: prov ? "#1F3864" : "#C9A227", stroke: "#C9A227", "stroke-width": prov ? "2" : "0" }));
         var lab = el("text", { class: "pt-lab", x: X(i), y: Y(val) - 11, "text-anchor": "middle", fill: "#fff" }); lab.setAttribute("font-size", "11"); lab.textContent = val.toFixed(2).replace(/0$/, ""); svg.appendChild(lab);
       });
-      var gn = el("text", { x: (X(6) + X(7)) / 2, y: Y(4.6), "text-anchor": "middle", fill: "#8b97ad" }); gn.setAttribute("font-size", "10"); gn.textContent = "'25 4Q 미확보"; svg.appendChild(gn);
+      var gn = el("text", { x: (X(6) + X(7)) / 2, y: Y(4.6), "text-anchor": "middle", fill: "#8b97ad" }); gn.setAttribute("font-size", "10"); gn.textContent = "'25 4Q 단독 공표값 없음"; svg.appendChild(gn);
     })();
     // 2025년 분기별 흐름 (1~3분기·중기부 공표·조원). 막대.
     (function () {

@@ -345,7 +345,8 @@
       "source_id": "dart_disclosure",
       "title": "(코스닥)서울전자통신 - 경영권변경등에관한계약체결",
       "topics": [
-        "corporate"
+        "corporate",
+        "ma"
       ],
       "url": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260922900618"
     },
@@ -2310,7 +2311,7 @@
       "retrieved_at": "2026-09-22T18:30:03.866337+09:00",
       "seen_in_latest": true,
       "source_id": "apfs_home",
-      "title": "농림수산식품투자모태조합 출자 자조합 관련 규정 개정수요 조사 안내 [2026-09-17]",
+      "title": "농림수산식품투자모태조합 출자 자조합 관련 규정 개정수요 조사 안내",
       "topics": [
         "policy_funds",
         "regulation"
@@ -2365,37 +2366,6 @@
     },
     {
       "body_status": "metadata_only",
-      "id": "5f8adbf111d9b2f46f3118e8",
-      "kind": "press",
-      "published_date": "2026-09-17",
-      "publisher": "금융감독원",
-      "retrieved_at": "2026-09-21T08:30:24.991186+09:00",
-      "seen_in_latest": false,
-      "source_id": "fss_press",
-      "title": "부실사업장 정상화를 통한 신속한 주택공급 권대영 금융위 부위원장, 캠코펀드 사업장 방문",
-      "topics": [
-        "private_funds"
-      ],
-      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?menuNo=200218&nttId=229065"
-    },
-    {
-      "body_status": "metadata_only",
-      "id": "4c7f4434d2aa262910044c42",
-      "kind": "press",
-      "published_date": "2026-09-17",
-      "publisher": "산업통상부",
-      "retrieved_at": "2026-09-22T07:30:02.415323+09:00",
-      "seen_in_latest": false,
-      "source_id": "motie_press",
-      "title": "(참고자료)국민성장펀드에 더 많은 전문가들이 참여하여 의사결정의 객관성과 투명성을 강화합니다",
-      "topics": [
-        "policy_funds",
-        "private_funds"
-      ],
-      "url": "https://www.motie.go.kr/kor/article/ATCL3f49a5a8c/172219/view"
-    },
-    {
-      "body_status": "metadata_only",
       "id": "3647a3e74aeb1e8ef46f763e",
       "kind": "press",
       "published_date": "2026-09-17",
@@ -2439,21 +2409,6 @@
         "venture"
       ],
       "url": "https://www.mafra.go.kr/bbs/home/792/579196/artclView.do"
-    },
-    {
-      "body_status": "metadata_only",
-      "id": "68865669b7e033531a0ed559",
-      "kind": "press",
-      "published_date": "2026-09-16",
-      "publisher": "금융감독원",
-      "retrieved_at": "2026-09-21T08:30:24.991186+09:00",
-      "seen_in_latest": false,
-      "source_id": "fss_press",
-      "title": "사업보고서 등에 대한 조사, 감리결과 조치",
-      "topics": [
-        "corporate"
-      ],
-      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?menuNo=200218&nttId=228895"
     },
     {
       "body_status": "metadata_only",
@@ -2748,7 +2703,7 @@
       "retrieved_at": "2026-09-22T18:30:03.866337+09:00",
       "seen_in_latest": true,
       "source_id": "apfs_home",
-      "title": "농금원, 2026 농식품 금융투자로드쇼 개최 [2026-09-08]",
+      "title": "농금원, 2026 농식품 금융투자로드쇼 개최",
       "topics": [
         "venture"
       ],
@@ -2763,7 +2718,7 @@
       "retrieved_at": "2026-09-22T18:30:03.866337+09:00",
       "seen_in_latest": true,
       "source_id": "apfs_home",
-      "title": "2026년 농림수산식품모태펀드 4차 추가 출자사업 설명회 개최 안내 [2026-09-08]",
+      "title": "2026년 농림수산식품모태펀드 4차 추가 출자사업 설명회 개최 안내",
       "topics": [
         "policy_funds",
         "private_funds"
@@ -2876,7 +2831,7 @@
       "retrieved_at": "2026-09-22T18:30:03.866337+09:00",
       "seen_in_latest": true,
       "source_id": "apfs_home",
-      "title": "농림수산식품모태펀드 '26년 4차 추가 출자사업(농식품투자 계정) 공 [2026-09-04]",
+      "title": "농림수산식품모태펀드 '26년 4차 추가 출자사업(농식품투자 계정) 공고",
       "topics": [
         "policy_funds",
         "private_funds"
@@ -2909,7 +2864,7 @@
       "retrieved_at": "2026-09-22T18:30:03.866337+09:00",
       "seen_in_latest": true,
       "source_id": "apfs_home",
-      "title": "농림수산식품모태펀드 2026년 3차 추가 출자사업(농식품 계정) 업무집행조합 [2026-09-01]",
+      "title": "농림수산식품모태펀드 2026년 3차 추가 출자사업(농식품 계정) 업무집행조합원 선정 결과",
       "topics": [
         "policy_funds",
         "private_funds"
@@ -3068,7 +3023,7 @@
       "retrieved_at": "2026-09-22T18:30:03.866337+09:00",
       "seen_in_latest": true,
       "source_id": "apfs_home",
-      "title": "농업정책보험금융원-NH농협은행, '2026년 농업정책자금 부정수급 합동 예방 교육’ [2026-08-19]",
+      "title": "농업정책보험금융원-NH농협은행, '2026년 농업정책자금 부정수급 합동 예방 교육’",
       "topics": [
         "policy_funds"
       ],
@@ -3083,7 +3038,7 @@
       "retrieved_at": "2026-09-22T18:30:03.866337+09:00",
       "seen_in_latest": true,
       "source_id": "apfs_home",
-      "title": "농업정책보험금융원, '유관기관 간 2026년 수산정책자금 부정수급 합동 예방 교육’ [2026-08-19]",
+      "title": "농업정책보험금융원, '유관기관 간 2026년 수산정책자금 부정수급 합동 예방 교육’",
       "topics": [
         "policy_funds"
       ],
@@ -3196,54 +3151,9 @@
     },
     {
       "body_status": "metadata_only",
-      "id": "ca4801cc46d9bcfc82acf807",
-      "kind": "press",
-      "published_date": "2025-08-04",
-      "publisher": "한국성장금융",
-      "retrieved_at": "2026-09-22T18:30:03.387614+09:00",
-      "seen_in_latest": true,
-      "source_id": "kgrowth_press",
-      "title": "(보도자료) 한국성장금융_「코리아핀테크위크2025」투자밋업 모집공고",
-      "topics": [
-        "venture"
-      ],
-      "url": "https://www.kgrowth.or.kr/notice_view.asp?idx=800&str_type=3&tab=1"
-    },
-    {
-      "body_status": "metadata_only",
-      "id": "122b873afe474b16ff1d08e6",
-      "kind": "press",
-      "published_date": "2025-06-17",
-      "publisher": "한국성장금융",
-      "retrieved_at": "2026-09-22T18:30:03.387614+09:00",
-      "seen_in_latest": true,
-      "source_id": "kgrowth_press",
-      "title": "(보도자료) “핀테크×AI, 금융에 취향을 더하다” 「코리아 핀테크 위크 2025」 개최 안내",
-      "topics": [
-        "venture"
-      ],
-      "url": "https://www.kgrowth.or.kr/notice_view.asp?idx=798&str_type=3&tab=1"
-    },
-    {
-      "body_status": "metadata_only",
-      "id": "78c052e3d2a7206ae547fef6",
-      "kind": "notice",
-      "published_date": "2025-05-13",
-      "publisher": "한국성장금융",
-      "retrieved_at": "2026-09-22T18:30:02.975864+09:00",
-      "seen_in_latest": true,
-      "source_id": "kgrowth_notice",
-      "title": "【기타】 프로젝트 펀드 담당팀 연락처(상시 게시)",
-      "topics": [
-        "private_funds"
-      ],
-      "url": "https://www.kgrowth.or.kr/notice_view.asp?idx=913&str_type=1&tab=1"
-    },
-    {
-      "body_status": "metadata_only",
       "id": "e2d8baef268c75362519482f",
       "kind": "press",
-      "published_date": null,
+      "published_date": "2026-09-17",
       "publisher": "금융위원회",
       "retrieved_at": "2026-09-21T12:53:07.408276+09:00",
       "seen_in_latest": false,
@@ -3252,13 +3162,16 @@
       "topics": [
         "private_funds"
       ],
-      "url": "https://www.fsc.go.kr/no010101/87738"
+      "url": "https://www.fsc.go.kr/no010101/87738",
+      "co_published_by": [
+        "금융감독원"
+      ]
     },
     {
       "body_status": "metadata_only",
       "id": "72c94d65a4fa9286ac7ccacf",
       "kind": "press",
-      "published_date": null,
+      "published_date": "2026-09-17",
       "publisher": "금융위원회",
       "retrieved_at": "2026-09-21T12:53:07.408276+09:00",
       "seen_in_latest": false,
@@ -3268,13 +3181,16 @@
         "policy_funds",
         "private_funds"
       ],
-      "url": "https://www.fsc.go.kr/no010101/87742"
+      "url": "https://www.fsc.go.kr/no010101/87742",
+      "co_published_by": [
+        "산업통상부"
+      ]
     },
     {
       "body_status": "metadata_only",
       "id": "46215b96949c9b9e5c63da76",
       "kind": "press",
-      "published_date": null,
+      "published_date": "2026-09-16",
       "publisher": "금융위원회",
       "retrieved_at": "2026-09-21T12:53:07.408276+09:00",
       "seen_in_latest": false,
@@ -3289,7 +3205,7 @@
       "body_status": "metadata_only",
       "id": "15752c64601bc4482ae37a06",
       "kind": "press",
-      "published_date": null,
+      "published_date": "2026-09-17",
       "publisher": "금융위원회",
       "retrieved_at": "2026-09-21T12:53:07.408276+09:00",
       "seen_in_latest": false,
@@ -3304,7 +3220,7 @@
       "body_status": "metadata_only",
       "id": "0a4fb5fd3507c7012d537735",
       "kind": "press",
-      "published_date": null,
+      "published_date": "2026-09-17",
       "publisher": "금융위원회",
       "retrieved_at": "2026-09-21T12:53:07.408276+09:00",
       "seen_in_latest": false,
@@ -3313,7 +3229,10 @@
       "topics": [
         "corporate"
       ],
-      "url": "https://www.fsc.go.kr/no010101/87731"
+      "url": "https://www.fsc.go.kr/no010101/87731",
+      "co_published_by": [
+        "금융감독원"
+      ]
     }
   ]
 }

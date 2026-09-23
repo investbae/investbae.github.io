@@ -57,7 +57,8 @@
       var signup = form.getAttribute('name') === 'signup';
       var subject = signup ? '[KVMI] 자료·소식 구독 신청' : msg('[KVMI] 연구·자문 문의', '[KVMI] Research inquiry');
       var lines = [subject, ''];
-      new FormData(form).forEach(function (value, key) { lines.push(key + ': ' + String(value)); });
+      var KO_LABEL = { organization: '기관·회사명', name: '담당자명', email: '이메일', subject: '문의 주제', message: '문의 내용' };
+      new FormData(form).forEach(function (value, key) { lines.push((en ? key : (KO_LABEL[key] || key)) + ': ' + String(value)); });
       fields.querySelectorAll('input[type=checkbox]').forEach(function (input) {
         if (!input.checked) lines.push(input.name + ': ' + msg('동의하지 않음', 'Not agreed'));
       });

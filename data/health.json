@@ -17,12 +17,12 @@
     },
     {
       "dataset_id": "venture_statistics",
-      "note": "KOSIS 인증키 미발급(보유 값이 플레이스홀더). 실제 키 발급 전에는 수집하지 않습니다.",
+      "note": "수집 대상 아님",
       "status": "disabled"
     },
     {
       "dataset_id": "venture_companies",
-      "note": "공공데이터포털 활용신청 미승인. 엔드포인트를 추측해 넣지 않습니다.",
+      "note": "수집 대상 아님",
       "status": "disabled"
     }
   ],

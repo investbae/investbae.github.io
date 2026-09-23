@@ -1,6 +1,5 @@
 /* =========================================================================
    벤처 유니버스 (Venture Universe) v2 — Canvas2D 우주 쇼케이스 · 의존성 0
-   3자 토론(vmi_universe_2x_hyperreal_20260621·R1~R6) 합의 스펙.
    - 별·은하(현상)·우주선 2배 밀도
    - 오프스크린 스프라이트 캐시: 우주선 극사실화 + 현상 그라디언트 병목 제거
    - 매우 느리고 고요한 모션(px/초·dt 기반) · 워프 240초당 1회 · 별똥별 희귀
@@ -12,7 +11,6 @@
   var cv = document.getElementById("universe") || document.getElementById("cosmicCanvas");
   if (!cv) return;
   var homeMode = cv.id === "cosmicCanvas";
-  // 박사 "별·흰점·동그라미 모두 거슬림" → 홈/콘텐츠 페이지 배경 엔진 전면 정지(정적 네이비 배경·vmi_bg_redesign B′). 전용 쇼케이스 /universe/만 유지.
   if (homeMode) return;
   var ctx = cv.getContext("2d");
   var isMobile = window.innerWidth < 768 || /Mobi|Android/i.test(navigator.userAgent);
@@ -22,19 +20,15 @@
   function rnd(a, b) { return a + Math.random() * (b - a); }
   function pick(a) { return a[(Math.random() * a.length) | 0]; }
   function starCol() { var r = Math.random(); return r < 0.6 ? "rgba(255,201,150," : r < 0.85 ? "rgba(255,247,232," : "rgba(184,208,255,"; }
-  // 실사 색온도 5종(O/B 청 → M 주황적·박사 "실사 다양"). ImageData 직접 기록용 RGB.
   var STAR_SPECTRA = [[150,185,255], [200,220,255], [255,251,246], [255,240,208], [255,196,148]];
   function starSpec() { var r = Math.random(); return r < 0.18 ? 0 : r < 0.38 ? 1 : r < 0.62 ? 2 : r < 0.82 ? 3 : 4; }
   var reduceMotion = false;
   try { reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches; } catch (e) {}
 
-  // 박사님 "움직임을 느낄 수 있게" 명시 → 무조건 가동(reduced-motion 강제정지 해제·과거 'off' 잔재 무력화 위해 키 교체).
   // 'off' 저장 시에만 ambient(반짝임·호흡만). ▶ 토글은 정지/재생.
   var full = (function () { try { return localStorage.getItem("vmiMotion") !== "off"; } catch (e) { return true; } })();
   var animate = true;
 
-  // ── 2배 밀도 CAP + LOD 비율 (3자 토론 합의) ──
-  // 박사 7배(데스크톱): 별 밀도 ×7(starDiv 85→12)·현상 ×7(460→3220). 모바일은 성능상 ×3 보수(폭사 방지·정직).
   var CAP = isMobile
     ? { ships: 480, phen: 420, starDiv: 55, starMax: 32000, lodGlyph: 0.06, lodSprite: 0.008 }
     : { ships: 1200, phen: 1400, starDiv: 4, starMax: 600000, lodGlyph: 0.10, lodSprite: 0.012 };
@@ -163,7 +157,6 @@
   var ICE = "rgba(201,215,232,";
   var palette = ["rgba(226,232,244,", "rgba(150,180,235,", "rgba(201,162,39,", "rgba(186,150,255,", "rgba(120,200,220,"];
   var palIdx = {}; for (var pi = 0; pi < palette.length; pi++) palIdx[palette[pi]] = pi;
-  // 세련된 8색 팔레트 (박사님 "색도 모두 달라야"·형광 원색 금지·연구기관 품격)
   var SHIPTONE = [
     "rgba(206,214,226,", // 티타늄 실버
     "rgba(224,176,96,",  // 웜 앰버
@@ -200,11 +193,14 @@
      모바일만: 화면당 예산(성좌 2 + 현상 3)·AABB 충돌 회피·히어로/상단바 금지영역·
      엣지 클램프(우측 우선→좌측 폴백)·pill 배경으로 소수 라벨을 '정보'로 복원. */
   var exZones = [];                                  // 금지영역(실제 DOM rect 기반)
+  var deskZones = [];                                // 데스크톱 라벨 금지영역(히어로 본문)
   var labelPool = [];                                // 라벨 후보(depth×feat 내림차순·최근접 우선)
   var MOB_LBL = { constel: 2, phen: 3 };             // 화면당 예산
   var mobRects = [], mobUsed = { constel: 0, phen: 0 };
   function computeExclusions() {
-    exZones = [];
+    exZones = []; deskZones = [];
+    var hero = document.querySelector(".u-hero"), hr = hero && hero.getBoundingClientRect();
+    if (hr && hr.width > 0 && hr.height > 0) deskZones.push({ x: hr.left - 24, y: hr.top - 24, w: hr.width + 48, h: hr.height + 48 });
     if (!isMobile) return;
     var els = [document.querySelector(".u-top"), document.querySelector(".u-hero")];
     for (var i = 0; i < els.length; i++) {
@@ -261,7 +257,6 @@
     labelPool.sort(function (a, b) { return b.depth * b.feat - a.depth * a.feat; });
     if (labelPool.length > 48) labelPool.length = 48;
   }
-  // 별 시차 드리프트(박사 "모든 별 천천히 과학적 이동"·3자 토론 vmi_starmotion): 정적 레이어를 심도별 속도로 wrap drift.
   var STAR_DRIFT = 2.2, SDIRX = -0.96, SDIRY = -0.28, drT = 0;  // 근경~2.2px/s·대각 ~16°·depth^1.7 (눈 피로 완화)
 
   /* ───────── 통합 현상 페인터 (c=대상 ctx, 중심 0,0 기준·회전은 외부에서) ───────── */
@@ -423,7 +418,6 @@
       c.fillStyle = "#05060c"; c.beginPath(); c.arc(tox * s, 0, 3 * s, 0, TAU); c.fill();
     } else if (k === "void") {
       c.fillStyle = "rgba(3,4,10,0.5)"; c.beginPath(); c.arc(0, 0, 40 * s, 0, TAU); c.fill();
-      // (회색 테두리 stroke 삭제 — 실사상 보이드는 어두운 영역일 뿐·박사 "회색 원" 지적 반영)
     } else if (k === "meteor") {
       c.globalCompositeOperation = "screen"; c.lineCap = "round";
       for (var mi = 0; mi < 7; mi++) {
@@ -548,7 +542,7 @@
   /* ───────── 별: 심도 3레이어 정적 캐시 + 7% 라이브 반짝임 ───────── */
   // 상위 별만 arc(글로우/스파이크). 7배 밀도→글로우 축소(a*0.20·r*2.5·br>0.6 임계는 호출부에서)
   function paintStar(c, x, y, r, a, col, glow, spike) {
-    if (glow) { r = r * 1.6; }   // 글로우 헤일로(흰 원) 제거 — 밝은 별은 '큰 점'으로 밝기 계층(박사 "흰 동그라미 삭제")
+    if (glow) { r = r * 1.6; }
     c.fillStyle = col + a + ")"; c.beginPath(); c.arc(x, y, r, 0, TAU); c.fill();
     if (spike) { var sl = r * 9; c.strokeStyle = col + (a * 0.3) + ")"; c.lineWidth = 0.6; c.beginPath(); c.moveTo(x - sl, y); c.lineTo(x + sl, y); c.moveTo(x, y - sl); c.lineTo(x, y + sl); c.stroke(); }
   }
@@ -567,7 +561,7 @@
       var br = Math.random(); br = br * br;
       var r = (0.25 + br * 1.5) * (depth * 0.9 + 0.4);
       var x = Math.random() * lw, y = Math.random() * lh;
-      var a = Math.min(0.90, 0.05 + br * 0.92);   // 박사 +50% 체감(peak 0.90)·faint 어둠 사수
+      var a = Math.min(0.90, 0.05 + br * 0.92);
       var sp = STAR_SPECTRA[starSpec()], pre = "rgba(" + sp[0] + "," + sp[1] + "," + sp[2] + ",";
       var isGlow = br > 0.994, isSpike = !isMobile && br > 0.9985;
       if (stars.twinkle.length < twCap && Math.random() < twProb) {
@@ -612,11 +606,9 @@
       // 고정반복 폐기: supernova→정적 초신성 잔해(성운), meteor(유성우)→정적 성단. 폭발/유성은 전역 이벤트가 담당.
       var kind = cobj[2];
       if (kind === "supernova") kind = "nebula"; else if (kind === "meteor") kind = "cluster";
-      // 박사 "작은 검은색 원 모두 삭제": void(어두운 원)→성운, transit(통과 검은점)→성단, blackhole(검은코어)→나선은하
       else if (kind === "void") kind = "nebula";
       else if (kind === "transit") kind = "cluster";
       else if (kind === "blackhole") kind = "spiral";
-      // 박사 "작은 흰색 동그라미 모두 삭제": 무특징 소형 원반(렌즈·행성·원반·고리)→성단(점무리)
       else if (kind === "lens" || kind === "disk" || kind === "ring") kind = "cluster";
       else if (kind === "planet" || kind === "ringplanet") kind = "star";
       phenomena.push({
@@ -800,7 +792,7 @@
       ctx.globalAlpha = 1;
     }
     // 데스크톱 전용 인라인 라벨(밀도=정체성·기존 그대로). 모바일은 frame()의 예산·충돌 회피 패스가 담당.
-    if (!homeMode && !isMobile && p.show && p.depth > 0.6) {
+    if (!homeMode && !isMobile && p.show && p.depth > 0.6 && !deskZones.some(function (z) { return rectHits({ x: x + 12, y: y - 10, w: 200, h: 18 }, z); })) {
       ctx.globalAlpha = 0.5; ctx.fillStyle = "rgba(201,215,232,0.8)";
       ctx.font = "11px ui-monospace, Menlo, Consolas, monospace";
       ctx.fillText("[OBJ-" + ("000" + p.idx).slice(-3) + "] " + p.cat, x + 16, y + 4);

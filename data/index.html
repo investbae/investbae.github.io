@@ -120,7 +120,7 @@
       #idxChart line:nth-last-of-type(-n+3) { transform:translateX(-48px); }
       #q3Chart .ax-lab { font-size:17px; }
       #q3Chart .ax-lab[text-anchor="end"] { transform:translateX(-9px); } /* y축 2 ↔ 값 2.0 분리 */
-      #q3Chart text:not(.ax-lab):not(.pt-lab) { font-size:15px; transform:translateY(-10px); } /* 미확보 주석 ↔ 4.04 분리 */
+      #q3Chart text:not(.ax-lab):not(.pt-lab) { font-size:15px; transform:translateY(-10px); } /* 4Q 공백 주석 ↔ 4.04 분리 */
       .idx-decomp { width:100%; gap:10px; }
       .idx-decomp > div { min-width:0; flex:1; padding:12px; }
     }
@@ -137,6 +137,7 @@
 <link rel="stylesheet" href="/css/consulting.css?v=20260921-color">
 <link rel="stylesheet" href="/css/vivid.css?v=20260922">
 <link rel="stylesheet" href="/css/cosmic.css?v=20260922-universe">
+<meta name="kvmi-author-review" content="pending">
 </head>
 <body class="institution-site">
   <a href="#main" class="skip-link">본문 바로가기</a>
@@ -152,10 +153,11 @@
       </a>
       <nav class="nav__menu" id="navMenu" data-persistent aria-label="주 메뉴">
         <a href="/about.html" class="nav__link">연구원 소개</a>
-        <a href="/research.html" class="nav__link">연구 분야</a>
+        <a href="/research.html" class="nav__link">연구·자문</a>
         <a href="/publications/" class="nav__link">연구성과</a>
         <a href="/insights/" class="nav__link active" aria-current="page">데이터·인사이트</a>
         <a href="/data/" class="nav__link nav__sub" aria-current="page">벤처투자 동향</a>
+        <a href="/intelligence/statistics.html" class="nav__link nav__sub">공개통계 아틀라스</a>
         <a href="/indicators/" class="nav__link nav__sub">벤처기업 지표</a>
         <a href="/radar/#laws" class="nav__link nav__sub">법령 현황</a>
         <a href="/radar/#board" class="nav__link nav__sub">입법 동향</a>
@@ -183,41 +185,7 @@
     </section>
 
     <!-- 연간 실적 (중기부 광의) -->
-<!-- 벤처투자·펀드 지수 (참고용) -->
-    <section class="section">
-      <div class="container">
-        <div class="ds-panel idx">
-          <div class="ds-eyebrow">벤처투자·펀드 단순환산 지수 (참고용·비공식) · 투자액+펀드결성액 2개 금액만 · 기준 2020 = 100</div>
-          <h2>벤처투자·펀드 단순환산 지수</h2>
-          <div class="idx-hero">
-            <div class="idx-num">155.6<span>2025년 연간 잠정 · 2020=100 단순 환산값(투자·펀드 각 1/2)</span></div>
-            <div class="idx-decomp">
-              <div>투자지수<br><b>168.3</b><i>투자액 환산값</i></div>
-              <div>펀드지수<br><b>142.9</b><i>펀드결성액 환산값</i></div>
-            </div>
-          </div>
-          <p style="margin:2px 0 14px;padding:9px 13px;background:rgba(184,151,58,.12);border-radius:8px;font-size:12.5px;color:#e8d9a8;line-height:1.55;">※ <strong>155.6으로 높아진 것은 명목 금액의 단순 증가</strong>일 뿐, 2026년 현재 벤처 생태계의 실질 회복이나 투자 수익을 의미하지 않습니다.</p>
-          <p class="basis">신규 벤처투자액과 신규 벤처펀드 결성액 <strong>2개 공개통계(명목 금액)</strong>를 기준연도(2020년)=100으로 지수화한 뒤 <strong>동일가중(각 1/2)으로 산술평균</strong>한 값입니다. 산식: <code>((투자액÷2020년 투자액)+(펀드액÷2020년 펀드액))÷2×100</code>. 두 지표는 모두 벤처 자금(VC) 흐름과 관련되어 일부 중복될 수 있으며, 서로 독립된 별개 지표가 아닙니다. 지수의 등락은 두 통계 <strong>금액</strong>의 변화일 뿐, 시장의 우열·호조·전망이나 투자판단을 의미하지 않습니다.</p>
-          <svg id="idxChart" class="chart-svg" viewBox="0 0 720 360" role="img" aria-labelledby="ix-t ix-d" style="max-width:720px;">
-            <title id="ix-t">벤처투자·펀드 금액 재지수화 추이 2020~2025 (2020=100·명목)</title>
-            <desc id="ix-d">투자·펀드 지수: 2020년 100.0, 2021년 187.8, 2022년 165.3, 2023년 132.7, 2024년 127.1, 2025년 155.6(2025년 잠정).</desc>
-          </svg>
-          <div class="reader-table-wrap" tabindex="0" role="region" aria-label="연도별 원자료와 환산지수, 가로로 스크롤 가능">
-          <table class="reader-table" id="annual-source-table">
-            <caption>연도별 원자료(억원)와 환산지수(2020=100). 2025년은 잠정치. 지수는 원자료로 계산 후 소수 첫째 자리 반올림.</caption>
-            <thead><tr><th scope="col">연도</th><th scope="col">투자액(억원)</th><th scope="col">펀드결성액(억원)</th><th scope="col">투자지수</th><th scope="col">펀드지수</th><th scope="col">종합</th></tr></thead><tbody>
-            <tr data-year="2020" data-investment="80962" data-fund="99859"><th scope="row">2020</th><td>80,962</td><td>99,859</td><td>100.0</td><td>100.0</td><td>100.0</td></tr>
-            <tr data-year="2021" data-investment="159371" data-fund="178493"><th scope="row">2021</th><td>159,371</td><td>178,493</td><td>196.8</td><td>178.7</td><td>187.8</td></tr>
-            <tr data-year="2022" data-investment="124706" data-fund="176385"><th scope="row">2022</th><td>124,706</td><td>176,385</td><td>154.0</td><td>176.6</td><td>165.3</td></tr>
-            <tr data-year="2023" data-investment="109133" data-fund="130438"><th scope="row">2023</th><td>109,133</td><td>130,438</td><td>134.8</td><td>130.6</td><td>132.7</td></tr>
-            <tr data-year="2024" data-investment="119457" data-fund="106404"><th scope="row">2024</th><td>119,457</td><td>106,404</td><td>147.5</td><td>106.6</td><td>127.1</td></tr>
-            <tr data-year="2025" data-investment="136244" data-fund="142669"><th scope="row">2025(잠정)</th><td>136,244</td><td>142,669</td><td>168.3</td><td>142.9</td><td>155.6</td></tr>
-          </tbody></table></div>
-          <div class="warn">⚠ 본 지수는 <strong>투자액·펀드결성액 2개 금액만</strong>을 단순 재구성한 <strong>참고값(비공식)</strong>입니다. ① <strong>명목 금액 기준</strong>으로 물가상승률이 반영되지 않아 실질 가치 변동과 다를 수 있습니다. ② 기준연도 <strong>2020년(코로나19 시기)은 신규 투자·펀드 금액이 상대적으로 낮은 해</strong>여서, 이후 연도가 높게 보일 수 있습니다(기저효과). ③ 벤처확인기업 수·매출·고용은 연도별 시계열이 불완전하여 지수에서 제외했습니다(별도 벤처기업 지표 페이지에서 기준을 구분해 제시). 지수의 등락은 두 통계 금액의 변화일 뿐 시장 평가·전망이 아닙니다.</div>
-          <p class="src-foot">자료: 2021~2025년은 <a href="https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1065645&amp;cbIdx=86&amp;parentSeq=1065645" target="_blank" rel="noopener">중소벤처기업부 2025년 벤처투자 동향(2026-02-13 공표)</a>, 2020년 기준값은 <a href="https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=86&amp;bcIdx=1056570&amp;parentSeq=1056570" target="_blank" rel="noopener">2024년 동향(2025-02-12 등록)</a>의 원표를 사용했습니다. 두 발표본의 연도별 금액을 연결한 계열입니다. 2021~2024년 펀드결성액은 2026-02-13 표에 맞춰 갱신했습니다. 기준값은 투자 80,962억원·펀드 99,859억원, 2025년은 투자 136,244억원·펀드 142,669억원입니다. 지수는 억원 원자료로 계산한 뒤 반올림하며 표시 구성지수의 평균과 0.1 차이가 날 수 있습니다. <a href="/data/venture-market-index.json" target="_blank" rel="noopener">계산 원자료(JSON)</a> · <a href="/data/update-history.json" target="_blank" rel="noopener">변경 이력</a>. 참고용 재구성 지수이며 정부·기관의 후원·보증과 무관합니다.</p>
-        </div>
-      </div>
-    </section>
+
 
     <section class="section">
       <div class="container">
@@ -254,18 +222,54 @@
       </div>
     </section>
 
+    <!-- 벤처투자·펀드 지수 (참고용) -->
+    <section class="section">
+      <div class="container">
+        <div class="ds-panel idx">
+          <div class="ds-eyebrow">벤처투자·펀드 단순환산 지수 (참고용·비공식) · 투자액+펀드결성액 2개 금액만 · 기준 2020 = 100</div>
+          <h2>벤처투자·펀드 단순환산 지수 <span style="display:inline-block;font-size:13px;font-weight:600;padding:3px 9px;border-radius:999px;border:1px solid rgba(184,151,58,.55);color:#e8d9a8;vertical-align:middle;">B · 연구원 자체 산식 참고지수(비공식)</span></h2>
+          <div class="idx-hero">
+            <div class="idx-num">155.6<span>2025년 연간 잠정 · 2020=100 단순 환산값(투자·펀드 각 1/2)</span></div>
+            <div class="idx-decomp">
+              <div>투자지수<br><b>168.3</b><i>투자액 환산값</i></div>
+              <div>펀드지수<br><b>142.9</b><i>펀드결성액 환산값</i></div>
+            </div>
+          </div>
+          <p style="margin:2px 0 14px;padding:9px 13px;background:rgba(184,151,58,.12);border-radius:8px;font-size:12.5px;color:#e8d9a8;line-height:1.55;">※ <strong>155.6으로 높아진 것은 명목 금액의 단순 증가</strong>일 뿐, 2025년 벤처 생태계의 실질 회복이나 투자 수익을 의미하지 않습니다.</p>
+          <p class="basis">신규 벤처투자액과 신규 벤처펀드 결성액 <strong>2개 공개통계(명목 금액)</strong>를 기준연도(2020년)=100으로 지수화한 뒤 <strong>동일가중(각 1/2)으로 산술평균</strong>한 값입니다. 산식: <code>((투자액÷2020년 투자액)+(펀드액÷2020년 펀드액))÷2×100</code>. 두 지표는 모두 벤처 자금(VC) 흐름과 관련되어 일부 중복될 수 있으며, 서로 독립된 별개 지표가 아닙니다. 지수의 등락은 두 통계 <strong>금액</strong>의 변화일 뿐, 시장의 우열·호조·전망이나 투자판단을 의미하지 않습니다.</p>
+          <svg id="idxChart" class="chart-svg" viewBox="0 0 720 360" role="img" aria-labelledby="ix-t ix-d" style="max-width:720px;">
+            <title id="ix-t">벤처투자·펀드 금액 재지수화 추이 2020~2025 (2020=100·명목)</title>
+            <desc id="ix-d">투자·펀드 지수: 2020년 100.0, 2021년 187.8, 2022년 165.3, 2023년 132.7, 2024년 127.1, 2025년 155.6(2025년 잠정).</desc>
+          </svg>
+          <div class="reader-table-wrap" tabindex="0" role="region" aria-label="연도별 원자료와 환산지수, 가로로 스크롤 가능">
+          <table class="reader-table" id="annual-source-table">
+            <caption>연도별 원자료(억원)와 환산지수(2020=100). 2025년은 잠정치. 지수는 원자료로 계산 후 소수 첫째 자리 반올림.</caption>
+            <thead><tr><th scope="col">연도</th><th scope="col">투자액(억원)</th><th scope="col">펀드결성액(억원)</th><th scope="col">투자지수</th><th scope="col">펀드지수</th><th scope="col">종합</th></tr></thead><tbody>
+            <tr data-year="2020" data-investment="80962" data-fund="99859"><th scope="row">2020</th><td>80,962</td><td>99,859</td><td>100.0</td><td>100.0</td><td>100.0</td></tr>
+            <tr data-year="2021" data-investment="159371" data-fund="178493"><th scope="row">2021</th><td>159,371</td><td>178,493</td><td>196.8</td><td>178.7</td><td>187.8</td></tr>
+            <tr data-year="2022" data-investment="124706" data-fund="176385"><th scope="row">2022</th><td>124,706</td><td>176,385</td><td>154.0</td><td>176.6</td><td>165.3</td></tr>
+            <tr data-year="2023" data-investment="109133" data-fund="130438"><th scope="row">2023</th><td>109,133</td><td>130,438</td><td>134.8</td><td>130.6</td><td>132.7</td></tr>
+            <tr data-year="2024" data-investment="119457" data-fund="106404"><th scope="row">2024</th><td>119,457</td><td>106,404</td><td>147.5</td><td>106.6</td><td>127.1</td></tr>
+            <tr data-year="2025" data-investment="136244" data-fund="142669"><th scope="row">2025(잠정)</th><td>136,244</td><td>142,669</td><td>168.3</td><td>142.9</td><td>155.6</td></tr>
+          </tbody></table></div>
+          <div class="warn">⚠ 본 지수는 <strong>투자액·펀드결성액 2개 금액만</strong>을 단순 재구성한 <strong>참고값(비공식)</strong>입니다. ① <strong>명목 금액 기준</strong>으로 물가상승률이 반영되지 않아 실질 가치 변동과 다를 수 있습니다. ② 기준연도 <strong>2020년(코로나19 시기)은 신규 투자·펀드 금액이 상대적으로 낮은 해</strong>여서, 이후 연도가 높게 보일 수 있습니다(기저효과). ③ 벤처확인기업 수·매출·고용은 연도별 시계열이 불완전하여 지수에서 제외했습니다(별도 벤처기업 지표 페이지에서 기준을 구분해 제시). 지수의 등락은 두 통계 금액의 변화일 뿐 시장 평가·전망이 아닙니다.</div>
+          <p class="src-foot">자료: 2021~2025년은 <a href="https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1065645&amp;cbIdx=86&amp;parentSeq=1065645" target="_blank" rel="noopener">중소벤처기업부 2025년 벤처투자 동향(2026-02-13 공표)</a>, 2020년 기준값은 <a href="https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=86&amp;bcIdx=1056570&amp;parentSeq=1056570" target="_blank" rel="noopener">2024년 동향(2025-02-12 등록)</a>의 원표를 사용했습니다. 두 발표본의 연도별 금액을 연결한 계열입니다. 2021~2024년 펀드결성액은 2026-02-13 표에 맞춰 갱신했습니다. 기준값은 투자 80,962억원·펀드 99,859억원, 2025년은 투자 136,244억원·펀드 142,669억원입니다. 지수는 억원 원자료로 계산한 뒤 반올림하며 표시 구성지수의 평균과 0.1 차이가 날 수 있습니다. <a href="/data/venture-market-index.json" target="_blank" rel="noopener">계산 원자료(JSON)</a> · <a href="/data/update-history.json" target="_blank" rel="noopener">변경 이력</a>. 참고용 재구성 지수이며 정부·기관의 후원·보증과 무관합니다.</p>
+        </div>
+      </div>
+    </section>
+
     <!-- 분기별 추이 (5개년) -->
     <section class="section section--alt">
       <div class="container">
         <div class="ds-panel qtr">
           <div class="ds-eyebrow">분기별 추이 · 중소벤처기업부 「벤처투자 동향」 (광의 기준)</div>
           <h2>벤처투자 분기 동향 <span style="font-size:14px;color:var(--text-dim);font-weight:600;">(공표 분기 기준)</span></h2>
-          <p class="basis">단위: 조원. ① <strong>연속 분기 추이</strong>(2024년 1분기~2026년 1분기·중기부 분기 발표)와 ② 동일 3분기(Q3) 연도별 비교(2020~2025·계절성 완화 목적·통계적 계절조정 아님)로 구성했습니다. 2025년 4분기는 이 페이지에서 분기 원자료를 확보하지 못해 점선·공백으로 두었고, 미확보 분기는 추정하지 않았습니다.</p>
+          <p class="basis">단위: 조원. ① <strong>연속 분기 추이</strong>(2024년 1분기~2026년 1분기·중기부 분기 발표)와 ② 동일 3분기(Q3) 연도별 비교(2020~2025·계절성 완화 목적·통계적 계절조정 아님)로 구성했습니다. 2025년 4분기는 이 페이지가 쓰는 보도자료에 분기 단독 공표값이 없어(2026.2.13 발표는 하반기 합산 78,864억원) 공백으로 두었고 추정하지 않았습니다.</p>
           <h3 style="font-size:14.5px;margin:18px 0 6px;color:#fff;">① 연속 분기 추이 (2024년 1분기~2026년 1분기)</h3>
-          <p style="font-size:12px;color:var(--text-dim);margin-bottom:8px;">중기부가 발표한 분기별 신규 벤처투자액 흐름입니다. 2025년 4분기는 분기 원자료를 확보하지 못해 점선(공백)으로 표시했습니다.</p>
+          <p style="font-size:12px;color:var(--text-dim);margin-bottom:8px;">중기부가 발표한 분기별 신규 벤처투자액 흐름입니다. 2025년 4분기는 이 페이지가 쓰는 보도자료에 분기 단독 공표값이 없어(2026.2.13 발표는 하반기 합산 78,864억원) 공백으로 두었고 추정하지 않았습니다.</p>
           <svg id="q3Chart" class="chart-svg" viewBox="0 0 720 320" role="img" aria-labelledby="q3-t q3-d" style="max-width:680px;">
             <title id="q3-t">연속 분기 신규 벤처투자 추이 2024년 1분기~2026년 1분기</title>
-            <desc id="q3-d">연속 분기 신규 벤처투자: 2024년 1분기 2.0조·2분기 3.5조·3분기 3.2조·4분기 3.3조, 2025년 1분기 2.68조·2분기 3.07조·3분기 4.04조, 2026년 1분기 3.3조원(2025년 4분기 원자료 미확보).</desc>
+            <desc id="q3-d">연속 분기 신규 벤처투자: 2024년 1분기 2.0조·2분기 3.5조·3분기 3.2조·4분기 3.3조, 2025년 1분기 2.68조·2분기 3.07조·3분기 4.04조, 2026년 1분기 3.3조원(2025년 4분기 단독 공표값 없음).</desc>
           </svg>
           <table class="sr-only"><caption>연속 분기 신규 벤처투자(조원)</caption><tr><th>2024 1Q</th><td>2.0</td></tr><tr><th>2024 2Q</th><td>3.5</td></tr><tr><th>2024 3Q</th><td>3.2</td></tr><tr><th>2024 4Q</th><td>3.3</td></tr><tr><th>2025 1Q</th><td>2.68</td></tr><tr><th>2025 2Q</th><td>3.07</td></tr><tr><th>2025 3Q</th><td>4.04</td></tr><tr><th>2026 1Q</th><td>3.3</td></tr></table>
           <h3 style="font-size:14.5px;margin:26px 0 6px;color:#fff;">② 동일 3분기(Q3) 연도별 비교 (2020~2025·계절성 완화 목적·통계적 계절조정 아님)</h3>
@@ -274,8 +278,8 @@
             <desc id="q25-d">3분기 신규 벤처투자: 2020년 2.2조·2021년 4.3조·2022년 2.6조·2023년 3.2조·2024년 3.2조·2025년 4.0조원.</desc>
           </svg>
           <table class="sr-only"><caption>동일 3분기(Q3) 신규 벤처투자(조원)</caption><tr><th>2020</th><td>2.2</td></tr><tr><th>2021</th><td>4.3</td></tr><tr><th>2022</th><td>2.6</td></tr><tr><th>2023</th><td>3.2</td></tr><tr><th>2024</th><td>3.2</td></tr><tr><th>2025</th><td>4.0</td></tr></table>
-          <div class="warn">⚠ 분기 데이터 주의: 연속 분기 추이는 2024년 1분기~2026년 1분기 구간이며 <strong>2025년 4분기는 분기 원자료 미확보</strong>로 점선(공백) 처리했습니다. 동일 3분기 비교는 계절성을 줄인 동일시점 비교입니다. 분기 수치는 잠정치를 포함하며 연간 실적과 직접 비교할 수 없습니다. 본 통계는 거시 벤처생태계 동향 정보이며, 특정 기업·펀드에 대한 투자 권유나 매매 신호가 아닙니다.</div>
-          <p class="src-foot">자료: 중소벤처기업부 「2025년 1~3분기 벤처투자 동향」(2025.11.13 발표·동일 3분기 연도별 추이 2020~2025) 및 분기별 발표. 2025년 1분기는 2026년 1분기 발표의 비교값 26,752억원을 소수 둘째 자리로 반올림한 2.68조원입니다. <a href="https://www.mss.go.kr/site/seoul/ex/bbs/View.do?bcIdx=1068282&amp;cbIdx=30">2026년 1분기 비교 원문</a>. 2025년 3분기는 4.04조이며 동일 3분기 비교 차트에서는 소수 첫째 자리 반올림(4.0조)으로 표기. 단위 조원·광의(벤처투자법) 기준. <a href="https://www.vcs.go.kr/web/portal/statistics/dashboard" target="_blank" rel="noopener">벤처투자종합포털</a>. 「저작권법」 제24조의2 재가공·후원 아님.</p>
+          <div class="warn">⚠ 분기 데이터 주의: 연속 분기 추이는 2024년 1분기~2026년 1분기 구간이며 <strong>2025년 4분기는 이 페이지가 쓰는 보도자료에 분기 단독 공표값이 없어(2026.2.13 발표는 하반기 합산 78,864억원) 공백으로 두었고 추정하지 않았습니다</strong>. 동일 3분기 비교는 계절성을 줄인 동일시점 비교입니다. 분기 수치는 잠정치를 포함하며 연간 실적과 직접 비교할 수 없습니다. 본 통계는 거시 벤처생태계 동향 정보이며, 특정 기업·펀드에 대한 투자 권유나 매매 신호가 아닙니다.</div>
+          <p class="src-foot">자료: 중소벤처기업부 「2025년 1~3분기 벤처투자 동향」(2025.11.13 발표·동일 3분기 연도별 추이 2020~2025) 및 분기별 발표. 2025년 1분기는 2026년 1분기 발표의 비교값 26,752억원을 소수 둘째 자리로 반올림한 2.68조원입니다. 2·3분기(3.07·4.04조)는 2025.11.13 발표값, 1분기(2.68조)는 2026.5.17 발표의 비교값으로 발표 판이 다릅니다. <a href="https://www.mss.go.kr/site/seoul/ex/bbs/View.do?bcIdx=1068282&amp;cbIdx=30">2026년 1분기 비교 원문</a>. 2025년 3분기는 4.04조이며 동일 3분기 비교 차트에서는 소수 첫째 자리 반올림(4.0조)으로 표기. 단위 조원·광의(벤처투자법) 기준. <a href="https://www.vcs.go.kr/web/portal/statistics/dashboard" target="_blank" rel="noopener">벤처투자종합포털</a>. 「저작권법」 제24조의2 재가공·후원 아님.</p>
         </div>
       </div>
     </section>
@@ -334,13 +338,6 @@
       </div>
     </section>
 
-    <!-- 벤처투자 잔액: 원자료 확인 전 공개 보류 -->
-    <section class="section"><div class="container"><div class="ds-panel">
-      <div class="ds-eyebrow">원자료 확인 중</div><h2>벤처투자 잔액</h2>
-      <p class="basis">누적 미회수 투자잔액은 공식 원자료의 집계 범위와 수치를 확인하지 못해 차트와 수치 공개를 보류했습니다. 위 신규 투자액·펀드결성액과 구분되는 지표입니다.</p>
-      <p class="src-foot"><a href="/data/venture-balance.json">자료 제공 상태(JSON)</a> · 빈 값은 잔액이 0이라는 뜻이 아닙니다.</p>
-    </div></div></section>
-
     <!-- 해석 -->
     <section class="section">
       <div class="container">
@@ -363,7 +360,7 @@
             <li style="font-size:14px;color:var(--text-muted);line-height:1.7;">본 데이터는 <strong>중소벤처기업부가 공표한 통계</strong>를 출처를 표시하여 정리·재가공한 것으로, 「저작권법」 제24조의2(공공저작물의 자유이용)에 근거합니다. 수치(사실) 외에 원 보도자료의 문장·표·도표 구성은 복제하지 않았습니다.</li>
             <li style="font-size:14px;color:var(--text-muted);line-height:1.7;">수치는 발표 기관 기준이며 <strong>잠정치를 포함</strong>합니다. 공식 효력·최신 수치는 각 출처 원문을 기준으로 하며, 구체적 활용은 원문 및 전문가 확인이 필요합니다.</li>
             <li style="font-size:14px;color:var(--text-muted);line-height:1.7;">본 자료의 게시·정리는 <strong>벤처시장연구원의 독자적 활동</strong>으로, 정부·발표 기관의 후원·보증·제휴를 의미하지 않습니다.</li>
-            <li style="font-size:14px;color:var(--text-muted);line-height:1.7;">연도별 추이(2020~2025)는 <strong>광의(벤처투자법) 기준 동일 계열</strong>이며, 2025년 1~3분기 누적(9.8조 원)과 연간(13.6조 원)은 <strong>집계 기간이 다른 별도 수치</strong>입니다(미확보 분기는 추정하지 않았습니다).</li>
+            <li style="font-size:14px;color:var(--text-muted);line-height:1.7;">연도별 추이(2020~2025)는 <strong>광의(벤처투자법) 기준 동일 계열</strong>이며, 2025년 1~3분기 누적(9.8조 원)과 연간(13.6조 원)은 <strong>집계 기간이 다른 별도 수치</strong>입니다(2025년 4분기는 이 페이지가 쓰는 보도자료에 분기 단독 공표값이 없어(2026.2.13 발표는 하반기 합산 78,864억원) 공백으로 두었고 추정하지 않았습니다).</li>
             <li style="font-size:14px;color:var(--text-muted);line-height:1.7;">데이터 기준 시점: 연간 2020~2025년(발표·잠정)·분기 2026년 1분기(2026.05.17 발표·잠정).</li>
             <li style="font-size:14px;color:var(--text-muted);line-height:1.7;">증감률(%)은 중소벤처기업부가 발표한 원자료(억 원) 기준이며, 차트·스코어카드에 조 원 단위로 반올림해 표시한 값끼리 나눈 결과와는 차이가 날 수 있습니다.</li>
           </ul>
@@ -388,18 +385,18 @@
   </main>
 
     <footer class="site-footer">
-    <div class="container">
+    <div class="container"><p class="review-status" style="margin:0 0 12px;font-size:12.5px;opacity:.85">게시 내용 검수 2026-09-23 · 대표 연구자 확인 진행 중</p>
       <div class="footer-top">
         <div class="footer-brand">
           <span class="brand__name" style="font-size:18px;">벤처시장연구원</span><br>
           <span class="brand__en">Korea Venture Market Institute</span>
-          <a href="/universe/" style="display:inline-block; margin-top:12px; font-size:13px; color:var(--gold-soft); letter-spacing:.01em;">✦ 벤처 유니버스 — 인터랙티브 우주 보기 →</a>
+          <a href="/universe/" style="display:inline-block; margin-top:12px; font-size:13px; color:var(--gold-soft); letter-spacing:.01em;">✦ 벤처 유니버스(인터랙티브 아트) →</a>
         </div>
         <div class="footer-col">
           <h3>바로가기</h3>
           <ul>
             <li><a href="/about.html">연구원 소개</a></li>
-            <li><a href="/research.html">연구 분야</a></li>
+            <li><a href="/research.html">연구·자문</a></li>
             <li><a href="/publications/">연구성과</a></li>
             <li><a href="/insights/">데이터·인사이트</a></li>
             <li><a href="/projects/">실험실</a></li>
@@ -422,6 +419,6 @@
   </footer>
 
   <script src="/js/main.js?v=dbdb9afa4041"></script>
-  <script src="/js/data-charts.js?v=20260922-content"></script>
+  <script src="/js/data-charts.js?v=20260924-sitewide"></script>
 </body>
 </html>

@@ -38,7 +38,7 @@
         var src = r.dept ? esc(r.dept) : "법제처";
         var checked = r.collected_date || META_DATE;
         var ef = daysUntil(r.ef_date)!==null ? "🗓️ 자료상 시행 "+fmtDate(r.ef_date) : "🗓️ 시행일 미확인";
-        return '<div class="gate"><span>🏛️ <b>출처</b> '+src+'</span><span>자동수집 · 원문 확인 필요</span><span>🗓️ 수집일 '+esc(checked)+'</span><span>'+ef+'</span></div>';
+        return '<div class="gate"><span>🏛️ <b>'+(r.dept?'소관':'출처')+'</b> '+src+'</span><span>자동수집 · 원문 확인 필요</span><span>🗓️ 수집일 '+esc(checked)+'</span><span>'+ef+'</span></div>';
       }
       function card(r){
         var titleTxt = esc(r.title);
@@ -69,7 +69,7 @@
         fetch("/data/radar_status.json?cb="+Date.now()).then(function(r){if(!r.ok) throw new Error(); return r.json();}).then(function(s){
           var when=(s.updated_at||"").slice(0,10);
           var suffix=/^\d{4}-\d{2}-\d{2}$/.test(when) ? " (상태 기록일: "+when+")" : "";
-          if(s.status==="hold") updateStatus.textContent="새 자료의 확인이 끝나지 않아 갱신을 보류하고 마지막 게시 자료를 보여드립니다."+suffix;
+          if(s.status==="hold") updateStatus.textContent="핵심 8개 법령·발의 의안: 2026.8.23 확인 / 관측 보드: 2026.9.18 수집. 최신 개정은 법제처 원문에서 확인하세요.";
           else if(s.status==="ok") updateStatus.textContent="최근 갱신 점검이 완료됐습니다. 자료별 수집일과 원문을 확인해 주세요."+suffix;
           else updateStatus.textContent="갱신 상태를 확인할 수 없습니다. 아래 자료의 수집일과 원문을 확인해 주세요.";
         }).catch(function(){updateStatus.textContent="갱신 상태를 불러오지 못했습니다. 아래 자료의 수집일과 원문을 확인해 주세요.";});
