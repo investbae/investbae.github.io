@@ -51,7 +51,12 @@
       var META_DATE = "";
       var BOARD = [];
       var activeField = "all";
+      var boardState = "loading";
+      document.getElementById("board-c").textContent = "불러오는 중";
+      document.getElementById("cal-c").textContent = "불러오는 중";
       function applyFilter(f){
+        // Pending/failed requests are not successful zero-result observations.
+        if(boardState !== "ready") return;
         var items = document.querySelectorAll("#board .law-item");
         var shown=0;
         items.forEach(function(el){
@@ -75,14 +80,15 @@
         }).catch(function(){updateStatus.textContent="갱신 상태를 불러오지 못했습니다. 아래 자료의 수집일과 원문을 확인해 주세요.";});
       }
       fetch("/data/radar.json?cb="+Date.now()).then(function(r){if(!r.ok) throw new Error(); return r.json();}).then(function(d){
+        if(!d || !Array.isArray(d.recent) || !Array.isArray(d.upcoming)) throw new Error("Invalid radar data");
         META_DATE = d.collected_date||"";
         document.getElementById("meta").innerHTML =
           '게시 자료 수집일 <b>'+esc(d.collected_date||"")+'</b> · 출처 <b>'+esc(d.source||"법제처 국가법령정보")+'</b> · 관측 키워드 <b>'+esc((d.keywords&&d.keywords.length)?d.keywords.join("·"):"벤처투자·벤처기업·가상자산·신기술사업금융 등")+'</b> · 현재 효력과 개정 여부는 원문에서 확인하세요.';
         // recent/upcoming/ppc 통합
         BOARD = [].concat(d.recent||[], d.upcoming||[]);
         var board=document.getElementById("board");
-        if(!BOARD.length){ board.innerHTML='<div class="empty">표시할 수집 항목이 없습니다.</div>'; }
-        else { board.innerHTML = BOARD.map(card).join(""); }
+        board.innerHTML = BOARD.map(card).join("");
+        boardState = "ready";
         applyFilter(activeField);
         // 캘린더: 원문 시행일 확인 + 미래 항목만
         var cal = (d.upcoming||[]).concat(d.recent||[]).filter(function(r){ var days=daysUntil(r.ef_date); return !r.hold && days!==null && days>0; });
@@ -97,8 +103,12 @@
         }
         document.getElementById("cal-c").textContent = cal.length+"건";
       }).catch(function(){
+        boardState = "error";
         document.getElementById("meta").innerHTML='<span>데이터를 불러오지 못했습니다. 원문은 <a href="https://www.law.go.kr" target="_blank" rel="noopener" style="color:var(--gold-soft)">국가법령정보센터</a>에서 확인하세요.</span>';
-        document.getElementById("board").innerHTML=''; document.getElementById("cal").innerHTML='';
+        document.getElementById("board-c").textContent="확인 불가";
+        document.getElementById("cal-c").textContent="확인 불가";
+        document.getElementById("board").innerHTML='<div class="empty" role="status">관측 자료를 불러오지 못했습니다. 페이지를 새로 고침하여 다시 시도해 주세요.</div>';
+        document.getElementById("cal").innerHTML='<div class="empty" role="status">시행 예정 항목을 확인할 수 없습니다. 원문을 확인하거나 페이지를 새로 고침해 주세요.</div>';
       });
       // 분야 필터 버튼
       document.querySelectorAll("#fieldFilter button").forEach(function(b){ b.setAttribute("aria-pressed", String(b.getAttribute("data-field") === activeField)); });

@@ -23,11 +23,12 @@
   var STAR_SPECTRA = [[150,185,255], [200,220,255], [255,251,246], [255,240,208], [255,196,148]];
   function starSpec() { var r = Math.random(); return r < 0.18 ? 0 : r < 0.38 ? 1 : r < 0.62 ? 2 : r < 0.82 ? 3 : 4; }
   var reduceMotion = false;
-  try { reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches; } catch (e) {}
+  var motionPreference = null;
+  try { motionPreference = window.matchMedia("(prefers-reduced-motion: reduce)"); reduceMotion = motionPreference.matches; } catch (e) {}
 
-  // 'off' 저장 시에만 ambient(반짝임·호흡만). ▶ 토글은 정지/재생.
+  // Pausing and the OS reduced-motion preference both stop the frame loop.
   var full = (function () { try { return localStorage.getItem("vmiMotion") !== "off"; } catch (e) { return true; } })();
-  var animate = true;
+  var animate = full && !reduceMotion;
 
   var CAP = isMobile
     ? { ships: 480, phen: 420, starDiv: 55, starMax: 32000, lodGlyph: 0.06, lodSprite: 0.008 }
@@ -863,8 +864,9 @@
   /* ───────── 루프 ───────── */
   var raf, emaMs = 16, lowAccum = 0;
   function frame(now) {
-    var dt = Math.min((now - last) / 1000, 0.05); last = now; T += dt;
-    px += (tx - px) * 0.05; py += (ty - py) * 0.05;
+    raf = null;
+    var dt = animate ? Math.min((now - last) / 1000, 0.05) : 0; last = now; T += dt;
+    if (animate) { px += (tx - px) * 0.05; py += (ty - py) * 0.05; }
     ctx.clearRect(0, 0, W, H);
 
     drawBgNebula();
@@ -1008,7 +1010,7 @@
     perfOut.emaMs = emaMs; perfOut.quality = quality; perfOut.labels = mobRects.length;
     perfOut.fleet = ships.length; perfOut.phen = phenomena.length; perfOut.tx = tx; perfOut.ty = ty;
 
-    if (animate) raf = requestAnimationFrame(frame);
+    if (animate && !document.hidden) raf = requestAnimationFrame(frame);
   }
   var perfOut = { emaMs: 16, quality: 1, labels: 0, fleet: 0, phen: 0, tx: 0, ty: 0, fullResizes: 0, lightResizes: 0 };
   window.__vmiPerf = perfOut;
@@ -1025,6 +1027,7 @@
     };
   })(), { passive: true });
   window.addEventListener("pointermove", function (e) {
+    if (!animate) return;
     if (e.pointerType === "touch") return;   // 터치는 아래 드래그 parallax 전담(이중 처리 방지)
     tx = (0.5 - e.clientX / window.innerWidth) * 36;
     ty = (0.5 - e.clientY / window.innerHeight) * 36;
@@ -1033,20 +1036,37 @@
   // iOS 13+ 권한 팝업(첫 방문 이탈 위험)으로 배제. passive·스크롤 없음(overflow:hidden)이라 안전.
   var tchX = 0, tchY = 0, tchBX = 0, tchBY = 0;
   window.addEventListener("touchstart", function (e) {
+    if (!animate) return;
     if (!e.touches.length) return;
     tchX = e.touches[0].clientX; tchY = e.touches[0].clientY; tchBX = tx; tchBY = ty;
   }, { passive: true });
   window.addEventListener("touchmove", function (e) {
+    if (!animate) return;
     if (!e.touches.length) return;
     var nx2 = tchBX + (e.touches[0].clientX - tchX) * 0.10;
     var ny2 = tchBY + (e.touches[0].clientY - tchY) * 0.10;
     tx = nx2 < -22 ? -22 : nx2 > 22 ? 22 : nx2;
     ty = ny2 < -22 ? -22 : ny2 > 22 ? 22 : ny2;
   }, { passive: true });
-  document.addEventListener("visibilitychange", function () {
-    if (document.hidden) { if (raf) cancelAnimationFrame(raf); }
-    else if (animate) { last = performance.now(); raf = requestAnimationFrame(frame); }
+  function syncMotion() {
+    if (raf) { cancelAnimationFrame(raf); raf = null; }
+    animate = full && !reduceMotion;
+    last = performance.now();
+    if (document.hidden) return;
+    if (animate) raf = requestAnimationFrame(frame);
+    else { tx = px; ty = py; frame(last); }
+  }
+  window.addEventListener("vmi-motion-change", function (event) {
+    if (!event.detail || typeof event.detail.playing !== "boolean") return;
+    full = event.detail.playing;
+    syncMotion();
   });
+  if (motionPreference) {
+    var onMotionChange = function () { reduceMotion = motionPreference.matches; syncMotion(); };
+    if (motionPreference.addEventListener) motionPreference.addEventListener("change", onMotionChange);
+    else motionPreference.addListener(onMotionChange);
+  }
+  document.addEventListener("visibilitychange", syncMotion);
 
   resize();
   if (!animate) { frame(performance.now()); }     // reduced-motion: 완전 정지 1프레임
