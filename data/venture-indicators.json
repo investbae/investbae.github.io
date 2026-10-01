@@ -1,7 +1,11 @@
 {
   "asof": "2026-05-21",
   "source_list": "공공데이터포털 「중소벤처기업부_벤처기업명단」2026-05-21 등록본(실제 집계 기준일 확인 필요)",
-  "total": 39668,
+  "source_url": "https://www.data.go.kr/data/15084581/fileData.do",
+  "asof_type": "source_registration_date_not_census_date",
+  "registration_date": "2026-05-21",
+  "reference_date": null,
+  "reference_date_note": "수록 명단 39,668행을 집계했으며 일부 유효기간이 끝났을 수 있음. 등록일이나 최대 유효시작일을 현재 유효기업 집계 기준일로 해석하지 않음.",
   "types": [
     [
       "혁신성장유형",
@@ -148,28 +152,14 @@
       0.5
     ]
   ],
-  "survey": {
-    "year": 2024,
-    "firms": 38216,
-    "social": 3259,
-    "sales_trillion": 236,
-    "jobs_10k": 82.8,
-    "source": "중소벤처기업부 「2025년 벤처기업정밀실태조사」(2024년 기준·2025.12 발표)",
-    "source_url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1064346&cbIdx=86",
-    "target_population": 38216,
-    "survey_population": 35346,
-    "valid_sample": 3000,
-    "firms_meaning": "목표모집단(행정총수). 조사모집단이나 표본 수가 아님.",
-    "estimate_method": "조사모집단 35,346개사에 대해 유효표본 3,000개사의 표본조사 결과를 가중 추정",
-    "methodology_url": "https://venture.or.kr/home/kor/M058765312/policy/statistics/research/index.do?idx=A"
-  },
-  "metro_share": 65.0,
-  "metro_count": 25778,
-  "source_url": "https://www.data.go.kr/data/15084581/fileData.do",
+  "total": 39668,
   "source_file_sha256": "e60647c84cabac03ebe488302874ce302836c645e35388a8d2aad93361bbc8a2",
-  "verification": "2026-05-21 등록본 명단 원CSV 재집계: 전체·유형·지역·업종 합계 39,668행 대조. 명단과 표본실태조사는 시점·대상이 다름. 실제 명단 집계 기준일 미확인. 조사모집단·표본 규모는 2025년 정밀실태조사 원보고서와 대조.",
-  "asof_type": "source_registration_date_not_census_date",
-  "registration_date": "2026-05-21",
-  "reference_date": null,
-  "reference_date_note": "수록 명단 39,668행을 집계했으며 일부 유효기간이 끝났을 수 있음. 등록일이나 최대 유효시작일을 현재 유효기업 집계 기준일로 해석하지 않음."
+  "rights": "공공누리 제1유형 · 출처표시",
+  "rights_url": "https://www.kogl.or.kr/info/licenseType1.do",
+  "transformation": "수록 CSV 원행을 확인유형·지역·기보 업종분류별로 집계. 개인정보 제외. 비율은 전체 행 수를 분모로 소수 첫째 자리 반올림.",
+  "survey": {
+    "status": "withheld_pending_source_specific_rights",
+    "source_url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1064346&cbIdx=86",
+    "reason": "정밀실태조사 원자료의 개별 상업적 이용조건 확인 전 수치 제공 보류."
+  }
 }

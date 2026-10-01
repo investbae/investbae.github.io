@@ -2,7 +2,7 @@
   "files": {
     "data/bills.json": "94fba7ab491db548a349bfd6f69b0753165cb8751b55e078a18bcc71eb3a2203",
     "data/laws.json": "c6c5e350534f7ebeaa52f6b9c1115dfc7e9fce3888e86493d70aaacd4f6a30a6",
-    "data/update-history.json": "23f54663aa3b67f86ee43b3fda9ab0e0a02fb21ea6b4e046d7090438ea969457"
+    "data/update-history.json": "f3cb5080860d521c3ce052869a55c7b899437675c11b752e997dddec8565680d"
   },
   "generated_at": "2026-08-23T18:29:05.980247+09:00",
   "release_id": "20260823T182900",
