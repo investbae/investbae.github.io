@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-17T21:30:09Z",
-  "collected_date": "2026-09-18",
+  "generated_at": "2026-10-01T21:30:09Z",
+  "collected_date": "2026-10-02",
   "source": "법제처 DRF (target=law·ppc) · 국회 발의의안 미포함 · 자동수집",
   "keywords": [
     "벤처투자",
@@ -17,16 +17,36 @@
   "upcoming": [
     {
       "kind": "law",
+      "kw": "가상자산",
+      "title": "가상자산 이용자 보호 등에 관한 법률 시행령",
+      "dept": "금융위원회",
+      "ef_date": "20261002",
+      "revision": "타법개정",
+      "link": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290171",
+      "future": true
+    },
+    {
+      "kind": "law",
+      "kw": "가상자산",
+      "title": "가상자산 이용자 보호 등에 관한 법률",
+      "dept": "금융위원회",
+      "ef_date": "20261002",
+      "revision": "타법개정",
+      "link": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290735",
+      "future": true
+    }
+  ],
+  "recent": [
+    {
+      "kind": "law",
       "kw": "신기술사업금융",
       "title": "기술보증기금법 시행령",
       "dept": "중소벤처기업부",
       "ef_date": "20260918",
       "revision": "타법개정",
       "link": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=288861",
-      "future": true
-    }
-  ],
-  "recent": [
+      "future": false
+    },
     {
       "kind": "law",
       "kw": "벤처투자",
@@ -111,32 +131,12 @@
     },
     {
       "kind": "law",
-      "kw": "가상자산",
-      "title": "가상자산 이용자 보호 등에 관한 법률 시행령",
-      "dept": "금융위원회",
-      "ef_date": "20250423",
-      "revision": "일부개정",
-      "link": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=270729",
-      "future": false
-    },
-    {
-      "kind": "law",
       "kw": "벤처기업",
       "title": "중소벤처기업부 소관 비영리법인의 설립 및 감독에 관한 규칙",
       "dept": "중소벤처기업부",
       "ef_date": "20241101",
       "revision": "일부개정",
       "link": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=266247",
-      "future": false
-    },
-    {
-      "kind": "law",
-      "kw": "가상자산",
-      "title": "가상자산 이용자 보호 등에 관한 법률",
-      "dept": "금융위원회",
-      "ef_date": "20240719",
-      "revision": "타법개정",
-      "link": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=261099",
       "future": false
     },
     {
