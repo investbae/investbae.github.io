@@ -37,7 +37,7 @@
       function gate(r){
         var src = r.dept ? esc(r.dept) : "법제처";
         var checked = r.collected_date || META_DATE;
-        var ef = daysUntil(r.ef_date)!==null ? "🗓️ 자료상 시행 "+fmtDate(r.ef_date) : "🗓️ 시행일 미확인";
+        var ef = daysUntil(r.ef_date)!==null ? "🗓️ 자료상 시행 "+esc(r.effective_display || fmtDate(r.ef_date)) : "🗓️ 시행일 미확인";
         return '<div class="gate"><span>🏛️ <b>'+(r.dept?'소관':'출처')+'</b> '+src+'</span><span>자동수집 · 원문 확인 필요</span><span>🗓️ 수집일 '+esc(checked)+'</span><span>'+ef+'</span></div>';
       }
       function card(r){
@@ -93,7 +93,7 @@
         // 캘린더: 원문 시행일 확인 + 미래 항목만
         var cal = (d.upcoming||[]).concat(d.recent||[]).filter(function(r){ var days=daysUntil(r.ef_date); return !r.hold && days!==null && days>0; });
         var calEl=document.getElementById("cal");
-        if(!cal.length){ calEl.innerHTML='<div class="empty">수집 자료 중 오늘(한국시간) 이후로 기재된 시행 예정 항목이 없습니다. 자료상 시행일이 지난 항목은 위 관측 보드에서 확인할 수 있으며, 현재 효력은 원문을 확인해 주세요.</div>'; }
+        if(!cal.length){ calEl.innerHTML='<div class="empty">수집 자료의 대표 시행일 중 오늘(한국시간) 이후인 항목이 없습니다. 일부 조항의 별도 시행일은 관측 보드와 원문을 확인하세요. 자료상 시행일이 지난 항목은 위 관측 보드에서 확인할 수 있으며, 현재 효력은 원문을 확인해 주세요.</div>'; }
         else {
           cal.sort(function(a,b){ return (a.ef_date||"").localeCompare(b.ef_date||""); });
           calEl.innerHTML = cal.map(function(r){

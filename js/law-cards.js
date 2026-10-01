@@ -59,8 +59,8 @@ function enrichLawCards(dataset) {
     // ★ 카드 머리의 「🗓️ 시행 … · 법제처 원문 →」 줄을 자료로 갱신한다.
     //   정적 값을 그대로 두면 자료 갱신 시 **두 시행일이 동시에 보인다**(2026-08-23 실측).
     const link = card.querySelector('a[href*="lsInfoP"]');
-    // 부칙 단계 시행(법률 제21324호 부칙 제1조) — 수집 자료(data/laws.json)가 파이프라인에서 덮여도 같은 버전(lsiSeq)이면 유지한다.
-    const STAGED = { '283193': '2026.02.03(공포일) · 제50조①단서 2026.08.04 · 제166조 2027.02.04' };
+    // 각 법률 버전의 부칙 단계 시행 — 수집 자료가 갱신돼도 같은 버전(lsiSeq)의 예외를 유지한다.
+    const STAGED = { '281983': '2026.07.01(제14조제2항제4호의2·제27조제1항제2호의2·제39조제1항제2호의2·제52조제2항제4호의2는 2025.12.30)', '283193': '2026.02.03(공포일) · 제50조①단서 2026.08.04 · 제166조 2027.02.04' };
     const eff = record.effective_display || STAGED[String(record.law_serial_number)] || formatDate8(record.effective_date);
     if (link && eff) {
       const href = safeUrl(record.official_detail_url);

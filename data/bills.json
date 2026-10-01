@@ -6,7 +6,7 @@
     "checked_at": "2026-08-23T18:29:05.950846+09:00",
     "formula": null,
     "kvmi_processed": false,
-    "license_name": "열린국회정보 이용약관 — 출처표시",
+    "license_name": "열린국회정보 Open API 이용약관 제7조(출처표시)",
     "parser_version": "open-assembly-2.0",
     "population": "의안명에 벤처투자, 벤처기업, 자본시장, 가상자산, 여신전문금융, 기술보증기금, 중소기업창업, 농림수산식품투자조합 를 포함하는 의원 발의 법률안 (총 204건 수집)",
     "provider": "open_assembly",
@@ -19,7 +19,8 @@
     "source_id": "venture_related_bills",
     "source_updated_at": null,
     "source_url": "https://open.assembly.go.kr/portal/openapi/nzmimeepazxkubdpn",
-    "unit": null
+    "unit": null,
+    "license_url": "https://open.assembly.go.kr/portal/policy/openUserAgreementPage.do"
   },
   "records": [
     {
