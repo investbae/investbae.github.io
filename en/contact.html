@@ -22,8 +22,8 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta property="og:image" content="https://kvmi.co.kr/assets/og-image.png">
   <meta name="twitter:image" content="https://kvmi.co.kr/assets/og-image.png">
-  <link rel="preload" href="/assets/fonts/pretendard-subset.woff2?v=dbdb9afa4041" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="/css/pretendard.css">
+  
+  <link rel="stylesheet" href="/css/pretendard.css?v=2068960d0996">
   <link rel="stylesheet" href="/css/style.css?v=20260921-address-nav">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%231F3864'/%3E%3Ctext x='30' y='46' font-size='34' font-weight='800' fill='%23C9A227' text-anchor='middle' font-family='sans-serif'%3EK%3C/text%3E%3Ctext x='70' y='46' font-size='34' font-weight='800' fill='%23C9A227' text-anchor='middle' font-family='sans-serif'%3EV%3C/text%3E%3Ctext x='30' y='88' font-size='34' font-weight='800' fill='%23C9A227' text-anchor='middle' font-family='sans-serif'%3EM%3C/text%3E%3Ctext x='70' y='88' font-size='34' font-weight='800' fill='%23C9A227' text-anchor='middle' font-family='sans-serif'%3EI%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="/css/institute.css?v=20260921-institution">
@@ -99,21 +99,21 @@
 
         <form name="contact" class="contact-form reveal" style="max-width:660px; margin:32px auto 0;" data-email-draft autocomplete="off">
 <p>This form creates an email draft in your browser. This site does not send form entries to its server or save them in browser storage. Review and send the email yourself in your mail app. The Institute receives and stores sent emails through Hiworks (Gabia). This page cannot verify email delivery or server receipt.</p>
-<noscript><p>JavaScript is required to create a draft. Email us directly: <a href="mailto:office@kvmi.co.kr">office@kvmi.co.kr</a></p></noscript><fieldset disabled style="border:0;margin:0;padding:0;min-width:0;">
+<noscript><p>JavaScript is required to create a draft. Email us directly: <a href="mailto:office@kvmi.co.kr">office@kvmi.co.kr</a></p></noscript><fieldset disabled style="border:0;margin:0;padding:0;min-width:0;"><label class="optional-consent" style="display:flex;align-items:flex-start;gap:9px;font-size:14px;line-height:1.6;margin-bottom:20px;padding:12px;border:1px solid var(--line);border-radius:6px;"><input type="checkbox" name="optional_collection_consent" value="Agreed" data-optional-consent style="width:18px;height:18px;flex:0 0 auto;margin-top:3px;"> [Optional] I agree to collection and use of organization/company and inquiry topic for the same inquiry response purpose and retention period. Without this choice, optional entries are disabled and omitted from the draft; the inquiry remains available.</label>
           <div class="cf-2">
-            <label>Organization<input type="text" name="organization" autocomplete="organization" placeholder="e.g. ABC Institute" maxlength="200"></label>
+            <label>Organization<input type="text" name="organization" data-optional-field disabled autocomplete="organization" placeholder="e.g. ABC Institute" maxlength="200"></label>
             <label>Name *<input type="text" name="name" required autocomplete="name" maxlength="200"></label>
           </div>
           <div class="cf-2">
             <label>Email *<input type="email" name="email" required autocomplete="email" placeholder="name@example.com" maxlength="200"></label>
-            <label>Subject<input type="text" name="subject" placeholder="e.g. Venture law research" maxlength="200"></label>
+            <label>Subject<input type="text" name="subject" data-optional-field disabled placeholder="e.g. Venture law research" maxlength="200"></label>
           </div>
           <label>Message *<textarea name="message" required placeholder="Please describe your inquiry and preferred timeline." maxlength="4000"></textarea></label>
-          <label><input type="checkbox" name="privacy_consent" value="Agreed" required> I agree to the collection and use of my information to respond to this inquiry. <a href="privacy.html">Privacy Policy</a></label>
+          <label><input type="checkbox" name="privacy_consent" value="Agreed" required> [Required] I agree to collection and use of my name, email and inquiry content to respond to this inquiry. <a href="privacy.html">Privacy Policy</a></label>
           <div style="text-align:center; margin-top:6px;">
             <button type="submit" class="btn btn--primary btn--lg">Create email draft</button>
           </div>
-          <p style="font-size:13px; color:var(--text-dim); text-align:center; margin-top:10px;">* Required · Your information is used only to respond to your inquiry. Inquiry data are retained for up to one year from the date of reply and then deleted without delay; withdrawal of consent leads to immediate deletion. (<a href="/en/privacy.html" style="color:var(--gold-soft); text-decoration:underline;">Privacy Policy</a>).</p>
+          <p style="font-size:13px; color:var(--text-dim); text-align:center; margin-top:10px;">* Required · Retention: up to one year after completion of the reply for follow-up inquiries or related disputes; destroyed without delay when the purpose is fulfilled or consent is withdrawn, except where law requires retention. (<a href="/en/privacy.html" style="color:var(--gold-soft); text-decoration:underline;">Privacy Policy</a>).</p>
         <p class="consent-details" style="font-size:13px;line-height:1.8;">Items: required — contact name, email and inquiry content; optional — organization/company and inquiry topic. Purposes: responding to the inquiry and handling follow-up inquiries or related disputes. Retention: up to one year after completion of the reply, with destruction without delay when the purpose is fulfilled or consent is withdrawn, except where law requires retention. You may refuse consent. If you refuse, this form cannot create an email draft. We may be unable to reply if you do not provide the personal information needed to respond. You may omit optional items.</p></fieldset></form>
         <p style="text-align:center; margin-top:22px; color:var(--text-dim); font-size:14px;">Or email us directly:</p>
         <div style="text-align:center; margin-top: 12px;" class="reveal">
@@ -172,7 +172,7 @@
     </div>
   </footer>
 
-  <script src="/js/main.js?v=dbdb9afa4041"></script>
-<script src="../js/email-draft.js" defer></script>
+  <script src="/js/main.js?v=983589215a3a"></script>
+<script src="../js/email-draft.js?v=d2554e043d1a" defer></script>
 </body>
 </html>

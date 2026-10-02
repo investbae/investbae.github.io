@@ -104,7 +104,8 @@
 
       menu.classList.toggle("open", open);
       toggle.setAttribute("aria-expanded", open ? "true" : "false");
-      toggle.setAttribute("aria-label", open ? "메뉴 닫기" : "메뉴 열기");
+      var englishMenu = document.documentElement.lang.toLowerCase().indexOf("en") === 0;
+      toggle.setAttribute("aria-label", englishMenu ? (open ? "Close menu" : "Open menu") : (open ? "메뉴 닫기" : "메뉴 열기"));
 
       if (mobile && !open) {
         /* inert 를 걸기 전에 포커스를 꺼낸다 — 안에 두면 포커스가 body 로 사라진다. */

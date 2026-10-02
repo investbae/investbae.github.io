@@ -5,6 +5,23 @@
   function msg(ko, english) { return en ? english : ko; }
   document.querySelectorAll('form[data-email-draft]').forEach(function (form) {
     var fields = form.querySelector('fieldset');
+    var embedded = true;
+    try { embedded = window.top !== window.self; } catch (error) { /* Keep disabled. */ }
+    if (embedded) {
+      if (fields) fields.disabled = true;
+      var notice = document.createElement('p');
+      notice.setAttribute('role', 'status');
+      notice.textContent = msg('다른 페이지 안에서는 양식을 사용할 수 없습니다. ', 'This form is unavailable inside another page. ');
+      var direct = document.createElement('a');
+      direct.href = window.location.href;
+      direct.target = '_blank';
+      direct.rel = 'noopener noreferrer';
+      direct.textContent = msg('공식 페이지에서 열기', 'Open the official page');
+      notice.appendChild(direct);
+      form.insertBefore(notice, form.firstChild);
+      return;
+    }
+    if (!fields) return;
     var panel = document.createElement('section');
     panel.hidden = true;
     panel.style.cssText = 'margin-top:24px;padding:20px;border:1px solid currentColor;border-radius:12px;overflow-wrap:anywhere;';
@@ -43,6 +60,15 @@
         status.textContent = msg('본문을 선택했습니다. 복사 메뉴 또는 Ctrl/Cmd+C를 사용하세요.', 'Body selected. Use the copy menu or Ctrl/Cmd+C.');
       }
     });
+    var optionalConsent = fields.querySelector('[data-optional-consent]');
+    function syncOptional() {
+      fields.querySelectorAll('[data-optional-field]').forEach(function (input) {
+        input.disabled = !optionalConsent || !optionalConsent.checked;
+      });
+    }
+    if (optionalConsent) optionalConsent.addEventListener('change', syncOptional);
+    form.addEventListener('reset', function () { setTimeout(syncOptional, 0); });
+    syncOptional();
     function invalidate() {
       panel.hidden = true;
       mail.removeAttribute('href');

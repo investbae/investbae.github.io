@@ -24,8 +24,8 @@
   <meta name="twitter:image" content="https://kvmi.co.kr/assets/og-image.png">
   <meta name="twitter:title" content="문의 | 벤처시장연구원">
   <meta name="twitter:description" content="벤처시장연구원 연락처 및 연구·자문 문의 안내.">
-  <link rel="preload" href="/assets/fonts/pretendard-subset.woff2?v=dbdb9afa4041" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="/css/pretendard.css">
+  
+  <link rel="stylesheet" href="/css/pretendard.css?v=2068960d0996">
   <link rel="stylesheet" href="css/style.css?v=20260921-address-nav">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%231F3864'/%3E%3Ctext x='30' y='46' font-size='34' font-weight='800' fill='%23C9A227' text-anchor='middle' font-family='sans-serif'%3EK%3C/text%3E%3Ctext x='70' y='46' font-size='34' font-weight='800' fill='%23C9A227' text-anchor='middle' font-family='sans-serif'%3EV%3C/text%3E%3Ctext x='30' y='88' font-size='34' font-weight='800' fill='%23C9A227' text-anchor='middle' font-family='sans-serif'%3EM%3C/text%3E%3Ctext x='70' y='88' font-size='34' font-weight='800' fill='%23C9A227' text-anchor='middle' font-family='sans-serif'%3EI%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="/css/institute.css?v=20260921-institution">
@@ -108,24 +108,24 @@
 
         <form name="contact" class="contact-form reveal" style="max-width:660px; margin:32px auto 0;" data-email-draft autocomplete="off">
 <p>이 양식은 브라우저 안에서 이메일 초안만 만듭니다. 입력 내용은 홈페이지 서버로 전송되거나 이 사이트의 저장소에 저장되지 않습니다. 메일 앱에서 내용을 확인하고 직접 보내야 합니다. 연구원은 사용자가 발송한 이메일을 하이웍스(가비아)에서 수신·보관합니다. 이 페이지에서는 실제 발송 또는 서버 접수 여부를 확인할 수 없습니다.</p>
-<noscript><p>초안을 만들려면 JavaScript가 필요합니다. 직접 이메일을 보내세요: <a href="mailto:office@kvmi.co.kr">office@kvmi.co.kr</a></p></noscript><fieldset disabled style="border:0;margin:0;padding:0;min-width:0;">
+<noscript><p>초안을 만들려면 JavaScript가 필요합니다. 직접 이메일을 보내세요: <a href="mailto:office@kvmi.co.kr">office@kvmi.co.kr</a></p></noscript><fieldset disabled style="border:0;margin:0;padding:0;min-width:0;"><label class="agree-row optional-consent" style="display:flex;align-items:flex-start;gap:9px;font-size:14px;line-height:1.6;margin-bottom:20px;padding:12px;border:1px solid var(--line);border-radius:6px;"><input type="checkbox" name="선택정보_수집이용_동의" value="동의함" data-optional-consent style="width:18px;height:18px;flex:0 0 auto;margin-top:3px;"> <span>[선택] 기관·회사명, 문의 주제의 수집·이용에 동의합니다. 목적과 보유기간은 아래 안내와 같습니다. 동의하지 않으면 선택 입력칸은 비활성화되고 초안에 포함되지 않으며, 문의는 계속할 수 있습니다.</span></label>
           <div class="cf-2">
-            <label>기관·회사명<input type="text" name="organization" autocomplete="organization" placeholder="예: ○○연구원" maxlength="200"></label>
+            <label>기관·회사명<input type="text" name="organization" data-optional-field disabled autocomplete="organization" placeholder="예: ○○연구원" maxlength="200"></label>
             <label>담당자명 *<input type="text" name="name" required autocomplete="name" maxlength="200"></label>
           </div>
           <div class="cf-2">
             <label>이메일 *<input type="email" name="email" required autocomplete="email" placeholder="name@example.com" maxlength="200"></label>
-            <label>문의 주제<input type="text" name="subject" placeholder="예: 벤처투자법 연구용역" maxlength="200"></label>
+            <label>문의 주제<input type="text" name="subject" data-optional-field disabled placeholder="예: 벤처투자법 연구용역" maxlength="200"></label>
           </div>
           <label>문의 내용 *<textarea name="message" required placeholder="문의 내용·희망 일정을 적어 주세요." maxlength="4000"></textarea></label>
           <label style="display:flex;align-items:flex-start;gap:9px;font-size:14px;color:var(--text-muted);cursor:pointer;line-height:1.55;margin-top:2px;">
             <input type="checkbox" name="개인정보_수집이용_동의" value="동의함" required style="width:17px;height:17px;margin-top:2px;flex:0 0 auto;accent-color:var(--gold);">
-            <span><span style="color:var(--gold-soft);font-weight:700;">[필수]</span> 문의 응대 및 회신을 위한 개인정보(담당자명·이메일 등)의 수집·이용에 동의합니다. (<a href="privacy.html" style="color:var(--gold-soft);">개인정보 처리방침</a>)</span>
+            <span><span style="color:var(--gold-soft);font-weight:700;">[필수]</span> 문의 응대 및 회신을 위한 필수 개인정보(담당자명·이메일·문의 내용)의 수집·이용에 동의합니다. (<a href="privacy.html" style="color:var(--gold-soft);">개인정보 처리방침</a>)</span>
           </label>
           <div style="text-align:center; margin-top:6px;">
             <button type="submit" class="btn btn--primary btn--lg">이메일 초안 만들기</button>
           </div>
-          <p style="font-size:13px; color:var(--text-dim); text-align:center; margin-top:10px;">* 필수 항목 · 제출 정보는 문의 응대 목적으로만 이용합니다. 문의 정보는 회신 완료일부터 최장 1년(재문의·분쟁 대응 목적) 보유한 뒤 지체 없이 파기하며, 보유기간 중이라도 동의를 철회하면 지체 없이 파기합니다 (<a href="privacy.html" style="color:var(--gold-soft); text-decoration:underline;">개인정보 처리방침</a>).</p>
+          <p style="font-size:13px; color:var(--text-dim); text-align:center; margin-top:10px;">* 필수 항목 · 제출 정보는 문의 응대 목적으로만 이용합니다. 문의 정보는 회신 완료일부터 최장 1년(재문의·분쟁 대응 목적) 보유하며, 목적 달성 또는 동의 철회 시 지체 없이 파기합니다(관계 법령에 따른 보존 제외) (<a href="privacy.html" style="color:var(--gold-soft); text-decoration:underline;">개인정보 처리방침</a>).</p>
         <p class="consent-details" style="font-size:13px;line-height:1.8;">수집 항목: (필수) 담당자명·이메일·문의 내용, (선택) 기관·회사명·문의 주제. 이용 목적: 문의 응대·회신 및 재문의·분쟁 대응. 보유기간: 회신 완료일부터 최장 1년, 목적 달성 또는 동의 철회 시 지체 없이 파기(관계 법령에 따른 보존 제외). 동의를 거부할 권리가 있으며, 거부하면 이 양식의 이메일 초안을 만들 수 없습니다. 문의 응대에 필요한 개인정보를 제공하지 않으면 회신이 어려울 수 있습니다. 선택 항목은 입력하지 않아도 이메일 초안을 만들 수 있습니다.</p></fieldset></form>
         <p style="text-align:center; margin-top:22px; color:var(--text-dim); font-size:14px;">또는 이메일로 직접 보내기:</p>
         <div style="text-align:center; margin-top: 12px;" class="reveal">
@@ -171,7 +171,7 @@
     </div>
   </footer>
 
-  <script src="js/main.js?v=dbdb9afa4041"></script>
-<script src="js/email-draft.js" defer></script>
+  <script src="js/main.js?v=983589215a3a"></script>
+<script src="js/email-draft.js?v=d2554e043d1a" defer></script>
 </body>
 </html>
