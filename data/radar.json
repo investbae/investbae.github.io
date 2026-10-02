@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-01T21:30:09Z",
-  "collected_date": "2026-10-02",
+  "generated_at": "2026-10-02T21:30:09Z",
+  "collected_date": "2026-10-03",
   "source": "법제처 DRF (target=law·ppc) · 국회 발의의안 미포함 · 자동수집",
   "keywords": [
     "벤처투자",
@@ -14,7 +14,8 @@
     "조건부지분"
   ],
   "ppc": [],
-  "upcoming": [
+  "upcoming": [],
+  "recent": [
     {
       "kind": "law",
       "kw": "가상자산",
@@ -23,7 +24,7 @@
       "ef_date": "20261002",
       "revision": "타법개정",
       "link": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290171",
-      "future": true
+      "future": false
     },
     {
       "kind": "law",
@@ -33,10 +34,8 @@
       "ef_date": "20261002",
       "revision": "타법개정",
       "link": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290735",
-      "future": true
-    }
-  ],
-  "recent": [
+      "future": false
+    },
     {
       "kind": "law",
       "kw": "신기술사업금융",
