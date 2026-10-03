@@ -1,0 +1,32 @@
+/* Progressive, home-only motion. Content never depends on animation. */
+.cosmic-home{--kv-motion-css:1}
+.cosmic-home.kv-motion-ready .report-hero{position:relative;isolation:isolate;overflow:visible}
+.kv-motion-art{position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:-1;mask-image:linear-gradient(90deg,transparent 22%,#000 100%);opacity:.85}
+.kv-motion-orbit{position:absolute;width:760px;height:760px;right:-270px;top:50%;margin-top:-380px;border:1px solid #a891ed55;border-radius:50%;background:radial-gradient(ellipse at 80% 30%,#b58aff36,transparent 48%);transform:rotate(-24deg) scaleY(.62);animation:kv-orbit 24s ease-in-out infinite alternate;animation-play-state:paused}
+.kv-motion-orbit:before,.kv-motion-orbit:after{content:"";position:absolute;border:1px solid #bca0fc44;border-radius:50%;inset:55px}
+.kv-motion-orbit:after{inset:130px;border-color:#c9b6ff70}
+.kv-motion-orbit:before{inset:auto;left:6px;top:42%;width:8px;height:8px;border:0;background:#d9beff;box-shadow:0 0 18px 5px #b985ff66}
+.kv-motion-orbit--second{width:600px;height:600px;margin-top:-300px;right:-190px;transform:rotate(35deg) scaleY(.7);animation-name:kv-orbit-second;animation-duration:19s;background:none;border-color:#d3b8ff80}
+.kv-motion-light{position:absolute;width:300px;height:300px;right:20px;top:8%;border-radius:50%;background:radial-gradient(circle,#b87aff36,transparent 68%);animation:kv-light 17s ease-in-out infinite alternate;animation-play-state:paused}
+.kv-motion-ready .cx-universe picture{overflow:hidden}
+.kv-motion-ready .cx-universe picture img{animation:kv-universe 26s ease-in-out infinite alternate;animation-play-state:paused}
+.kv-motion-running .kv-motion-inview :is(.kv-motion-orbit,.kv-motion-light),.kv-motion-running .cx-universe.kv-motion-inview picture img{animation-play-state:running}
+.cosmic-home .kv-motion-toggle{display:inline-flex;align-items:center;gap:9px;min-height:44px;margin:20px 0 0;padding:8px 0;border:0;background:transparent;color:#e2d9f6;font:inherit;font-size:12px;line-height:1.6;letter-spacing:.03em;cursor:pointer}
+.kv-motion-toggle:before{content:"Ⅱ";font-size:14px;width:18px;text-align:center}
+.kv-motion-toggle[aria-pressed=true]:before{content:"▷"}
+.kv-motion-toggle[hidden]{display:none!important}
+.kv-motion-toggle:focus-visible{outline:2px solid #e3ceff;outline-offset:5px}
+.kv-motion-ready :is(.cx-data-link,.cx-area){transition:background-color 180ms ease,border-color 180ms ease}
+.kv-motion-ready .cx-data-link:is(:hover,:focus-visible){background:#d9c3ff0d;border-color:#b69ade}
+.kv-motion-ready .cx-area:hover{border-color:#9163bd;background:#7941ad06}
+.kv-motion-ready .cx-arrow{transition:transform 180ms ease,background-color 180ms ease}
+.kv-motion-running a:is(:hover,:focus-visible) .cx-arrow{transform:translate(3px,-3px)}
+.kv-motion-ready:not(.kv-motion-running) .cx-arrow{transform:none!important;transition:none!important}
+.kv-motion-ready:not(.kv-motion-running) :is(.cx-data-link,.cx-area,.report-actions a,.cx-action){transition:none!important}
+@keyframes kv-orbit{to{transform:rotate(15deg) scaleY(.75)}}
+@keyframes kv-orbit-second{to{transform:rotate(-18deg) scaleY(.58)}}
+@keyframes kv-light{to{transform:translate(-100px,110px) scale(1.25)}}
+@keyframes kv-universe{from{transform:scale(1.04) translateX(-.5%)}to{transform:scale(1.08) translateX(.5%)}}
+@media(max-width:760px){.kv-motion-art{opacity:.6;mask-image:linear-gradient(90deg,transparent,#000)}.kv-motion-orbit{right:-500px}.kv-motion-orbit--second{right:-360px}.kv-motion-light{right:-140px}.cosmic-home .kv-motion-toggle{margin-top:16px}}
+@media(prefers-reduced-motion:reduce){.kv-motion-ready *,.kv-motion-ready *:before,.kv-motion-ready *:after{animation:none!important;transition:none!important}.kv-motion-art{display:none}.kv-motion-ready .cx-arrow{transform:none!important}}
+@media print{.cosmic-home.kv-motion-ready .report-hero{position:static;isolation:auto;overflow:hidden}.kv-motion-art,.kv-motion-toggle{display:none!important}.kv-motion-ready *{animation:none!important;transition:none!important}.kv-motion-ready [data-kv-entrance]{transform:none!important;opacity:1!important}.kv-motion-ready .cx-universe picture img{transform:none!important}}
