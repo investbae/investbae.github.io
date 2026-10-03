@@ -1,0 +1,111 @@
+/* Home-only refinement of the existing KVMI dark/violet identity. */
+body.cosmic-home{font-family:"Pretendard Variable",Pretendard,"Malgun Gothic",sans-serif;-webkit-font-smoothing:antialiased}
+.cosmic-home .cx-wrap{width:calc(100% - 96px);max-width:1248px}
+.cosmic-home .site-header .container{width:calc(100% - 96px);max-width:1248px;padding-inline:0}
+.cosmic-home .brand__mark{min-width:max-content;min-height:max-content;padding:6px}
+.cosmic-home .brand{min-width:0;max-width:100%}
+.cosmic-home .brand__text{min-width:0;overflow-wrap:anywhere}
+.cosmic-home .report-hero{padding:80px max(48px,calc((100% - 1248px)/2)) 84px;gap:0}
+html[lang] body.cosmic-home #main .report-hero h1{font-size:clamp(48px,5.85vw,84px);line-height:1.14;letter-spacing:-.045em;font-weight:650;max-width:1120px;margin:30px 0 32px;text-wrap:balance;word-break:keep-all;overflow-wrap:anywhere}
+html[lang=en] body.cosmic-home #main .report-hero h1{max-width:1050px;letter-spacing:-.045em}
+.cosmic-home .report-kicker{font-size:12px;letter-spacing:.14em;line-height:1.7}
+.cosmic-home .report-hero p{font-size:17px;line-height:1.8;max-width:820px;margin-bottom:0}
+.cosmic-home .report-actions{gap:12px;margin-top:28px}
+.cosmic-home .report-actions a{min-height:50px;display:inline-flex;align-items:center;padding:14px 22px;font-size:14px;line-height:1.5;letter-spacing:-.01em;border-radius:2px}
+.cosmic-home .report-facts{padding:40px max(48px,calc((100% - 1248px)/2));gap:32px;display:flex;flex-wrap:wrap;justify-content:space-between}
+.cosmic-home .report-facts>div{flex:1 1 220px;min-width:0;max-width:none;margin:0;padding-left:28px;border-left:1px solid #d9d0e5}
+.cosmic-home .report-facts>div:first-child{padding-left:0;border-left:0}
+.cosmic-home .report-facts strong{font-size:46px;line-height:1.12;letter-spacing:-.035em;font-weight:650;font-variant-numeric:tabular-nums;min-width:max-content}
+.cosmic-home .report-facts p{font-size:14px;line-height:1.65;margin:12px 0 0}
+.cosmic-home #main .report-facts-note{font-size:13px!important;line-height:1.8!important;padding:0 max(48px,calc((100% - 1248px)/2)) 22px!important;margin:0!important;text-align:left!important}
+.cosmic-home #main h2{font-size:clamp(38px,3.8vw,56px);line-height:1.18;letter-spacing:-.045em;font-weight:630}
+.cosmic-home .cx-kicker{font-size:11px;line-height:1.7;letter-spacing:.12em}
+.cosmic-home .cx-selected{padding:76px 0 80px}
+.cosmic-home .cx-selected h2{max-width:850px}
+.cosmic-home .cx-source{font-size:14px;line-height:1.85}
+.cosmic-home .cx-lead{font-size:18px;line-height:1.8}
+.cosmic-home .cx-observatory{padding:96px 0}
+.cosmic-home .cx-observatory__grid{grid-template-columns:1fr 1.15fr;gap:8%}
+.cosmic-home .cx-data-link{padding:25px 0;grid-template-columns:minmax(26px,max-content) minmax(0,1fr) minmax(42px,max-content);gap:20px}
+.cosmic-home .cx-data-link h3{font-size:25px;font-weight:620;line-height:1.4;letter-spacing:-.025em}
+.cosmic-home .cx-data-link p{font-size:14px;line-height:1.75}
+.cosmic-home .cx-index{min-width:max-content;font-variant-numeric:tabular-nums}
+.cosmic-home .cx-arrow{min-width:1.35em;min-height:1.35em}
+.cosmic-home .cx-intelligence{padding:80px 0 44px}
+.cosmic-home .cx-intelligence__grid{gap:8%;margin-top:32px}
+.cosmic-home .cx-action{min-height:52px;gap:28px;padding:9px 10px 9px 22px;border-radius:2px;line-height:1.5;max-width:100%}
+.cosmic-home .cx-brief{gap:22px;flex-wrap:wrap;margin-top:44px;padding-top:26px}
+.cosmic-home .cx-brief strong{font-size:22px;line-height:1.5}
+.cosmic-home .cx-expertise{padding:96px 0}
+.cosmic-home .cx-areas{column-gap:7%;margin-top:44px}
+.cosmic-home .cx-area{grid-template-columns:minmax(32px,max-content) minmax(0,1fr);padding:26px 0;gap:10px 16px}
+.cosmic-home .cx-area h3{font-size:23px;line-height:1.45;letter-spacing:-.025em}
+.cosmic-home .cx-area p{font-size:14px;line-height:1.85}
+.cosmic-home .cx-universe{min-height:610px;padding:88px 0}
+.cosmic-home #main .cx-universe h2{font-size:clamp(48px,5.4vw,78px)!important;line-height:1.14;letter-spacing:-.045em;max-width:760px}
+.cosmic-home .cx-leadership{padding:94px 0}
+.cosmic-home .leader{grid-template-columns:230px minmax(0,1fr);gap:64px;margin-top:34px}
+.cosmic-home .leader__name{font-size:27px;letter-spacing:-.025em}
+.cosmic-home .leader__bio,.cosmic-home .career-list li{font-size:15px;line-height:1.85}
+.cosmic-home .cx-contact{padding:80px 0}
+.cosmic-home .cx-notice .notice li{font-size:13px;line-height:1.85}
+.cosmic-home .cx-notice{padding:28px 0}
+.cosmic-home :is(.cx-observatory__grid,.cx-intelligence__grid,.cx-section-head,.leader)>*{min-width:0}
+@media(max-width:1099px){
+ .cosmic-home .site-header .container{width:calc(100% - 64px)}
+ .cosmic-home .cx-wrap{width:calc(100% - 64px)}
+ .cosmic-home .report-hero{padding:64px 32px 68px}
+ .cosmic-home .report-facts{padding:34px 32px;gap:24px}
+ .cosmic-home #main .report-facts-note{padding-inline:32px!important}
+ .cosmic-home .cx-observatory__grid,.cosmic-home .cx-intelligence__grid{gap:6%}
+ .cosmic-home .leader{grid-template-columns:200px minmax(0,1fr);gap:40px}
+}
+@media(max-width:760px){
+ .cosmic-home .cx-wrap,.cosmic-home .site-header .container{width:calc(100% - 48px)}
+ .cosmic-home .report-hero{padding:42px 24px 48px}
+ html[lang] body.cosmic-home #main .report-hero h1{font-size:clamp(36px,8.8vw,54px);line-height:1.19;letter-spacing:-.045em;margin:24px 0;word-break:keep-all}
+ html[lang=en] body.cosmic-home #main .report-hero h1{font-size:clamp(35px,8.5vw,52px);word-break:normal}
+ .cosmic-home .report-kicker{font-size:11px;letter-spacing:.1em}
+ .cosmic-home .report-hero p{font-size:16px;line-height:1.8}
+ .cosmic-home .report-actions a{padding:13px 18px;min-height:48px}
+ .cosmic-home .report-facts{padding:28px 24px 16px;gap:0}
+ .cosmic-home .report-facts>div,.cosmic-home .report-facts>div:first-child{flex:1 1 100%;display:flex;flex-wrap:wrap;gap:8px 24px;align-items:center;border:0;border-bottom:1px solid #ded7e8;padding:20px 0;margin:0}
+ .cosmic-home .report-facts>div:first-child{padding-top:0}
+ .cosmic-home .report-facts>div:last-child{border-bottom:0;padding-bottom:8px}
+ .cosmic-home .report-facts strong{font-size:38px;flex:0 0 auto;min-width:max-content}
+ .cosmic-home .report-facts p{flex:1 1 140px;font-size:14px;line-height:1.7;margin:0}
+ .cosmic-home #main .report-facts-note{padding:0 24px 24px!important}
+ .cosmic-home #main h2{font-size:36px;line-height:1.22;letter-spacing:-.04em}
+ .cosmic-home .cx-selected,.cosmic-home .cx-expertise,.cosmic-home .cx-leadership{padding:60px 0}
+ .cosmic-home .cx-observatory{padding:64px 0}
+ .cosmic-home .cx-observatory__grid,.cosmic-home .cx-intelligence__grid{grid-template-columns:1fr;gap:32px}
+ .cosmic-home .cx-data-link{grid-template-columns:minmax(20px,max-content) minmax(0,1fr) minmax(34px,max-content);gap:12px;padding:23px 0}
+ .cosmic-home .cx-data-link h3{font-size:23px}
+ .cosmic-home .cx-intelligence{padding:60px 0 36px}
+ .cosmic-home .cx-intelligence__grid{margin-top:26px;gap:14px}
+ .cosmic-home .cx-lead{font-size:16px}
+ .cosmic-home .cx-brief{grid-template-columns:minmax(0,1fr) minmax(42px,max-content);gap:12px;margin-top:34px}
+ .cosmic-home .cx-brief strong{font-size:21px}
+ .cosmic-home .cx-areas{margin-top:30px}
+ .cosmic-home .cx-area h3{font-size:22px}
+ .cosmic-home .cx-universe{min-height:550px;padding:64px 0}
+ .cosmic-home #main .cx-universe h2{font-size:clamp(44px,10vw,58px)!important}
+ .cosmic-home .leader{grid-template-columns:1fr;gap:26px}
+ .cosmic-home .cx-contact{padding:62px 0}
+}
+@media print{
+ .cosmic-home .report-hero,.cosmic-home .report-facts,.cosmic-home .report-facts-note{background:white!important;color:black!important}
+ .cosmic-home #main .report-actions a,.cosmic-home #main .cx-action{background:white!important;color:black!important;border:1px solid #333!important}
+ .cosmic-home .cx-action .cx-arrow{background:white!important;color:black!important}
+ .cosmic-home .cx-universe:before{display:none!important}
+ .cosmic-home .cx-universe{min-height:0}
+ .cosmic-home .report-facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));padding:24px 0;gap:20px}
+ .cosmic-home .report-facts>div{display:block;min-width:0;border:0;padding:0}
+ .cosmic-home .report-facts strong{font-size:30px}
+ .cosmic-home #main .report-facts-note{padding:0 0 20px!important}
+ .cosmic-home .report-hero{padding:30px 0}
+ html[lang] body.cosmic-home #main .report-hero h1{font-size:42px;max-width:none}
+ .cosmic-home .cx-wrap{width:100%}
+ .cosmic-home #main section{break-inside:auto}
+ .cosmic-home #main h2,.cosmic-home #main h3{break-after:avoid}
+}
