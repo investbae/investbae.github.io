@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-06T21:30:10Z",
-  "collected_date": "2026-10-07",
+  "generated_at": "2026-10-07T21:30:10Z",
+  "collected_date": "2026-10-08",
   "source": "법제처 DRF (target=law·ppc) · 국회 발의의안 미포함 · 자동수집",
   "keywords": [
     "벤처투자",
@@ -14,7 +14,18 @@
     "조건부지분"
   ],
   "ppc": [],
-  "upcoming": [],
+  "upcoming": [
+    {
+      "kind": "law",
+      "kw": "신기술사업금융",
+      "title": "기술보증기금법",
+      "dept": "중소벤처기업부",
+      "ef_date": "20261008",
+      "revision": "일부개정",
+      "link": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=285277",
+      "future": true
+    }
+  ],
   "recent": [
     {
       "kind": "law",
@@ -116,16 +127,6 @@
       "ef_date": "20260701",
       "revision": "타법개정",
       "link": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284081",
-      "future": false
-    },
-    {
-      "kind": "law",
-      "kw": "신기술사업금융",
-      "title": "기술보증기금법",
-      "dept": "중소벤처기업부",
-      "ef_date": "20260102",
-      "revision": "타법개정",
-      "link": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=277111",
       "future": false
     },
     {
