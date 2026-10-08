@@ -1,7 +1,7 @@
 {
   "datasets": [
     {
-      "checked_at": "2026-10-08T06:17:06.099537+09:00",
+      "checked_at": "2026-10-09T06:17:05.250493+09:00",
       "dataset_id": "core_laws",
       "note": null,
       "output": "/data/laws.json",
@@ -10,7 +10,7 @@
       "title": "벤처·투자 핵심 법령 현황"
     },
     {
-      "checked_at": "2026-10-08T06:17:07.195528+09:00",
+      "checked_at": "2026-10-09T06:17:06.344303+09:00",
       "dataset_id": "venture_related_bills",
       "note": null,
       "output": "/data/bills.json",
@@ -37,8 +37,8 @@
       "title": "벤처확인기업 명단(공공데이터포털)"
     }
   ],
-  "generated_at": "2026-10-08T06:17:07.210183+09:00",
-  "release_id": "20261008T061702",
+  "generated_at": "2026-10-09T06:17:06.358643+09:00",
+  "release_id": "20261009T061702",
   "schema_version": "1.0",
   "timezone": "Asia/Seoul"
 }
