@@ -2,6 +2,7 @@
   "use strict";
   var key = "vmiMotion", btn = document.getElementById("uToggle");
   if (!btn) return;
+  btn.hidden = false;                                  // HTML은 스크립트 없이 숨긴 상태로 둔다(P2-E1-F01).
   var preference = window.matchMedia("(prefers-reduced-motion: reduce)");
   var playing = true, unavailable = false;
   try { playing = localStorage.getItem(key) !== "off"; } catch (e) {}
