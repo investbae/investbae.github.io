@@ -99,7 +99,7 @@
       }
       bodyBox.value = body;
       var base = 'mailto:office@kvmi.co.kr?subject=' + encodeURIComponent(subject);
-      var complete = base + '&body=' + encodeURIComponent(body);
+      var complete = base + '&body=' + encodeURIComponent(body.replace(/\r\n|\r|\n/g, '\r\n'));
       var longBody = complete.length > 1800;
       mail.href = longBody ? base : complete;
       mail.hidden = copy.hidden = label.hidden = false;

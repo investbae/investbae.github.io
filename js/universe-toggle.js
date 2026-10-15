@@ -13,14 +13,14 @@
   if (hint) { hint.appendChild(status); btn.setAttribute("aria-describedby", status.id); }
   function refresh() {
     var active = playing && !preference.matches;
-    var label = preference.matches ? "기기의 동작 줄이기 설정에 따라 움직임을 멈췄습니다" :
-      (active ? "우주 효과 멈추기" : "우주 효과 재생");
+    var label = "우주 효과 일시정지";
+    var note = preference.matches ? "기기의 동작 줄이기 설정에 따라 움직임을 멈췄습니다" : "";
     btn.textContent = active ? "⏸" : "▶";
-    btn.setAttribute("aria-pressed", String(active));
+    btn.setAttribute("aria-pressed", String(!active));
     btn.setAttribute("aria-label", label);
-    btn.title = label;
+    btn.title = active ? "우주 효과 멈추기" : "우주 효과 재생";
     btn.setAttribute("aria-disabled", String(preference.matches));
-    status.textContent = preference.matches ? label : "";
+    status.textContent = note;
   }
   refresh();
   btn.addEventListener("click", function () {

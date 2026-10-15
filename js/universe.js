@@ -12,7 +12,13 @@
   if (!cv) return;
   var homeMode = cv.id === "cosmicCanvas";
   if (homeMode) return;
-  var ctx = cv.getContext("2d");
+  var ctx = cv.getContext && cv.getContext("2d");
+  if (!ctx) {                                        // 캔버스를 쓸 수 없는 환경: 정적 배경과 안내만 남긴다.
+    cv.style.display = "none";
+    var fc = document.getElementById("fleetCount"); if (fc) fc.textContent = "표시 안 함";
+    var hn = document.querySelector(".u-hint"); if (hn) hn.textContent = "이 브라우저에서는 움직이는 효과를 표시할 수 없어 정적 화면만 보여 줍니다.";
+    return;
+  }
   var isMobile = window.innerWidth < 768 || /Mobi|Android/i.test(navigator.userAgent);
   var DPR = Math.min(window.devicePixelRatio || 1, 1.5);   // 모바일 1.25→1.5 (라벨·pill 텍스트 선명도·DPR3 기기)
   var W = 0, H = 0, T = 0, last = performance.now();

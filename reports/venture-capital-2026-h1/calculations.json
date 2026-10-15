@@ -2,6 +2,14 @@
   "title": "2026년 상반기 벤처투자 증감률 계산표",
   "description": "같은 폴더 data.csv의 MSS-H1 행만으로 다시 계산한 명목 금액의 전년 같은 상반기 대비 증감입니다.",
   "status": "recalculated_from_single_publication",
+  "comparison": {
+    "base_period": "2025_상반기",
+    "current_period": "2026_상반기",
+    "unit_of_inputs": "억원"
+  },
+  "investment_growth": 54.28352703737212,
+  "investment_delta": 31200,
+  "fund_growth": 33.004366949914086,
   "calculations": [
     {
       "id": "investment_growth",
@@ -80,7 +88,9 @@
     }
   ],
   "rounding": "result는 소수 첫째 자리 반올림, result_exact는 반올림 전 값입니다.",
-  "source": {
+  "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=86&bcIdx=1070580",
+  "source_published": "2026-08-19",
+  "source_detail": {
     "title": "2026년 상반기 벤처투자 8.9조원 ‘역대 최대’실적 경신",
     "publisher": "중소벤처기업부",
     "url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=86&bcIdx=1070580",
@@ -89,5 +99,6 @@
     "rights": "공공누리 제1유형 · 출처표시",
     "rights_url": "https://www.kogl.or.kr/info/licenseType1.do"
   },
-  "scope": "명목 금액의 전년 같은 상반기 대비 증감률. 정밀 연간·물가조정 및 기존 분석용 계산은 근거별 확인 후 제공."
+  "scope": "명목 금액 기준. 증감률(%)은 (당기 ÷ 기준기 − 1) × 100, 증감액(억원)은 당기 − 기준기이며 산식은 항목별 formula에 적었다. 정밀 연간·물가조정 및 기존 분석용 계산은 근거별 확인 후 제공.",
+  "legacy_fields_note": "investment_growth·fund_growth(%, 반올림 전), investment_delta(억원), source(원문 주소), source_published는 이전 판과 같은 키로 유지한다. 이전 판의 공통 formula는 증감률만 설명해 증감액에 맞지 않으므로 항목별 formula로 대체했다."
 }
