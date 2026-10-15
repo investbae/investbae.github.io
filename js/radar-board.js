@@ -74,7 +74,7 @@
         fetch("/data/radar_status.json?cb="+Date.now()).then(function(r){if(!r.ok) throw new Error(); return r.json();}).then(function(s){
           var when=(s.updated_at||"").slice(0,10);
           var suffix=/^\d{4}-\d{2}-\d{2}$/.test(when) ? " (상태 기록일: "+when+")" : "";
-          if(s.status==="hold") updateStatus.textContent="핵심 8개 법령·발의 의안: 2026.8.23 확인 / 관측 보드: 2026.9.18 수집. 최신 개정은 법제처 원문에서 확인하세요.";
+          if(s.status==="hold") updateStatus.textContent="핵심 법령·발의 의안은 각 자료의 확인일을, 관측 보드는 아래 수집일을 확인하세요. 최신 개정과 현재 효력은 법제처 원문에서 확인하세요.";
           else if(s.status==="ok") updateStatus.textContent="최근 갱신 점검이 완료됐습니다. 자료별 수집일과 원문을 확인해 주세요."+suffix;
           else updateStatus.textContent="갱신 상태를 확인할 수 없습니다. 아래 자료의 수집일과 원문을 확인해 주세요.";
         }).catch(function(){updateStatus.textContent="갱신 상태를 불러오지 못했습니다. 아래 자료의 수집일과 원문을 확인해 주세요.";});

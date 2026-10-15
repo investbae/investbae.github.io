@@ -1,0 +1,60 @@
+/* 2026-10-15 design defect fixes (measured before/after with measure_fixes.py). */
+
+/* Feed pages: header band spans the full width; content stays aligned with main (1180px). */
+body.institution-feed > header { max-width: none; padding-left: max(24px, calc((100% - 1180px) / 2 + 24px)); padding-right: max(24px, calc((100% - 1180px) / 2 + 24px)); }
+body.institution-feed footer .footer-info { margin: 10px 0 0; font-size: 12.5px; line-height: 1.7; }
+body.institution-feed footer .footer-info a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+
+/* Feed search form on phones: each label sits directly above its control. */
+@media (max-width: 480px) {
+  body.institution-feed form#filter { display: grid; grid-template-columns: 1fr; gap: 6px; }
+  body.institution-feed form#filter input,
+  body.institution-feed form#filter select { width: 100%; min-width: 0; }
+  body.institution-feed form#filter label:not(:first-child) { margin-top: 8px; }
+  body.institution-feed form#filter button { justify-self: start; margin-top: 8px; }
+}
+
+/* Signup consent rows: the common form rule made labels block-level and shrank the boxes. */
+.contact-form label.agree-row, .contact-form label.agree-row:has(input[type="checkbox"]) { display: flex; align-items: flex-start; gap: 10px; }
+.contact-form label.agree-row input[type="checkbox"] { width: 18px; height: 18px; margin-top: 3px; flex: 0 0 auto; }
+
+/* Insights grade list: tags were clipped in a fixed 44px column. */
+.grade-item { grid-template-columns: 7.5em 1fr; }
+.grade-item > .link-card__tag { white-space: nowrap; justify-self: start; }
+@media (max-width: 600px) {
+  .grade-item { grid-template-columns: 1fr; gap: 8px; }
+}
+
+/* Guide: links in the citation section were indistinguishable from body text. */
+#cite-and-correct p a { color: #593093; text-decoration: underline; text-underline-offset: 3px; }
+#cite-and-correct p + p { margin-top: 12px; }
+
+/* Publications: data-file links shown as buttons. */
+.data-file-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+.data-file-actions a { display: inline-flex; align-items: center; min-height: 44px; padding: 9px 14px; border: 1px solid #b9a6d6; border-radius: 6px; color: #49277d; font-weight: 650; text-decoration: none; background: #f6f1fc; }
+.data-file-actions a:hover { background: #ece2f8; }
+
+/* Statistics tables on phones: say that wide tables scroll sideways. */
+.scroll-hint { display: none; }
+@media (max-width: 600px) { .scroll-hint { display: block; margin: 14px 0 -6px; font-size: 13px; color: #53656c; } }
+@media (max-width: 600px) {
+  .table-scroll.is-wide { box-shadow: inset -14px 0 10px -10px rgba(18, 45, 60, .28); }
+}
+
+/* Universe (desktop): canvas texture ran over the hero copy; a soft dark backdrop keeps it legible. */
+@media (min-width: 769px) {
+  .u-hero { position: relative; isolation: isolate; }
+  .u-hero::before { content: ""; position: absolute; inset: -60px -90px -10px -40px; z-index: -1; pointer-events: none;
+    background: radial-gradient(ellipse 75% 70% at 35% 55%, rgba(4,7,16,.86) 0%, rgba(4,7,16,.72) 50%, rgba(4,7,16,0) 100%); }
+}
+@media (min-width: 769px) {
+  .u-foot { isolation: isolate; }
+  .u-foot::before { content: ""; position: absolute; inset: -14px -40px -10px -30px; z-index: -1; pointer-events: none;
+    background: radial-gradient(ellipse 70% 90% at 30% 50%, rgba(4,7,16,.85) 0%, rgba(4,7,16,0) 100%); }
+}
+
+/* Radar: status note no longer touches the dark hero below. */
+#radarUpdateStatus { margin-bottom: 20px; }
+
+/* Publications: the data-file block sits right under the hero without a tall gap. */
+.page-hero + section.section:has(.data-file-actions) { padding-bottom: 8px; }
