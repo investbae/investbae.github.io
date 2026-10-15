@@ -16,7 +16,8 @@
   if (!ctx) {                                        // 캔버스를 쓸 수 없는 환경: 정적 배경과 안내만 남긴다.
     cv.style.display = "none";
     var fc = document.getElementById("fleetCount"); if (fc) fc.textContent = "표시 안 함";
-    var hn = document.querySelector(".u-hint"); if (hn) hn.textContent = "이 브라우저에서는 움직이는 효과를 표시할 수 없어 정적 화면만 보여 줍니다.";
+    document.documentElement.setAttribute("data-universe-canvas", "off");
+    window.dispatchEvent(new CustomEvent("vmi-canvas-unavailable"));
     return;
   }
   var isMobile = window.innerWidth < 768 || /Mobi|Android/i.test(navigator.userAgent);

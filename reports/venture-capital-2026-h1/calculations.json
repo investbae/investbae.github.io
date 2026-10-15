@@ -90,6 +90,9 @@
   "rounding": "result는 소수 첫째 자리 반올림, result_exact는 반올림 전 값입니다.",
   "source": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=86&bcIdx=1070580",
   "source_published": "2026-08-19",
+  "source_location": "물리 1쪽 왼쪽·인쇄 1쪽",
+  "rights": "공공누리 제1유형 · 출처표시",
+  "rights_url": "https://www.kogl.or.kr/info/licenseType1.do",
   "source_detail": {
     "title": "2026년 상반기 벤처투자 8.9조원 ‘역대 최대’실적 경신",
     "publisher": "중소벤처기업부",
@@ -100,5 +103,5 @@
     "rights_url": "https://www.kogl.or.kr/info/licenseType1.do"
   },
   "scope": "명목 금액 기준. 증감률(%)은 (당기 ÷ 기준기 − 1) × 100, 증감액(억원)은 당기 − 기준기이며 산식은 항목별 formula에 적었다. 정밀 연간·물가조정 및 기존 분석용 계산은 근거별 확인 후 제공.",
-  "legacy_fields_note": "investment_growth·fund_growth(%, 반올림 전), investment_delta(억원), source(원문 주소), source_published는 이전 판과 같은 키로 유지한다. 이전 판의 공통 formula는 증감률만 설명해 증감액에 맞지 않으므로 항목별 formula로 대체했다."
+  "legacy_fields_note": "investment_growth·fund_growth(%, 반올림 전), investment_delta(억원), source(원문 주소), source_published, source_location, rights, rights_url은 이전 판과 같은 키·값으로 유지한다(source_detail과 같은 내용). 이전 판의 공통 formula는 증감률만 설명해 증감액에 맞지 않으므로 항목별 formula로 대체했다."
 }
