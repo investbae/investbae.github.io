@@ -26,9 +26,9 @@
       "status": "disabled"
     }
   ],
-  "generated_at": "2026-10-15T06:17:06.842790+09:00",
+  "generated_at": "2026-10-17T06:17:05.741490+09:00",
   "healthy": true,
-  "last_success_at": "2026-10-15T06:17:06.842790+09:00",
+  "last_success_at": "2026-10-17T06:17:05.741490+09:00",
   "published_this_run": false,
-  "release_id": "20261015T061702"
+  "release_id": "20261017T061701"
 }
