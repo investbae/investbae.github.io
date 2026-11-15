@@ -1,162 +1,151 @@
 <!DOCTYPE html>
-
 <html lang="ko">
 <head>
-<meta content="pages-dbdb9afa4041" name="build"/>
-<meta charset="utf-8"/>
-<meta content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data:; connect-src 'self'; form-action 'none'; frame-src 'none'; base-uri 'self'; object-src 'none'; upgrade-insecure-requests" http-equiv="Content-Security-Policy"/>
-<meta content="strict-origin-when-cross-origin" name="referrer"/>
-<meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport"/>
-<meta content="#08070d" name="theme-color"/>
-<title>벤처시장연구원 | 자본시장·벤처투자·디지털자산 법제 연구</title>
-<meta content="한국벤처투자·자본시장연구원 출신 법학박사가 자본시장·벤처투자·디지털자산·스테이블코인 법제를 법리와 데이터로 연구·분석합니다. 벤처·금융법제 연구기관." name="description"/>
-<meta content="벤처시장연구원" name="author"/>
-<meta content="5e2abb7a0c84e1b8fc19307fff0a86d5d46723ab" name="naver-site-verification"/>
-<link href="https://kvmi.co.kr/" rel="canonical"/>
-<link href="https://kvmi.co.kr/" hreflang="ko" rel="alternate"/>
-<link href="https://kvmi.co.kr/en/" hreflang="en" rel="alternate"/>
-<link href="https://kvmi.co.kr/" hreflang="x-default" rel="alternate"/>
-<meta content="website" property="og:type"/>
-<meta content="벤처시장연구원 | Korea Venture Market Institute" property="og:title"/>
-<meta content="벤처투자·자본시장 분야의 정책과 제도를 연구하는 민간 연구기관." property="og:description">
-<meta content="ko_KR" property="og:locale"/>
-<meta content="https://kvmi.co.kr/" property="og:url"/>
-<meta content="벤처시장연구원" property="og:site_name"/>
-<meta content="summary_large_image" name="twitter:card"/>
-<meta content="https://kvmi.co.kr/assets/og-image.png" property="og:image"/>
-<meta content="https://kvmi.co.kr/assets/og-image.png" name="twitter:image"/>
-
-<link href="/css/pretendard.css?v=2068960d0996" rel="stylesheet"/>
-<link href="css/style.css?v=20260921-address-nav" rel="stylesheet"/>
-<link href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%231F3864'/%3E%3Ctext x='30' y='46' font-size='34' font-weight='800' fill='%23C9A227' text-anchor='middle' font-family='sans-serif'%3EK%3C/text%3E%3Ctext x='70' y='46' font-size='34' font-weight='800' fill='%23C9A227' text-anchor='middle' font-family='sans-serif'%3EV%3C/text%3E%3Ctext x='30' y='88' font-size='34' font-weight='800' fill='%23C9A227' text-anchor='middle' font-family='sans-serif'%3EM%3C/text%3E%3Ctext x='70' y='88' font-size='34' font-weight='800' fill='%23C9A227' text-anchor='middle' font-family='sans-serif'%3EI%3C/text%3E%3C/svg%3E" rel="icon"/>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data:; connect-src 'self'; form-action 'none'; frame-src 'none'; base-uri 'none'; object-src 'none'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#0e1a30">
+<title>벤처시장연구원 | 벤처투자·자본시장·디지털금융 법제·정책 연구</title>
+<meta name="description" content="벤처시장연구원(KVMI)은 벤처투자·자본시장·디지털금융 분야의 법제와 정책을 연구하는 민간 연구기관입니다. 국회예산정책처 연구용역, 디지털자산·증권형 크라우드펀딩 학술논문 등 연구성과와 연구·자문 범위를 소개합니다.">
+<meta name="author" content="벤처시장연구원">
+<link rel="canonical" href="https://kvmi.co.kr/">
+<link rel="alternate" hreflang="ko" href="https://kvmi.co.kr/">
+<link rel="alternate" hreflang="en" href="https://kvmi.co.kr/en/">
+<link rel="alternate" hreflang="x-default" href="https://kvmi.co.kr/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="벤처시장연구원 | 벤처투자·자본시장·디지털금융 법제·정책 연구">
+<meta property="og:description" content="벤처시장연구원(KVMI)은 벤처투자·자본시장·디지털금융 분야의 법제와 정책을 연구하는 민간 연구기관입니다. 국회예산정책처 연구용역, 디지털자산·증권형 크라우드펀딩 학술논문 등 연구성과와 연구·자문 범위를 소개합니다.">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:url" content="https://kvmi.co.kr/">
+<meta property="og:site_name" content="벤처시장연구원">
+<meta property="og:image" content="https://kvmi.co.kr/assets/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://kvmi.co.kr/assets/og-image.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%231F3864'/%3E%3Ctext x='30' y='46' font-size='34' font-weight='800' fill='%23C9A227' text-anchor='middle' font-family='sans-serif'%3EK%3C/text%3E%3Ctext x='70' y='46' font-size='34' font-weight='800' fill='%23C9A227' text-anchor='middle' font-family='sans-serif'%3EV%3C/text%3E%3Ctext x='30' y='88' font-size='34' font-weight='800' fill='%23C9A227' text-anchor='middle' font-family='sans-serif'%3EM%3C/text%3E%3Ctext x='70' y='88' font-size='34' font-weight='800' fill='%23C9A227' text-anchor='middle' font-family='sans-serif'%3EI%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="/css/pretendard.css?v=ac5526c694c4">
+<script src="/js/kv-early.js?v=8927f95e7f"></script>
+<link rel="stylesheet" href="/css/kvmi-2026.css?v=f265cfa482">
+<meta name="kvmi-author-review" content="pending">
+<meta name="naver-site-verification" content="5e2abb7a0c84e1b8fc19307fff0a86d5d46723ab">
 <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "벤처시장연구원",
-    "alternateName": "Korea Venture Market Institute (KVMI)",
-    "url": "https://kvmi.co.kr/",
-    "email": "office@kvmi.co.kr",
-    "foundingDate": "2021-09",
-    "founder": { "@type": "Person", "name": "배승욱", "jobTitle": "대표·원장" },
-    "description": "벤처투자·자본시장 분야의 정책과 제도를 연구하는 민간 연구기관.",
-    "taxID": "119-30-71408",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "중앙로 628 예일프라자 307호",
-      "addressLocality": "고양시 덕양구",
-      "addressRegion": "경기도",
-      "addressCountry": "KR"
-    }
-  }
-  </script>
-<link href="/css/institute.css?v=20260921-institution" rel="stylesheet"/>
-<link href="/css/cosmic.css?v=20260922-universe" rel="stylesheet"/>
-</meta><link href="/css/flagship-report.css?v=20260923-contrast" rel="stylesheet"/><meta name="kvmi-author-review" content="pending"><link rel="stylesheet" href="/css/refinement.css?v=20261003b"><link rel="stylesheet" href="/css/motion.css?v=20261003"></head>
-<body class="institution-site cosmic-home">
-<a class="skip-link" href="#main">본문 바로가기</a>
-<!-- ============ HEADER ============ -->
-<header class="site-header" id="header">
-<div class="container nav">
-<a aria-label="벤처시장연구원 홈" class="brand" href="index.html">
-<span aria-hidden="true" class="brand__mark"><b>KVMI</b></span>
-<span class="brand__text">
-<span class="brand__name">벤처시장연구원</span>
-<span class="brand__en">Korea Venture Market Institute</span>
-</span>
-</a>
-<nav aria-label="주 메뉴" class="nav__menu" data-persistent="" id="navMenu">
-<a class="nav__link" href="/about.html">연구원 소개</a>
-<a class="nav__link" href="/research.html">연구·자문</a>
-<a class="nav__link" href="/publications/">연구성과</a>
-<a class="nav__link" href="/insights/">데이터·인사이트</a>
-<a class="nav__link nav__sub" href="/data/">벤처투자 동향</a>
-<a class="nav__link nav__sub" href="/intelligence/statistics.html">공개통계 아틀라스</a>
-<a class="nav__link nav__sub" href="/indicators/">벤처기업 지표</a>
-<a class="nav__link nav__sub" href="/radar/#laws">법령 현황</a>
-<a class="nav__link nav__sub" href="/radar/#board">입법 동향</a>
-<a class="nav__link" href="/projects/">실험실</a>
-<a class="nav__link" href="/contact.html">문의</a>
-<a aria-label="View in English" class="nav__link" href="/en/" lang="en">EN</a>
-<a class="nav__cta" href="/contact.html">연구·자문 문의</a>
-</nav>
-<button aria-controls="navMenu" aria-expanded="false" aria-label="메뉴 열기" class="nav__toggle" id="navToggle" type="button">
-<svg aria-hidden="true" fill="none" focusable="false" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><line x1="3" x2="21" y1="6" y2="6"></line><line x1="3" x2="21" y1="12" y2="12"></line><line x1="3" x2="21" y1="18" y2="18"></line></svg>
-</button>
+{
+ "@context": "https://schema.org",
+ "@type": "ResearchOrganization",
+ "@id": "https://kvmi.co.kr/#organization",
+ "name": "벤처시장연구원",
+ "alternateName": [
+  "Korea Venture Market Institute",
+  "KVMI"
+ ],
+ "url": "https://kvmi.co.kr/",
+ "email": "office@kvmi.co.kr",
+ "logo": "https://kvmi.co.kr/assets/logo.jpg",
+ "description": "벤처투자·자본시장·디지털금융 분야의 법제와 정책을 연구하는 민간 연구기관",
+ "taxID": "119-30-71408",
+ "address": {
+  "@type": "PostalAddress",
+  "streetAddress": "중앙로 628 예일프라자 307호",
+  "addressLocality": "고양시 덕양구",
+  "addressRegion": "경기도",
+  "addressCountry": "KR"
+ },
+ "knowsAbout": [
+  "벤처투자",
+  "정책금융",
+  "자본시장법",
+  "디지털자산 규제",
+  "토큰증권",
+  "비교법"
+ ]
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "WebSite",
+ "@id": "https://kvmi.co.kr/#website",
+ "url": "https://kvmi.co.kr/",
+ "name": "벤처시장연구원",
+ "alternateName": "Korea Venture Market Institute",
+ "inLanguage": [
+  "ko",
+  "en"
+ ],
+ "publisher": {
+  "@id": "https://kvmi.co.kr/#organization"
+ }
+}
+</script>
+</head>
+<body class="kv">
+<a class="kv-skip" href="#main">본문 바로가기</a>
+<header class="kv-header"><div class="kv-container kv-header__bar"><a class="kv-brand" href="/" aria-label="벤처시장연구원 홈"><span class="kv-brand__mark" aria-hidden="true">KVMI</span><span class="kv-brand__text"><span class="kv-brand__ko">벤처시장연구원</span><span class="kv-brand__en" lang="en">Korea Venture Market Institute</span></span></a><button class="kv-navtoggle" id="kvNavToggle" type="button" aria-controls="kvNav" aria-expanded="false" aria-label="메뉴 열기" data-open="메뉴 열기" data-close="메뉴 닫기"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button><nav class="kv-nav" id="kvNav" aria-label="주 메뉴"><a href="/about.html">연구원 소개</a><a href="/people/bae-seunguk/">대표 연구자</a><a href="/publications/">연구성과</a><a href="/research.html">연구·자문</a><details class="kv-nav__group"><summary>데이터·인사이트</summary><div class="kv-nav__panel"><a href="/insights/">데이터·인사이트 전체<small>&nbsp;· 자료 안내와 분석 모음</small></a><a href="/data/">벤처투자 동향<small>&nbsp;· 분기·연간 벤처투자 통계</small></a><a href="/intelligence/statistics.html">공개통계 아틀라스<small>&nbsp;· 출처·기간·이용조건과 함께</small></a><a href="/indicators/">벤처기업 지표<small>&nbsp;· 유형·지역·업종별 현황</small></a><a href="/radar/#laws">법령 현황<small>&nbsp;· 벤처·투자 관련 법령</small></a><a href="/radar/#board">입법 동향<small>&nbsp;· 국회 의안 흐름</small></a><a href="/intelligence/">벤처·자본시장 이슈<small>&nbsp;· 공식 발표 자료 목록</small></a><a href="/briefs/">AI 정보 브리프<small>&nbsp;· 출처와 함께 읽는 자료 요약</small></a><a href="/universe/">벤처 유니버스<small>&nbsp;· 인터랙티브 아트</small></a><a href="/projects/">실험실<small>&nbsp;· 실험적 시각화</small></a></div></details><a class="kv-nav__lang" href="/en/" lang="en" hreflang="en" aria-label="English">EN</a><a class="kv-nav__cta" href="/contact.html#inquiry">연구 과제 문의</a></nav></div></header>
+<main id="main"><section class="kv-hero kv-on-navy" aria-labelledby="kvHeroTitle"><div class="kv-container kv-hero__grid"><div>
+<span class="kv-eyebrow" lang="en">Korea Venture Market Institute</span>
+<h1 id="kvHeroTitle">벤처투자·자본시장의<br>제도·정책 연구와 <em>기관 자문</em></h1>
+<p class="kv-hero__lead">벤처시장연구원은 벤처투자·자본시장·디지털금융 분야의 법제와 정책을 연구하는 민간 연구기관입니다. 법제 분석과 시장 데이터를 바탕으로 기관의 과제를 검토하고, 연구보고서와 설명·토론으로 제공합니다.</p>
+<p class="kv-small" style="margin-top:14px;color:var(--kv-on-navy-muted)">법률대리·개별 사건 법률자문·특정 금융상품 투자자문은 제공하지 않습니다.</p>
+<div class="kv-hero__actions"><a class="kv-btn kv-btn--gold" href="#selected">주요 연구성과</a><a class="kv-btn kv-btn--line" href="/contact.html#inquiry">연구 과제 문의</a></div>
+<div class="kv-hero__lead-by"><img src="/assets/leader.jpg" alt="" width="64" height="64"><p><strong>연구책임 · 배승욱</strong><br>법학박사(한국외국어대학교) · 벤처투자·자본시장 법제 연구 · <a href="/people/bae-seunguk/">대표 연구자 소개</a></p></div></div><aside class="kv-hero__aside" aria-labelledby="kvSelTitle"><h2 id="kvSelTitle">주요 연구성과 <span lang="en">Selected</span></h2><ul class="kv-mini"><li><a href="/publications/nabo-2024-fund-of-funds/">모태펀드의 적정 규모에 관한 연구</a><span class="kv-mini__meta"><b>2024</b>공공부문 정책연구용역 · 연구책임자</span></li><li><a href="/publications/digital-asset-market-surveillance-2026/">디지털자산 시장감시 체계의 해외 입법 동향과 시사점</a><span class="kv-mini__meta"><b>2026</b>학술논문 · 단독 저자</span></li><li><a href="/publications/securities-crowdfunding-2026/">증권형 크라우드펀딩제도 활성화를 위한 제도 개선방안</a><span class="kv-mini__meta"><b>2026</b>학술논문 · 제1저자(공저)</span></li></ul><p class="kv-mini__more"><a href="/publications/">연구성과 전체 9건 보기 →</a></p></aside></div></section><div class="kv-band"><div class="kv-container kv-band__row"><span class="kv-band__label" lang="en">Open Data</span>
+<span><strong>2026년 상반기 벤처투자 재계산</strong> · 중소벤처기업부 2026.8.19 발표 기준</span>
+<span class="kv-band__links"><a href="/reports/venture-capital-2026-h1/data.csv" download="kvmi-2026h1-venture-tables.csv">상반기 수록표 CSV ↓</a><a href="/reports/venture-capital-2026-h1/calculations.json" download="kvmi-2026h1-growth-calculations.json">증감률 계산 JSON ↓</a><a href="#market">시장 데이터 보기</a></span></div></div><section class="kv-section" id="selected" aria-labelledby="kvS1"><div class="kv-container">
+<div class="kv-shead"><div><span class="kv-shead__no">01 — 주요 연구성과</span><h2 id="kvS1">검증할 수 있는 연구성과</h2></div><a class="kv-link" href="/publications/">연구성과 전체 보기</a>
+<p>각 연구성과는 발간기관·학술지·학위논문 데이터베이스의 서지와 대조하였습니다. 원문 제공 여부와 이용조건은 항목별 안내를 확인해 주십시오.</p></div>
+<div class="kv-feature"><article><div class="kv-feature__top"><span class="kv-feature__year">2024</span><span class="kv-tag kv-tag--navy">공공부문 정책연구용역</span></div><h3><a href="/publications/nabo-2024-fund-of-funds/">모태펀드의 적정 규모에 관한 연구</a></h3><p class="kv-work__sub">— 민간투자에 미치는 영향을 중심으로</p><p class="kv-feature__venue">국회예산정책처 연구용역보고서 · 국회예산정책처</p><p class="kv-feature__role">배승욱(연구책임자) · 김규림(공동연구자)</p><p class="kv-feature__sum">국회예산정책처 연구용역사업으로 수행한 보고서입니다. 2005년 1분기~2023년 3분기 출자자별 분기 출자금 자료로 회귀분석을 하여, 모태펀드가 민간투자를 구축한다는 뚜렷한 근거는 찾지 못했으나 2014년 이후 민간자금 유발 효과가 낮아졌다고 보았습니다. 단기적으로 보고서 발간 당시(2024년 3월)의 규모를 유지하며 효율적으로 운영하고 장기적으로 역할을 재설정할 것을 제언했습니다. 보고서 내용은 연구진의 견해입니다.</p><p class="kv-feature__links"><a href="/publications/nabo-2024-fund-of-funds/">연구 소개</a><a href="https://www.nabo.go.kr/ko/report/policyView.do?idx=8315&amp;key=2507040010" rel="noopener" target="_blank">국회예산정책처 원문 보기<span class="kv-vh"> (새 창)</span> ↗</a><a href="https://nabo.go.kr/board/file/down.do?fid=33317957" rel="noopener" target="_blank">PDF · 외부(국회예산정책처)<span class="kv-vh"> (새 창)</span> ↗</a></p></article><article><div class="kv-feature__top"><span class="kv-feature__year">2026</span><span class="kv-tag kv-tag--navy">학술논문</span></div><h3><a href="/publications/digital-asset-market-surveillance-2026/">디지털자산 시장감시 체계의 해외 입법 동향과 시사점</a></h3><p class="kv-work__sub">— 미국·EU·일본 및 IOSCO·FSB 국제기준의 비교법적 분석을 중심으로</p><p class="kv-feature__venue">「상사판례연구」 · 제39권 제2호 · 3~98쪽 · 한국상사판례학회</p><p class="kv-feature__role">배승욱 · 단독 저자</p><p class="kv-feature__sum">「가상자산 이용자 보호 등에 관한 법률」의 시장감시 규정이 그 기능을 개별 가상자산사업자에게 분산하여 통합적 시장감시 기반을 갖추지 못했다는 진단에서 출발합니다. 자본시장법 제402조~제404조의 통합 시장감시 개념을 기준으로 미국·EU·일본의 대응과 IOSCO·FSB 국제기준을 비교하고, 그 기능을 (가칭) 디지털자산기본법에 비례적·단계적으로 이식할 것을 제안합니다.</p><p class="kv-feature__links"><a href="/publications/digital-asset-market-surveillance-2026/">연구 소개</a><a href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003362110" rel="noopener" target="_blank">KCI 서지·초록·원문<span class="kv-vh"> (새 창)</span> ↗</a></p></article><article><div class="kv-feature__top"><span class="kv-feature__year">2026</span><span class="kv-tag kv-tag--navy">학술논문</span></div><h3><a href="/publications/securities-crowdfunding-2026/">증권형 크라우드펀딩제도 활성화를 위한 제도 개선방안</a></h3><p class="kv-feature__venue">「외법논집」 · 제50권 제2호 · 255~302쪽 · 한국외국어대학교 법학연구소</p><p class="kv-feature__role">배승욱(제1저자) · 안수현(교신저자)</p><p class="kv-feature__sum">2015년 자본시장법 개정으로 도입된 증권형 크라우드펀딩이 발행인 자격 제한, 경직적 투자한도, 유통시장 부재 등 구조적 한계로 2019년 이후 위축되었다는 진단에서 출발합니다. 미국·영국·일본·싱가포르 4개국 법제를 7개 규제 축으로 비교하고, 발행인 요건 합리화·투자한도 재설계·유통시장 구축 등 7대 개선방안을 투자자 보호 장치의 강화와 함께 추진할 것을 제안합니다.</p><p class="kv-feature__links"><a href="/publications/securities-crowdfunding-2026/">연구 소개</a><a href="https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART003344002" rel="noopener" target="_blank">KCI 서지·초록·원문<span class="kv-vh"> (새 창)</span> ↗</a></p></article></div></div></section><section class="kv-section kv-section--alt" id="areas" aria-labelledby="kvS2"><div class="kv-container">
+<div class="kv-shead"><div><span class="kv-shead__no">02 — 연구 분야</span><h2 id="kvS2">네 분야를 잇는 연구</h2></div><a class="kv-link" href="/research.html">연구·자문 범위</a>
+<p>시장 분석·금융법제·디지털자산 규제·비교법을 하나의 과제 안에서 함께 다룹니다. 분야마다 실제로 발표한 연구성과를 연결해 두었습니다.</p></div>
+<div class="kv-areas"><div class="kv-area"><span class="kv-area__no">01</span><div><h3>벤처투자시장·정책금융</h3><p>모태펀드·정책펀드·벤처펀드 등 벤처투자시장의 자금 흐름과 정책금융의 효과를 출자·투자 자료로 분석합니다.</p><p class="kv-area__scope"><b>의뢰 가능한 과제 예</b> · 정책펀드 규모·효과 분석, 벤처투자 제도 운영 실태 검토</p><ul class="kv-area__works" aria-label="벤처투자시장·정책금융 관련 연구성과"><li><a href="/publications/securities-crowdfunding-2026/">증권형 크라우드펀딩제도 활성화를 위한 제도 개선방안</a> <span class="kv-muted">(2026)</span></li><li><a href="/publications/nabo-2024-fund-of-funds/">모태펀드의 적정 규모에 관한 연구</a> <span class="kv-muted">(2024)</span></li><li><a href="/publications/#pub-2023-002">스타트업 활성화를 위한 효과적인 지원방안 연구</a> <span class="kv-muted">(2023)</span></li></ul><p class="kv-small" style="margin-top:10px"><a href="/publications/?area=venture-finance">이 분야 연구성과 5건 보기 →</a></p></div></div><div class="kv-area"><span class="kv-area__no">02</span><div><h3>자본시장·금융법제</h3><p>자본시장법·벤처투자법·상법 등 금융법제의 쟁점을 법령 원문과 판례로 검토하고 입법·개정 방향을 연구합니다.</p><p class="kv-area__scope"><b>의뢰 가능한 과제 예</b> · 법령 개정안 검토, 투자자 보호·자금조달 제도 개선 연구</p><ul class="kv-area__works" aria-label="자본시장·금융법제 관련 연구성과"><li><a href="/publications/digital-asset-market-surveillance-2026/">디지털자산 시장감시 체계의 해외 입법 동향과 시사점</a> <span class="kv-muted">(2026)</span></li><li><a href="/publications/securities-crowdfunding-2026/">증권형 크라우드펀딩제도 활성화를 위한 제도 개선방안</a> <span class="kv-muted">(2026)</span></li><li><a href="/publications/nabo-2024-fund-of-funds/">모태펀드의 적정 규모에 관한 연구</a> <span class="kv-muted">(2024)</span></li></ul><p class="kv-small" style="margin-top:10px"><a href="/publications/?area=capital-markets-law">이 분야 연구성과 3건 보기 →</a></p></div></div><div class="kv-area"><span class="kv-area__no">03</span><div><h3>디지털자산·토큰증권</h3><p>가상자산 이용자 보호, 시장감시, 토큰증권 발행·유통 등 디지털금융 규제의 설계와 국제 동향을 분석합니다.</p><p class="kv-area__scope"><b>의뢰 가능한 과제 예</b> · 디지털자산 규율 체계 비교, 시장감시·공시 제도 검토</p><ul class="kv-area__works" aria-label="디지털자산·토큰증권 관련 연구성과"><li><a href="/publications/digital-asset-market-surveillance-2026/">디지털자산 시장감시 체계의 해외 입법 동향과 시사점</a> <span class="kv-muted">(2026)</span></li><li><a href="/publications/#pub-2018-kci-001">미국의 가상통화 규제 및 시사점</a> <span class="kv-muted">(2018)</span></li><li><a href="/publications/#pub-2018-002">주요국의 가상통화 규제현황과 시사점</a> <span class="kv-muted">(2018)</span></li></ul><p class="kv-small" style="margin-top:10px"><a href="/publications/?area=digital-assets">이 분야 연구성과 4건 보기 →</a></p></div></div><div class="kv-area"><span class="kv-area__no">04</span><div><h3>비교법·입법 개선</h3><p>미국·EU·일본 등 주요국 입법과 IOSCO·FSB 등 국제기준을 대조하여 국내 제도 개선의 시사점을 도출합니다.</p><p class="kv-area__scope"><b>의뢰 가능한 과제 예</b> · 해외 입법례 조사, 국제기준 정합성 검토</p><ul class="kv-area__works" aria-label="비교법·입법 개선 관련 연구성과"><li><a href="/publications/digital-asset-market-surveillance-2026/">디지털자산 시장감시 체계의 해외 입법 동향과 시사점</a> <span class="kv-muted">(2026)</span></li><li><a href="/publications/securities-crowdfunding-2026/">증권형 크라우드펀딩제도 활성화를 위한 제도 개선방안</a> <span class="kv-muted">(2026)</span></li><li><a href="/publications/#pub-2019-002">싱가포르 벤처캐피탈(VC) 육성방안 및 정책적 시사점</a> <span class="kv-muted">(2019)</span></li></ul><p class="kv-small" style="margin-top:10px"><a href="/publications/?area=comparative-law">이 분야 연구성과 7건 보기 →</a></p></div></div></div></div></section><section class="kv-section" id="researcher" aria-labelledby="kvS3"><div class="kv-container">
+<div class="kv-shead"><div><span class="kv-shead__no">03 — 대표 연구자</span><h2 id="kvS3">연구를 책임지는 사람</h2></div><a class="kv-link" href="/people/bae-seunguk/">대표 연구자 상세</a></div>
+<div class="kv-person"><div><div class="kv-person__photo"><img src="/assets/leader.jpg" alt="배승욱 대표 연구자 사진" width="440" height="440" loading="lazy"></div></div>
+<div><h3 class="kv-person__name">배승욱<span lang="en">Seung-Uk Bae</span></h3><p class="kv-person__title">벤처시장연구원 대표</p>
+<p class="kv-person__bio">한국외국어대학교 대학원에서 법학박사 학위를 받았고, 벤처투자·자본시장·디지털금융 분야의 법제와 정책을 연구합니다. 자본시장연구원과 한국벤처투자에서 금융·벤처 분야의 정책·제도 연구를 수행하였고, 벤처시장연구원 대표로서 국회예산정책처 정책연구용역의 연구책임을 맡았습니다.</p><dl class="kv-facts"></dl>
+<p class="kv-small kv-muted" style="margin-top:16px">벤처시장연구원의 연구는 대표 연구자 1인의 책임 아래 수행합니다. 과제에 따라 외부 연구자와 공동으로 연구하며, 공동연구자는 연구원의 상근 직원이 아닙니다.</p></div></div></div></section><section class="kv-section kv-section--white" id="method" aria-labelledby="kvS4"><div class="kv-container">
+<div class="kv-shead"><div><span class="kv-shead__no">04 — 연구 방법과 의뢰 절차</span><h2 id="kvS4">정책의 방향은 근거에서 시작됩니다</h2></div><a class="kv-link" href="/research.html#process">의뢰 절차 자세히</a></div>
+<div class="kv-two"><div><h3 class="kv-vh">연구 방법</h3><ol class="kv-methods">
+<li><b>01</b><div><strong>실증적 시장분석</strong><span>출자·투자 자료와 공식 통계를 기간별로 분석합니다. 예: <a href="/publications/nabo-2024-fund-of-funds/">모태펀드의 적정 규모에 관한 연구</a>(2024)</span></div></li>
+<li><b>02</b><div><strong>법령·제도 검토</strong><span>법령 원문과 시행일을 확인하고 현행 제도와 개선 제안을 구분합니다. 예: <a href="/publications/digital-asset-market-surveillance-2026/">디지털자산 시장감시 체계의 해외 입법 동향과 시사점</a>(2026)</span></div></li>
+<li><b>03</b><div><strong>국제 비교법 연구</strong><span>주요국 입법과 국제기준을 원문으로 대조합니다. 예: <a href="/publications/securities-crowdfunding-2026/">증권형 크라우드펀딩제도 활성화를 위한 제도 개선방안</a>(2026)</span></div></li>
+<li><b>04</b><div><strong>제도개선 방안 도출</strong><span>분석 결과를 근거로 단기·장기 과제를 나누어 제시합니다. 예: <a href="/publications/nabo-2024-fund-of-funds/">모태펀드의 적정 규모에 관한 연구</a>(2024)</span></div></li></ol></div>
+<div><h3 class="kv-vh">의뢰 절차</h3><ol class="kv-steps">
+<li><strong>과업 범위 협의</strong><span>연구 질문·활용 목적·공개 여부를 함께 정합니다.</span></li>
+<li><strong>연구계획서·견적 협의</strong><span>분석 범위·방법·산출물·일정을 연구계획서로 제시합니다. 비용과 기간은 과업 범위에 따라 정합니다.</span></li>
+<li><strong>연구 수행·중간 보고</strong><span>1차 자료를 대조하며 연구를 진행하고 중간 결과를 공유합니다.</span></li>
+<li><strong>최종 보고·설명</strong><span>연구보고서를 제출하고 필요하면 설명·토론 자리에서 결과를 설명합니다.</span></li></ol></div></div></div></section><section class="kv-section" id="market" aria-labelledby="kvS5"><div class="kv-container">
+<div class="kv-shead"><div><span class="kv-shead__no">05 — 시장 데이터</span><h2 id="kvS5">공표 통계를 출처와 함께</h2></div><a class="kv-link" href="/insights/">데이터·인사이트 전체</a>
+<p>2026년 상반기 벤처투자, 투자 증가의 폭과 구성. 상반기 수록표와 증감률 계산을 공개합니다.</p></div>
+<div class="kv-stats"><div><strong>54.3%</strong><span>전년 동기 대비 벤처투자 금액 증가</span></div><div><strong>33.0%</strong><span>전년 동기 대비 벤처펀드 결성액 증가</span></div><div><strong>88,676</strong><span>2026년 상반기 벤처투자 금액(억원)</span></div></div>
+<p class="kv-source">자료: 중소벤처기업부 2026.8.19 발표를 연구원이 재계산 · 벤처투자·신기술금융 합산 · 명목 금액 · 증감률은 2025년 상반기 대비 · <a href="https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=86&amp;bcIdx=1070580">공식 원문</a> · <a href="/intelligence/statistics-rights.html#MSS-H1">공공누리 제1유형·이용조건</a></p>
+<p class="kv-source" style="margin-top:8px"><a href="/reports/venture-capital-2026-h1/data.csv" download="kvmi-2026h1-venture-tables.csv">상반기 수록표 CSV ↓</a> · <a href="/reports/venture-capital-2026-h1/calculations.json" download="kvmi-2026h1-growth-calculations.json">증감률 계산 JSON ↓</a></p>
+<div class="kv-datalinks">
+<a href="/intelligence/statistics.html"><strong>공개통계 아틀라스</strong><span>벤처투자 공개통계 20표 · 출처·기간·이용조건과 함께 확인</span></a>
+<a href="/data/"><strong>벤처투자 동향</strong><span>같은 반기 투자·결성 비교</span></a>
+<a href="/indicators/"><strong>벤처기업 지표</strong><span>유형·지역·업종별 벤처기업 현황</span></a>
+<a href="/radar/"><strong>법령·입법 동향</strong><span>벤처·투자 관련 법령과 의안</span></a>
+<a href="/intelligence/"><strong>벤처·자본시장 이슈</strong><span>정책자금·벤처투자·회사법·IPO·M&amp;A 공식 목록(수집 확인 2026-09-22 18:30) · 첨부 전문의 전수 검증은 포함하지 않습니다</span></a>
+<a href="/briefs/"><strong>AI 정보 브리프</strong><span>공식 본문을 정리한 AI 브리프 · AI가 요약하였으며 원문과 다를 수 있습니다</span></a>
 </div>
-</header>
-<main id="main">
-<section aria-labelledby="report-title" class="report-hero" style="grid-template-columns:1fr"><div><span class="report-kicker">2026년 상반기 벤처투자 · 중소벤처기업부 발표 재계산</span><h1 id="report-title">2026년 상반기, 투자 증가의 폭과 구성</h1><p>보고서에 앞서 상반기 수록표와 증감률 계산을 공개합니다.</p><div class="report-actions"><a href="/reports/venture-capital-2026-h1/data.csv" download="kvmi-2026h1-venture-tables.csv">상반기 수록표 CSV ↓</a><a href="/reports/venture-capital-2026-h1/calculations.json" download="kvmi-2026h1-growth-calculations.json">증감률 계산 JSON ↓</a></div></div></section><div class="report-facts"><div><strong>54.3%</strong><p>전년 동기 대비<br/>벤처투자 금액 증가</p></div><div><strong>33.0%</strong><p>전년 동기 대비<br/>벤처펀드 결성액 증가</p></div><div><strong>88,676</strong><p>2026년 상반기<br/>벤처투자 금액(억원)</p></div></div><p class="report-facts-note" style="text-align:center;font-size:13px;margin:8px 16px 0;color:#5b5f73">자료: 중소벤처기업부 2026.8.19 발표를 연구원이 재계산 · 벤처투자·신기술금융 합산 · 명목 금액 · 증감률은 2025년 상반기 대비 · <a href="https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=86&amp;bcIdx=1070580">공식 원문</a> · <a href="/intelligence/statistics-rights.html#MSS-H1">공공누리 제1유형·이용조건</a></p>
-<section aria-labelledby="selected-title" class="cx-selected" id="selected-research"><div class="cx-wrap"><span class="cx-kicker">01 / ORIGINAL RESEARCH</span><h2 id="selected-title">연구원의 분석을,<br/>근거와 함께.</h2><p class="cx-lead">상반기 수록표·증감률 계산과 외부 발간물을 확인하세요.</p><div class="report-actions"><a href="/reports/venture-capital-2026-h1/data.csv" download="kvmi-2026h1-venture-tables.csv">상반기 수록표 CSV ↓</a><a href="/reports/venture-capital-2026-h1/calculations.json" download="kvmi-2026h1-growth-calculations.json">증감률 계산 JSON ↓</a></div><p class="cx-source"><a href="/publications/">외부 발간물은 원문 링크로 확인 ↗</a></p></div></section>
-<section aria-labelledby="data-title" class="cx-observatory"><div class="cx-wrap cx-observatory__grid"><div><span class="cx-kicker">02 / MARKET OBSERVATORY</span><h2 id="data-title">데이터에서<br/>시장의 맥락으로.</h2><p class="cx-lead">공표 통계와 공개 법령 자료를<br/>출처와 기준을 명기하여 정리합니다.</p><p class="cx-source">데이터의 출처·기준일·수집 범위는 각 페이지에서 확인할 수 있습니다.</p><a class="cx-text-link" href="/insights/guide.html">자료 이용 안내<span aria-hidden="true" class="cx-arrow">↗</span></a></div><div class="cx-data-list"><a class="cx-data-link" href="/intelligence/statistics.html"><span class="cx-index">01</span><span><h3>공개통계 아틀라스</h3><p>벤처투자 공개통계 20표 · 출처·기간·이용조건과 함께 확인</p></span><span aria-hidden="true" class="cx-arrow">↗</span></a><a class="cx-data-link" href="/indicators/"><span class="cx-index">02</span><span><h3>벤처기업 지표</h3><p>유형·지역·업종별 벤처기업 현황</p></span><span aria-hidden="true" class="cx-arrow">↗</span></a><a class="cx-data-link" href="/radar/"><span class="cx-index">03</span><span><h3>규제·입법 동향</h3><p>벤처·투자 관련 법령과 의안</p></span><span aria-hidden="true" class="cx-arrow">↗</span></a></div></div></section>
-<section aria-labelledby="intelligence-title" class="cx-intelligence"><div class="cx-wrap"><span class="cx-kicker">03 / CONNECT THE SIGNALS</span><div class="cx-intelligence__grid"><h2 id="intelligence-title">시장의 움직임을,<br/>공식 자료에서.</h2><div><p class="cx-lead">정책자금·벤처투자·회사법·IPO·M&amp;A.<br/>기관이 발표한 자료를 주제별로 살펴보세요.</p><a class="cx-action cx-action--light" href="/intelligence/">벤처·자본시장 이슈<span aria-hidden="true" class="cx-arrow">↗</span></a><p class="cx-source">최근 공식 목록과 링크를 제공합니다. 첨부 전문의 전수 검증은 포함하지 않습니다. <a href="/intelligence/sources.html">수집 범위 확인 ↗</a></p></div></div><a class="cx-brief" href="/briefs/"><span class="cx-kicker">AI INFORMATION BRIEF</span><strong>출처와 함께 읽는 자료 요약</strong><span>공식 본문을 정리한 AI 브리프</span><span style="display:block;font-size:12px;opacity:.8">AI가 요약하였으며 원문과 다를 수 있습니다.</span><span aria-hidden="true" class="cx-arrow">↗</span></a></div></section>
-<section aria-labelledby="expertise-title" class="cx-expertise"><div class="cx-wrap"><div class="cx-section-head"><div><span class="cx-kicker">04 / OUR EXPERTISE</span><h2 id="expertise-title">법리와 데이터.<br/>연구의 두 축.</h2></div><a class="cx-text-link" href="/research.html">연구·자문 분야<span aria-hidden="true" class="cx-arrow">↗</span></a></div><div class="cx-areas"><div class="cx-area"><span class="cx-index">01</span><h3>자본시장·벤처투자법</h3><p>자본시장법, 벤처투자 촉진에 관한 법률 등 관련 법·제도의 정책적 의미와 입법·개선 방향을 연구합니다.</p></div><div class="cx-area"><span class="cx-index">02</span><h3>가상자산·디지털금융</h3><p>가상자산 이용자 보호, 토큰증권(STO) 등 디지털 자산 규제 동향과 제도 설계를 분석합니다.</p></div><div class="cx-area"><span class="cx-index">03</span><h3>벤처투자 시장 분석</h3><p>벤처펀드·모태펀드·정책금융 등 벤처투자 시장의 구조와 흐름을 실증 데이터로 진단합니다.</p></div><div class="cx-area"><span class="cx-index">04</span><h3>정책·제도 연구용역</h3><p>공공기관·연구기관의 연구용역을 수행하여 정책 수립에 필요한 분석과 대안을 제공합니다.</p></div><div class="cx-area"><span class="cx-index">05</span><h3>기관 연구 자문</h3><p>금융·벤처 분야 기관에 제도·규제에 관한 학술·정책적 연구 자문을 제공합니다. 개별 사건의 법률자문·대리는 수행하지 않습니다.</p></div><div class="cx-area"><span class="cx-index">06</span><h3>비교법·해외제도 연구</h3><p>주요국의 벤처투자·자본시장 제도를 비교 분석하여 국내 제도 개선의 시사점을 도출합니다.</p></div></div></div></section>
-<section aria-labelledby="universe-title" class="cx-universe"><picture><source media="(max-width:600px)" srcset="/assets/cosmos-mobile.webp"/><img alt="" height="1152" loading="lazy" src="/assets/cosmos-bg.jpg" width="2048"/></picture><div class="cx-wrap"><span class="cx-kicker">05 / VENTURE UNIVERSE</span><h2 id="universe-title">관점의 경계를<br/>넓히다.</h2><p class="cx-lead">연구와 탐색의 또 다른 접점.<br/>인터랙티브 우주를 만나보세요.</p><a class="cx-action" href="/universe/">벤처 유니버스 탐험<span aria-hidden="true" class="cx-arrow">↗</span></a><p class="cx-source">시장과 연결을 우주에 빗댄 인터랙티브 아트입니다. 실제 자본 흐름을 표시하는 데이터 시각화가 아닙니다.</p></div></section>
-<section aria-labelledby="leadership-title" class="cx-leadership"><div class="cx-wrap"><div class="cx-section-head"><div><span class="cx-kicker">06 / PEOPLE &amp; PERSPECTIVE</span><h2 id="leadership-title">연구를 이끄는 사람.</h2></div><a class="cx-text-link" href="/about.html">연구원 소개<span aria-hidden="true" class="cx-arrow">↗</span></a></div><p class="cx-source">벤처시장연구원의 연구는 대표 연구자 1인의 책임하에 수행됩니다.</p><div class="leader reveal">
-<div class="leader__card">
-<div class="leader__avatar"><img alt="배승욱 대표" class="leader__photo" decoding="async" loading="lazy" src="/assets/leader.jpg"/><span aria-hidden="true">배</span></div>
-<h3 class="leader__name">배승욱 <span>Ph.D.</span></h3>
-<p class="leader__role">대표 · 원장</p>
+<p class="kv-source"><a href="/insights/guide.html">자료 이용 안내</a> · 데이터의 출처·기준일·수집 범위는 각 페이지에서 확인할 수 있습니다.</p>
+<div class="kv-universe"><img src="/assets/cosmos-mobile.webp" alt="" width="200" height="96" loading="lazy"><div><h3>벤처 유니버스</h3><p>시장과 연결을 우주에 빗댄 인터랙티브 아트입니다. 실제 자본 흐름을 표시하는 데이터 시각화가 아닙니다.</p></div><a class="kv-link" href="/universe/">탐험하기</a></div>
+</div></section><section class="kv-cta kv-on-navy" aria-labelledby="kvCta"><div class="kv-container kv-cta__grid"><div>
+<span class="kv-eyebrow" lang="en">Research &amp; Advisory</span><h2 id="kvCta">연구 과제를 함께 검토합니다</h2>
+<p>정부·공공기관, 금융 관련 기관, 벤처투자 관련 단체, 대학·연구기관의 연구용역과 연구 기반 자문을 협의합니다. 문의하실 때 아래 내용을 적어 주시면 검토가 빠릅니다.</p>
+<ul><li>기관명과 담당 부서</li><li>연구 질문 또는 검토할 과제</li><li>희망 산출물(보고서·검토서·발표 등)과 일정</li><li>자료 공개 여부와 비밀유지 조건</li></ul></div>
+<div><a class="kv-btn kv-btn--gold" href="/contact.html#inquiry">연구 과제 문의</a><p class="kv-cta__note">문의 양식은 메일 앱에 초안을 만듭니다. 문의 메일은 메일 앱에서 직접 보내 주세요. <a href="mailto:office@kvmi.co.kr">office@kvmi.co.kr</a></p></div></div></section><section class="kv-section" style="padding-block:48px" aria-label="이용 안내"><div class="kv-container"><aside class="kv-notice" aria-label="이용 안내"><h2>안내 말씀</h2><ul><li>벤처시장연구원은 학술·정책연구와 연구 기반 기관 자문을 수행합니다. 개별 사안에 대한 법률자문·대리·법률의견서 작성, 특정 종목·금융상품에 대한 투자자문·투자권유는 제공하지 않습니다.</li><li>연구 자료는 작성 시점의 법령과 자료에 근거하며, 이후 법령 개정·시장 변화에 따라 달라질 수 있습니다.</li><li>이 누리집에 연구성과를 소개한 사실이 발간기관의 후원·보증·제휴를 뜻하지 않습니다. 견해의 귀속은 각 원문의 고지를 따르며, 원문 제공 여부와 이용조건은 항목별 안내를 확인해 주십시오.</li></ul></aside></div></section></main>
+<footer class="kv-footer kv-on-navy">
+<div class="kv-container">
+<div class="kv-footer__top">
+<div class="kv-footer__brand"><strong>벤처시장연구원</strong><span lang="en">Korea Venture Market Institute</span>
+<p>벤처투자·자본시장·디지털금융 분야의 법제와 정책을 연구하는 민간 연구기관입니다.</p></div>
+<div><h2>연구원</h2><ul><li><a href="/about.html">연구원 소개</a></li><li><a href="/people/bae-seunguk/">대표 연구자</a></li><li><a href="/publications/">연구성과</a></li><li><a href="/research.html">연구·자문</a></li><li><a href="/contact.html">문의</a></li></ul></div>
+<div><h2>데이터·인사이트</h2><ul><li><a href="/data/">벤처투자 동향</a></li><li><a href="/intelligence/statistics.html">공개통계 아틀라스</a></li><li><a href="/indicators/">벤처기업 지표</a></li><li><a href="/radar/">법령·입법 동향</a></li><li><a href="/briefs/">AI 정보 브리프</a></li><li><a href="/universe/">벤처 유니버스</a></li></ul></div>
+<div><h2>연락처</h2><ul><li>이메일 <a href="mailto:office@kvmi.co.kr">office@kvmi.co.kr</a></li><li>경기도 고양시 덕양구 중앙로 628 예일프라자 307호</li><li><a href="/intelligence/statistics-rights.html">출처·이용조건 및 정정 이력</a></li><li><a href="/privacy.html">개인정보 처리방침</a></li></ul></div>
 </div>
-<div>
-<p class="leader__bio">상법을 전공한 법학박사로서 벤처투자·자본시장·디지털금융 법제를 연구합니다. 자본시장연구원과 한국벤처투자에서 금융·벤처 분야의 정책·제도 연구를 수행하였으며, 2026년 9월 현재 벤처시장연구원 대표로 연구·교육·정책분석을 이어오고 있습니다.</p>
-<h4 class="leader__sub">핵심 이력</h4>
-<ul class="career-list">
-<li>연기금투자풀 대체투자 자문단 자문위원 · IBK기업은행 미래성장성 심의회 전문위원</li>
-<li>(전) 한국벤처투자 연구위원 · 자본시장연구원 연구원</li>
-<li>한국외국어대학교 법학박사(상법 전공) / 동국대학교 회계학과 대우교수</li>
-</ul>
-<p style="margin-top:16px;"><a href="about.html" style="color:var(--gold-soft);font-size:14px;font-weight:600;">대표 연구자 상세 약력 →</a></p>
-</div>
-</div></div></section>
-<section class="cx-contact"><div class="cx-wrap"><span class="cx-kicker">LET’S CONNECT</span><div class="cx-section-head"><h2>다음 연구를<br/>함께 시작하세요.</h2><a class="cx-action cx-action--light" href="/contact.html">연구·자문 협력 문의<span aria-hidden="true" class="cx-arrow">↗</span></a></div><p>벤처투자·자본시장 분야의 연구용역 및 기관 자문에 관하여 문의해 주시기 바랍니다.</p></div></section>
-<section class="cx-notice"><div class="cx-wrap"><div class="notice reveal">
-<h3>
-<svg aria-hidden="true" fill="none" focusable="false" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg>
-            안내 말씀
-          </h3>
-<ul>
-<li>본 연구원이 제공하는 모든 연구 자료와 분석은 학술·정책 연구를 목적으로 한 일반적 정보이며, 특정 종목·금융상품에 대한 투자자문 또는 투자권유에 해당하지 아니합니다.</li>
-<li>본 연구원은 개별 사안에 대한 법률자문을 제공하지 아니하며, 자료의 내용은 일반적인 제도·정책 연구의 결과입니다.</li>
-<li>연구 자료는 작성 시점의 법령과 자료에 근거하며, 이후의 법령 개정·시장 변화에 따라 달라질 수 있습니다.</li>
-</ul>
-</div></div></section></main>
-<!-- ============ FOOTER ============ -->
-<footer class="site-footer">
-<div class="container"><p class="review-status" style="margin:0 0 12px;font-size:12.5px;opacity:.85">게시 내용 검수 2026-09-23 · 대표 연구자 확인 진행 중</p>
-<div class="footer-top">
-<div class="footer-brand">
-<span class="brand__name" style="font-size:18px;">벤처시장연구원</span><br/>
-<span class="brand__en">Korea Venture Market Institute</span>
-<a href="/universe/" style="display:inline-block; margin-top:12px; font-size:13px; color:var(--gold-soft); letter-spacing:.01em;">✦ 벤처 유니버스(인터랙티브 아트) →</a>
-</div>
-<div class="footer-col">
-<h3>바로가기</h3>
-<ul>
-<li><a href="/about.html">연구원 소개</a></li>
-<li><a href="/research.html">연구·자문</a></li>
-<li><a href="/publications/">연구성과</a></li>
-<li><a href="/insights/">데이터·인사이트</a></li>
-<li><a href="/projects/">실험실</a></li>
-<li><a href="/contact.html">문의</a></li>
-</ul>
-</div>
-<div class="footer-col">
-<h3>연락처</h3>
-<div class="footer-info">
-<span><strong>이메일</strong> <a href="mailto:office@kvmi.co.kr">office@kvmi.co.kr</a></span>
-<span><strong>주소</strong> 경기도 고양시 덕양구 중앙로 628 예일프라자 307호</span>
-</div>
-</div>
-</div>
-<p class="source-reuse-notice" style="font-size:12px;line-height:1.8">원자료에는 자료별 이용조건이 적용됩니다. 정부·자료 제공기관의 후원·보증·제휴를 뜻하지 않습니다. <a href="/intelligence/statistics-rights.html">출처·이용조건 및 정정 이력</a></p>
-<div class="footer-bottom">
-<span>© 2026 벤처시장연구원 (Korea Venture Market Institute). All rights reserved.</span>
-<span><a href="/privacy.html">개인정보 처리방침</a> · 사업자등록번호 119-30-71408 · 대표 배승욱</span>
-</div>
+<p class="kv-footer__status review-status">연구성과 서지 대조 2026-11-15 · 대표 연구자 게시 승인 대기</p>
+<div class="kv-footer__bottom"><span>© 2026 벤처시장연구원 (Korea Venture Market Institute)</span><span>사업자등록번호 119-30-71408 · 대표 배승욱</span></div>
+<p class="kv-small" style="padding-bottom:28px;margin-top:-12px">원자료에는 자료별 이용조건이 적용됩니다. 정부·자료 제공기관의 후원·보증·제휴를 뜻하지 않습니다.</p>
 </div>
 </footer>
-<script src="js/main.js?v=983589215a3a"></script>
-<script defer="" src="/js/cosmic.js?v=20260922-universe"></script>
-<script defer src="/js/motion.js?v=20261003"></script></body>
+<script src="/js/kvmi-2026.js?v=49ab2087ea"></script>
+</body>
 </html>

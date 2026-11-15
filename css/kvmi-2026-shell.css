@@ -1,0 +1,21 @@
+/* 옛 쪽(body.institution-site · 문의·개인정보 4쪽)에 새 머리글·바닥글을 씌울 때만 쓰는 보정. 새 쪽(body.kv)에는 불러오지 않는다.
+   3회전 합의(T1 T03·T4 D02·D03·D06): 실측(kv_probe_r3.py)으로 확인한 충돌만 고친다. 본문 마크업·문의 양식 동작은 바꾸지 않는다.
+   실측 결과(2026-11-15): 머리글·바닥글 글자색은 새 쪽과 같음 / 줄 높이 24px↔26.25px 차이 / 포커스 외곽선이 옛 보라(#8d60ff) /
+   본문의 단추·링크·카드 테두리·아이콘 바탕이 보라 계열 / 옛 이동 경로 «홈» 링크 12×16px. */
+body.institution-site .kv-shell{font-family:var(--kv-sans, inherit);line-height:1.75}
+body.institution-site .kv-shell .kv-header{position:sticky;top:0;z-index:50}
+
+/* 포커스: 새 쪽과 같은 청록, 남색 바닥글 안에서는 금색 */
+body.institution-site :is(a,button,input,select,textarea,summary):focus-visible{outline:3px solid var(--kv-teal);outline-offset:3px}
+body.institution-site .kv-shell .kv-footer :focus-visible{outline-color:var(--kv-gold-on-navy)}
+
+/* 문의·개인정보 본문의 보라 계열을 기관 색으로(옛 vivid.css 변수와 직접 지정값을 본문 범위에서만 덮는다) */
+body.institution-site main{--gold:#1f3864;--gold-soft:#1f3864;--gold-deep:#0e1a30;--vivid-violet:#1f3864}
+body.institution-site main a:not(.btn){color:var(--kv-teal)}
+body.institution-site main :is(.btn--primary,.btn-primary,.btn--navy){background:var(--kv-navy);border-color:var(--kv-navy);color:#fff}
+body.institution-site main :is(.btn--primary,.btn-primary,.btn--navy):hover{background:var(--kv-ink);border-color:var(--kv-ink)}
+body.institution-site main .contact-item{border-color:var(--kv-line)}
+body.institution-site main .contact-item__icon{background:#e6edf2;color:var(--kv-navy)}
+
+/* 옛 이동 경로 링크: 마크업은 그대로 두고 누르는 영역만 24px 이상(WCAG 2.2 2.5.8 최소값) */
+body.institution-site .breadcrumb a{display:inline-block;min-width:24px;min-height:24px;padding:2px 2px;text-align:center}

@@ -3,6 +3,14 @@
   'use strict';
   var en = document.documentElement.lang.toLowerCase().indexOf('en') === 0;
   function msg(ko, english) { return en ? english : ko; }
+  var KO_LABEL = { organization: '기관·회사명', name: '담당자명', email: '이메일', subject: '문의 주제', message: '문의 내용' };
+  var EN_LABEL = { organization: 'Organization', name: 'Name', email: 'Email', subject: 'Subject', message: 'Message' };
+  function fieldLabel(key) {
+    var known = en ? EN_LABEL[key] : KO_LABEL[key];
+    if (known) return known;
+    var words = key.replace(/_/g, ' ');
+    return en ? words.charAt(0).toUpperCase() + words.slice(1) : words;
+  }
   document.querySelectorAll('form[data-email-draft]').forEach(function (form) {
     var fields = form.querySelector('fieldset');
     var embedded = true;
@@ -24,6 +32,7 @@
     if (!fields) return;
     var panel = document.createElement('section');
     panel.hidden = true;
+    panel.tabIndex = -1;
     panel.style.cssText = 'margin-top:24px;padding:20px;border:1px solid currentColor;border-radius:12px;overflow-wrap:anywhere;';
     var status = document.createElement('p');
     status.setAttribute('role', 'status');
@@ -44,8 +53,21 @@
     copy.textContent = msg('본문 복사', 'Copy body');
     var hint = document.createElement('p');
     hint.textContent = msg('받는 사람: office@kvmi.co.kr. 메일 앱이 없으면 웹메일에 본문을 붙여 넣어 직접 보내세요. 실제 발송·접수 여부는 이 페이지에서 확인할 수 없습니다.', 'To: office@kvmi.co.kr. If no mail app is configured, paste the body into webmail and send it yourself. This page cannot verify delivery or receipt.');
-    panel.append(status, hint, label, mail, document.createTextNode(' '), copy);
+    // Next actions sit right under the status line; a long draft puts copy first because the link then carries only the subject.
+    var actions = document.createElement('p');
+    var gap = document.createTextNode(' ');
+    actions.append(mail, gap, copy);
+    panel.append(status, actions, hint, label);
     form.appendChild(panel);
+    function showPanel() {
+      panel.hidden = false;
+      var root = document.documentElement;
+      var previous = root.style.scrollBehavior;
+      root.style.scrollBehavior = 'auto';
+      panel.scrollIntoView({ block: 'start' });
+      root.style.scrollBehavior = previous;
+      panel.focus({ preventScroll: true });
+    }
     function selectBody() { bodyBox.focus(); bodyBox.select(); }
     copy.addEventListener('click', function () {
       if (navigator.clipboard && navigator.clipboard.writeText) {
@@ -83,18 +105,17 @@
       var signup = form.getAttribute('name') === 'signup';
       var subject = signup ? '[KVMI] 자료·소식 구독 신청' : msg('[KVMI] 연구·자문 문의', '[KVMI] Research inquiry');
       var lines = [subject, ''];
-      var KO_LABEL = { organization: '기관·회사명', name: '담당자명', email: '이메일', subject: '문의 주제', message: '문의 내용' };
-      new FormData(form).forEach(function (value, key) { lines.push((en ? key : (KO_LABEL[key] || key)) + ': ' + String(value)); });
+      new FormData(form).forEach(function (value, key) { lines.push(fieldLabel(key) + ': ' + String(value)); });
       fields.querySelectorAll('input[type=checkbox]').forEach(function (input) {
-        if (!input.checked) lines.push(input.name + ': ' + msg('동의하지 않음', 'Not agreed'));
+        if (!input.checked) lines.push(fieldLabel(input.name) + ': ' + msg('동의하지 않음', 'Not agreed'));
       });
       var body = lines.join('\r\n');
       if (body.length > 14000) {
         status.textContent = msg('입력 내용이 너무 깁니다. 내용을 줄여 다시 만들어 주세요.', 'Please shorten the entries and create the draft again.');
-        panel.hidden = false;
         mail.hidden = true;
         copy.hidden = true;
         label.hidden = true;
+        showPanel();
         return;
       }
       bodyBox.value = body;
@@ -102,9 +123,10 @@
       var complete = base + '&body=' + encodeURIComponent(body.replace(/\r\n|\r|\n/g, '\r\n'));
       var longBody = complete.length > 1800;
       mail.href = longBody ? base : complete;
+      if (longBody) actions.append(copy, gap, mail); else actions.append(mail, gap, copy);
       mail.hidden = copy.hidden = label.hidden = false;
       status.textContent = msg('초안이 만들어졌습니다. 아직 발송·접수되지 않았습니다.', 'Draft created. It has not been sent or received.') + (longBody ? msg(' 본문이 길어 메일 링크에는 제목만 포함됩니다. 본문을 복사하여 붙여 넣으세요.', ' This draft is long: the mail link includes only the subject. Copy and paste the body.') : '');
-      panel.hidden = false;
+      showPanel();
     });
     fields.disabled = false;
   });
